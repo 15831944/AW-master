@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="Scan32">
+</Property><Property Name="Solution File" Value="C:\jasonl\development\layton_products\AuditWizard\working\source_code\Scanners\AuditScanner WIN32\Scan32.sln">
+</Property><Property Name="Date" Value="Monday, 6 July 2009">
+</Property><Property Name="Time" Value="9:46 AM">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="Scan32.sln" Description="File successfully backed up as C:\jasonl\development\layton_products\AuditWizard\working\source_code\Scanners\AuditScanner WIN32\Scan32.sln.old">
+</Event><Event ErrorLevel="0" Project="Scan32" Source="Scan32.vcproj" Description="Project upgraded successfully.">
+</Event><Event ErrorLevel="3" Project="Scan32" Source="Scan32.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="MfcExt" Source="..\..\MfcExt\MfcExt.vcproj" Description="Project upgraded successfully.">
+</Event><Event ErrorLevel="3" Project="MfcExt" Source="..\..\MfcExt\MfcExt.vcproj" Description="Converted">
+</Event><Event ErrorLevel="2" Project="awScanService" Source="..\AuditScannerService WIN32\awScanService.vcproj" Description="Failed to upgrade project file 'C:\jasonl\development\layton_products\AuditWizard\working\source_code\Scanners\AuditScannerService WIN32\awScanService.vcproj'.  Please make sure the file exists and is not write-protected.">
+</Event><Event ErrorLevel="2" Project="awScanService" Source="..\AuditScannerService WIN32\awScanService.vcproj" Description="Project upgrade failed.">
+</Event><Event ErrorLevel="3" Project="awScanService" Source="..\AuditScannerService WIN32\awScanService.vcproj" Description="Not Converted">
+</Event><Event ErrorLevel="0" Project="" Source="Scan32.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="Scan32.sln" Description="Converted">
+</Event></UpgradeLog>

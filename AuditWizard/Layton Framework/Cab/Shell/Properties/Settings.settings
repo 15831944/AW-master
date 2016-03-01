@@ -1,0 +1,120 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="AuditWizardv8.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="appSplashScreen" Type="System.String" Scope="User">
+      <Value Profile="(Default)">appSplashScreen.png</Value>
+    </Setting>
+    <Setting Name="appAboutScreen" Type="System.String" Scope="User">
+      <Value Profile="(Default)">appAboutScreen.png</Value>
+    </Setting>
+    <Setting Name="appLogo32" Type="System.String" Scope="User">
+      <Value Profile="(Default)">appLogo32.png</Value>
+    </Setting>
+    <Setting Name="appIcon" Type="System.String" Scope="User">
+      <Value Profile="(Default)">AuditWizard.ico</Value>
+    </Setting>
+    <Setting Name="settingsPanelSize" Type="System.Drawing.Size" Scope="User">
+      <Value Profile="(Default)">475, 400</Value>
+    </Setting>
+    <Setting Name="ProductKey" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="ProductID" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="CompanyName" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="CompanyID" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="Code1" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="Code2" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="CurrentScannerName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">default</Value>
+    </Setting>
+    <Setting Name="auto_upload_enabled" Type="System.String" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="delete_after_upload" Type="System.String" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="backup_after_upload" Type="System.String" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="agent_runasssystem" Type="System.String" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="agent_username" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="agent_password" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="uploader_runassystem" Type="System.String" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="uploader_username" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="uploader_password" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="email_runassystem" Type="System.String" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="email_username" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="email_password" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="appName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">AuditWizard</Value>
+    </Setting>
+    <Setting Name="appHelpFile" Type="System.String" Scope="User">
+      <Value Profile="(Default)">AuditWizard.chm</Value>
+    </Setting>
+    <Setting Name="initWorkItem" Type="System.String" Scope="User">
+      <Value Profile="(Default)">OverviewWorkItem</Value>
+    </Setting>
+    <Setting Name="auditwizardservice_runassystem" Type="System.String" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="auditwizardservice_username" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="auditwizardservice_password" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="RemoteDesktopCommand" Type="System.String" Scope="User">
+      <Value Profile="(Default)">%SystemRoot%\system32\mstsc.exe /v:%A</Value>
+    </Setting>
+    <Setting Name="ShowStock" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="ShowInUse" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="ShowPending" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="ShowDisposed" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="PingConnections" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="refreshPublishers" Type="System.Boolean" Scope="Application">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="appVersion" Type="System.String" Scope="User">
+      <Value Profile="(Default)">8.3.3.2</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

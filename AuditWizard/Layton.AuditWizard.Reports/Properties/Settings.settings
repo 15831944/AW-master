@@ -1,0 +1,36 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="Layton.AuditWizard.Reports.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="Title" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Reports</Value>
+    </Setting>
+    <Setting Name="Description" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">This is the reporting module for AuditWizard</Value>
+    </Setting>
+    <Setting Name="Image" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">generalreporting16</Value>
+    </Setting>
+    <Setting Name="MainTabView" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">ReportsTabView</Value>
+    </Setting>
+    <Setting Name="Namespace" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Layton.AuditWizard.Reports</Value>
+    </Setting>
+    <Setting Name="MainWorkItem" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">ReportsWorkItem</Value>
+    </Setting>
+    <Setting Name="WorkItemController" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">ReportsWorkItemController</Value>
+    </Setting>
+    <Setting Name="MainExplorerView" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">ReportsExplorerView</Value>
+    </Setting>
+    <Setting Name="ToolbarsController" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">ReportsToolbarsController</Value>
+    </Setting>
+    <Setting Name="RunReportAfterLoad" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

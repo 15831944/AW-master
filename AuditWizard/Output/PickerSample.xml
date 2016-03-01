@@ -1,0 +1,422 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>PickerSample</name>
+    </assembly>
+    <members>
+        <member name="T:PickerSample.ADPicker">
+            <summary>
+            Active Directory object picker dialog
+            </summary>
+        </member>
+        <member name="F:PickerSample.ADPicker.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:PickerSample.ADPicker.#ctor(System.ComponentModel.IContainer)">
+            <summary>
+            Constructor within container
+            </summary>
+        </member>
+        <member name="M:PickerSample.ADPicker.#ctor">
+            <summary>
+            Default constructor
+            </summary>
+        </member>
+        <member name="M:PickerSample.ADPicker.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:PickerSample.ADPicker.Reset">
+            <summary>
+            Resets the properties of a dialog to their default values
+            </summary>
+        </member>
+        <member name="M:PickerSample.ADPicker.RunDialog(System.IntPtr)">
+            <summary>
+            Specifies dialog when user calls <see cref="M:System.Windows.Forms.CommonDialog.ShowDialog"/>
+            </summary>
+        </member>
+        <member name="M:PickerSample.ADPicker.Dispose(System.Boolean)">
+            <summary>
+            Releases the unmanaged resources used by the <see cref="T:System.ComponentModel.Component"/> and optionally releases the managed resources
+            </summary>
+        </member>
+        <member name="P:PickerSample.ADPicker.CLSID">
+            <summary>
+            Return intrinsic Active Directory picker dialog class GUID
+            </summary>
+        </member>
+        <member name="P:PickerSample.ADPicker.IID">
+            <summary>
+            Return intrinsic Active Directory picker dialog's identifier
+            </summary>
+        </member>
+        <member name="P:PickerSample.ADPicker.Options">
+            <summary>
+            The object picker options
+            </summary>
+        </member>
+        <member name="P:PickerSample.ADPicker.TargetComputer">
+            <summary>
+            The target computer
+            </summary>
+        </member>
+        <member name="P:PickerSample.ADPicker.UplevelFilter">
+            <summary>
+            Flags that indicate the filters to use for an uplevel scope. The global catalog and Windows® 2000 domains are uplevel scopes, which are scopes that support the ADSI LDAP provider.
+            </summary>
+        </member>
+        <member name="P:PickerSample.ADPicker.DownlevelFilter">
+            <summary>
+            Filter flags to use for downlevel scopes
+            </summary>
+        </member>
+        <member name="P:PickerSample.ADPicker.ScopeType">
+            <summary>
+            A scope is an entry in the "Look In" dropdown list of the Object Picker	dialog
+            </summary>
+        </member>
+        <member name="P:PickerSample.ADPicker.ScopeFormat">
+            <summary>
+            Flags that indicate the format used to return ADs paths for objects selected from this scope. The flScope member can also indicate the initial scope displayed in the Look in drop-down list.
+            </summary>
+        </member>
+        <member name="P:PickerSample.ADPicker.ReturnFormat">
+            <summary>
+            What information about object the user selected to return
+            </summary>
+        </member>
+        <member name="P:PickerSample.ADPicker.ReturnValues">
+            <summary>
+            Return array of strings or AD <see langword="object"/> if return type is <see langword="object"/>
+            </summary>
+        </member>
+        <member name="M:PickerSample.FlagsEditorControl.Dispose(System.Boolean)">
+            <summary> 
+            Clean up any resources being used.
+            </summary>
+        </member>
+        <member name="M:PickerSample.FlagsEditorControl.InitializeComponent">
+            <summary> 
+            Required method for Designer support - do not modify 
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:PickerSample.adPickerOptions">
+            <summary>
+            Flags that determine the object picker options
+            </summary>
+        </member>
+        <member name="F:PickerSample.adPickerOptions.DSOP_FLAG_MULTISELECT">
+            <summary>
+            If this flag is set, the user can select multiple objects. 
+            If this flag is not set, the user can select only one object.
+            </summary>
+        </member>
+        <member name="F:PickerSample.adPickerOptions.DSOP_FLAG_SKIP_TARGET_COMPUTER_DC_CHECK">
+            <summary>
+            If this flag is set and the DSOP_SCOPE_TYPE_TARGET_COMPUTER flag is set in the DSOP_SCOPE_INIT_INFO array, the target computer is always included in the Look in drop-down list. 
+            If this flag is not set and the target computer is an uplevel or downlevel domain controller, the DSOP_SCOPE_TYPE_TARGET_COMPUTER flag is ignored and the target computer is not included in the Lookin in drop-down list.
+            </summary>
+        </member>
+        <member name="T:PickerSample.adPickerUplevelFilter">
+            <summary>
+            Filter flags to use for an uplevel scope, regardless of whether it is a mixed or native mode domain
+            </summary>
+        </member>
+        <member name="F:PickerSample.adPickerUplevelFilter.DSOP_FILTER_INCLUDE_ADVANCED_VIEW">
+            <summary>
+            Includes objects that have the showInAdvancedViewOnly attribute set to true
+            </summary>
+        </member>
+        <member name="F:PickerSample.adPickerUplevelFilter.DSOP_FILTER_USERS">
+            <summary>
+            Includes user objects
+            </summary>
+        </member>
+        <member name="F:PickerSample.adPickerUplevelFilter.DSOP_FILTER_BUILTIN_GROUPS">
+            <summary>
+            Includes group objects with a groupType value having the flag GROUP_TYPE_BUILTIN_LOCAL_GROUP
+            </summary>
+        </member>
+        <member name="F:PickerSample.adPickerUplevelFilter.DSOP_FILTER_WELL_KNOWN_PRINCIPALS">
+            <summary>
+            Includes the contents of the WellKnown Security Principals container
+            </summary>
+        </member>
+        <member name="F:PickerSample.adPickerUplevelFilter.DSOP_FILTER_UNIVERSAL_GROUPS_DL">
+            <summary>
+            Includes distribution list universal groups
+            </summary>
+        </member>
+        <member name="F:PickerSample.adPickerUplevelFilter.DSOP_FILTER_UNIVERSAL_GROUPS_SE">
+            <summary>
+            Includes security enabled universal groups
+            </summary>
+        </member>
+        <member name="F:PickerSample.adPickerUplevelFilter.DSOP_FILTER_GLOBAL_GROUPS_DL">
+            <summary>
+            Includes distribution list global groups
+            </summary>
+        </member>
+        <member name="F:PickerSample.adPickerUplevelFilter.DSOP_FILTER_GLOBAL_GROUPS_SE">
+            <summary>
+            Includes security enabled global groups
+            </summary>
+        </member>
+        <member name="F:PickerSample.adPickerUplevelFilter.DSOP_FILTER_DOMAIN_LOCAL_GROUPS_DL">
+            <summary>
+            Includes distribution list domain global groups
+            </summary>
+        </member>
+        <member name="F:PickerSample.adPickerUplevelFilter.DSOP_FILTER_DOMAIN_LOCAL_GROUPS_SE">
+            <summary>
+            Includes security enabled domain local groups
+            </summary>
+        </member>
+        <member name="F:PickerSample.adPickerUplevelFilter.DSOP_FILTER_CONTACTS">
+            <summary>
+            Includes contact objects
+            </summary>
+        </member>
+        <member name="F:PickerSample.adPickerUplevelFilter.DSOP_FILTER_COMPUTERS">
+            <summary>
+            Includes computer objects
+            </summary>
+        </member>
+        <member name="T:PickerSample.adPickerDownlevelFilter">
+            <summary>
+            Filter flags to use for downlevel scopes
+            </summary>
+        </member>
+        <member name="F:PickerSample.adPickerDownlevelFilter.DSOP_DOWNLEVEL_FILTER_USERS">
+            <summary>
+            Includes user objects
+            </summary>
+        </member>
+        <member name="F:PickerSample.adPickerDownlevelFilter.DSOP_DOWNLEVEL_FILTER_LOCAL_GROUPS">
+            <summary>
+            Includes all local groups
+            </summary>
+        </member>
+        <member name="F:PickerSample.adPickerDownlevelFilter.DSOP_DOWNLEVEL_FILTER_GLOBAL_GROUPS">
+            <summary>
+            Includes all global groups
+            </summary>
+        </member>
+        <member name="F:PickerSample.adPickerDownlevelFilter.DSOP_DOWNLEVEL_FILTER_COMPUTERS">
+            <summary>
+            Includes computer objects
+            </summary>
+        </member>
+        <member name="F:PickerSample.adPickerDownlevelFilter.DSOP_DOWNLEVEL_FILTER_WORLD">
+            <summary>
+            Includes the well-known security principal World (Everyone), a group that includes all users
+            </summary>
+        </member>
+        <member name="F:PickerSample.adPickerDownlevelFilter.DSOP_DOWNLEVEL_FILTER_AUTHENTICATED_USER">
+            <summary>
+            Includes the well-known security principal Authenticated User, a group that includes all authenticated accounts in the target domain and its trusted domains
+            </summary>
+        </member>
+        <member name="F:PickerSample.adPickerDownlevelFilter.DSOP_DOWNLEVEL_FILTER_ANONYMOUS">
+            <summary>
+            Includes the well-known security principal Anonymous, which refers to null session logons
+            </summary>
+        </member>
+        <member name="F:PickerSample.adPickerDownlevelFilter.DSOP_DOWNLEVEL_FILTER_BATCH">
+            <summary>
+            Includes the well-known security principal Batch, which refers to batch server logons
+            </summary>
+        </member>
+        <member name="F:PickerSample.adPickerDownlevelFilter.DSOP_DOWNLEVEL_FILTER_CREATOR_OWNER">
+            <summary>
+            Includes the well-known security principal Creator Owner
+            </summary>
+        </member>
+        <member name="F:PickerSample.adPickerDownlevelFilter.DSOP_DOWNLEVEL_FILTER_CREATOR_GROUP">
+            <summary>
+            Includes the well-known security principal Creator Group
+            </summary>
+        </member>
+        <member name="F:PickerSample.adPickerDownlevelFilter.DSOP_DOWNLEVEL_FILTER_DIALUP">
+            <summary>
+            Includes the well-known security principal Dialup
+            </summary>
+        </member>
+        <member name="F:PickerSample.adPickerDownlevelFilter.DSOP_DOWNLEVEL_FILTER_INTERACTIVE">
+            <summary>
+            Includes the well-known security principal Interactive, which refers to users who log on to interactively use the computer
+            </summary>
+        </member>
+        <member name="F:PickerSample.adPickerDownlevelFilter.DSOP_DOWNLEVEL_FILTER_NETWORK">
+            <summary>
+            Includes the well-known security principal Network, which refers to network logons for high performance servers
+            </summary>
+        </member>
+        <member name="F:PickerSample.adPickerDownlevelFilter.DSOP_DOWNLEVEL_FILTER_SERVICE">
+            <summary>
+            Includes the well-known security principal Service, which refers to Win32 service logons
+            </summary>
+        </member>
+        <member name="F:PickerSample.adPickerDownlevelFilter.DSOP_DOWNLEVEL_FILTER_SYSTEM">
+            <summary>
+            Includes the well-known security principal System, which refers to the LocalSystem account
+            </summary>
+        </member>
+        <member name="F:PickerSample.adPickerDownlevelFilter.DSOP_DOWNLEVEL_FILTER_EXCLUDE_BUILTIN_GROUPS">
+            <summary>
+            Excludes local built-in groups returned by groups' enumeration
+            </summary>
+        </member>
+        <member name="F:PickerSample.adPickerDownlevelFilter.DSOP_DOWNLEVEL_FILTER_TERMINAL_SERVER">
+            <summary>
+            Includes the well-known security principal Terminal Server
+            </summary>
+        </member>
+        <member name="F:PickerSample.adPickerDownlevelFilter.DSOP_DOWNLEVEL_FILTER_ALL_WELLKNOWN_SIDS">
+            <summary>
+            Includes all well-known security principals. This flag is the same as specifying all of the well-known security principal flags listed in this table.	You should use this flag for forward compatibility because it causes your code to automatically include any other downlevel well-known SIDs that might be added in the future.
+            </summary>
+        </member>
+        <member name="F:PickerSample.adPickerDownlevelFilter.DSOP_DOWNLEVEL_FILTER_LOCAL_SERVICE">
+            <summary>
+            Includes the well-known security principal Service, which refers to Win32 service logons
+            </summary>
+        </member>
+        <member name="F:PickerSample.adPickerDownlevelFilter.DSOP_DOWNLEVEL_FILTER_NETWORK_SERVICE">
+            <summary>
+            Includes the well-known security principal Service, which refers to Win32 service logons
+            </summary>
+        </member>
+        <member name="F:PickerSample.adPickerDownlevelFilter.DSOP_DOWNLEVEL_FILTER_REMOTE_LOGON">
+            <summary>
+            Includes the well-known security principal, which refers to users who log on to remote use the computer
+            </summary>
+        </member>
+        <member name="T:PickerSample.adPickerScopeType">
+            <summary>
+            A scope is an entry in the "Look In" dropdown list of the Object Picker	dialog
+            </summary>
+        </member>
+        <member name="F:PickerSample.adPickerScopeType.DSOP_SCOPE_TYPE_TARGET_COMPUTER">
+            <summary>
+            Computer specified by <see cref="P:PickerSample.ADPicker.TargetComputer"/>, NULL is	local computer
+            </summary>
+        </member>
+        <member name="F:PickerSample.adPickerScopeType.DSOP_SCOPE_TYPE_UPLEVEL_JOINED_DOMAIN">
+            <summary>
+            Uplevel domain to which target computer is joined
+            </summary>
+        </member>
+        <member name="F:PickerSample.adPickerScopeType.DSOP_SCOPE_TYPE_DOWNLEVEL_JOINED_DOMAIN">
+            <summary>
+            Downlevel domain to which target computer is joined
+            </summary>
+        </member>
+        <member name="F:PickerSample.adPickerScopeType.DSOP_SCOPE_TYPE_ENTERPRISE_DOMAIN">
+            <summary>
+            All domains in the enterprise to which the target computer belongs other than the JOINED_DOMAIN or USER_SPECIFIED_*_SCOPEs
+            </summary>
+        </member>
+        <member name="F:PickerSample.adPickerScopeType.DSOP_SCOPE_TYPE_GLOBAL_CATALOG">
+            <summary>
+            The Entire Directory scope
+            </summary>
+        </member>
+        <member name="F:PickerSample.adPickerScopeType.DSOP_SCOPE_TYPE_EXTERNAL_UPLEVEL_DOMAIN">
+            <summary>
+            All uplevel domains external to the enterprise but trusted by the	domain to which the target computer is joined
+            </summary>
+        </member>
+        <member name="F:PickerSample.adPickerScopeType.DSOP_SCOPE_TYPE_EXTERNAL_DOWNLEVEL_DOMAIN">
+            <summary>
+            All downlevel domains external to the enterprise but trusted by the	domain to which the target computer is joined
+            </summary>
+        </member>
+        <member name="F:PickerSample.adPickerScopeType.DSOP_SCOPE_TYPE_WORKGROUP">
+            <summary>
+            The workgroup of which <see cref="P:PickerSample.ADPicker.TargetComputer"/> is a member. Applies only if the <see cref="P:IKSoftWare.Controls.ADPicker.TargetComputer"/> is not joined to a domain
+            </summary>
+        </member>
+        <member name="F:PickerSample.adPickerScopeType.DSOP_SCOPE_TYPE_USER_ENTERED_UPLEVEL_SCOPE">
+            <summary>
+            Any uplevel or downlevel scope generated by processing user input. If neither of these types is specified, user entries that do not refer to one of the scopes in the "Look In" control will be rejected
+            </summary>
+        </member>
+        <member name="F:PickerSample.adPickerScopeType.DSOP_SCOPE_TYPE_USER_ENTERED_DOWNLEVEL_SCOPE">
+            <summary>
+            Any uplevel or downlevel scope generated by processing user input. If neither of these types is specified, user entries that do not refer to one of the scopes in the "Look In" control will be rejected
+            </summary>
+        </member>
+        <member name="T:PickerSample.adPickerScopeFormat">
+            <summary>
+            Flags that indicate the format used to return ADs paths for objects selected from this scope. The flScope member can also indicate the initial scope displayed in the Look in drop-down list.
+            </summary>
+        </member>
+        <member name="F:PickerSample.adPickerScopeFormat.DSOP_SCOPE_FLAG_STARTING_SCOPE">
+            <summary>
+            The scope should be the first one selected in the Look In control after	dialog initialization.  If more than one scope specifies this flag,	the one which is chosen to be the starting scope is implementation dependant.
+            </summary>
+        </member>
+        <member name="F:PickerSample.adPickerScopeFormat.DSOP_SCOPE_FLAG_WANT_PROVIDER_WINNT">
+            <summary>
+            ADs paths for objects selected from this scope should be converted to use	the WinNT provider
+            </summary>
+        </member>
+        <member name="F:PickerSample.adPickerScopeFormat.DSOP_SCOPE_FLAG_WANT_PROVIDER_LDAP">
+            <summary>
+            ADs paths for objects selected from this scope should be converted to use	the LDAP provider
+            </summary>
+        </member>
+        <member name="F:PickerSample.adPickerScopeFormat.DSOP_SCOPE_FLAG_WANT_PROVIDER_GC">
+            <summary>
+            ADs paths for objects selected from this scope should be converted to use	the GC provider
+            </summary>
+        </member>
+        <member name="F:PickerSample.adPickerScopeFormat.DSOP_SCOPE_FLAG_WANT_SID_PATH">
+            <summary>
+            ADs paths for objects selected from this scope having an objectSid attribute should be converted to the form LDAP://&lt;SID=x&gt;, where x represents the hexidecimal digits of the objectSid attribute value
+            </summary>
+        </member>
+        <member name="F:PickerSample.adPickerScopeFormat.DSOP_SCOPE_FLAG_WANT_DOWNLEVEL_BUILTIN_PATH">
+            <summary>
+            ADs paths for downlevel well-known SID objects (for example, DSOP_DOWNLEVEL_FILTER_INTERACTIVE) are an empty string unless this flag is	specified. If it is, the paths will be of the form WinNT://NT AUTHORITY/Interactive or WinNT://Creator owner.
+            </summary>
+        </member>
+        <member name="T:PickerSample.adPickerReturnFormat">
+            <summary>
+            What information about object the user selected to return
+            </summary>
+        </member>
+        <member name="F:PickerSample.adPickerReturnFormat.Name">
+            <summary>
+            The object's relative distinguished name (RDN)
+            </summary>
+        </member>
+        <member name="F:PickerSample.adPickerReturnFormat.ADsPath">
+            <summary>
+            The object's ADsPath. The format of this string depends on the flags specified in the <see cref="P:PickerSample.ADPicker.ScopeFormat"/> for the scope from which this object was selected
+            </summary>
+        </member>
+        <member name="F:PickerSample.adPickerReturnFormat.Class">
+            <summary>
+            Object class attribute
+            </summary>
+        </member>
+        <member name="F:PickerSample.adPickerReturnFormat.Object">
+            <summary>
+            Active directory object itself
+            </summary>
+        </member>
+        <member name="F:PickerSample.adPickerReturnFormat.UPN">
+            <summary>
+            The object's userPrincipalName attribute value
+            </summary>
+        </member>
+    </members>
+</doc>

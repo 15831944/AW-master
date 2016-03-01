@@ -1,0 +1,226 @@
+<SOAP-ENV:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:clr="http://schemas.microsoft.com/soap/encoding/clr/1.0" SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+<SOAP-ENV:Body>
+<a1:CalendarInfoStreamerAllProps id="ref-1" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Infragistics.Win.UltraWinSchedule/Infragistics2.Win.UltraWinSchedule.v8.1">
+<Appointments href="#ref-3"/>
+</a1:CalendarInfoStreamerAllProps>
+<a1:AppointmentsCollection id="ref-3" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Infragistics.Win.UltraWinSchedule/Infragistics2.Win.UltraWinSchedule.v8.1">
+<Count>24</Count>
+<_x0030_ href="#ref-4"/>
+<_x0031_ href="#ref-5"/>
+<_x0032_ href="#ref-6"/>
+<_x0033_ href="#ref-7"/>
+<_x0034_ href="#ref-8"/>
+<_x0035_ href="#ref-9"/>
+<_x0036_ href="#ref-10"/>
+<_x0037_ href="#ref-11"/>
+<_x0038_ href="#ref-12"/>
+<_x0039_ href="#ref-13"/>
+<_x0031_0 href="#ref-14"/>
+<_x0031_1 href="#ref-15"/>
+<_x0031_2 href="#ref-16"/>
+<_x0031_3 href="#ref-17"/>
+<_x0031_4 href="#ref-18"/>
+<_x0031_5 href="#ref-19"/>
+<_x0031_6 href="#ref-20"/>
+<_x0031_7 href="#ref-21"/>
+<_x0031_8 href="#ref-22"/>
+<_x0031_9 href="#ref-23"/>
+<_x0032_0 href="#ref-24"/>
+<_x0032_1 href="#ref-25"/>
+<_x0032_2 href="#ref-26"/>
+<_x0032_3 href="#ref-27"/>
+</a1:AppointmentsCollection>
+<a1:Appointment id="ref-4" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Infragistics.Win.UltraWinSchedule/Infragistics2.Win.UltraWinSchedule.v8.1">
+<Subject id="ref-28">Top 10 System Processors scheduled report</Subject>
+<Description id="ref-29">&#60;AW_REPORT_SCHEDULER&#62;Top 10 System Processors</Description>
+<StartDateTime xsi:type="xsd:dateTime">2010-03-01T10:12:00.0000000+11:00</StartDateTime>
+<EndDateTime xsi:type="xsd:dateTime">2010-03-01T10:12:00.0000000+11:00</EndDateTime>
+<DirtyProps>0</DirtyProps>
+<OriginalIndex>-2147483636</OriginalIndex>
+</a1:Appointment>
+<a1:Appointment id="ref-5" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Infragistics.Win.UltraWinSchedule/Infragistics2.Win.UltraWinSchedule.v8.1">
+<Subject id="ref-30">Processor Speeds scheduled report</Subject>
+<Description id="ref-31">&#60;AW_REPORT_SCHEDULER&#62;Processor Speeds</Description>
+<StartDateTime xsi:type="xsd:dateTime">2010-03-01T14:01:00.0000000+11:00</StartDateTime>
+<EndDateTime xsi:type="xsd:dateTime">2010-03-01T14:01:00.0000000+11:00</EndDateTime>
+<DirtyProps>0</DirtyProps>
+<OriginalIndex>-2147483648</OriginalIndex>
+</a1:Appointment>
+<a1:Appointment id="ref-6" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Infragistics.Win.UltraWinSchedule/Infragistics2.Win.UltraWinSchedule.v8.1">
+<Subject id="ref-32">Top 10 System Processors scheduled report</Subject>
+<Description id="ref-33">&#60;AW_REPORT_SCHEDULER&#62;Top 10 System Processors</Description>
+<StartDateTime xsi:type="xsd:dateTime">2010-04-01T10:12:00.0000000+11:00</StartDateTime>
+<EndDateTime xsi:type="xsd:dateTime">2010-04-01T10:12:00.0000000+11:00</EndDateTime>
+<DirtyProps>0</DirtyProps>
+<OriginalIndex>-2147483635</OriginalIndex>
+</a1:Appointment>
+<a1:Appointment id="ref-7" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Infragistics.Win.UltraWinSchedule/Infragistics2.Win.UltraWinSchedule.v8.1">
+<Subject id="ref-34">Processor Speeds scheduled report</Subject>
+<Description id="ref-35">&#60;AW_REPORT_SCHEDULER&#62;Processor Speeds</Description>
+<StartDateTime xsi:type="xsd:dateTime">2010-04-01T14:01:00.0000000+11:00</StartDateTime>
+<EndDateTime xsi:type="xsd:dateTime">2010-04-01T14:01:00.0000000+11:00</EndDateTime>
+<DirtyProps>0</DirtyProps>
+<OriginalIndex>-2147483647</OriginalIndex>
+</a1:Appointment>
+<a1:Appointment id="ref-8" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Infragistics.Win.UltraWinSchedule/Infragistics2.Win.UltraWinSchedule.v8.1">
+<Subject id="ref-36">Top 10 System Processors scheduled report</Subject>
+<Description id="ref-37">&#60;AW_REPORT_SCHEDULER&#62;Top 10 System Processors</Description>
+<StartDateTime xsi:type="xsd:dateTime">2010-05-01T10:12:00.0000000+10:00</StartDateTime>
+<EndDateTime xsi:type="xsd:dateTime">2010-05-01T10:12:00.0000000+10:00</EndDateTime>
+<DirtyProps>0</DirtyProps>
+<OriginalIndex>-2147483634</OriginalIndex>
+</a1:Appointment>
+<a1:Appointment id="ref-9" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Infragistics.Win.UltraWinSchedule/Infragistics2.Win.UltraWinSchedule.v8.1">
+<Subject id="ref-38">Processor Speeds scheduled report</Subject>
+<Description id="ref-39">&#60;AW_REPORT_SCHEDULER&#62;Processor Speeds</Description>
+<StartDateTime xsi:type="xsd:dateTime">2010-05-01T14:01:00.0000000+10:00</StartDateTime>
+<EndDateTime xsi:type="xsd:dateTime">2010-05-01T14:01:00.0000000+10:00</EndDateTime>
+<DirtyProps>0</DirtyProps>
+<OriginalIndex>-2147483646</OriginalIndex>
+</a1:Appointment>
+<a1:Appointment id="ref-10" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Infragistics.Win.UltraWinSchedule/Infragistics2.Win.UltraWinSchedule.v8.1">
+<Subject id="ref-40">Top 10 System Processors scheduled report</Subject>
+<Description id="ref-41">&#60;AW_REPORT_SCHEDULER&#62;Top 10 System Processors</Description>
+<StartDateTime xsi:type="xsd:dateTime">2010-06-01T10:12:00.0000000+10:00</StartDateTime>
+<EndDateTime xsi:type="xsd:dateTime">2010-06-01T10:12:00.0000000+10:00</EndDateTime>
+<DirtyProps>0</DirtyProps>
+<OriginalIndex>-2147483633</OriginalIndex>
+</a1:Appointment>
+<a1:Appointment id="ref-11" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Infragistics.Win.UltraWinSchedule/Infragistics2.Win.UltraWinSchedule.v8.1">
+<Subject id="ref-42">Processor Speeds scheduled report</Subject>
+<Description id="ref-43">&#60;AW_REPORT_SCHEDULER&#62;Processor Speeds</Description>
+<StartDateTime xsi:type="xsd:dateTime">2010-06-01T14:01:00.0000000+10:00</StartDateTime>
+<EndDateTime xsi:type="xsd:dateTime">2010-06-01T14:01:00.0000000+10:00</EndDateTime>
+<DirtyProps>0</DirtyProps>
+<OriginalIndex>-2147483645</OriginalIndex>
+</a1:Appointment>
+<a1:Appointment id="ref-12" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Infragistics.Win.UltraWinSchedule/Infragistics2.Win.UltraWinSchedule.v8.1">
+<Subject id="ref-44">Top 10 System Processors scheduled report</Subject>
+<Description id="ref-45">&#60;AW_REPORT_SCHEDULER&#62;Top 10 System Processors</Description>
+<StartDateTime xsi:type="xsd:dateTime">2010-07-01T10:12:00.0000000+10:00</StartDateTime>
+<EndDateTime xsi:type="xsd:dateTime">2010-07-01T10:12:00.0000000+10:00</EndDateTime>
+<DirtyProps>0</DirtyProps>
+<OriginalIndex>-2147483632</OriginalIndex>
+</a1:Appointment>
+<a1:Appointment id="ref-13" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Infragistics.Win.UltraWinSchedule/Infragistics2.Win.UltraWinSchedule.v8.1">
+<Subject id="ref-46">Processor Speeds scheduled report</Subject>
+<Description id="ref-47">&#60;AW_REPORT_SCHEDULER&#62;Processor Speeds</Description>
+<StartDateTime xsi:type="xsd:dateTime">2010-07-01T14:01:00.0000000+10:00</StartDateTime>
+<EndDateTime xsi:type="xsd:dateTime">2010-07-01T14:01:00.0000000+10:00</EndDateTime>
+<DirtyProps>0</DirtyProps>
+<OriginalIndex>-2147483644</OriginalIndex>
+</a1:Appointment>
+<a1:Appointment id="ref-14" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Infragistics.Win.UltraWinSchedule/Infragistics2.Win.UltraWinSchedule.v8.1">
+<Subject id="ref-48">Top 10 Top 10 System Processors scheduled report</Subject>
+<Description id="ref-49">&#60;AW_REPORT_SCHEDULER&#62;Top 10 System Processors</Description>
+<StartDateTime xsi:type="xsd:dateTime">2010-08-01T10:12:00.0000000+10:00</StartDateTime>
+<EndDateTime xsi:type="xsd:dateTime">2010-08-01T10:12:00.0000000+10:00</EndDateTime>
+<DirtyProps>0</DirtyProps>
+<OriginalIndex>-2147483631</OriginalIndex>
+</a1:Appointment>
+<a1:Appointment id="ref-15" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Infragistics.Win.UltraWinSchedule/Infragistics2.Win.UltraWinSchedule.v8.1">
+<Subject id="ref-50">Processor Speeds scheduled report</Subject>
+<Description id="ref-51">&#60;AW_REPORT_SCHEDULER&#62;Processor Speeds</Description>
+<StartDateTime xsi:type="xsd:dateTime">2010-08-01T14:01:00.0000000+10:00</StartDateTime>
+<EndDateTime xsi:type="xsd:dateTime">2010-08-01T14:01:00.0000000+10:00</EndDateTime>
+<DirtyProps>0</DirtyProps>
+<OriginalIndex>-2147483643</OriginalIndex>
+</a1:Appointment>
+<a1:Appointment id="ref-16" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Infragistics.Win.UltraWinSchedule/Infragistics2.Win.UltraWinSchedule.v8.1">
+<Subject id="ref-52">Top 10 System Processors scheduled report</Subject>
+<Description id="ref-53">&#60;AW_REPORT_SCHEDULER&#62;Top 10 System Processors</Description>
+<StartDateTime xsi:type="xsd:dateTime">2010-09-01T10:12:00.0000000+10:00</StartDateTime>
+<EndDateTime xsi:type="xsd:dateTime">2010-09-01T10:12:00.0000000+10:00</EndDateTime>
+<DirtyProps>0</DirtyProps>
+<OriginalIndex>-2147483630</OriginalIndex>
+</a1:Appointment>
+<a1:Appointment id="ref-17" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Infragistics.Win.UltraWinSchedule/Infragistics2.Win.UltraWinSchedule.v8.1">
+<Subject id="ref-54">Processor Speeds scheduled report</Subject>
+<Description id="ref-55">&#60;AW_REPORT_SCHEDULER&#62;Processor Speeds</Description>
+<StartDateTime xsi:type="xsd:dateTime">2010-09-01T14:01:00.0000000+10:00</StartDateTime>
+<EndDateTime xsi:type="xsd:dateTime">2010-09-01T14:01:00.0000000+10:00</EndDateTime>
+<DirtyProps>0</DirtyProps>
+<OriginalIndex>-2147483642</OriginalIndex>
+</a1:Appointment>
+<a1:Appointment id="ref-18" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Infragistics.Win.UltraWinSchedule/Infragistics2.Win.UltraWinSchedule.v8.1">
+<Subject id="ref-56">Top 10 System Processors scheduled report</Subject>
+<Description id="ref-57">&#60;AW_REPORT_SCHEDULER&#62;Top 10 System Processors</Description>
+<StartDateTime xsi:type="xsd:dateTime">2010-10-01T10:12:00.0000000+10:00</StartDateTime>
+<EndDateTime xsi:type="xsd:dateTime">2010-10-01T10:12:00.0000000+10:00</EndDateTime>
+<DirtyProps>0</DirtyProps>
+<OriginalIndex>-2147483629</OriginalIndex>
+</a1:Appointment>
+<a1:Appointment id="ref-19" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Infragistics.Win.UltraWinSchedule/Infragistics2.Win.UltraWinSchedule.v8.1">
+<Subject id="ref-58">Processor Speeds scheduled report</Subject>
+<Description id="ref-59">&#60;AW_REPORT_SCHEDULER&#62;Processor Speeds</Description>
+<StartDateTime xsi:type="xsd:dateTime">2010-10-01T14:01:00.0000000+10:00</StartDateTime>
+<EndDateTime xsi:type="xsd:dateTime">2010-10-01T14:01:00.0000000+10:00</EndDateTime>
+<DirtyProps>0</DirtyProps>
+<OriginalIndex>-2147483641</OriginalIndex>
+</a1:Appointment>
+<a1:Appointment id="ref-20" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Infragistics.Win.UltraWinSchedule/Infragistics2.Win.UltraWinSchedule.v8.1">
+<Subject id="ref-60">Top 10 System Processors scheduled report</Subject>
+<Description id="ref-61">&#60;AW_REPORT_SCHEDULER&#62;Top 10 System Processors</Description>
+<StartDateTime xsi:type="xsd:dateTime">2010-11-01T10:12:00.0000000+11:00</StartDateTime>
+<EndDateTime xsi:type="xsd:dateTime">2010-11-01T10:12:00.0000000+11:00</EndDateTime>
+<DirtyProps>0</DirtyProps>
+<OriginalIndex>-2147483628</OriginalIndex>
+</a1:Appointment>
+<a1:Appointment id="ref-21" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Infragistics.Win.UltraWinSchedule/Infragistics2.Win.UltraWinSchedule.v8.1">
+<Subject id="ref-62">Processor Speeds scheduled report</Subject>
+<Description id="ref-63">&#60;AW_REPORT_SCHEDULER&#62;Processor Speeds</Description>
+<StartDateTime xsi:type="xsd:dateTime">2010-11-01T14:01:00.0000000+11:00</StartDateTime>
+<EndDateTime xsi:type="xsd:dateTime">2010-11-01T14:01:00.0000000+11:00</EndDateTime>
+<DirtyProps>0</DirtyProps>
+<OriginalIndex>-2147483640</OriginalIndex>
+</a1:Appointment>
+<a1:Appointment id="ref-22" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Infragistics.Win.UltraWinSchedule/Infragistics2.Win.UltraWinSchedule.v8.1">
+<Subject id="ref-64">Top 10 System Processors scheduled report</Subject>
+<Description id="ref-65">&#60;AW_REPORT_SCHEDULER&#62;Top 10 System Processors</Description>
+<StartDateTime xsi:type="xsd:dateTime">2010-12-01T10:12:00.0000000+11:00</StartDateTime>
+<EndDateTime xsi:type="xsd:dateTime">2010-12-01T10:12:00.0000000+11:00</EndDateTime>
+<DirtyProps>0</DirtyProps>
+<OriginalIndex>-2147483627</OriginalIndex>
+</a1:Appointment>
+<a1:Appointment id="ref-23" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Infragistics.Win.UltraWinSchedule/Infragistics2.Win.UltraWinSchedule.v8.1">
+<Subject id="ref-66">Processor Speeds scheduled report</Subject>
+<Description id="ref-67">&#60;AW_REPORT_SCHEDULER&#62;Processor Speeds</Description>
+<StartDateTime xsi:type="xsd:dateTime">2010-12-01T14:01:00.0000000+11:00</StartDateTime>
+<EndDateTime xsi:type="xsd:dateTime">2010-12-01T14:01:00.0000000+11:00</EndDateTime>
+<DirtyProps>0</DirtyProps>
+<OriginalIndex>-2147483639</OriginalIndex>
+</a1:Appointment>
+<a1:Appointment id="ref-24" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Infragistics.Win.UltraWinSchedule/Infragistics2.Win.UltraWinSchedule.v8.1">
+<Subject id="ref-68">Top 10 System Processors scheduled report</Subject>
+<Description id="ref-69">&#60;AW_REPORT_SCHEDULER&#62;Top 10 System Processors</Description>
+<StartDateTime xsi:type="xsd:dateTime">2011-01-01T10:12:00.0000000+11:00</StartDateTime>
+<EndDateTime xsi:type="xsd:dateTime">2011-01-01T10:12:00.0000000+11:00</EndDateTime>
+<DirtyProps>0</DirtyProps>
+<OriginalIndex>-2147483626</OriginalIndex>
+</a1:Appointment>
+<a1:Appointment id="ref-25" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Infragistics.Win.UltraWinSchedule/Infragistics2.Win.UltraWinSchedule.v8.1">
+<Subject id="ref-70">Processor Speeds scheduled report</Subject>
+<Description id="ref-71">&#60;AW_REPORT_SCHEDULER&#62;Processor Speeds</Description>
+<StartDateTime xsi:type="xsd:dateTime">2011-01-01T14:01:00.0000000+11:00</StartDateTime>
+<EndDateTime xsi:type="xsd:dateTime">2011-01-01T14:01:00.0000000+11:00</EndDateTime>
+<DirtyProps>0</DirtyProps>
+<OriginalIndex>-2147483638</OriginalIndex>
+</a1:Appointment>
+<a1:Appointment id="ref-26" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Infragistics.Win.UltraWinSchedule/Infragistics2.Win.UltraWinSchedule.v8.1">
+<Subject id="ref-72">Top 10 System Processors scheduled report</Subject>
+<Description id="ref-73">&#60;AW_REPORT_SCHEDULER&#62;Top 10 System Processors</Description>
+<StartDateTime xsi:type="xsd:dateTime">2011-02-01T10:12:00.0000000+11:00</StartDateTime>
+<EndDateTime xsi:type="xsd:dateTime">2011-02-01T10:12:00.0000000+11:00</EndDateTime>
+<DirtyProps>0</DirtyProps>
+<OriginalIndex>-2147483625</OriginalIndex>
+</a1:Appointment>
+<a1:Appointment id="ref-27" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Infragistics.Win.UltraWinSchedule/Infragistics2.Win.UltraWinSchedule.v8.1">
+<Subject id="ref-74">Processor Speeds scheduled report</Subject>
+<Description id="ref-75">&#60;AW_REPORT_SCHEDULER&#62;Processor Speeds</Description>
+<StartDateTime xsi:type="xsd:dateTime">2011-02-01T14:01:00.0000000+11:00</StartDateTime>
+<EndDateTime xsi:type="xsd:dateTime">2011-02-01T14:01:00.0000000+11:00</EndDateTime>
+<DirtyProps>0</DirtyProps>
+<OriginalIndex>-2147483637</OriginalIndex>
+</a1:Appointment>
+</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

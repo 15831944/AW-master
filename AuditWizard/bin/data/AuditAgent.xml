@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AuditScannerDefinition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ScannerName>serial_config1</ScannerName>
+  <Description>config for serialization_jml_changed</Description>
+  <NeedsDeploying>true</NeedsDeploying>
+  <Shutdown>false</Shutdown>
+  <Filename>C:\jasonl\development\layton_products\AuditWizard\working\source_code\AuditWizard_v8\bin\scanners\auditagent\serial_config1.xml</Filename>
+  <DeployPathSingle>false</DeployPathSingle>
+  <DeployPathData>\\Laysrv01\auditwizard\jml</DeployPathData>
+  <AutoName>false</AutoName>
+  <ScannerMode>modeNonInteractive</ScannerMode>
+  <Hidden>true</Hidden>
+  <ReAuditInterval>0</ReAuditInterval>
+  <InteractiveAllowCancel>false</InteractiveAllowCancel>
+  <InteractiveDisplayAssetInformation>false</InteractiveDisplayAssetInformation>
+  <InteractiveEnableAssetCategory>false</InteractiveEnableAssetCategory>
+  <InteractiveEnableAssetMake>false</InteractiveEnableAssetMake>
+  <InteractiveEnableAssetModel>false</InteractiveEnableAssetModel>
+  <InteractiveDisplayLocations>false</InteractiveDisplayLocations>
+  <InteractiveEnableAddLocation>false</InteractiveEnableAddLocation>
+  <InteractiveDisplayAssetData>false</InteractiveDisplayAssetData>
+  <HardwareScan>false</HardwareScan>
+  <ListRegistryKeys>
+    <string>HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Fpc\4.0.2165\Registration;ProductID</string>
+  </ListRegistryKeys>
+  <HardwareSystem>false</HardwareSystem>
+  <HardwareNetworkDrives>false</HardwareNetworkDrives>
+  <HardwarePhysicalDisks>false</HardwarePhysicalDisks>
+  <HardwareSettings>false</HardwareSettings>
+  <HardwareSecurity>false</HardwareSecurity>
+  <HardwareActiveSystem>false</HardwareActiveSystem>
+  <RegistryScan>true</RegistryScan>
+  <SoftwareScan>false</SoftwareScan>
+  <SoftwareScanApplications>false</SoftwareScanApplications>
+  <SoftwareScanOs>false</SoftwareScanOs>
+  <ScanFolders>noFolders</ScanFolders>
+  <ListFolders />
+  <ScanFiles>noFiles</ScanFiles>
+  <ListFiles />
+  <CaptureFiles>false</CaptureFiles>
+  <ListCapture />
+  <FileSystemScan>false</FileSystemScan>
+  <ScanMDA>false</ScanMDA>
+  <ScanUSB>false</ScanUSB>
+  <ScanMobileFiles>noFiles</ScanMobileFiles>
+  <ListMobileFiles />
+  <ScanUSBFiles>noFiles</ScanUSBFiles>
+  <ListUSBFiles />
+  <IEScan>false</IEScan>
+  <IEHistory>false</IEHistory>
+  <IECookies>false</IECookies>
+  <IEDays>0</IEDays>
+  <IEDetails>false</IEDetails>
+  <UploadSetting>network</UploadSetting>
+  <AutoUpload>true</AutoUpload>
+  <FTPCopyToNetwork>false</FTPCopyToNetwork>
+  <FTPAnonymous>false</FTPAnonymous>
+  <FTPPort>0</FTPPort>
+  <EmailAddress />
+  <PublisherMappings />
+</AuditScannerDefinition>

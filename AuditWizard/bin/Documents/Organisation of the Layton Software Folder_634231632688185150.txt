@@ -1,0 +1,34 @@
+Organisation of the Layton Software Folder
+
+Structure
+
+Legend:
+
+PRODUCT: Full product name
+CODE: Two-letter code for the product name:
+  AW: AuditWizard
+  DS: DeviceShield
+  HB: HelpBox
+  OB: ObsurferPro
+NUMBER: Version number, without periods, e.g. 3.4.0.2 = 3402
+TYPE: SQL or STD
+SUBTYPE: Full or Update
+
+PRODUCT
+-CD Image: The same image sent to customers. This is the latest version.
+-Current: Updates to the current version
+--CODE NUMBER SQL Update
+--CODE NUMBER STD Update
+-Documentation
+-Old
+--CODE NUMBER: Parent folder for all files relating to this version
+---CODE NUMBER SQL Full
+---CODE NUMBER SQL Update
+---CODE NUMBER STD Full
+---CODE NUMBER STD Update
+-Testing
+--YEAR-MONTH: The year and month the test version was released
+---CODE NUMBER TYPE SUBTYPE
+-Trial
+--CODE NUMBER SQL Trial
+--CODE NUMBER STD Trial

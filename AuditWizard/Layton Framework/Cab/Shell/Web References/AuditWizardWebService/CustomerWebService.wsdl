@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://laytontechnology.com/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" targetNamespace="http://laytontechnology.com/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://laytontechnology.com/">
+      <s:element name="GetCustomerExpiryDate">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="aCompanyID" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetCustomerExpiryDateResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="GetCustomerExpiryDateResult" type="s:dateTime" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetLatestVersionNumber">
+        <s:complexType />
+      </s:element>
+      <s:element name="GetLatestVersionNumberResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetLatestVersionNumberResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CheckCustomerPaid">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="aCompanyID" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CheckCustomerPaidResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="CheckCustomerPaidResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="TestConnection">
+        <s:complexType />
+      </s:element>
+      <s:element name="TestConnectionResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="TestConnectionResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="dateTime" type="s:dateTime" />
+      <s:element name="string" nillable="true" type="s:string" />
+      <s:element name="boolean" type="s:boolean" />
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="GetCustomerExpiryDateSoapIn">
+    <wsdl:part name="parameters" element="tns:GetCustomerExpiryDate" />
+  </wsdl:message>
+  <wsdl:message name="GetCustomerExpiryDateSoapOut">
+    <wsdl:part name="parameters" element="tns:GetCustomerExpiryDateResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetLatestVersionNumberSoapIn">
+    <wsdl:part name="parameters" element="tns:GetLatestVersionNumber" />
+  </wsdl:message>
+  <wsdl:message name="GetLatestVersionNumberSoapOut">
+    <wsdl:part name="parameters" element="tns:GetLatestVersionNumberResponse" />
+  </wsdl:message>
+  <wsdl:message name="CheckCustomerPaidSoapIn">
+    <wsdl:part name="parameters" element="tns:CheckCustomerPaid" />
+  </wsdl:message>
+  <wsdl:message name="CheckCustomerPaidSoapOut">
+    <wsdl:part name="parameters" element="tns:CheckCustomerPaidResponse" />
+  </wsdl:message>
+  <wsdl:message name="TestConnectionSoapIn">
+    <wsdl:part name="parameters" element="tns:TestConnection" />
+  </wsdl:message>
+  <wsdl:message name="TestConnectionSoapOut">
+    <wsdl:part name="parameters" element="tns:TestConnectionResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetCustomerExpiryDateHttpGetIn">
+    <wsdl:part name="aCompanyID" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetCustomerExpiryDateHttpGetOut">
+    <wsdl:part name="Body" element="tns:dateTime" />
+  </wsdl:message>
+  <wsdl:message name="GetLatestVersionNumberHttpGetIn" />
+  <wsdl:message name="GetLatestVersionNumberHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="CheckCustomerPaidHttpGetIn">
+    <wsdl:part name="aCompanyID" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="CheckCustomerPaidHttpGetOut">
+    <wsdl:part name="Body" element="tns:boolean" />
+  </wsdl:message>
+  <wsdl:message name="TestConnectionHttpGetIn" />
+  <wsdl:message name="TestConnectionHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetCustomerExpiryDateHttpPostIn">
+    <wsdl:part name="aCompanyID" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetCustomerExpiryDateHttpPostOut">
+    <wsdl:part name="Body" element="tns:dateTime" />
+  </wsdl:message>
+  <wsdl:message name="GetLatestVersionNumberHttpPostIn" />
+  <wsdl:message name="GetLatestVersionNumberHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="CheckCustomerPaidHttpPostIn">
+    <wsdl:part name="aCompanyID" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="CheckCustomerPaidHttpPostOut">
+    <wsdl:part name="Body" element="tns:boolean" />
+  </wsdl:message>
+  <wsdl:message name="TestConnectionHttpPostIn" />
+  <wsdl:message name="TestConnectionHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:portType name="CustomerWebServiceSoap">
+    <wsdl:operation name="GetCustomerExpiryDate">
+      <wsdl:input message="tns:GetCustomerExpiryDateSoapIn" />
+      <wsdl:output message="tns:GetCustomerExpiryDateSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetLatestVersionNumber">
+      <wsdl:input message="tns:GetLatestVersionNumberSoapIn" />
+      <wsdl:output message="tns:GetLatestVersionNumberSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="CheckCustomerPaid">
+      <wsdl:input message="tns:CheckCustomerPaidSoapIn" />
+      <wsdl:output message="tns:CheckCustomerPaidSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="TestConnection">
+      <wsdl:input message="tns:TestConnectionSoapIn" />
+      <wsdl:output message="tns:TestConnectionSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="CustomerWebServiceHttpGet">
+    <wsdl:operation name="GetCustomerExpiryDate">
+      <wsdl:input message="tns:GetCustomerExpiryDateHttpGetIn" />
+      <wsdl:output message="tns:GetCustomerExpiryDateHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetLatestVersionNumber">
+      <wsdl:input message="tns:GetLatestVersionNumberHttpGetIn" />
+      <wsdl:output message="tns:GetLatestVersionNumberHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="CheckCustomerPaid">
+      <wsdl:input message="tns:CheckCustomerPaidHttpGetIn" />
+      <wsdl:output message="tns:CheckCustomerPaidHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="TestConnection">
+      <wsdl:input message="tns:TestConnectionHttpGetIn" />
+      <wsdl:output message="tns:TestConnectionHttpGetOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="CustomerWebServiceHttpPost">
+    <wsdl:operation name="GetCustomerExpiryDate">
+      <wsdl:input message="tns:GetCustomerExpiryDateHttpPostIn" />
+      <wsdl:output message="tns:GetCustomerExpiryDateHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetLatestVersionNumber">
+      <wsdl:input message="tns:GetLatestVersionNumberHttpPostIn" />
+      <wsdl:output message="tns:GetLatestVersionNumberHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="CheckCustomerPaid">
+      <wsdl:input message="tns:CheckCustomerPaidHttpPostIn" />
+      <wsdl:output message="tns:CheckCustomerPaidHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="TestConnection">
+      <wsdl:input message="tns:TestConnectionHttpPostIn" />
+      <wsdl:output message="tns:TestConnectionHttpPostOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="CustomerWebServiceSoap" type="tns:CustomerWebServiceSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetCustomerExpiryDate">
+      <soap:operation soapAction="http://laytontechnology.com/GetCustomerExpiryDate" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetLatestVersionNumber">
+      <soap:operation soapAction="http://laytontechnology.com/GetLatestVersionNumber" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CheckCustomerPaid">
+      <soap:operation soapAction="http://laytontechnology.com/CheckCustomerPaid" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TestConnection">
+      <soap:operation soapAction="http://laytontechnology.com/TestConnection" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="CustomerWebServiceSoap12" type="tns:CustomerWebServiceSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetCustomerExpiryDate">
+      <soap12:operation soapAction="http://laytontechnology.com/GetCustomerExpiryDate" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetLatestVersionNumber">
+      <soap12:operation soapAction="http://laytontechnology.com/GetLatestVersionNumber" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CheckCustomerPaid">
+      <soap12:operation soapAction="http://laytontechnology.com/CheckCustomerPaid" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TestConnection">
+      <soap12:operation soapAction="http://laytontechnology.com/TestConnection" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="CustomerWebServiceHttpGet" type="tns:CustomerWebServiceHttpGet">
+    <http:binding verb="GET" />
+    <wsdl:operation name="GetCustomerExpiryDate">
+      <http:operation location="/GetCustomerExpiryDate" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetLatestVersionNumber">
+      <http:operation location="/GetLatestVersionNumber" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CheckCustomerPaid">
+      <http:operation location="/CheckCustomerPaid" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TestConnection">
+      <http:operation location="/TestConnection" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="CustomerWebServiceHttpPost" type="tns:CustomerWebServiceHttpPost">
+    <http:binding verb="POST" />
+    <wsdl:operation name="GetCustomerExpiryDate">
+      <http:operation location="/GetCustomerExpiryDate" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetLatestVersionNumber">
+      <http:operation location="/GetLatestVersionNumber" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CheckCustomerPaid">
+      <http:operation location="/CheckCustomerPaid" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TestConnection">
+      <http:operation location="/TestConnection" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="CustomerWebService">
+    <wsdl:port name="CustomerWebServiceSoap" binding="tns:CustomerWebServiceSoap">
+      <soap:address location="http://www.laytontechnology.com.au/AW_Web_Services/CustomerWebService.asmx" />
+    </wsdl:port>
+    <wsdl:port name="CustomerWebServiceSoap12" binding="tns:CustomerWebServiceSoap12">
+      <soap12:address location="http://www.laytontechnology.com.au/AW_Web_Services/CustomerWebService.asmx" />
+    </wsdl:port>
+    <wsdl:port name="CustomerWebServiceHttpGet" binding="tns:CustomerWebServiceHttpGet">
+      <http:address location="http://www.laytontechnology.com.au/AW_Web_Services/CustomerWebService.asmx" />
+    </wsdl:port>
+    <wsdl:port name="CustomerWebServiceHttpPost" binding="tns:CustomerWebServiceHttpPost">
+      <http:address location="http://www.laytontechnology.com.au/AW_Web_Services/CustomerWebService.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

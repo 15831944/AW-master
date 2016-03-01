@@ -1,0 +1,357 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Release</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{766F04E6-DAAE-4440-A634-3D8CF0EA283F}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Layton.AuditWizard.AuditTrail</RootNamespace>
+    <AssemblyName>Layton.AuditWizard.AuditTrail</AssemblyName>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\Output\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>C:\Program Files %28x86%29\AuditWizard v8\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <OutputPath>..\Output\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Infragistics.Practices.CompositeUI.WinForms, Version=1.0.20111.2090, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Layton Framework\Infragistics.CompositeUI.WinForms\bin\Release\Infragistics.Practices.CompositeUI.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics2.Documents.Core.v11.1, Version=11.1.20111.2090, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\bin\Infragistics 11.1.20111.2090\Infragistics2.Documents.Core.v11.1.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics2.Documents.Excel.v11.1, Version=11.1.20111.2090, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\bin\Infragistics 11.1.20111.2090\Infragistics2.Documents.Excel.v11.1.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics2.Documents.IO.v11.1, Version=11.1.20111.2090, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\bin\Infragistics 11.1.20111.2090\Infragistics2.Documents.IO.v11.1.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics2.Documents.Reports.v11.1, Version=11.1.20111.2090, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\bin\Infragistics 11.1.20111.2090\Infragistics2.Documents.Reports.v11.1.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics2.Shared.v11.1, Version=11.1.20111.2090, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\bin\Infragistics 11.1.20111.2090\Infragistics2.Shared.v11.1.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics2.Win.Misc.v11.1, Version=11.1.20111.2090, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\bin\Infragistics 11.1.20111.2090\Infragistics2.Win.Misc.v11.1.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics2.Win.UltraWinDataSource.v11.1, Version=11.1.20111.2090, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\bin\Infragistics 11.1.20111.2090\Infragistics2.Win.UltraWinDataSource.v11.1.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics2.Win.UltraWinEditors.v11.1, Version=11.1.20111.2090, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\bin\Infragistics 11.1.20111.2090\Infragistics2.Win.UltraWinEditors.v11.1.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics2.Win.UltraWinGrid.DocumentExport.v11.1, Version=11.1.20111.2090, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\bin\Infragistics 11.1.20111.2090\Infragistics2.Win.UltraWinGrid.DocumentExport.v11.1.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics2.Win.UltraWinGrid.ExcelExport.v11.1, Version=11.1.20111.2090, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\bin\Infragistics 11.1.20111.2090\Infragistics2.Win.UltraWinGrid.ExcelExport.v11.1.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics2.Win.UltraWinGrid.v11.1, Version=11.1.20111.2090, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\bin\Infragistics 11.1.20111.2090\Infragistics2.Win.UltraWinGrid.v11.1.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics2.Win.UltraWinListView.v11.1, Version=11.1.20111.2090, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\bin\Infragistics 11.1.20111.2090\Infragistics2.Win.UltraWinListView.v11.1.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics2.Win.UltraWinSchedule.v11.1, Version=11.1.20111.2090, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\bin\Infragistics 11.1.20111.2090\Infragistics2.Win.UltraWinSchedule.v11.1.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics2.Win.UltraWinTabControl.v11.1, Version=11.1.20111.2090, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\bin\Infragistics 11.1.20111.2090\Infragistics2.Win.UltraWinTabControl.v11.1.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics2.Win.UltraWinToolbars.v11.1, Version=11.1.20111.2090, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\bin\Infragistics 11.1.20111.2090\Infragistics2.Win.UltraWinToolbars.v11.1.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics2.Win.UltraWinTree.v11.1, Version=11.1.20111.2090, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\bin\Infragistics 11.1.20111.2090\Infragistics2.Win.UltraWinTree.v11.1.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics2.Win.v11.1, Version=11.1.20111.2090, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\bin\Infragistics 11.1.20111.2090\Infragistics2.Win.v11.1.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.CompositeUI, Version=1.0.51205.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Layton Framework\Assemblies\Microsoft.Practices.CompositeUI.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.CompositeUI.WinForms, Version=1.0.51205.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Layton Framework\Assemblies\Microsoft.Practices.CompositeUI.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.ObjectBuilder, Version=1.0.51205.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Layton Framework\Assemblies\Microsoft.Practices.ObjectBuilder.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Runtime.Serialization.Formatters.Soap" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AuditTrailEventArgs.cs" />
+    <Compile Include="AuditTrailExplorerView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="AuditTrailExplorerView.Designer.cs">
+      <DependentUpon>AuditTrailExplorerView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AuditTrailFilterControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="AuditTrailFilterControl.designer.cs">
+      <DependentUpon>AuditTrailFilterControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AuditTrailModuleInit.cs" />
+    <Compile Include="AuditTrailStrings.cs" />
+    <Compile Include="AuditTrailTabView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="AuditTrailTabView.Designer.cs">
+      <DependentUpon>AuditTrailTabView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AuditTrailToolbarsController.cs" />
+    <Compile Include="AuditTrailWorkItem.cs" />
+    <Compile Include="AuditTrailWorkItemController.cs" />
+    <Compile Include="AuditTrailPurgeControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="AuditTrailPurgeControl.designer.cs">
+      <DependentUpon>AuditTrailPurgeControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="RibbonDateRangeControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="RibbonDateRangeControl.designer.cs">
+      <DependentUpon>RibbonDateRangeControl.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="AuditTrailExplorerView.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>AuditTrailExplorerView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AuditTrailFilterControl.resx">
+      <DependentUpon>AuditTrailFilterControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AuditTrailTabView.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>AuditTrailTabView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AuditTrailPurgeControl.resx">
+      <DependentUpon>AuditTrailPurgeControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <SubType>Designer</SubType>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RibbonDateRangeControl.resx">
+      <DependentUpon>RibbonDateRangeControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AuditTrail_72.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AuditTrail_96.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\application_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\computerhistory16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\computerhistory32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\computerhistory96.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\reportuser32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\reportuser96.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\reportuser16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\report_application_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cross.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clearlog16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clearlog32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clearlog96.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Layton Framework\Cab\Interface\Layton.Cab.Interface.csproj">
+      <Project>{CA632E36-6514-40A6-B43B-925B89DE7A81}</Project>
+      <Name>Layton.Cab.Interface</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Layton.AuditWizard.Common\Layton.AuditWizard.Common.csproj">
+      <Project>{2E7C0E1A-E76B-4940-B9F4-2AC30F8E30D4}</Project>
+      <Name>Layton.AuditWizard.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Layton.AuditWizard.DataAccess\Layton.AuditWizard.DataAccess.csproj">
+      <Project>{AA9AF8D0-E825-4BDD-9291-624858D076CA}</Project>
+      <Name>Layton.AuditWizard.DataAccess</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Layton.Common.Controls\Layton.Common.Controls.csproj">
+      <Project>{8CD552D1-01D2-4420-B5F8-4E57B84CB39B}</Project>
+      <Name>Layton.Common.Controls</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tick.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\application_license_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\application_properties_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\export_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Calendar_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\computer16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Clock_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\xps_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\excel_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pdf_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pdf.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\xps_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\excel_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\applicationhistory32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\audittrail_view_ghosted_96.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\action_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\supplier_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\userdetails_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\computer32.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

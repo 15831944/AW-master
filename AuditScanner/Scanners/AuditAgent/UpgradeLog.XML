@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="AuditAgent">
+</Property><Property Name="Solution File" Value="D:\LaytonProducts\AuditScanner\Scanners\AuditAgent\AuditAgent.sln">
+</Property><Property Name="User Options File" Value="D:\LaytonProducts\AuditScanner\Scanners\AuditAgent\AuditAgent.suo">
+</Property><Property Name="Date" Value="10 November 2011">
+</Property><Property Name="Time" Value="14:15">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="AuditAgent.sln" Description="File successfully backed up as D:\LaytonProducts\AuditScanner\Scanners\AuditAgent\AuditAgent.sln.old">
+</Event><Event ErrorLevel="0" Project="" Source="AuditAgent.suo" Description="File successfully backed up as D:\LaytonProducts\AuditScanner\Scanners\AuditAgent\AuditAgent.suo.old">
+</Event><Event ErrorLevel="0" Project="AuditAgent" Source="AuditAgent.vcproj" Description="Converting project file 'D:\LaytonProducts\AuditScanner\Scanners\AuditAgent\AuditAgent.vcproj'.">
+</Event><Event ErrorLevel="1" Project="AuditAgent" Source="AuditAgent.vcproj" Description="VCWebServiceProxyGeneratorTool is no longer supported. The tool has been removed from your project settings.">
+</Event><Event ErrorLevel="1" Project="AuditAgent" Source="AuditAgent.vcproj" Description="MSB8012: $(TargetPath) ('D:\LaytonProducts\AuditScanner\Scanners\AuditAgent\..\Output\AuditAgent.exe') does not match the Linker's OutputFile property value '../output/AuditAgent.exe' ('D:\LaytonProducts\AuditScanner\Scanners\AuditAgent\../output/AuditAgent.exe') in project configuration 'Release|Win32'. This may cause your project to build incorrectly. To correct this, please make sure that $(TargetPath) property value matches the value specified in %(Link.OutputFile).">
+</Event><Event ErrorLevel="1" Project="AuditAgent" Source="AuditAgent.vcproj" Description="MSB8012: $(TargetPath) ('D:\LaytonProducts\AuditScanner\Scanners\AuditAgent\..\bin\AuditAgent.exe') does not match the Linker's OutputFile property value '..\bin\AuditAgent.exe' ('D:\LaytonProducts\AuditScanner\Scanners\bin\AuditAgent.exe') in project configuration 'Debug|Win32'. This may cause your project to build incorrectly. To correct this, please make sure that $(TargetPath) property value matches the value specified in %(Link.OutputFile).">
+</Event><Event ErrorLevel="0" Project="AuditAgent" Source="AuditAgent.vcproj" Description="Done converting to new project file 'D:\LaytonProducts\AuditScanner\Scanners\AuditAgent\AuditAgent.vcxproj'.">
+</Event><Event ErrorLevel="3" Project="AuditAgent" Source="AuditAgent.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="AuditAgent.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="AuditAgent.sln" Description="Converted">
+</Event></UpgradeLog>

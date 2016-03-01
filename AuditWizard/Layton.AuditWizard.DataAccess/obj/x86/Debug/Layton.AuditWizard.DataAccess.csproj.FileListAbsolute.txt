@@ -1,0 +1,31 @@
+D:\LaytonProducts\AuditWizard\Layton.AuditWizard.DataAccess\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\LaytonProducts\AuditWizard\Layton.AuditWizard.DataAccess\obj\x86\Debug\Layton.AuditWizard.DataAccess.Properties.Resources.resources
+D:\LaytonProducts\AuditWizard\Layton.AuditWizard.DataAccess\obj\x86\Debug\ResGen.read.1.tlog
+D:\LaytonProducts\AuditWizard\Layton.AuditWizard.DataAccess\obj\x86\Debug\ResGen.write.1.tlog
+D:\LaytonProducts\AuditWizard\Layton.AuditWizard.DataAccess\obj\x86\Debug\Layton.AuditWizard.DataAccess.dll
+D:\LaytonProducts\AuditWizard\Layton.AuditWizard.DataAccess\obj\x86\Debug\Layton.AuditWizard.DataAccess.pdb
+D:\LaytonProducts\AW\AuditWizard\Layton.AuditWizard.DataAccess\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\LaytonProducts\AW\AuditWizard\Layton.AuditWizard.DataAccess\obj\x86\Debug\Layton.AuditWizard.DataAccess.Properties.Resources.resources
+D:\LaytonProducts\AW\AuditWizard\Layton.AuditWizard.DataAccess\obj\x86\Debug\ResGen.read.1.tlog
+D:\LaytonProducts\AW\AuditWizard\Layton.AuditWizard.DataAccess\obj\x86\Debug\ResGen.write.1.tlog
+D:\LaytonProducts\AW\AuditWizard\Layton.AuditWizard.DataAccess\obj\x86\Debug\Layton.AuditWizard.DataAccess.dll
+D:\LaytonProducts\AW\AuditWizard\Layton.AuditWizard.DataAccess\obj\x86\Debug\Layton.AuditWizard.DataAccess.pdb
+C:\Program Files (x86)\AuditWizard v8\Layton.AuditWizard.DataAccess.dll.config
+C:\Program Files (x86)\AuditWizard v8\Layton.AuditWizard.DataAccess.dll
+C:\Program Files (x86)\AuditWizard v8\Layton.AuditWizard.DataAccess.pdb
+D:\LaytonProducts\AuditWizard\AuditWizard\Layton.AuditWizard.DataAccess\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\LaytonProducts\AuditWizard\AuditWizard\Layton.AuditWizard.DataAccess\obj\x86\Debug\Layton.AuditWizard.DataAccess.Properties.Resources.resources
+D:\LaytonProducts\AuditWizard\AuditWizard\Layton.AuditWizard.DataAccess\obj\x86\Debug\ResGen.read.1.tlog
+D:\LaytonProducts\AuditWizard\AuditWizard\Layton.AuditWizard.DataAccess\obj\x86\Debug\ResGen.write.1.tlog
+D:\LaytonProducts\AuditWizard\AuditWizard\Layton.AuditWizard.DataAccess\obj\x86\Debug\Layton.AuditWizard.DataAccess.dll
+D:\LaytonProducts\AuditWizard\AuditWizard\Layton.AuditWizard.DataAccess\obj\x86\Debug\Layton.AuditWizard.DataAccess.pdb
+D:\AuditWizard\AuditWizard\Layton.AuditWizard.DataAccess\obj\x86\Debug\Layton.AuditWizard.DataAccess.Properties.Resources.resources
+D:\AuditWizard\AuditWizard\Layton.AuditWizard.DataAccess\obj\x86\Debug\Layton.AuditWizard.DataAccess.dll
+D:\AuditWizard\AuditWizard\Layton.AuditWizard.DataAccess\obj\x86\Debug\Layton.AuditWizard.DataAccess.pdb
+D:\AuditWizard\AuditWizard\Layton.AuditWizard.DataAccess\obj\x86\Debug\Layton.AuditWizard.DataAccess.csproj.GenerateResource.Cache
+D:\AuditWizard\AuditWizard\Layton.AuditWizard.DataAccess\obj\x86\Debug\Layton.AuditWizard.DataAccess.csprojResolveAssemblyReference.cache
+D:\LaytonTechnology\AW\AuditWizard\Layton.AuditWizard.DataAccess\obj\x86\Debug\Layton.AuditWizard.DataAccess.Properties.Resources.resources
+D:\LaytonTechnology\AW\AuditWizard\Layton.AuditWizard.DataAccess\obj\x86\Debug\Layton.AuditWizard.DataAccess.csproj.GenerateResource.Cache
+D:\LaytonTechnology\AW\AuditWizard\Layton.AuditWizard.DataAccess\obj\x86\Debug\Layton.AuditWizard.DataAccess.dll
+D:\LaytonTechnology\AW\AuditWizard\Layton.AuditWizard.DataAccess\obj\x86\Debug\Layton.AuditWizard.DataAccess.pdb
+D:\LaytonTechnology\AW\AuditWizard\Layton.AuditWizard.DataAccess\obj\x86\Debug\Layton.AuditWizard.DataAccess.csprojResolveAssemblyReference.cache

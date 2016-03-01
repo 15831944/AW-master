@@ -1,0 +1,48 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="Layton.AuditWizard.Applications.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="Image" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">application_32</Value>
+    </Setting>
+    <Setting Name="MainWorkItem" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">ApplicationsWorkItem</Value>
+    </Setting>
+    <Setting Name="WorkItemController" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">ApplicationsWorkItemController</Value>
+    </Setting>
+    <Setting Name="ToolbarsController" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">ApplicationsToolbarsController</Value>
+    </Setting>
+    <Setting Name="MainTabView" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">ApplicationsTabView</Value>
+    </Setting>
+    <Setting Name="MainExplorerView" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">ApplicationsExplorerView</Value>
+    </Setting>
+    <Setting Name="Namespace" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Layton.AuditWizard.Applications</Value>
+    </Setting>
+    <Setting Name="Title" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Application Licensing</Value>
+    </Setting>
+    <Setting Name="Description" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">AuditWizard Application Licensing View</Value>
+    </Setting>
+    <Setting Name="LicensesTabView" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">LicensesTabView</Value>
+    </Setting>
+    <Setting Name="InstancesTabView" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">InstancesTabView</Value>
+    </Setting>
+    <Setting Name="OSTabView" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">OSTabView</Value>
+    </Setting>
+    <Setting Name="AlertsTabView" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">AlertsTabView</Value>
+    </Setting>
+    <Setting Name="RefreshPublisherList" Type="System.Boolean" Scope="Application">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

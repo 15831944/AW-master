@@ -1,0 +1,33 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="Layton.AuditWizard.AuditTrail.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="Title" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Audit Trail</Value>
+    </Setting>
+    <Setting Name="Description" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Implements the Audit Trail View within the AuditWizard Product</Value>
+    </Setting>
+    <Setting Name="Image" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">AuditTrail</Value>
+    </Setting>
+    <Setting Name="MainWorkItem" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">AuditTrailWorkItem</Value>
+    </Setting>
+    <Setting Name="WorkItemController" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">AuditTrailWorkItemController</Value>
+    </Setting>
+    <Setting Name="ToolbarsController" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">AuditTrailToolbarsController</Value>
+    </Setting>
+    <Setting Name="MainTabView" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">AuditTrailTabView</Value>
+    </Setting>
+    <Setting Name="MainExplorerView" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">AuditTrailExplorerView</Value>
+    </Setting>
+    <Setting Name="Namespace" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Layton.AuditWizard.AuditTrail</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

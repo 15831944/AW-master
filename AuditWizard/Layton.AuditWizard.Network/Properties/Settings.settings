@@ -1,0 +1,60 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="Layton.AuditWizard.Network.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="Description" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">AuditWizard Network View</Value>
+    </Setting>
+    <Setting Name="Image" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">AuditWizard_32</Value>
+    </Setting>
+    <Setting Name="MainWorkItem" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">NetworkWorkItem</Value>
+    </Setting>
+    <Setting Name="WorkItemController" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">NetworkWorkItemController</Value>
+    </Setting>
+    <Setting Name="ToolbarsController" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">NetworkToolbarsController</Value>
+    </Setting>
+    <Setting Name="MainTabView" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">GroupTabView</Value>
+    </Setting>
+    <Setting Name="MainExplorerView" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">NetworkExplorerView</Value>
+    </Setting>
+    <Setting Name="Namespace" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Layton.AuditWizard.Network</Value>
+    </Setting>
+    <Setting Name="ComputerTabView" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">ComputerTabView</Value>
+    </Setting>
+    <Setting Name="Title" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Network View</Value>
+    </Setting>
+    <Setting Name="SummaryTabView" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">SummaryTabView</Value>
+    </Setting>
+    <Setting Name="ApplicationInstancesTabView" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">ApplicationInstancesTabView</Value>
+    </Setting>
+    <Setting Name="ViewStyle" Type="Infragistics.Win.UltraWinListView.UltraListViewStyle" Scope="User">
+      <Value Profile="(Default)">Tiles</Value>
+    </Setting>
+    <Setting Name="AuditedDataTabView" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">AuditedDataTabView</Value>
+    </Setting>
+    <Setting Name="UserDefinedDataTabView" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">UserDefinedDataTabView</Value>
+    </Setting>
+    <Setting Name="HistoryTabView" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">HistoryTabView</Value>
+    </Setting>
+    <Setting Name="AlwaysShowOperationsLog" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="LastSearchString" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+  </Settings>
+</SettingsFile>

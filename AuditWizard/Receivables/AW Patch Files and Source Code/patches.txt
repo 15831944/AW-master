@@ -1,0 +1,10 @@
+{0A79B0A6-FD38-4420-8828-89B3000ABF48}
+
+When we need to build a new version of the software:
+
+1. Update the BUILD version number in Visual Studio to - 8.1.x
+2. DO NOT change Product Code - build Solution
+3. In InstallShield open 'FinalPatch', set Latest version to new MSI (from step 1)
+4. Move previous latest version msi (if any) into Previous Setups
+5. Validate the build - it should tell you that it will perform a MINOR upgrade on each previous version
+6. Build patch

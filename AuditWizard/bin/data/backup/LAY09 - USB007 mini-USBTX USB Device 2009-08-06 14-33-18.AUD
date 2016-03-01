@@ -1,0 +1,19 @@
+
+[Asset]
+Name=USB007 mini-USBTX USB Device
+Parent=LAY09
+Scanner=5.2.0.9 USB
+Date=2009-08-06 14:33:18
+Category=Disk Drive
+Action=Insert
+BusType=USB
+HostPC=LAY09
+NumberOfDrives=1
+
+[Hardware]
+Disk Drives;Drive E:;Type=USB
+Disk Drives;Drive E:;Label=mini-USBTX
+Disk Drives;Drive E:;File System=FAT
+Disk Drives;Drive E:;Total Space=62.69 MB
+Disk Drives;Drive E:;Free Space=51.44 MB
+Disk Drives;Drive E:;Serial Number=2C43554F

@@ -1,0 +1,1258 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Release</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{95C209BD-EA16-4F97-BC2B-FB96B7076E6F}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Layton.AuditWizard.Administration</RootNamespace>
+    <AssemblyName>Layton.AuditWizard.Administration</AssemblyName>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\bin\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;_AUDITWIZARD_</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\Output\</OutputPath>
+    <DefineConstants>TRACE;_LICENSEWIZARD_</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Auditwizard - Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>..\..\..\..\..\Program Files\AuditWizard v8\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;_AUDITWIZARD_</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>C:\Program Files %28x86%29\AuditWizard v8\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;_AUDITWIZARD_</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <OutputPath>..\Output\</OutputPath>
+    <DefineConstants>TRACE;_LICENSEWIZARD_</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Auditwizard - Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Auditwizard - Debug\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;_AUDITWIZARD_</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>false</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>SecurityKey.pfx</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Accessibility" />
+    <Reference Include="Infragistics.Practices.CompositeUI.WinForms, Version=1.0.20111.2090, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Layton Framework\Infragistics.CompositeUI.WinForms\bin\Release\Infragistics.Practices.CompositeUI.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics2.Documents.Core.v11.1, Version=11.1.20111.2090, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\bin\Infragistics 11.1.20111.2090\Infragistics2.Documents.Core.v11.1.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics2.Documents.Excel.v11.1, Version=11.1.20111.2090, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\bin\Infragistics 11.1.20111.2090\Infragistics2.Documents.Excel.v11.1.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics2.Documents.IO.v11.1, Version=11.1.20111.2090, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\bin\Infragistics 11.1.20111.2090\Infragistics2.Documents.IO.v11.1.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics2.Shared.v11.1, Version=11.1.20111.2090, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\bin\Infragistics 11.1.20111.2090\Infragistics2.Shared.v11.1.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics2.Win.Misc.v11.1, Version=11.1.20111.2090, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\bin\Infragistics 11.1.20111.2090\Infragistics2.Win.Misc.v11.1.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics2.Win.UltraWinDataSource.v11.1, Version=11.1.20111.2090, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\bin\Infragistics 11.1.20111.2090\Infragistics2.Win.UltraWinDataSource.v11.1.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics2.Win.UltraWinEditors.v11.1, Version=11.1.20111.2090, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\bin\Infragistics 11.1.20111.2090\Infragistics2.Win.UltraWinEditors.v11.1.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics2.Win.UltraWinExplorerBar.v11.1, Version=11.1.20111.2090, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\bin\Infragistics 11.1.20111.2090\Infragistics2.Win.UltraWinExplorerBar.v11.1.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics2.Win.UltraWinGrid.DocumentExport.v11.1, Version=11.1.20111.2090, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\bin\Infragistics 11.1.20111.2090\Infragistics2.Win.UltraWinGrid.DocumentExport.v11.1.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics2.Win.UltraWinGrid.ExcelExport.v11.1, Version=11.1.20111.2090, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\bin\Infragistics 11.1.20111.2090\Infragistics2.Win.UltraWinGrid.ExcelExport.v11.1.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics2.Win.UltraWinGrid.v11.1, Version=11.1.20111.2090, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\bin\Infragistics 11.1.20111.2090\Infragistics2.Win.UltraWinGrid.v11.1.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics2.Win.UltraWinListView.v11.1, Version=11.1.20111.2090, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\bin\Infragistics 11.1.20111.2090\Infragistics2.Win.UltraWinListView.v11.1.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics2.Win.UltraWinSchedule.v11.1, Version=11.1.20111.2090, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\bin\Infragistics 11.1.20111.2090\Infragistics2.Win.UltraWinSchedule.v11.1.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics2.Win.UltraWinTabControl.v11.1, Version=11.1.20111.2090, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\bin\Infragistics 11.1.20111.2090\Infragistics2.Win.UltraWinTabControl.v11.1.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics2.Win.UltraWinToolbars.v11.1, Version=11.1.20111.2090, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\bin\Infragistics 11.1.20111.2090\Infragistics2.Win.UltraWinToolbars.v11.1.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics2.Win.UltraWinTree.v11.1, Version=11.1.20111.2090, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\bin\Infragistics 11.1.20111.2090\Infragistics2.Win.UltraWinTree.v11.1.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics2.Win.v11.1, Version=11.1.20111.2090, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\bin\Infragistics 11.1.20111.2090\Infragistics2.Win.v11.1.dll</HintPath>
+    </Reference>
+    <Reference Include="Layton.HtmlReports, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\bin\Layton.HtmlReports.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Layton Framework\Cab\Shell\lib\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ApplicationBlocks.Data, Version=1.0.2379.25601, Culture=neutral">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\bin\Microsoft.ApplicationBlocks.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.CompositeUI, Version=1.0.51205.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Layton Framework\Assemblies\Microsoft.Practices.CompositeUI.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.CompositeUI.WinForms, Version=1.0.51205.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Layton Framework\Assemblies\Microsoft.Practices.CompositeUI.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.ObjectBuilder, Version=1.0.51205.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Layton Framework\Assemblies\Microsoft.Practices.ObjectBuilder.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="nunit.framework, Version=2.4.8.0, Culture=neutral, PublicKeyToken=96d09a1eb7f44a77, processorArchitecture=MSIL">
+      <HintPath>..\bin\nunit.framework.dll</HintPath>
+    </Reference>
+    <Reference Include="Pahvant.MSI.Interop, Version=1.1.2952.22066, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\bin\Pahvant.MSI.Interop.dll</HintPath>
+    </Reference>
+    <Reference Include="PickerSample">
+      <HintPath>..\bin\PickerSample.dll</HintPath>
+    </Reference>
+    <Reference Include="Subtext.Scripting, Version=1.9.6.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\bin\Subtext.Scripting.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.SqlServerCe, Version=3.5.1.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\bin\Sqlce\System.Data.SqlServerCe.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Design" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Runtime.Serialization.Formatters.Soap" />
+    <Reference Include="System.ServiceProcess" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WizardBase, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\bin\WizardBase.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AdministrationExplorerView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="AdministrationExplorerView.Designer.cs">
+      <DependentUpon>AdministrationExplorerView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdministrationModuleInit.cs" />
+    <Compile Include="AssetTypesTabView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="AssetTypesTabView.Designer.cs">
+      <DependentUpon>AssetTypesTabView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AssetTypesTabViewPresenter.cs" />
+    <Compile Include="AlertMonitorSettingsTabView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="AlertMonitorSettingsTabView.Designer.cs">
+      <DependentUpon>AlertMonitorSettingsTabView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AlertMonitorSettingsTabViewPresenter.cs" />
+    <Compile Include="FormAddPickItem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAddPickItem.Designer.cs">
+      <DependentUpon>FormAddPickItem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormDatabaseMaintenance.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormDatabaseMaintenance.Designer.cs">
+      <DependentUpon>FormDatabaseMaintenance.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormFtpSettingsBackup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormFtpSettingsBackup.Designer.cs">
+      <DependentUpon>FormFtpSettingsBackup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormAlertMonitorWizard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAlertMonitorWizard.Designer.cs">
+      <DependentUpon>FormAlertMonitorWizard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormChangeDBWizard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormChangeDBWizard.Designer.cs">
+      <DependentUpon>FormChangeDBWizard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormImportHistory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormImportHistory.Designer.cs">
+      <DependentUpon>FormImportHistory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormLoadAlertMonitorDefinition.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormLoadAlertMonitorDefinition.Designer.cs">
+      <DependentUpon>FormLoadAlertMonitorDefinition.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormSelectDatabaseName.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormSelectDatabaseName.Designer.cs">
+      <DependentUpon>FormSelectDatabaseName.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormSoftwareDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormSoftwareDetails.Designer.cs">
+      <DependentUpon>FormSoftwareDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormUsbDeviceDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormUsbDeviceDetails.Designer.cs">
+      <DependentUpon>FormUsbDeviceDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormMobileDeviceDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMobileDeviceDetails.Designer.cs">
+      <DependentUpon>FormMobileDeviceDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormAlertTrigger.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAlertTrigger.Designer.cs">
+      <DependentUpon>FormAlertTrigger.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormAlertDefinition.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAlertDefinition.Designer.cs">
+      <DependentUpon>FormAlertDefinition.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormImportPicklists.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormImportPicklists.Designer.cs">
+      <DependentUpon>FormImportPicklists.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormImportUserDefinedData.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormImportUserDefinedData.Designer.cs">
+      <DependentUpon>FormImportUserDefinedData.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormImportLocations.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormImportLocations.Designer.cs">
+      <DependentUpon>FormImportLocations.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ToolsTabView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ToolsTabView.Designer.cs">
+      <DependentUpon>ToolsTabView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ToolsTabViewPresenter.cs" />
+    <Compile Include="DatabaseTabView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DatabaseTabView.designer.cs">
+      <DependentUpon>DatabaseTabView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DatabaseTabViewPresenter.cs" />
+    <Compile Include="FormInternetDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormInternetDetails.Designer.cs">
+      <DependentUpon>FormInternetDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormAuditDesigner.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAuditDesigner.Designer.cs">
+      <DependentUpon>FormAuditDesigner.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormFileSystemDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormFileSystemDetails.Designer.cs">
+      <DependentUpon>FormFileSystemDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormFtpSettings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormFtpSettings.Designer.cs">
+      <DependentUpon>FormFtpSettings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormHardwareDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormHardwareDetails.Designer.cs">
+      <DependentUpon>FormHardwareDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormLoadScannerConfiguration.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormLoadScannerConfiguration.Designer.cs">
+      <DependentUpon>FormLoadScannerConfiguration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormRegistryDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormRegistryDetails.Designer.cs">
+      <DependentUpon>FormRegistryDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormSaveScannerConfiguration.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormSaveScannerConfiguration.Designer.cs">
+      <DependentUpon>FormSaveScannerConfiguration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormSelectAssetType.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormSelectAssetType.Designer.cs">
+      <DependentUpon>FormSelectAssetType.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormUserLocation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormUserLocation.Designer.cs">
+      <DependentUpon>FormUserLocation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ServiceTabView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ServiceTabView.designer.cs">
+      <DependentUpon>ServiceTabView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ServiceTabViewPresenter.cs" />
+    <Compile Include="ScannerConfigurationTabView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ScannerConfigurationTabView.Designer.cs">
+      <DependentUpon>ScannerConfigurationTabView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ScannerConfigurationTabViewPresenter.cs" />
+    <Compile Include="LocationsTabViewPresenter.cs" />
+    <Compile Include="LocationsTabView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="LocationsTabView.Designer.cs">
+      <DependentUpon>LocationsTabView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormPicklist.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPicklist.Designer.cs">
+      <DependentUpon>FormPicklist.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PickListTabView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PickListTabView.Designer.cs">
+      <DependentUpon>PickListTabView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PickListTabViewPresenter.cs" />
+    <Compile Include="FormUserDataField.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormUserDataField.Designer.cs">
+      <DependentUpon>FormUserDataField.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormUserDataCategory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormUserDataCategory.Designer.cs">
+      <DependentUpon>FormUserDataCategory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormAssetType.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAssetType.Designer.cs">
+      <DependentUpon>FormAssetType.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormAssetCategory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAssetCategory.Designer.cs">
+      <DependentUpon>FormAssetCategory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserDefinedDataTabView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserDefinedDataTabView.Designer.cs">
+      <DependentUpon>UserDefinedDataTabView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserDefinedDataTabViewPresenter.cs" />
+    <Compile Include="FormLicenseType.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormLicenseType.Designer.cs">
+      <DependentUpon>FormLicenseType.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormSelectApplication.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormSelectApplication.Designer.cs">
+      <DependentUpon>FormSelectApplication.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IAdministrationView.cs" />
+    <Compile Include="SerialNumbersTabView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SerialNumbersTabView.Designer.cs">
+      <DependentUpon>SerialNumbersTabView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SerialNumbersTabViewPresenter.cs" />
+    <Compile Include="LicenseTypesTabView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="LicenseTypesTabView.Designer.cs">
+      <DependentUpon>LicenseTypesTabView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LicenseTypesTabViewPresenter.cs" />
+    <Compile Include="SecurityTabView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SecurityTabView.Designer.cs">
+      <DependentUpon>SecurityTabView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdministrationToolbarsController.cs" />
+    <Compile Include="AdministrationWorkItem.cs" />
+    <Compile Include="AdministrationWorkItemController.cs" />
+    <Compile Include="AdministrationStrings.cs" />
+    <Compile Include="SecurityTabViewPresenter.cs" />
+    <Compile Include="AuditAgentTabView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="AuditAgentTabView.Designer.cs">
+      <DependentUpon>AuditAgentTabView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AuditAgentTabViewPresenter.cs" />
+    <Compile Include="UploadSettingsTabView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UploadSettingsTabView.Designer.cs">
+      <DependentUpon>UploadSettingsTabView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UploadSettingsTabViewPresenter.cs" />
+    <Compile Include="EmailSettingsTabView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="EmailSettingsTabView.Designer.cs">
+      <DependentUpon>EmailSettingsTabView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EmailSettingsTabViewPresenter.cs" />
+    <Compile Include="SuppliersTabViewPresenter.cs" />
+    <Compile Include="SuppliersTabView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SuppliersTabView.Designer.cs">
+      <DependentUpon>SuppliersTabView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormUserProperties.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormUserProperties.Designer.cs">
+      <DependentUpon>FormUserProperties.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="SecurityKey.pfx" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="AdministrationExplorerView.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>AdministrationExplorerView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AssetTypesTabView.resx">
+      <DependentUpon>AssetTypesTabView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AlertMonitorSettingsTabView.resx">
+      <DependentUpon>AlertMonitorSettingsTabView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormAddPickItem.resx">
+      <DependentUpon>FormAddPickItem.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormDatabaseMaintenance.resx">
+      <DependentUpon>FormDatabaseMaintenance.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormFtpSettingsBackup.resx">
+      <DependentUpon>FormFtpSettingsBackup.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormAlertMonitorWizard.resx">
+      <DependentUpon>FormAlertMonitorWizard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormChangeDBWizard.resx">
+      <DependentUpon>FormChangeDBWizard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormImportHistory.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FormImportHistory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormLoadAlertMonitorDefinition.resx">
+      <DependentUpon>FormLoadAlertMonitorDefinition.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormSelectDatabaseName.resx">
+      <DependentUpon>FormSelectDatabaseName.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormSoftwareDetails.resx">
+      <DependentUpon>FormSoftwareDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormUsbDeviceDetails.resx">
+      <DependentUpon>FormUsbDeviceDetails.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMobileDeviceDetails.resx">
+      <DependentUpon>FormMobileDeviceDetails.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormAlertTrigger.resx">
+      <DependentUpon>FormAlertTrigger.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormAlertDefinition.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FormAlertDefinition.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormImportPicklists.resx">
+      <DependentUpon>FormImportPicklists.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormImportUserDefinedData.resx">
+      <DependentUpon>FormImportUserDefinedData.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormImportLocations.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FormImportLocations.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ToolsTabView.resx">
+      <DependentUpon>ToolsTabView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DatabaseTabView.resx">
+      <DependentUpon>DatabaseTabView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormInternetDetails.resx">
+      <DependentUpon>FormInternetDetails.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormAuditDesigner.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FormAuditDesigner.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormFileSystemDetails.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FormFileSystemDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormFtpSettings.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FormFtpSettings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormHardwareDetails.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FormHardwareDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormLoadScannerConfiguration.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FormLoadScannerConfiguration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormRegistryDetails.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FormRegistryDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormSaveScannerConfiguration.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FormSaveScannerConfiguration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormSelectAssetType.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FormSelectAssetType.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormUserLocation.resx">
+      <DependentUpon>FormUserLocation.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ServiceTabView.resx">
+      <DependentUpon>ServiceTabView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ScannerConfigurationTabView.resx">
+      <DependentUpon>ScannerConfigurationTabView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LocationsTabView.resx">
+      <DependentUpon>LocationsTabView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormPicklist.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FormPicklist.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PickListTabView.resx">
+      <DependentUpon>PickListTabView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormUserDataField.resx">
+      <DependentUpon>FormUserDataField.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormUserDataCategory.resx">
+      <DependentUpon>FormUserDataCategory.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormAssetType.resx">
+      <DependentUpon>FormAssetType.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormAssetCategory.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FormAssetCategory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserDefinedDataTabView.resx">
+      <DependentUpon>UserDefinedDataTabView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormLicenseType.resx">
+      <DependentUpon>FormLicenseType.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormSelectApplication.resx">
+      <DependentUpon>FormSelectApplication.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SerialNumbersTabView.resx">
+      <DependentUpon>SerialNumbersTabView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LicenseTypesTabView.resx">
+      <DependentUpon>LicenseTypesTabView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SecurityTabView.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>SecurityTabView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AuditAgentTabView.resx">
+      <DependentUpon>AuditAgentTabView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UploadSettingsTabView.resx">
+      <DependentUpon>UploadSettingsTabView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmailSettingsTabView.resx">
+      <DependentUpon>EmailSettingsTabView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SuppliersTabView.resx">
+      <DependentUpon>SuppliersTabView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormUserProperties.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FormUserProperties.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <SubType>Designer</SubType>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\application_serial_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AuditWizardService\Layton.AuditWizard.AuditWizardService.csproj">
+      <Project>{778E67B2-B7E9-4B27-A4B9-657A1331856B}</Project>
+      <Name>Layton.AuditWizard.AuditWizardService</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Layton Framework\Cab\Interface\Layton.Cab.Interface.csproj">
+      <Project>{CA632E36-6514-40A6-B43B-925B89DE7A81}</Project>
+      <Name>Layton.Cab.Interface</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Layton.AuditWizard.Common\Layton.AuditWizard.Common.csproj">
+      <Project>{2E7C0E1A-E76B-4940-B9F4-2AC30F8E30D4}</Project>
+      <Name>Layton.AuditWizard.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Layton.AuditWizard.DataAccess\Layton.AuditWizard.DataAccess.csproj">
+      <Project>{AA9AF8D0-E825-4BDD-9291-624858D076CA}</Project>
+      <Name>Layton.AuditWizard.DataAccess</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Layton.Common.Controls\Layton.Common.Controls.csproj">
+      <Project>{8CD552D1-01D2-4420-B5F8-4E57B84CB39B}</Project>
+      <Name>Layton.Common.Controls</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\application_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Alerts_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Toolbox_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\userdetails_ghosted_128.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\userdelete_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\useradd_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user_add_corner.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\email_settings_footer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\datasetup_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\audit_upload_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AuditAgent32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AuditWizardService_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\application_license_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\supplier_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\email32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\active.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\unavailable.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\notinstalled.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\stopped.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\email_service_control_corner.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\auto_upload_corner.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\upload_options_corner.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\audit_agent_corner.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\upload_options_72.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\upload_options_721.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\audit_agent_72.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\email_settings_72.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\application_license_corner.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\application_license_72.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\select_application_corner.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\manage_license_types_corner.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\aw_service_control_72.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\email_options_corner.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\application_license_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\supplier_72.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\aw_service_control_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\registrykey_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\application_serial_72.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\application_serial_number_corner.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\supplier_delete_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\supplier_edit_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\supplier_add_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\supplier_add_corner.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\supplier_edit_corner.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\users_72.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\application_settings_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\general_setting_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\data_list_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\audit_settings_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\general_settings_ghosted_96.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\audit_settings_ghosted_96.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\data_list_ghosted_96.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\useredit_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add_user_corner.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\computer32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\missing_icon_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\assettype_properties_corner.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\asset_types_72.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\asset_types_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\UserData_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\UserData_110.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\UserData_72.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\udf_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\udd_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\udd_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\udd_72.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\udf_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AuditAgent321.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\scanner_72.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\audit_scanner_32.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\scanner_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ipaddress_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\asset_types_delete_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\asset_types_edit_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\asset_types_add_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\picklist_delete_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\picklist_96.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\picklist_add_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\picklist_72.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\picklist_48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\picklist_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\picklist_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pickitem_add_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pickitem_delete_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pickitem_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pickitem_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\picklist_edit_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pickitem_edit_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\users_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\application_settings_72.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\application_settings_96.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\location_72.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\location_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\location_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\location_delete_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\location_edit_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\location_add_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\location_add_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\location_edit_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\location_delete_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\userlocations_corner.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\userdata_category_corner.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\userdata_field_corner.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\UserData_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\select_assettype_properties_corner.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\UserData_assets_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\UserData_applications_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hardware_settings_corner.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\registry_settings_corner.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\filesystem_settings_corner.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Edit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cross.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Delete.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\save_scanner_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\load_scanner_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\save_scanner_corner.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\load_scanner_corner.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\audit_screendesigner_corner.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\msi32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\scanner_deploy_network_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\scanner_deploy_email_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ftp_settings_corner.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\aw_service_control_corner.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pickitem_add_corner.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pickitem_properties_corner.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\picklist_add_corner.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\picklist_properties_corner.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\inport_locations_corner.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\export_locations_corner.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\import_userdata_corner.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\import_picklists_corner.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Alert_72.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\alert_create_corner.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Alert_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\alert_trigger_create_corner.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Alert_trigger_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mobiledevice_settings_corner.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\usbdevice_settings_corner.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\usb_device_settings_corner.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\internet_settings_corner.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user_edit_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user_delete_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user_add_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\scanner_shutdown_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\application_alias_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\application_alias_72.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\application_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\application_addalias_corner.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="DragMove.cur" />
+    <None Include="Resources\top_grad_red.png" />
+    <None Include="Resources\transparent.png" />
+    <None Include="Resources\wizard.png" />
+    <None Include="Resources\scanner_update_32.png" />
+    <None Include="Resources\scanner_new_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="UnitTests\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

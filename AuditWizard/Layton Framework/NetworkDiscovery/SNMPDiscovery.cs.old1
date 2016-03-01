@@ -1,0 +1,721 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Collections.Specialized;
+using System.Net;
+using System.Net.NetworkInformation;
+using System.Threading;
+using Layton.AuditWizard.DataAccess;
+using System.Windows.Forms;
+using SnmpSharpNet;
+
+namespace Layton.NetworkDiscovery
+{
+    public class SNMPDiscovery : NetworkDiscovery
+    {
+        #region Data
+
+        private bool _isComplete;
+        private bool _isStarted;
+        private List<string[]> _computers = new List<string[]>();
+        private List<string> _domains = new List<string>();
+        private string[] communityNames;
+        private string publicCommunityName = String.Empty;
+
+        private NameValueCollection ipRanges;
+        private int remainingCount;
+        private int maximumCount;
+        private AssetTypeList assetTypes = new AssetTypeList();
+        private static int foundCounter;
+        protected static readonly log4net.ILog logger = log4net.LogManager.GetLogger(System.Reflection.MethodBase.GetCurrentMethod().DeclaringType);
+
+        public SNMPDiscovery(NameValueCollection ipRanges)
+        {
+            this.ipRanges = ipRanges;
+            communityNames = new SettingsDAO().GetSettingAsString("SNMPRead", "public").Split(',');
+
+            // if we didn't get a community string, set 'public' as default
+            if (communityNames.Length == 1 && communityNames[0] == String.Empty) communityNames[0] = "public";
+
+            assetTypes.Populate();
+        }
+
+        public override bool HasDiscoverStarted
+        {
+            get { return _isStarted; }
+        }
+
+        public override bool IsDiscoverComplete
+        {
+            get { return _isComplete; }
+        }
+
+        public override List<string> DomainList
+        {
+            get { return _domains; }
+        }
+
+        public override List<string[]> ComputerList
+        {
+            get { return _computers; }
+        }
+
+        public override bool CanRunInOwnThread
+        {
+            get { return true; }
+        }
+
+        #endregion
+
+        public override void Start()
+        {
+            try
+            {
+                _isStarted = true;
+                List<string> ipAddresses = GetIpAddressList(ipRanges);
+
+                Thread[] theThreads = new Thread[ipAddresses.Count];
+
+                maximumCount = ipAddresses.Count;
+                remainingCount = ipAddresses.Count;
+                foundCounter = 0;
+
+                for (int i = 0; i < ipAddresses.Count; i++)
+                {
+                    int threadCount = i - ipAddresses.Count + remainingCount;
+                    if (threadCount > 256)
+                    {
+                        RunSnmpDiscovery(ipAddresses[i]);
+                    }
+                    else
+                    {
+                        theThreads[i] = new Thread(new ParameterizedThreadStart(RunSnmpDiscovery));
+                        theThreads[i].Start(ipAddresses[i]);
+                    }
+                }
+
+                foreach (Thread t in theThreads)
+                {
+                    if (t != null)
+                        t.Join();
+                }
+            }
+            catch (Exception ex)
+            {
+                logger.Error(ex.Message);
+                Utility.DisplayApplicationErrorMessage(String.Format(
+                    "AuditWizard encountered an error during Network Discovery. The error message is:{0}{1}{2}",
+                    Environment.NewLine, Environment.NewLine, ex.Message));
+
+                _isComplete = true;
+            }
+        }
+
+        #region SNMP methods
+
+        private void RunSnmpDiscovery(object aIpAddress)
+        {
+            FireNetworkDiscoveryUpdate(new DiscoveryUpdateEventArgs(foundCounter.ToString(), "", maximumCount, 0));
+
+            string strIPAddress = (string)aIpAddress;
+
+            try
+            {
+                Ping pingSender = new Ping();
+                PingReply reply = pingSender.Send(strIPAddress, 120);
+
+                // is there a response from this IP address
+                if (reply != null)
+                    if (reply.Status == IPStatus.Success)
+                    {
+                        if (GetSNMP(strIPAddress, "1.3.6.1.2.1.1.5.0") == null)
+                            return;
+
+                        if (GetSNMP(strIPAddress, "1.3.6.1.2.1.25.3.5.1.1.1") != "Null")
+                            ProcessNetworkPrinter(strIPAddress);
+
+                        else
+                            ProcessNetworkDevice(strIPAddress);
+                    }
+            }
+            catch (Exception ex)
+            {
+                // TODO - log this message
+                return;
+            }
+            finally
+            {
+                remainingCount--;
+            }
+        }
+
+        private void ProcessNetworkDevice(string aIPAddress)
+        {
+            AssetDAO lAssetDAO = new AssetDAO();
+            AuditTrailEntry.CLASS ateClass;
+            string ipAddress = aIPAddress;
+            DateTime dateAudited = DateTime.Now;
+            string strMacAddress = String.Empty;
+
+            string modelName = GetSNMP(aIPAddress, "1.3.6.1.2.1.1.1.0");
+            string adminName = GetSNMP(aIPAddress, "1.3.6.1.2.1.1.5.0");
+
+            List<string> macAddresses = WalkSNMP(aIPAddress, "1.3.6.1.2.1.2.2.1.6");
+
+            foreach (string macAddress in macAddresses)
+            {
+                // if we have an empty address or local (00:00:00:00:00:00), ignore it
+                if ((macAddress != String.Empty) && (macAddress != "00 00 00 00 00 00"))
+                {
+                    strMacAddress = macAddress;
+                    break;
+                }
+            }
+
+            strMacAddress = strMacAddress.Replace(' ', '-');
+            string manufacturer = VendorFromMacAddress(strMacAddress);
+
+            if (manufacturer == String.Empty)
+                manufacturer = "Unknown";
+
+            DateTime sysUpTime = DateTime.Now.Subtract(new TimeSpan((((SnmpSharpNet.TimeTicks)(GetSNMPObject(aIPAddress, "1.3.6.1.2.1.1.3.0"))).Miliseconds) * 10000));
+            string strSysUpTime = sysUpTime.ToShortDateString() + " " + sysUpTime.ToShortTimeString();
+
+            // add as an asset first
+            Asset discoveredAsset = new Asset();
+            discoveredAsset.Name = adminName;
+            discoveredAsset.Make = manufacturer;
+            discoveredAsset.Model = modelName;
+            discoveredAsset.IPAddress = ipAddress;
+            discoveredAsset.MACAddress = strMacAddress.Replace('-',':');
+            discoveredAsset.LastAudit = dateAudited;
+            discoveredAsset.AgentVersion = "SNMP";
+            discoveredAsset.AssetTypeID = GetNetworkDeviceTypeId();
+
+            // check if asset exists first
+            int lAssetID = lAssetDAO.AssetFind(discoveredAsset);
+
+            if (lAssetID == 0)
+            {
+                ateClass = AuditTrailEntry.CLASS.audited;
+                lAssetID = lAssetDAO.AssetAdd(discoveredAsset);
+            }
+            else
+            {
+                // this SNMP asset already exists - delete existing audited items data as we only want most recent
+                ateClass = AuditTrailEntry.CLASS.reaudited;
+                new AuditedItemsDAO().AuditedItemsDelete(lAssetID);
+
+                Asset existingAsset = lAssetDAO.AssetGetDetails(lAssetID);
+
+                discoveredAsset.Location = existingAsset.Location;
+                discoveredAsset.LocationID = existingAsset.LocationID;
+                discoveredAsset.Domain = existingAsset.Domain;
+                discoveredAsset.DomainID = existingAsset.DomainID;
+                discoveredAsset.OverwriteData = existingAsset.OverwriteData;
+
+                if (!existingAsset.OverwriteData)
+                {
+                    // don't overwrite the data defined by user in Basic Information tab
+                    discoveredAsset.Name = existingAsset.Name;
+                    discoveredAsset.StockStatus = existingAsset.StockStatus;
+                    discoveredAsset.AssetTypeID = existingAsset.AssetTypeID;
+                    discoveredAsset.TypeAsString = existingAsset.TypeAsString;
+                    discoveredAsset.Make = existingAsset.Make;
+                    discoveredAsset.Model = existingAsset.Model;
+                    discoveredAsset.SerialNumber = existingAsset.SerialNumber;
+                    discoveredAsset.AssetTag = existingAsset.AssetTag;
+
+                    manufacturer = existingAsset.Make;
+                    modelName = existingAsset.Model;
+                }
+
+                discoveredAsset.AssetID = lAssetID;
+                lAssetDAO.AssetUpdate(discoveredAsset);
+                lAssetDAO.AssetAudited(lAssetID, DateTime.Now);
+            }
+
+            List<AuditedItem> auditedItemList = new List<AuditedItem>();
+
+            string lCategory = "System|Device Info";
+            auditedItemList.Add(new AuditedItem(0, lAssetID, lCategory, "Manufacturer", manufacturer, String.Empty, AuditedItem.eDATATYPE.text, true));
+            auditedItemList.Add(new AuditedItem(0, lAssetID, lCategory, "Model Name", modelName, String.Empty, AuditedItem.eDATATYPE.text, true));
+            auditedItemList.Add(new AuditedItem(0, lAssetID, lCategory, "Admin Name", adminName, String.Empty, AuditedItem.eDATATYPE.text, true));
+            auditedItemList.Add(new AuditedItem(0, lAssetID, lCategory, "IP Address", ipAddress, String.Empty, AuditedItem.eDATATYPE.text, true));
+            auditedItemList.Add(new AuditedItem(0, lAssetID, lCategory, "MAC Address", strMacAddress, String.Empty, AuditedItem.eDATATYPE.text, true));
+            auditedItemList.Add(new AuditedItem(0, lAssetID, lCategory, "Date Audited", dateAudited.ToShortDateString() + " " + dateAudited.ToShortTimeString(), String.Empty, AuditedItem.eDATATYPE.text, true));
+            auditedItemList.Add(new AuditedItem(0, lAssetID, lCategory, "Last Network Initialisation", strSysUpTime, String.Empty, AuditedItem.eDATATYPE.text, true));
+
+            foreach (AuditedItem auditedItem in auditedItemList)
+            {
+                auditedItem.Icon = "hardware.png";
+                new AuditedItemsDAO().AuditedItemAdd(auditedItem);
+            }
+
+            // flag as audited
+            new AssetDAO().AssetAudited(lAssetID, DateTime.Now);
+
+            // Is this a first or a re-audit of this asset - create a history entry accordingly
+            AuditTrailEntry ate = new AuditTrailEntry();
+            ate.AssetID = lAssetID;
+            ate.AssetName = discoveredAsset.Name;
+            ate.Type = AuditTrailEntry.TYPE.added;
+            ate.Date = DateTime.Now;
+            ate.Key = ate.OldValue = ate.NewValue = "";
+            ate.Class = ateClass;
+
+            AuditTrailDAO lAuditTrailDAO = new AuditTrailDAO();
+            lAuditTrailDAO.AuditTrailAdd(ate);
+
+            Interlocked.Increment(ref foundCounter);
+            FireNetworkDiscoveryUpdate(new DiscoveryUpdateEventArgs(foundCounter.ToString(), "Network Device", maximumCount, remainingCount));
+        }
+
+        private int GetNetworkDeviceTypeId()
+        {
+            AssetType assetType = assetTypes.FindByName("Network Device");
+            if (assetType == null)
+            {
+                // We need to create a new type of asset ensuring that we parent it correctly so first get our 
+                // parent category.
+                AssetType parentAssetType = assetTypes.FindByName("Peripherals");
+
+                // Now create a child of this asset type						
+                assetType = new AssetType();
+                assetType.Name = "Network Device";
+                assetType.Auditable = false;
+                assetType.Icon = "router.png";
+                assetType.ParentID = parentAssetType.AssetTypeID;
+                assetType.Add();
+
+                // Update the internal list
+                assetTypes.Add(assetType);
+            }
+
+            assetTypes.Populate();
+            assetType = assetTypes.FindByName("Network Device");
+            return assetType.AssetTypeID;
+        }
+
+        private void ProcessNetworkPrinter(string aIPAddress)
+        {
+            AuditTrailEntry.CLASS ateClass;
+            Printer printer = DiscoverPrinterBySNMP(aIPAddress);
+            AssetDAO lAssetDAO = new AssetDAO();
+
+            // add the printer as an asset first
+            Asset printerAsset = new Asset();
+            printerAsset.Name = printer.AdminName;
+            printerAsset.Make = printer.Manufacturer;
+            printerAsset.Model = printer.ModelName;
+            printerAsset.SerialNumber = printer.SerialNumber;
+            printerAsset.IPAddress = printer.IpAddress;
+            printerAsset.MACAddress = printer.MacAddress.Replace('-',':');
+            printerAsset.AgentVersion = "SNMP";
+
+            AssetType assetType = assetTypes.FindByName("Network Printer");
+            if (assetType == null)
+            {
+                // We need to create a new type of asset ensuring that we parent it correctly so first get our 
+                // parent category.
+                AssetType parentAssetType = assetTypes.FindByName("Peripherals");
+
+                // Now create a child of this asset type						
+                assetType = new AssetType();
+                assetType.Name = "Network Printer";
+                assetType.Auditable = false;
+                assetType.Icon = "printer.png";
+                assetType.ParentID = parentAssetType.AssetTypeID;
+                assetType.Add();
+
+                // Update the internal list
+                assetTypes.Add(assetType);
+            }
+
+            assetTypes.Populate();
+            assetType = assetTypes.FindByName("Network Printer");
+
+            printerAsset.AssetTypeID = assetType.AssetTypeID;
+
+            // check if asset exists first
+            int lAssetID = lAssetDAO.AssetFind(printerAsset);
+
+            if (lAssetID == 0)
+            {
+                ateClass = AuditTrailEntry.CLASS.audited;
+                lAssetID = lAssetDAO.AssetAdd(printerAsset);
+            }
+            else
+            {
+                // this SNMP asset already exists - delete existing data as we only want most recent
+                ateClass = AuditTrailEntry.CLASS.reaudited;
+                new AuditedItemsDAO().AuditedItemsDelete(lAssetID);
+
+                Asset existingAsset = lAssetDAO.AssetGetDetails(lAssetID);
+
+                printerAsset.Location = existingAsset.Location;
+                printerAsset.LocationID = existingAsset.LocationID;
+                printerAsset.Domain = existingAsset.Domain;
+                printerAsset.DomainID = existingAsset.DomainID;
+                printerAsset.OverwriteData = existingAsset.OverwriteData;
+
+                if (!existingAsset.OverwriteData)
+                {
+                    // don't overwrite the data defined by user in Basic Information tab
+                    printerAsset.Name = existingAsset.Name;
+                    printerAsset.StockStatus = existingAsset.StockStatus;
+                    printerAsset.AssetTypeID = existingAsset.AssetTypeID;
+                    printerAsset.TypeAsString = existingAsset.TypeAsString;
+                    printerAsset.Make = existingAsset.Make;
+                    printerAsset.Model = existingAsset.Model;
+                    printerAsset.SerialNumber = existingAsset.SerialNumber;
+                    printerAsset.AssetTag = existingAsset.AssetTag;
+
+                    printer.Manufacturer = existingAsset.Make;
+                    printer.ModelName = existingAsset.Model;
+                }
+                
+                printerAsset.AssetID = lAssetID;
+                lAssetDAO.AssetUpdate(printerAsset);
+                lAssetDAO.AssetAudited(lAssetID, DateTime.Now);
+            }
+
+            List<AuditedItem> auditedItemList = GetAuditedItemsPrinterList(printer, lAssetID);
+
+            // insert into AUDTIEDITEMS table
+            foreach (AuditedItem auditedItem in auditedItemList)
+            {
+                auditedItem.Icon = "printer.png";
+                new AuditedItemsDAO().AuditedItemAdd(auditedItem);
+            }
+
+            // flag as audited
+            lAssetDAO.AssetAudited(lAssetID, DateTime.Now);
+
+            // Is this a first or a re-audit of this asset - create a history entry accordingly
+            AuditTrailEntry ate = new AuditTrailEntry();
+            ate.AssetID = lAssetID;
+            ate.AssetName = printerAsset.Name;
+            ate.Type = AuditTrailEntry.TYPE.added;
+            ate.Date = DateTime.Now;
+            ate.Key = ate.OldValue = ate.NewValue = "";
+            ate.Class = ateClass;
+
+            CheckNewPrinterLevels(lAssetID, printerAsset.Name);
+
+            AuditTrailDAO lAuditTrailDAO = new AuditTrailDAO();
+            lAuditTrailDAO.AuditTrailAdd(ate);
+
+            Interlocked.Increment(ref foundCounter);
+            FireNetworkDiscoveryUpdate(new DiscoveryUpdateEventArgs(foundCounter.ToString(), "Printer", maximumCount, remainingCount));
+        }
+
+        private void CheckNewPrinterLevels(int assetID, string assetName)
+        {
+            string supplyName;
+            int supplyLevel;
+            System.Data.DataTable dataTable = new StatisticsDAO().CheckNewPrinterLevels(assetID, assetName);
+
+            foreach (System.Data.DataRow row in dataTable.Rows)
+            {
+                supplyName = row.ItemArray[1].ToString();
+                supplyLevel = Convert.ToInt32(row.ItemArray[2]);
+
+                NewsFeed.AddNewsItem(NewsFeed.Priority.Warning,
+                    String.Format("{0} on {1} is at {2}%.", supplyName, assetName, supplyLevel));
+            }
+        }
+
+        private Printer DiscoverPrinterBySNMP(string aIPAddress)
+        {
+            Printer printer = new Printer();
+
+            printer.IpAddress = aIPAddress;
+            printer.DateAudited = DateTime.Now;
+
+            printer.ModelName = GetSNMP(aIPAddress, "1.3.6.1.2.1.25.3.2.1.3.1");
+            printer.SerialNumber = GetSNMP(aIPAddress, "1.3.6.1.2.1.43.5.1.1.17.1");
+            printer.AdminName = GetSNMP(aIPAddress, "1.3.6.1.2.1.1.5.0");
+            printer.MacAddress = GetSNMP(aIPAddress, "1.3.6.1.2.1.2.2.1.6.1").Replace(' ', '-');
+            printer.Manufacturer = VendorFromMacAddress(printer.MacAddress);
+            printer.SysUpTime = DateTime.Now.Subtract(new TimeSpan((((SnmpSharpNet.TimeTicks)(GetSNMPObject(aIPAddress, "1.3.6.1.2.1.1.3.0"))).Miliseconds) * 10000));
+
+            string strMemorySize = GetSNMP(aIPAddress, "1.3.6.1.2.1.25.2.2.0");
+            double memorySize = Convert.ToDouble(strMemorySize);
+            printer.Memory = Convert.ToInt32(memorySize / 1024);
+
+            List<string> supplyDescriptions = WalkSNMP(aIPAddress, "1.3.6.1.2.1.43.11.1.1.6");
+            List<string> maxSupplyCapacities = WalkSNMP(aIPAddress, "1.3.6.1.2.1.43.11.1.1.8");
+            List<string> currentSupplyCapacities = WalkSNMP(aIPAddress, "1.3.6.1.2.1.43.11.1.1.9");
+            List<string> currentSupplyTypes = WalkSNMP(aIPAddress, "1.3.6.1.2.1.43.11.1.1.5");
+
+            for (int i = 0; i < supplyDescriptions.Count; i++)
+            {
+                PrinterLevel printerLevel = new PrinterLevel();
+                printerLevel.MediaName = supplyDescriptions[i];
+                printerLevel.MediaType = (PrinterLevel.SupplyType)(Convert.ToInt32(currentSupplyTypes[i]));
+
+                // a value of -3 indicates unknown (not full or empty)
+                // set level to 50% in this instance
+                if (currentSupplyCapacities[i] == "-3")
+                {
+                    printerLevel.MediaLevel = 50;
+                }
+                else
+                {
+                    printerLevel.MediaLevel = Convert.ToInt32(((Convert.ToDouble(currentSupplyCapacities[i])) / (Convert.ToDouble(maxSupplyCapacities[i]))) * 100);
+                }
+                printer.PrinterLevels.Add(printerLevel);
+            }
+
+            printer.PagesPrintedTotal = Convert.ToInt32(GetSNMP(aIPAddress, "1.3.6.1.2.1.43.10.2.1.4.1.1"));
+            printer.PagesPrintedSinceReboot = Convert.ToInt32(GetSNMP(aIPAddress, "1.3.6.1.2.1.43.10.2.1.5.1.1"));
+            printer.PrinterCurrentStatus = (Printer.PrinterStatus)(Convert.ToInt32(GetSNMP(aIPAddress, "1.3.6.1.2.1.25.3.5.1.1.1")));
+            printer.TypeOfPrinter = (Printer.PrinterType)(Convert.ToInt32(GetSNMP(aIPAddress, "1.3.6.1.2.1.43.10.2.1.2.1.1")));
+
+            List<string> printTrayNames = WalkSNMP(aIPAddress, "1.3.6.1.2.1.43.8.2.1.13");
+            List<string> printTrayMaxCapacity = WalkSNMP(aIPAddress, "1.3.6.1.2.1.43.8.2.1.9");
+            List<string> printTrayMediaType = WalkSNMP(aIPAddress, "1.3.6.1.2.1.43.8.2.1.12");
+            List<string> printTrayStatuses = WalkSNMP(aIPAddress, "1.3.6.1.2.1.43.8.2.1.10");
+
+            for (int i = 0; i < printTrayNames.Count; i++)
+            {
+                PrinterInputTray printerTray = new PrinterInputTray();
+                printerTray.TrayName = printTrayNames[i];
+                printerTray.TrayCapacity = Convert.ToInt32(printTrayMaxCapacity[i]);
+                printerTray.PaperType = printTrayMediaType[i];
+                printerTray.TrayStatus = (PrinterInputTray.PrinterTrayStatus)Convert.ToInt32(printTrayStatuses[i]);
+
+                printer.PrinterInputTrays.Add(printerTray);
+            }
+
+            List<string> outputTrayNames = WalkSNMP(aIPAddress, "1.3.6.1.2.1.43.9.2.1.7");
+            List<string> outputTrayMaxCapacities = WalkSNMP(aIPAddress, "1.3.6.1.2.1.43.9.2.1.4");
+            List<string> outputTrayStackingOrder = WalkSNMP(aIPAddress, "1.3.6.1.2.1.43.9.2.1.19");
+            List<string> outputTrayPageOrientation = WalkSNMP(aIPAddress, "1.3.6.1.2.1.43.9.2.1.20");
+
+            for (int i = 0; i < outputTrayNames.Count; i++)
+            {
+                PrinterOutputTray printerOutputTray = new PrinterOutputTray();
+                printerOutputTray.TrayName = outputTrayNames[i];
+                printerOutputTray.TrayCapacity = Convert.ToInt32(outputTrayMaxCapacities[i]);
+                printerOutputTray.StackingOrder = (PrinterOutputTray.OutputStackingOrder)Convert.ToInt32(outputTrayStackingOrder[i]);
+                printerOutputTray.PageOrientation = (PrinterOutputTray.OutputPageDelivery)Convert.ToInt32(outputTrayPageOrientation[i]);
+
+                printer.PrinterOutputTrays.Add(printerOutputTray);
+            }
+
+            return printer;
+        }
+
+        /// <summary>
+        /// Performs an SNMP walk
+        /// </summary>
+        /// <param name="oID">OID to walk</param>
+        /// <returns>List of values under the given OID</returns>
+        private List<string> WalkSNMP(string aIPAddress, string oID)
+        {
+            List<string> walkResults = new List<string>();
+
+            foreach (string communityName in communityNames)
+            {
+                SimpleSnmp snmp = new SimpleSnmp(aIPAddress, communityName);
+                Dictionary<Oid, AsnType> result = snmp.Walk(SnmpVersion.Ver2, oID);
+
+                if (result != null)
+                {
+                    foreach (KeyValuePair<Oid, AsnType> kvp in result)
+                    {
+                        walkResults.Add(kvp.Value.ToString());
+                    }
+
+                    return walkResults;
+                }
+            }
+
+            return walkResults;
+        }
+
+        /// <summary>
+        /// Performs an SNMP get
+        /// </summary>
+        /// <param name="oID">The OID to get</param>
+        /// <returns>Value of the OID</returns>
+        private string GetSNMP(string aIPAddress, string oID)
+        {
+            foreach (string communityName in communityNames)
+            {
+                SimpleSnmp snmp = new SimpleSnmp(aIPAddress, communityName);
+                Dictionary<Oid, AsnType> result = snmp.Get(SnmpVersion.Ver2, new string[] { oID });
+
+                if (result != null)
+                {
+                    foreach (KeyValuePair<Oid, AsnType> kvp in result)
+                    {
+                        return kvp.Value.ToString();
+                    }
+                }
+            }
+
+            return null;
+        }
+
+        /// <summary>
+        /// Performs an SNMP get
+        /// </summary>
+        /// <param name="oID">The OID to get</param>
+        /// <returns>Value of the OID</returns>
+        private object GetSNMPObject(string aIPAddress, string oID)
+        {
+            foreach (string communityName in communityNames)
+            {
+                SimpleSnmp snmp = new SimpleSnmp(aIPAddress, communityName);
+                Dictionary<Oid, AsnType> result = snmp.Get(SnmpVersion.Ver2, new string[] { oID });
+
+                if (result != null)
+                {
+                    foreach (KeyValuePair<Oid, AsnType> kvp in result)
+                    {
+                        return kvp.Value;
+                    }
+                }
+            }
+
+            return null;
+        }
+
+        #endregion
+
+        #region Helper methods
+
+        private void CheckAllIpAddresses()
+        {
+            List<string> ipAddresses = GetIpAddressList(ipRanges);
+
+            foreach (string ipAddress in ipAddresses)
+            {
+                RunSnmpDiscovery(ipAddress);
+            }
+        }
+
+        private List<string> GetIpAddressList(NameValueCollection ipRanges)
+        {
+            List<string> ipAddresses = new List<string>();
+            foreach (string startAddress in ipRanges.AllKeys)
+            {
+                IPAddress startIpAddress = IPAddress.Parse(startAddress);
+                IPAddress endIpAddress = IPAddress.Parse(ipRanges[startAddress]);
+                IPAddress currentIpAddress = startIpAddress;
+                while (!currentIpAddress.Equals(endIpAddress))
+                {
+                    ipAddresses.Add(currentIpAddress.ToString());
+                    byte[] address = currentIpAddress.GetAddressBytes();
+                    if (address[3] == 255)
+                    {
+                        if (address[2] == 255)
+                        {
+                            if (address[1] == 255)
+                            {
+                                address[0] += 1;
+                                address[1] = 0;
+                                address[2] = 0;
+                                address[3] = 0;
+                            }
+                            else
+                            {
+                                address[1] += 1;
+                                address[2] = 0;
+                                address[3] = 0;
+                            }
+                        }
+                        else
+                        {
+                            address[2] += 1;
+                            address[3] = 0;
+                        }
+                    }
+                    else
+                    {
+                        address[3] += 1;
+                    }
+                    currentIpAddress = new IPAddress(address);
+                }
+                ipAddresses.Add(endIpAddress.ToString());
+            }
+            return ipAddresses;
+        }
+
+        private string VendorFromMacAddress(string aMacAddress)
+        {
+            aMacAddress = aMacAddress.Substring(0, 8);
+            using (System.IO.StreamReader sr = new System.IO.StreamReader(System.IO.Path.Combine(Application.StartupPath, "oui.txt")))
+            {
+                string line;
+                while ((line = sr.ReadLine()) != null)
+                {
+                    if (line.StartsWith(aMacAddress))
+                        return line.Substring(18);
+                }
+            }
+
+            return String.Empty;
+        }
+
+        #endregion
+
+        #region Worker Methods
+
+        private List<AuditedItem> GetAuditedItemsPrinterList(Printer aPrinter, int aAssetID)
+        {
+            List<AuditedItem> auditedItemList = new List<AuditedItem>();
+
+            string lCategory = "System|Device Info";
+            auditedItemList.Add(new AuditedItem(0, aAssetID, lCategory, "Manufacturer", aPrinter.Manufacturer, String.Empty, AuditedItem.eDATATYPE.text, true));
+            auditedItemList.Add(new AuditedItem(0, aAssetID, lCategory, "Model Name", aPrinter.ModelName, String.Empty, AuditedItem.eDATATYPE.text, true));
+            auditedItemList.Add(new AuditedItem(0, aAssetID, lCategory, "Admin Name", aPrinter.AdminName, String.Empty, AuditedItem.eDATATYPE.text, true));
+            auditedItemList.Add(new AuditedItem(0, aAssetID, lCategory, "Serial Number", aPrinter.SerialNumber, String.Empty, AuditedItem.eDATATYPE.text, true));
+            auditedItemList.Add(new AuditedItem(0, aAssetID, lCategory, "IP Address", aPrinter.IpAddress, String.Empty, AuditedItem.eDATATYPE.text, true));
+            auditedItemList.Add(new AuditedItem(0, aAssetID, lCategory, "MAC Address", aPrinter.MacAddress, String.Empty, AuditedItem.eDATATYPE.text, true));
+
+            lCategory = "System|Configuration";
+            auditedItemList.Add(new AuditedItem(0, aAssetID, lCategory, "Date Audited", aPrinter.DateAudited.ToShortDateString() + " " + aPrinter.DateAudited.ToShortTimeString(), String.Empty, AuditedItem.eDATATYPE.text, true));
+            auditedItemList.Add(new AuditedItem(0, aAssetID, lCategory, "Printer Type", aPrinter.TypeOfPrinter.ToString(), String.Empty, AuditedItem.eDATATYPE.text, true));
+            auditedItemList.Add(new AuditedItem(0, aAssetID, lCategory, "Total RAM", aPrinter.Memory.ToString(), "MB", AuditedItem.eDATATYPE.text, true));
+            auditedItemList.Add(new AuditedItem(0, aAssetID, lCategory, "Printer Status", aPrinter.PrinterCurrentStatus.ToString(), String.Empty, AuditedItem.eDATATYPE.text, true));
+            auditedItemList.Add(new AuditedItem(0, aAssetID, lCategory, "Last Network Initialisation", aPrinter.SysUpTime.ToShortDateString() + " " + aPrinter.SysUpTime.ToShortTimeString(), String.Empty, AuditedItem.eDATATYPE.text, true));
+
+            lCategory = "System|Counters";
+            auditedItemList.Add(new AuditedItem(0, aAssetID, lCategory, "Total Pages Printed", aPrinter.PagesPrintedTotal.ToString(), String.Empty, AuditedItem.eDATATYPE.text, true));
+            auditedItemList.Add(new AuditedItem(0, aAssetID, lCategory, "Pages Printed Since Reboot", aPrinter.PagesPrintedSinceReboot.ToString(), String.Empty, AuditedItem.eDATATYPE.text, true));
+
+            foreach (PrinterLevel printerLevel in aPrinter.PrinterLevels)
+            {
+                lCategory = "System|Supply Levels";
+                auditedItemList.Add(new AuditedItem(0, aAssetID, lCategory + "|" + printerLevel.MediaName, "Supply Name", printerLevel.MediaName, String.Empty, AuditedItem.eDATATYPE.text, true));
+                auditedItemList.Add(new AuditedItem(0, aAssetID, lCategory + "|" + printerLevel.MediaName, "Supply Type", printerLevel.MediaType.ToString(), String.Empty, AuditedItem.eDATATYPE.text, true));
+                auditedItemList.Add(new AuditedItem(0, aAssetID, lCategory + "|" + printerLevel.MediaName, "Supply Level", printerLevel.MediaLevel.ToString(), "%", AuditedItem.eDATATYPE.text, true));
+            }
+
+            foreach (PrinterInputTray inputTray in aPrinter.PrinterInputTrays)
+            {
+                lCategory = "System|Printer Trays|Input";
+                auditedItemList.Add(new AuditedItem(0, aAssetID, lCategory + "|" + inputTray.TrayName, "Tray Name", inputTray.TrayName, String.Empty, AuditedItem.eDATATYPE.text, true));
+                auditedItemList.Add(new AuditedItem(0, aAssetID, lCategory + "|" + inputTray.TrayName, "Tray Capacity", inputTray.TrayCapacity.ToString(), " pages", AuditedItem.eDATATYPE.text, true));
+                auditedItemList.Add(new AuditedItem(0, aAssetID, lCategory + "|" + inputTray.TrayName, "Paper Type", inputTray.PaperType, String.Empty, AuditedItem.eDATATYPE.text, true));
+                auditedItemList.Add(new AuditedItem(0, aAssetID, lCategory + "|" + inputTray.TrayName, "Tray Status", inputTray.TrayStatus.ToString(), String.Empty, AuditedItem.eDATATYPE.text, true));
+            }
+
+            foreach (PrinterOutputTray outputTray in aPrinter.PrinterOutputTrays)
+            {
+                lCategory = "System|Printer Trays|Output";
+                auditedItemList.Add(new AuditedItem(0, aAssetID, lCategory + "|" + outputTray.TrayName, "Tray Name", outputTray.TrayName, String.Empty, AuditedItem.eDATATYPE.text, true));
+                auditedItemList.Add(new AuditedItem(0, aAssetID, lCategory + "|" + outputTray.TrayName, "Tray Capacity", outputTray.TrayCapacity.ToString(), " pages", AuditedItem.eDATATYPE.text, true));
+                auditedItemList.Add(new AuditedItem(0, aAssetID, lCategory + "|" + outputTray.TrayName, "Page Orientation", outputTray.PageOrientation.ToString(), String.Empty, AuditedItem.eDATATYPE.text, true));
+                auditedItemList.Add(new AuditedItem(0, aAssetID, lCategory + "|" + outputTray.TrayName, "Stacking Order", outputTray.StackingOrder.ToString(), String.Empty, AuditedItem.eDATATYPE.text, true));
+            }
+
+            return auditedItemList;
+        }
+
+        #endregion
+    }
+}

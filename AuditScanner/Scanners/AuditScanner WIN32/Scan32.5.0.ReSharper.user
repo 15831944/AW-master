@@ -1,0 +1,84 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="31CC8A98-6C23-4870-A303-07D9A0B985EE/f:SoftwareScanner.cpp/l:..?AuditScannerCommon?SoftwareScanner.cpp" caret="589" fromTop="21" />
+      <File id="31CC8A98-6C23-4870-A303-07D9A0B985EE/f:ApplicationRegistryMapping.cpp/l:..?AuditScannerCommon?ApplicationRegistryMapping.cpp" caret="0" fromTop="0" />
+      <File id="31CC8A98-6C23-4870-A303-07D9A0B985EE/f:ApplicationInstance.h/l:..?AuditScannerCommon?ApplicationInstance.h" caret="464" fromTop="23" />
+      <File id="38F8B71E-0C71-4790-98A6-817074F26D55/f:Utils.cpp" caret="50506" fromTop="46" />
+      <File id="31CC8A98-6C23-4870-A303-07D9A0B985EE/f:OperatingSystemScanner.cpp/l:..?AuditScannerCommon?OperatingSystemScanner.cpp" caret="1256" fromTop="15" />
+      <File id="38F8B71E-0C71-4790-98A6-817074F26D55/f:OsInfo.cpp" caret="0" fromTop="0" />
+      <File id="38F8B71E-0C71-4790-98A6-817074F26D55/f:Registry.h" caret="580" fromTop="13" />
+      <File id="31CC8A98-6C23-4870-A303-07D9A0B985EE/f:NetworkInformationScanner.cpp/l:..?AuditScannerCommon?NetworkInformationScanner.cpp" caret="6185" fromTop="22" />
+      <File id="38F8B71E-0C71-4790-98A6-817074F26D55/f:Registry.cpp" caret="5117" fromTop="12" />
+      <File id="31CC8A98-6C23-4870-A303-07D9A0B985EE/f:ShtScan.cpp" caret="4757" fromTop="22" />
+      <File id="31CC8A98-6C23-4870-A303-07D9A0B985EE/f:AssetType.cpp/l:..?AuditScannerCommon?AssetType.cpp" caret="0" fromTop="0" />
+      <File id="31CC8A98-6C23-4870-A303-07D9A0B985EE/f:AuditDataFile.cpp/l:..?AuditScannerCommon?AuditDataFile.cpp" caret="0" fromTop="0" />
+      <File id="31CC8A98-6C23-4870-A303-07D9A0B985EE/f:PageFinish.cpp" caret="0" fromTop="0" />
+      <File id="31CC8A98-6C23-4870-A303-07D9A0B985EE/f:PageBasicInformation.cpp" caret="0" fromTop="0" />
+      <File id="31CC8A98-6C23-4870-A303-07D9A0B985EE/f:AuditDataScanner.cpp/l:..?AuditScannerCommon?AuditDataScanner.cpp" caret="3475" fromTop="17" />
+      <File id="31CC8A98-6C23-4870-A303-07D9A0B985EE/f:AuditScannerConfiguration.h/l:..?AuditScannerCommon?AuditScannerConfiguration.h" caret="7983" fromTop="17" />
+      <File id="31CC8A98-6C23-4870-A303-07D9A0B985EE/f:AuditDataFile.h/l:..?AuditScannerCommon?AuditDataFile.h" caret="10752" fromTop="17" />
+      <File id="31CC8A98-6C23-4870-A303-07D9A0B985EE/f:InternetExplorerScanner.h/l:..?AuditScannerCommon?InternetExplorerScanner.h" caret="4992" fromTop="20" />
+      <File id="31CC8A98-6C23-4870-A303-07D9A0B985EE/f:RegistryScanner.cpp/l:..?AuditScannerCommon?RegistryScanner.cpp" caret="901" fromTop="0" />
+      <File id="31CC8A98-6C23-4870-A303-07D9A0B985EE/f:Scan32.cpp" caret="55097" fromTop="17" />
+      <File id="31CC8A98-6C23-4870-A303-07D9A0B985EE/f:LocaleScanner.cpp/l:..?AuditScannerCommon?LocaleScanner.cpp" caret="4420" fromTop="14" />
+      <File id="31CC8A98-6C23-4870-A303-07D9A0B985EE/f:InternetExplorerScanner.cpp/l:..?AuditScannerCommon?InternetExplorerScanner.cpp" caret="438" fromTop="13" />
+      <File id="31CC8A98-6C23-4870-A303-07D9A0B985EE/f:PageScanning.cpp" caret="13046" fromTop="18" />
+      <File id="31CC8A98-6C23-4870-A303-07D9A0B985EE/f:GraphicsAdaptersScanner.cpp/l:..?AuditScannerCommon?GraphicsAdaptersScanner.cpp" caret="6698" fromTop="26" />
+      <File id="31CC8A98-6C23-4870-A303-07D9A0B985EE/f:ServicesScanner.cpp/l:..?AuditScannerCommon?ServicesScanner.cpp" caret="7455" fromTop="17" />
+      <File id="31CC8A98-6C23-4870-A303-07D9A0B985EE/f:ApplicationSerial.h/l:..?AuditScannerCommon?ApplicationSerial.h" caret="3516" fromTop="32" />
+      <File id="31CC8A98-6C23-4870-A303-07D9A0B985EE/f:ApplicationInstance.cpp/l:..?AuditScannerCommon?ApplicationInstance.cpp" caret="10369" fromTop="12" />
+      <File id="31CC8A98-6C23-4870-A303-07D9A0B985EE/f:PageUserData.cpp" caret="7866" fromTop="22" />
+      <File id="31CC8A98-6C23-4870-A303-07D9A0B985EE/f:ApplicationSerial.cpp/l:..?AuditScannerCommon?ApplicationSerial.cpp" caret="15423" fromTop="16" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="31CC8A98-6C23-4870-A303-07D9A0B985EE/f:InternetExplorerScanner.cpp/l:..?AuditScannerCommon?InternetExplorerScanner.cpp" caret="276" fromTop="9" />
+      <File id="31CC8A98-6C23-4870-A303-07D9A0B985EE/f:ApplicationSerial.cpp/l:..?AuditScannerCommon?ApplicationSerial.cpp" caret="28357" fromTop="13" />
+      <File id="31CC8A98-6C23-4870-A303-07D9A0B985EE/f:ApplicationSerial.cpp/l:..?AuditScannerCommon?ApplicationSerial.cpp" caret="14164" fromTop="25" />
+      <File id="31CC8A98-6C23-4870-A303-07D9A0B985EE/f:ApplicationSerial.cpp/l:..?AuditScannerCommon?ApplicationSerial.cpp" caret="18546" fromTop="36" />
+      <File id="31CC8A98-6C23-4870-A303-07D9A0B985EE/f:ApplicationSerial.cpp/l:..?AuditScannerCommon?ApplicationSerial.cpp" caret="13378" fromTop="18" />
+      <File id="31CC8A98-6C23-4870-A303-07D9A0B985EE/f:ApplicationSerial.cpp/l:..?AuditScannerCommon?ApplicationSerial.cpp" caret="13286" fromTop="25" />
+      <File id="31CC8A98-6C23-4870-A303-07D9A0B985EE/f:ApplicationSerial.cpp/l:..?AuditScannerCommon?ApplicationSerial.cpp" caret="13629" fromTop="22" />
+      <File id="31CC8A98-6C23-4870-A303-07D9A0B985EE/f:ApplicationSerial.cpp/l:..?AuditScannerCommon?ApplicationSerial.cpp" caret="13896" fromTop="31" />
+      <File id="31CC8A98-6C23-4870-A303-07D9A0B985EE/f:ApplicationSerial.cpp/l:..?AuditScannerCommon?ApplicationSerial.cpp" caret="13154" fromTop="12" />
+      <File id="31CC8A98-6C23-4870-A303-07D9A0B985EE/f:ApplicationSerial.cpp/l:..?AuditScannerCommon?ApplicationSerial.cpp" caret="13820" fromTop="25" />
+      <File id="31CC8A98-6C23-4870-A303-07D9A0B985EE/f:ApplicationSerial.cpp/l:..?AuditScannerCommon?ApplicationSerial.cpp" caret="18233" fromTop="35" />
+      <File id="31CC8A98-6C23-4870-A303-07D9A0B985EE/f:ApplicationSerial.cpp/l:..?AuditScannerCommon?ApplicationSerial.cpp" caret="18046" fromTop="24" />
+      <File id="31CC8A98-6C23-4870-A303-07D9A0B985EE/f:ApplicationSerial.cpp/l:..?AuditScannerCommon?ApplicationSerial.cpp" caret="18443" fromTop="35" />
+      <File id="31CC8A98-6C23-4870-A303-07D9A0B985EE/f:ApplicationSerial.cpp/l:..?AuditScannerCommon?ApplicationSerial.cpp" caret="18285" fromTop="31" />
+      <File id="31CC8A98-6C23-4870-A303-07D9A0B985EE/f:ApplicationSerial.cpp/l:..?AuditScannerCommon?ApplicationSerial.cpp" caret="18039" fromTop="24" />
+      <File id="31CC8A98-6C23-4870-A303-07D9A0B985EE/f:ApplicationSerial.cpp/l:..?AuditScannerCommon?ApplicationSerial.cpp" caret="984" fromTop="17" />
+      <File id="31CC8A98-6C23-4870-A303-07D9A0B985EE/f:ApplicationInstance.cpp/l:..?AuditScannerCommon?ApplicationInstance.cpp" caret="10731" fromTop="28" />
+      <File id="31CC8A98-6C23-4870-A303-07D9A0B985EE/f:ApplicationInstance.cpp/l:..?AuditScannerCommon?ApplicationInstance.cpp" caret="10368" fromTop="15" />
+      <File id="31CC8A98-6C23-4870-A303-07D9A0B985EE/f:ApplicationInstance.cpp/l:..?AuditScannerCommon?ApplicationInstance.cpp" caret="10731" fromTop="22" />
+      <File id="31CC8A98-6C23-4870-A303-07D9A0B985EE/f:ApplicationSerial.cpp/l:..?AuditScannerCommon?ApplicationSerial.cpp" caret="14588" fromTop="7" />
+      <File id="31CC8A98-6C23-4870-A303-07D9A0B985EE/f:ApplicationSerial.cpp/l:..?AuditScannerCommon?ApplicationSerial.cpp" caret="15321" fromTop="22" />
+      <File id="31CC8A98-6C23-4870-A303-07D9A0B985EE/f:ApplicationSerial.cpp/l:..?AuditScannerCommon?ApplicationSerial.cpp" caret="15373" fromTop="26" />
+      <File id="31CC8A98-6C23-4870-A303-07D9A0B985EE/f:ApplicationSerial.cpp/l:..?AuditScannerCommon?ApplicationSerial.cpp" caret="15695" fromTop="22" />
+      <File id="31CC8A98-6C23-4870-A303-07D9A0B985EE/f:PageUserData.cpp" caret="1496" fromTop="10" />
+      <File id="31CC8A98-6C23-4870-A303-07D9A0B985EE/f:PageUserData.cpp" caret="4417" fromTop="22" />
+      <File id="31CC8A98-6C23-4870-A303-07D9A0B985EE/f:PageUserData.cpp" caret="4261" fromTop="29" />
+      <File id="31CC8A98-6C23-4870-A303-07D9A0B985EE/f:PageUserData.cpp" caret="3926" fromTop="19" />
+      <File id="31CC8A98-6C23-4870-A303-07D9A0B985EE/f:PageUserData.cpp" caret="4131" fromTop="24" />
+      <File id="31CC8A98-6C23-4870-A303-07D9A0B985EE/f:PageUserData.cpp" caret="3798" fromTop="15" />
+      <File id="31CC8A98-6C23-4870-A303-07D9A0B985EE/f:PageUserData.cpp" caret="7874" fromTop="22" />
+    </RecentEdits>
+  </RecentFiles>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir>C:\Program Files\NUnit 2.4.8\bin\net-2.0\</NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+</Configuration>

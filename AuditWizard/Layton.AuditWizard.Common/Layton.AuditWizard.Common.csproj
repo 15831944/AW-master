@@ -1,0 +1,747 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{2E7C0E1A-E76B-4940-B9F4-2AC30F8E30D4}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Layton.AuditWizard.Common</RootNamespace>
+    <AssemblyName>Layton.AuditWizard.Common</AssemblyName>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\Output\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>C:\Program Files %28x86%29\AuditWizard v8\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <OutputPath>..\Output\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ChilkatDotNet2, Version=8.7.0.0, Culture=neutral, PublicKeyToken=eb5fc1fc52ef09bd, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\bin\ChilkatDotNet2.dll</HintPath>
+    </Reference>
+    <Reference Include="ICSharpCode.SharpZipLib, Version=0.85.5.452, Culture=neutral, PublicKeyToken=1b03e6acf1164f73, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\bin\ICSharpCode.SharpZipLib.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics2.Documents.Core.v11.1, Version=11.1.20111.2090, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\bin\Infragistics 11.1.20111.2090\Infragistics2.Documents.Core.v11.1.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics2.Documents.Excel.v11.1, Version=11.1.20111.2090, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\bin\Infragistics 11.1.20111.2090\Infragistics2.Documents.Excel.v11.1.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics2.Documents.IO.v11.1, Version=11.1.20111.2090, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\bin\Infragistics 11.1.20111.2090\Infragistics2.Documents.IO.v11.1.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics2.Documents.Reports.v11.1, Version=11.1.20111.2090, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\bin\Infragistics 11.1.20111.2090\Infragistics2.Documents.Reports.v11.1.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics2.Shared.v11.1, Version=11.1.20111.2090, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\bin\Infragistics 11.1.20111.2090\Infragistics2.Shared.v11.1.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics2.Win.Misc.v11.1, Version=11.1.20111.2090, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\bin\Infragistics 11.1.20111.2090\Infragistics2.Win.Misc.v11.1.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics2.Win.UltraWinChart.v11.1, Version=11.1.20111.2090, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\bin\Infragistics 11.1.20111.2090\Infragistics2.Win.UltraWinChart.v11.1.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics2.Win.UltraWinDataSource.v11.1, Version=11.1.20111.2090, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\bin\Infragistics 11.1.20111.2090\Infragistics2.Win.UltraWinDataSource.v11.1.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics2.Win.UltraWinEditors.v11.1, Version=11.1.20111.2090, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\bin\Infragistics 11.1.20111.2090\Infragistics2.Win.UltraWinEditors.v11.1.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics2.Win.UltraWinExplorerBar.v11.1, Version=11.1.20111.2090, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\bin\Infragistics 11.1.20111.2090\Infragistics2.Win.UltraWinExplorerBar.v11.1.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics2.Win.UltraWinGrid.DocumentExport.v11.1, Version=11.1.20111.2090, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\bin\Infragistics 11.1.20111.2090\Infragistics2.Win.UltraWinGrid.DocumentExport.v11.1.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics2.Win.UltraWinGrid.ExcelExport.v11.1, Version=11.1.20111.2090, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\bin\Infragistics 11.1.20111.2090\Infragistics2.Win.UltraWinGrid.ExcelExport.v11.1.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics2.Win.UltraWinGrid.v11.1, Version=11.1.20111.2090, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\bin\Infragistics 11.1.20111.2090\Infragistics2.Win.UltraWinGrid.v11.1.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics2.Win.UltraWinListView.v11.1, Version=11.1.20111.2090, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\bin\Infragistics 11.1.20111.2090\Infragistics2.Win.UltraWinListView.v11.1.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics2.Win.UltraWinSchedule.v11.1, Version=11.1.20111.2090, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\bin\Infragistics 11.1.20111.2090\Infragistics2.Win.UltraWinSchedule.v11.1.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics2.Win.UltraWinTabControl.v11.1, Version=11.1.20111.2090, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\bin\Infragistics 11.1.20111.2090\Infragistics2.Win.UltraWinTabControl.v11.1.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics2.Win.UltraWinToolbars.v11.1, Version=11.1.20111.2090, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\bin\Infragistics 11.1.20111.2090\Infragistics2.Win.UltraWinToolbars.v11.1.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics2.Win.UltraWinTree.v11.1, Version=11.1.20111.2090, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\bin\Infragistics 11.1.20111.2090\Infragistics2.Win.UltraWinTree.v11.1.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics2.Win.v11.1, Version=11.1.20111.2090, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\bin\Infragistics 11.1.20111.2090\Infragistics2.Win.v11.1.dll</HintPath>
+    </Reference>
+    <Reference Include="IPAddressControlLib, Version=1.0.2733.28992, Culture=neutral, PublicKeyToken=0c70f2ee404bdebd, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Layton Framework\Assemblies\IPAddressControlLib.dll</HintPath>
+    </Reference>
+    <Reference Include="Layton.HtmlReports, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Layton Framework\Assemblies\Layton.HtmlReports.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Layton Framework\Cab\Shell\lib\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="PickerSample, Version=1.0.0.1000, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\bin\PickerSample.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.SqlServerCe, Version=3.5.1.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\bin\Sqlce\System.Data.SqlServerCe.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Design" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Runtime.Serialization.Formatters.Soap" />
+    <Reference Include="System.ServiceProcess" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AlertMonitorSettings.cs" />
+    <Compile Include="AlertNotificationFile.cs" />
+    <Compile Include="ApplicationRegistryMapping.cs" />
+    <Compile Include="AuditScannerDefinition.cs" />
+    <Compile Include="AuditWizardSerialization.cs" />
+    <Compile Include="AuditWizardServiceStrings.cs" />
+    <Compile Include="AuditWizardUtility.cs" />
+    <Compile Include="CommonStrings.cs" />
+    <Compile Include="AuditAgentServiceController.cs" />
+    <Compile Include="AuditUploader.cs" />
+    <Compile Include="AuditAgentStrings.cs" />
+    <Compile Include="CommonEvents.cs" />
+    <Compile Include="ComplianceReport.cs" />
+    <Compile Include="DateFilterCondition.cs" />
+    <Compile Include="FileSystemReportDefinition.cs" />
+    <Compile Include="FormAuditWizardServiceControl.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAuditWizardServiceControl.Designer.cs">
+      <DependentUpon>FormAuditWizardServiceControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormAWMessageBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAWMessageBox.Designer.cs">
+      <DependentUpon>FormAWMessageBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormEditTasks.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormEditTasks.Designer.cs">
+      <DependentUpon>FormEditTasks.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CustomReport.cs" />
+    <Compile Include="FormAliasApplication.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAliasApplication.Designer.cs">
+      <DependentUpon>FormAliasApplication.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormAliasApplications.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAliasApplications.Designer.cs">
+      <DependentUpon>FormAliasApplications.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormEditReportSchedule.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormEditReportSchedule.Designer.cs">
+      <DependentUpon>FormEditReportSchedule.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormEnvVarBrowser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormEnvVarBrowser.Designer.cs">
+      <DependentUpon>FormEnvVarBrowser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormSearch.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormSearch.Designer.cs">
+      <DependentUpon>FormSearch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormSelectLocations.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormSelectLocations.Designer.cs">
+      <DependentUpon>FormSelectLocations.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormTaskName.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormTaskName.Designer.cs">
+      <DependentUpon>FormTaskName.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormTasks.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormTasks.Designer.cs">
+      <DependentUpon>FormTasks.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InternetReportDefinition.cs" />
+    <Compile Include="InternetReportEntry.cs" />
+    <Compile Include="LicensingReportDefinition.cs" />
+    <Compile Include="ReportDefinition.cs" />
+    <Compile Include="FormAliasPublishers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAliasPublishers.Designer.cs">
+      <DependentUpon>FormAliasPublishers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormConfigureNewsFeed.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormConfigureNewsFeed.Designer.cs">
+      <DependentUpon>FormConfigureNewsFeed.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DesktopAlert.cs" />
+    <Compile Include="ExportSection.cs" />
+    <Compile Include="FormattedText.cs" />
+    <Compile Include="LsaUtility.cs" />
+    <Compile Include="LyncAuditFile.cs" />
+    <Compile Include="FormAlertLog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAlertLog.designer.cs">
+      <DependentUpon>FormAlertLog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SupplierControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SupplierControl.Designer.cs">
+      <DependentUpon>SupplierControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormSelectPublishersAndApplications.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormSelectPublishersAndApplications.Designer.cs">
+      <DependentUpon>FormSelectPublishersAndApplications.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormStyleChooser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormStyleChooser.Designer.cs">
+      <DependentUpon>FormStyleChooser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SelectApplicationsControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SelectApplicationsControl.Designer.cs">
+      <DependentUpon>SelectApplicationsControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DocumentsControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DocumentsControl.Designer.cs">
+      <DependentUpon>DocumentsControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EmailConfiguration.cs" />
+    <Compile Include="FormAddDocument.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAddDocument.Designer.cs">
+      <DependentUpon>FormAddDocument.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormIPAddressRange.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormIPAddressRange.Designer.cs">
+      <DependentUpon>FormIPAddressRange.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EmailConfigurationControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="EmailConfigurationControl.Designer.cs">
+      <DependentUpon>EmailConfigurationControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EmailController.cs" />
+    <Compile Include="EmailSettingsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EmailSettingsForm.designer.cs">
+      <DependentUpon>EmailSettingsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormAssociatedComputers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAssociatedComputers.Designer.cs">
+      <DependentUpon>FormAssociatedComputers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormNewNote.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormNewNote.Designer.cs">
+      <DependentUpon>FormNewNote.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormSupplierProperties.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormSupplierProperties.Designer.cs">
+      <DependentUpon>FormSupplierProperties.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormFilterPublishers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormFilterPublishers.Designer.cs">
+      <DependentUpon>FormFilterPublishers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormSelectComputer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormSelectComputer.Designer.cs">
+      <DependentUpon>FormSelectComputer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormSelectPublisher.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormSelectPublisher.Designer.cs">
+      <DependentUpon>FormSelectPublisher.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LicenseWizardCommonStrings.cs" />
+    <Compile Include="NamedPipeServer.cs" />
+    <Compile Include="NotesControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="NotesControl.Designer.cs">
+      <DependentUpon>NotesControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="LaytonServiceController.cs" />
+    <Compile Include="LicenseWizardServiceController.cs" />
+    <Compile Include="SelectAuditedDataFieldsControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SelectAuditedDataFieldsControl.Designer.cs">
+      <DependentUpon>SelectAuditedDataFieldsControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SelectLocationsControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SelectLocationsControl.Designer.cs">
+      <DependentUpon>SelectLocationsControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UltraGridExporter.cs" />
+    <Compile Include="UltraTree DropHightLight DrawFilter.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Layton.AuditWizard.DataAccess\Layton.AuditWizard.DataAccess.csproj">
+      <Project>{AA9AF8D0-E825-4BDD-9291-624858D076CA}</Project>
+      <Name>Layton.AuditWizard.DataAccess</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Layton.Common.Controls\Layton.Common.Controls.csproj">
+      <Project>{8CD552D1-01D2-4420-B5F8-4E57B84CB39B}</Project>
+      <Name>Layton.Common.Controls</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="FormAuditWizardServiceControl.resx">
+      <DependentUpon>FormAuditWizardServiceControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormAWMessageBox.resx">
+      <DependentUpon>FormAWMessageBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormEditTasks.resx">
+      <DependentUpon>FormEditTasks.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormAliasApplication.resx">
+      <DependentUpon>FormAliasApplication.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormAliasApplications.resx">
+      <DependentUpon>FormAliasApplications.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormEditReportSchedule.resx">
+      <DependentUpon>FormEditReportSchedule.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormEnvVarBrowser.resx">
+      <DependentUpon>FormEnvVarBrowser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormSearch.resx">
+      <DependentUpon>FormSearch.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormSelectLocations.resx">
+      <DependentUpon>FormSelectLocations.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormTaskName.resx">
+      <DependentUpon>FormTaskName.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormTasks.resx">
+      <DependentUpon>FormTasks.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormAliasPublishers.resx">
+      <DependentUpon>FormAliasPublishers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormConfigureNewsFeed.resx">
+      <DependentUpon>FormConfigureNewsFeed.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormAlertLog.resx">
+      <DependentUpon>FormAlertLog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SupplierControl.resx">
+      <DependentUpon>SupplierControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormSelectPublishersAndApplications.resx">
+      <DependentUpon>FormSelectPublishersAndApplications.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormStyleChooser.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FormStyleChooser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SelectApplicationsControl.resx">
+      <DependentUpon>SelectApplicationsControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DocumentsControl.resx">
+      <DependentUpon>DocumentsControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormAddDocument.resx">
+      <DependentUpon>FormAddDocument.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormIPAddressRange.resx">
+      <DependentUpon>FormIPAddressRange.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmailConfigurationControl.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>EmailConfigurationControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmailSettingsForm.resx">
+      <DependentUpon>EmailSettingsForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormAssociatedComputers.resx">
+      <DependentUpon>FormAssociatedComputers.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormNewNote.resx">
+      <DependentUpon>FormNewNote.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormSupplierProperties.resx">
+      <DependentUpon>FormSupplierProperties.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormFilterPublishers.resx">
+      <DependentUpon>FormFilterPublishers.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormSelectComputer.resx">
+      <DependentUpon>FormSelectComputer.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormSelectPublisher.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FormSelectPublisher.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NotesControl.resx">
+      <DependentUpon>NotesControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <SubType>Designer</SubType>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SelectAuditedDataFieldsControl.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>SelectAuditedDataFieldsControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SelectLocationsControl.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>SelectLocationsControl.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\select_publishers_corner.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\filter_publishers_corner.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\supplier_edit_corner.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\supplier_add_corner.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\select_computers_corner.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\computer16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\domain16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\email_settings_footer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iprange_corner.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\licensenote_add_corner.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\applicationnote_add_corner.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\assetnote_add_corner.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\asset_document_add_corner.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\location_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\userlocations_select_corner.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\application_view_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hide_application_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\textstyle_corner.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\generalreporting16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\application_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\application_publisher_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\os_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\system_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hardware.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\internet_explorer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Calendar_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\entire_network16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\registry_settings_corner.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\file_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\xps_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\excel_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pdf.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\alertlog_corner.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\agent_stopped.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\asset_reaudit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\audited.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\agent_active.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\select_application_corner.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\email_settings_footer1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\refresh.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\home_next.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\folder_process.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\process_info.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\application_alias_72.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\active.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\notinstalled.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\stopped.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\unavailable.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\aw_service_control_corner.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\application_license_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\computer_disposed_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\export_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\notes.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\note_remove.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\note_add.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\firefox.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,297 @@
+
+***** Log starting: 2010-03-26 12:15:59 *****
+
+Input-PCP path                     = 'C:\jasonl\development\patches\AW_Release\AW_Patch\Interm\PatchTemplate.pcp'
+Patch-MSP path                     = 'C:\jasonl\development\patches\AW_Release\AW_Patch\Patch\AW_Patch.msp'
+Temp Folder                        = 'C:\DOCUME~1\jlynn\LOCALS~1\Temp\~pcw_tmp.tmp\'
+Patch GUID                         = '{D28624F9-1A26-4AEF-946C-84973FF82216}'
+ListOfPatchGUIDsToReplace          = '<none>'
+ListOfTargetProductCodes           = '*'
+PatchSourceList                    = 'PatchSourceList'
+AllowProductCodeMismatches         = '1'
+AllowProductVersionMajorMismatches = '1'
+OptimizePatchSizeForLargeFiles     = '1'
+ApiPatchingSymbolFlags             = '0x00000000'
+MsiFileToUseToCreatePatchTables    = '<blank>'
+SqlCmdToCreatePatchTable           = '<blank>'
+SqlCmdToCreatePatchPackageTable    = '<blank>'
+SqlCmdToCreateMsiPatchHeadersTable = '<blank>'
+DontRemoveTempFolderWhenFinished   = '0'
+IncludeWholeFilesOnly              = '0'
+MinimumRequiredMsiVersion          = '200'
+SEQUENCE_DATA_GENERATION_DISABLED  = '0'
+AllowRemoval                       = '<blank>'
+
+Using internal SQL cmd to create 'Patch' table.
+Using internal SQL cmd to create 'PatchPackage' table.
+Using internal SQL cmd to create 'MsiPatchHeaders' table.
+
+    Patch API could not create a small patch; using whole upgraded file.
+  Including entire file: 'C:\jasonl\development\patches\8.1.3\uncompressed\Latest813\.\Reports\custom_reports\Asset Summary By Location.awr';
+           FTK=_03DA47A243D34F6B8F5B3038022D4216; temp location=Family1\00298.FLE.
+    Patch API could not create a small patch; using whole upgraded file.
+  Including entire file: 'C:\jasonl\development\patches\8.1.3\uncompressed\Latest813\.\Reports\Printer Locations.awr';
+           FTK=_04FFF7DBCD3B4ED6918D528FF673B1F9; temp location=Family1\00300.FLE.
+    Patch API could not create a small patch; using whole upgraded file.
+  Including entire file: 'C:\jasonl\development\patches\8.1.3\uncompressed\Latest813\.\Reports\Asset Summary By Location.awr';
+           FTK=_050E73490DE24D259434AF0C2138403A; temp location=Family1\00301.FLE.
+    Patch API could not create a small patch; using whole upgraded file.
+  Including entire file: 'C:\jasonl\development\patches\8.1.3\uncompressed\Latest813\.\AuditWizardService.exe';
+           FTK=_08FCFE846DE1491BB21693CF60D1C5F9; temp location=Family1\00302.FLE.
+    Patch API could not create a small patch; using whole upgraded file.
+  Including entire file: 'C:\jasonl\development\patches\8.1.3\uncompressed\Latest813\.\Reports\Asset Register By Manufacturer_layout.xml';
+           FTK=_0FF71723125045F88C4745274DB13A74; temp location=Family1\00303.FLE.
+    Patch API could not create a small patch; using whole upgraded file.
+  Including entire file: 'C:\jasonl\development\patches\8.1.3\uncompressed\Latest813\.\Reports\appointments\aw_appts_month.xml';
+           FTK=_11BA34E5CCB443DDAE42F0C067DECFAA; temp location=Family1\00304.FLE.
+    Patch API could not create a small patch; using whole upgraded file.
+  Including entire file: 'C:\jasonl\development\patches\8.1.3\uncompressed\Latest813\.\Reports\custom_reports\Installed Memory Report.awr';
+           FTK=_1B1680C705A04347BC70757EB019E83C; temp location=Family1\00305.FLE.
+    Patch API could not create a small patch; using whole upgraded file.
+  Including entire file: 'C:\jasonl\development\patches\8.1.3\uncompressed\Latest813\.\Infragistics2.Win.UltraWinListView.v8.1.dll';
+           FTK=_1FC50B78B9C6C8F3E0F3BC89DD011DC2; temp location=Family1\00306.FLE.
+    Patch API could not create a small patch; using whole upgraded file.
+  Including entire file: 'C:\jasonl\development\patches\8.1.3\uncompressed\Latest813\.\Reports\custom_reports\Installed Memory Report_layout.xml';
+           FTK=_1FD4658352234F64A7C2A44DD1796BCC; temp location=Family1\00307.FLE.
+    Patch API could not create a small patch; using whole upgraded file.
+  Including entire file: 'C:\jasonl\development\patches\8.1.3\uncompressed\Latest813\.\AuditWizard.ico';
+           FTK=_2329E870F76F48C08F95471033214BCB; temp location=Family1\00309.FLE.
+    Patch API could not create a small patch; using whole upgraded file.
+  Including entire file: 'C:\jasonl\development\patches\8.1.3\uncompressed\Latest813\.\Reports\custom_reports\Operating Systems Report.awr';
+           FTK=_26996EE37C9644BCA18DFC43DCCED715; temp location=Family1\00310.FLE.
+WARNING (11): File.FileName mismatch between Upgraded ('INFRAG~5.DLL|Infragistics2.Excel.v8.1.dll') and Target ('INFRAG~4.DLL|Infragistics2.Excel.v8.1.dll') Images means old files may be orphaned.  File Table Key: _27D83BE2252C7BFC1C645F6ECE8BF582
+WARNING (11): File.FileName mismatch between Upgraded ('INFRAG~5.DLL|Infragistics2.Excel.v8.1.dll') and Target ('INFRAG~4.DLL|Infragistics2.Excel.v8.1.dll') Images means old files may be orphaned.  File Table Key: _27D83BE2252C7BFC1C645F6ECE8BF582
+WARNING (11): File.FileName mismatch between Upgraded ('INFRAG~5.DLL|Infragistics2.Excel.v8.1.dll') and Target ('INFRAG~4.DLL|Infragistics2.Excel.v8.1.dll') Images means old files may be orphaned.  File Table Key: _27D83BE2252C7BFC1C645F6ECE8BF582
+    Patch API could not create a small patch; using whole upgraded file.
+  Including entire file: 'C:\jasonl\development\patches\8.1.3\uncompressed\Latest813\.\Infragistics2.Excel.v8.1.dll';
+           FTK=_27D83BE2252C7BFC1C645F6ECE8BF582; temp location=Family1\00311.FLE.
+WARNING (11): File.FileName mismatch between Upgraded ('INFRAG~6.DLL|Infragistics2.Win.v8.1.dll') and Target ('INFRAG~5.DLL|Infragistics2.Win.v8.1.dll') Images means old files may be orphaned.  File Table Key: _28D3E5A9ACE2E8BAC39557E6295AB35D
+WARNING (11): File.FileName mismatch between Upgraded ('INFRAG~6.DLL|Infragistics2.Win.v8.1.dll') and Target ('INFRAG~5.DLL|Infragistics2.Win.v8.1.dll') Images means old files may be orphaned.  File Table Key: _28D3E5A9ACE2E8BAC39557E6295AB35D
+WARNING (11): File.FileName mismatch between Upgraded ('INFRAG~6.DLL|Infragistics2.Win.v8.1.dll') and Target ('INFRAG~5.DLL|Infragistics2.Win.v8.1.dll') Images means old files may be orphaned.  File Table Key: _28D3E5A9ACE2E8BAC39557E6295AB35D
+    Patch API could not create a small patch; using whole upgraded file.
+  Including entire file: 'C:\jasonl\development\patches\8.1.3\uncompressed\Latest813\.\Infragistics2.Win.v8.1.dll';
+           FTK=_28D3E5A9ACE2E8BAC39557E6295AB35D; temp location=Family1\00312.FLE.
+    Patch API could not create a small patch; using whole upgraded file.
+  Including entire file: 'C:\jasonl\development\patches\8.1.3\uncompressed\Latest813\.\Reports\Asset Register By Asset Name.awr';
+           FTK=_29B12EBF96074467A8476F0641D870C1; temp location=Family1\00313.FLE.
+    Patch API could not create a small patch; using whole upgraded file.
+  Including entire file: 'C:\jasonl\development\patches\8.1.3\uncompressed\Latest813\.\Reports\Asset Register By Location_layout.xml';
+           FTK=_2BA1B9D49BB347AD8B87D576C277995A; temp location=Family1\00314.FLE.
+    Patch API could not create a small patch; using whole upgraded file.
+  Including entire file: 'C:\jasonl\development\patches\8.1.3\uncompressed\Latest813\.\Reports\custom_reports\Processor Speeds.awr';
+           FTK=_2D6CB5E769F541C2A1995278B07D5CFE; temp location=Family1\00315.FLE.
+    Patch API could not create a small patch; using whole upgraded file.
+  Including entire file: 'C:\jasonl\development\patches\8.1.3\uncompressed\Latest813\.\Reports\custom_reports\Printer Locations.awr';
+           FTK=_35660AA77D0A4E68A993EEAFCA53537F; temp location=Family1\00318.FLE.
+WARNING (11): File.FileName mismatch between Upgraded ('INFRAG~7.DLL|Infragistics2.Win.UltraWinToolbars.v8.1.dll') and Target ('INFRAG~6.DLL|Infragistics2.Win.UltraWinToolbars.v8.1.dll') Images means old files may be orphaned.  File Table Key: _3B0305A16415C5CF1A4752976B85D2AE
+    Patch API could not create a small patch; using whole upgraded file.
+  Including entire file: 'C:\jasonl\development\patches\8.1.3\uncompressed\Latest813\.\Infragistics2.Win.UltraWinToolbars.v8.1.dll';
+           FTK=_3B0305A16415C5CF1A4752976B85D2AE; temp location=Family1\00320.FLE.
+    Patch API could not create a small patch; using whole upgraded file.
+  Including entire file: 'C:\jasonl\development\patches\8.1.3\uncompressed\Latest813\.\Reports\Installed Memory Report.awr';
+           FTK=_40B8923C276248D7AAED8265AD0FE9E4; temp location=Family1\00321.FLE.
+    Patch API could not create a small patch; using whole upgraded file.
+  Including entire file: 'C:\jasonl\development\patches\8.1.3\uncompressed\Latest813\.\Reports\custom_reports\Network Information By Asset_layout.xml';
+           FTK=_423560F13BDE4B4ABEC3DBF82A62EE8C; temp location=Family1\00322.FLE.
+    Patch API could not create a small patch; using whole upgraded file.
+  Including entire file: 'C:\jasonl\development\patches\8.1.3\uncompressed\Latest813\.\Reports\Asset Register By Asset Name_layout.xml';
+           FTK=_466F9DC9940847CEBC2E591F9146CB7A; temp location=Family1\00323.FLE.
+    Patch API could not create a small patch; using whole upgraded file.
+  Including entire file: 'C:\jasonl\development\patches\8.1.3\uncompressed\Latest813\.\Reports\Asset Printer Drivers_layout.xml';
+           FTK=_4908F032CB1B4A5A8A9E1A6EAE001A64; temp location=Family1\00324.FLE.
+    Patch API could not create a small patch; using whole upgraded file.
+  Including entire file: 'C:\jasonl\development\patches\8.1.3\uncompressed\Latest813\.\Reports\compliance\Windows 7 32-bit Compliance.acr';
+           FTK=_55AE2A397F2F49BA8E7DE3048772E055; temp location=Family1\00325.FLE.
+WARNING (11): File.FileName mismatch between Upgraded ('INFRAG~8.DLL|Infragistics2.Win.UltraWinStatusBar.v8.1.dll') and Target ('INFRAG~7.DLL|Infragistics2.Win.UltraWinStatusBar.v8.1.dll') Images means old files may be orphaned.  File Table Key: _582E2E4D6BB4DC1FDCCE2B1754426110
+    Patch API could not create a small patch; using whole upgraded file.
+  Including entire file: 'C:\jasonl\development\patches\8.1.3\uncompressed\Latest813\.\Infragistics2.Win.UltraWinStatusBar.v8.1.dll';
+           FTK=_582E2E4D6BB4DC1FDCCE2B1754426110; temp location=Family1\00326.FLE.
+    Patch API could not create a small patch; using whole upgraded file.
+  Including entire file: 'C:\jasonl\development\patches\8.1.3\uncompressed\Latest813\.\IPAddressControlLib.dll';
+           FTK=_5B26D9B29B109BA5CD846ABB1260C5F5; temp location=Family1\00327.FLE.
+    Patch API could not create a small patch; using whole upgraded file.
+  Including entire file: 'C:\jasonl\development\patches\8.1.3\uncompressed\Latest813\.\Reports\Processor Speeds_layout.xml';
+           FTK=_64AD7B56DD1C4A8CB6D8328B5337D488; temp location=Family1\00328.FLE.
+    Patch API could not create a small patch; using whole upgraded file.
+  Including entire file: 'C:\jasonl\development\patches\8.1.3\uncompressed\Latest813\.\Reports\Network Information By Asset_layout.xml';
+           FTK=_6618DCC0919E45C184F01C0F07D1BAA8; temp location=Family1\00329.FLE.
+    Patch API could not create a small patch; using whole upgraded file.
+  Including entire file: 'C:\jasonl\development\patches\8.1.3\uncompressed\Latest813\.\Reports\Asset Configuration Report_layout.xml';
+           FTK=_66CA75D6130044F9AD56D2E0C614787E; temp location=Family1\00331.FLE.
+    Patch API could not create a small patch; using whole upgraded file.
+  Including entire file: 'C:\jasonl\development\patches\8.1.3\uncompressed\Latest813\.\Reports\Installed Memory Report_layout.xml';
+           FTK=_67348CACFA844357A63D2FB42A0D4BD9; temp location=Family1\00333.FLE.
+WARNING (11): File.FileName mismatch between Upgraded ('INFRAG~9.DLL|Infragistics2.Win.UltraWinPrintPreviewDialog.v8.1.dll') and Target ('INFRAG~8.DLL|Infragistics2.Win.UltraWinPrintPreviewDialog.v8.1.dll') Images means old files may be orphaned.  File Table Key: _69E38F5EA96C4587A79062328624BEA9
+    Patch API could not create a small patch; using whole upgraded file.
+  Including entire file: 'C:\jasonl\development\patches\8.1.3\uncompressed\Latest813\.\Infragistics2.Win.UltraWinPrintPreviewDialog.v8.1.dll';
+           FTK=_69E38F5EA96C4587A79062328624BEA9; temp location=Family1\00335.FLE.
+    Patch API could not create a small patch; using whole upgraded file.
+  Including entire file: 'C:\jasonl\development\patches\8.1.3\uncompressed\Latest813\.\Reports\Network Information By Asset.awr';
+           FTK=_6CB646B07FAD430F98AD916733599978; temp location=Family1\00336.FLE.
+    Patch API could not create a small patch; using whole upgraded file.
+  Including entire file: 'C:\jasonl\development\patches\8.1.3\uncompressed\Latest813\.\Reports\custom_reports\Asset Register By Location.awr';
+           FTK=_70C44AD75CE34D069A0D0E35A010B4AB; temp location=Family1\00337.FLE.
+WARNING (11): File.FileName mismatch between Upgraded ('INFRA~10.DLL|Infragistics2.Win.UltraWinGrid.v8.1.dll') and Target ('INFRAG~9.DLL|Infragistics2.Win.UltraWinGrid.v8.1.dll') Images means old files may be orphaned.  File Table Key: _70F7BC126DAFE554506B0C4DFE1017F0
+WARNING (11): File.FileName mismatch between Upgraded ('INFRA~10.DLL|Infragistics2.Win.UltraWinGrid.v8.1.dll') and Target ('INFRAG~9.DLL|Infragistics2.Win.UltraWinGrid.v8.1.dll') Images means old files may be orphaned.  File Table Key: _70F7BC126DAFE554506B0C4DFE1017F0
+    Patch API could not create a small patch; using whole upgraded file.
+  Including entire file: 'C:\jasonl\development\patches\8.1.3\uncompressed\Latest813\.\Infragistics2.Win.UltraWinGrid.v8.1.dll';
+           FTK=_70F7BC126DAFE554506B0C4DFE1017F0; temp location=Family1\00338.FLE.
+    Patch API could not create a small patch; using whole upgraded file.
+  Including entire file: 'C:\jasonl\development\patches\8.1.3\uncompressed\Latest813\.\Reports\custom_reports\Asset Summary By Location_layout.xml';
+           FTK=_7383EA8A9F684328BF9D0E610A6CA50A; temp location=Family1\00339.FLE.
+    Patch API could not create a small patch; using whole upgraded file.
+  Including entire file: 'C:\jasonl\development\patches\8.1.3\uncompressed\Latest813\.\Reports\Asset Register By Location.awr';
+           FTK=_73E58F6A615543FA9F77141B8464F7D6; temp location=Family1\00340.FLE.
+    Patch API could not create a small patch; using whole upgraded file.
+  Including entire file: 'C:\jasonl\development\patches\8.1.3\uncompressed\Latest813\.\Reports\Software by Asset.awr';
+           FTK=_757B702603F34A83A736F6E0119F09A4; temp location=Family1\00341.FLE.
+WARNING (11): File.FileName mismatch between Upgraded ('INFRA~11.DLL|Infragistics2.Win.UltraWinChart.v8.1.dll') and Target ('INFRA~10.DLL|Infragistics2.Win.UltraWinChart.v8.1.dll') Images means old files may be orphaned.  File Table Key: _7ABCA501FC2CFC272C3E15358D86BDA6
+WARNING (11): File.FileName mismatch between Upgraded ('INFRA~11.DLL|Infragistics2.Win.UltraWinChart.v8.1.dll') and Target ('INFRA~10.DLL|Infragistics2.Win.UltraWinChart.v8.1.dll') Images means old files may be orphaned.  File Table Key: _7ABCA501FC2CFC272C3E15358D86BDA6
+    Patch API could not create a small patch; using whole upgraded file.
+  Including entire file: 'C:\jasonl\development\patches\8.1.3\uncompressed\Latest813\.\Infragistics2.Win.UltraWinChart.v8.1.dll';
+           FTK=_7ABCA501FC2CFC272C3E15358D86BDA6; temp location=Family1\00342.FLE.
+    Patch API could not create a small patch; using whole upgraded file.
+  Including entire file: 'C:\jasonl\development\patches\8.1.3\uncompressed\Latest813\.\appSplashScreen.png';
+           FTK=_7CA49D4611AF44E98526449CD46EB75F; temp location=Family1\00343.FLE.
+WARNING (11): File.FileName mismatch between Upgraded ('INFRA~12.DLL|Infragistics2.Win.UltraWinEditors.v8.1.dll') and Target ('INFRA~11.DLL|Infragistics2.Win.UltraWinEditors.v8.1.dll') Images means old files may be orphaned.  File Table Key: _7EB8DBCA0E00F423E5976C15121AE084
+WARNING (11): File.FileName mismatch between Upgraded ('INFRA~12.DLL|Infragistics2.Win.UltraWinEditors.v8.1.dll') and Target ('INFRA~11.DLL|Infragistics2.Win.UltraWinEditors.v8.1.dll') Images means old files may be orphaned.  File Table Key: _7EB8DBCA0E00F423E5976C15121AE084
+    Patch API could not create a small patch; using whole upgraded file.
+  Including entire file: 'C:\jasonl\development\patches\8.1.3\uncompressed\Latest813\.\Infragistics2.Win.UltraWinEditors.v8.1.dll';
+           FTK=_7EB8DBCA0E00F423E5976C15121AE084; temp location=Family1\00344.FLE.
+WARNING (11): File.FileName mismatch between Upgraded ('INFRA~13.DLL|Infragistics2.Documents.v8.1.dll') and Target ('INFRA~12.DLL|Infragistics2.Documents.v8.1.dll') Images means old files may be orphaned.  File Table Key: _7F09C8EB6377803BC5A9683CF6BD89A4
+WARNING (11): File.FileName mismatch between Upgraded ('INFRA~13.DLL|Infragistics2.Documents.v8.1.dll') and Target ('INFRA~12.DLL|Infragistics2.Documents.v8.1.dll') Images means old files may be orphaned.  File Table Key: _7F09C8EB6377803BC5A9683CF6BD89A4
+    Patch API could not create a small patch; using whole upgraded file.
+  Including entire file: 'C:\jasonl\development\patches\8.1.3\uncompressed\Latest813\.\Infragistics2.Documents.v8.1.dll';
+           FTK=_7F09C8EB6377803BC5A9683CF6BD89A4; temp location=Family1\00345.FLE.
+    Patch API could not create a small patch; using whole upgraded file.
+  Including entire file: 'C:\jasonl\development\patches\8.1.3\uncompressed\Latest813\.\Reports\Software by Asset_layout.xml';
+           FTK=_8AB853EBDE504E0A8BB5E70C1341E202; temp location=Family1\00346.FLE.
+    Patch API could not create a small patch; using whole upgraded file.
+  Including entire file: 'C:\jasonl\development\patches\8.1.3\uncompressed\Latest813\.\Reports\Asset Printer Drivers.awr';
+           FTK=_8D5B6299B15841819AAD392AF10CD41C; temp location=Family1\00347.FLE.
+    Patch API could not create a small patch; using whole upgraded file.
+  Including entire file: 'C:\jasonl\development\patches\8.1.3\uncompressed\Latest813\.\Reports\custom_reports\Asset Register By Asset Name_layout.xml';
+           FTK=_8D73A14EF31A4C2F893811E8EF37EEEC; temp location=Family1\00348.FLE.
+    Patch API could not create a small patch; using whole upgraded file.
+  Including entire file: 'C:\jasonl\development\patches\8.1.3\uncompressed\Latest813\.\Reports\Printer Locations_layout.xml';
+           FTK=_9008862ACF0346438526E25251226A23; temp location=Family1\00349.FLE.
+WARNING (11): File.FileName mismatch between Upgraded ('INFRA~14.DLL|Infragistics2.Win.Misc.v8.1.dll') and Target ('INFRA~13.DLL|Infragistics2.Win.Misc.v8.1.dll') Images means old files may be orphaned.  File Table Key: _983FBD8EC3D55AF1BCB8621CD9660B30
+    Patch API could not create a small patch; using whole upgraded file.
+  Including entire file: 'C:\jasonl\development\patches\8.1.3\uncompressed\Latest813\.\Infragistics2.Win.Misc.v8.1.dll';
+           FTK=_983FBD8EC3D55AF1BCB8621CD9660B30; temp location=Family1\00350.FLE.
+    Patch API could not create a small patch; using whole upgraded file.
+  Including entire file: 'C:\jasonl\development\patches\8.1.3\uncompressed\Latest813\.\Reports\custom_reports\Network Information By Asset.awr';
+           FTK=_9E0EB8DC6032433A98DDAEACD523E744; temp location=Family1\00351.FLE.
+    Patch API could not create a small patch; using whole upgraded file.
+  Including entire file: 'C:\jasonl\development\patches\8.1.3\uncompressed\Latest813\.\Reports\Asset Register By Manufacturer.awr';
+           FTK=_A317F86415EC4613A1A4816A493173B3; temp location=Family1\00353.FLE.
+    Patch API could not create a small patch; using whole upgraded file.
+  Including entire file: 'C:\jasonl\development\patches\8.1.3\uncompressed\Latest813\.\Reports\Asset Monitor Graphics.awr';
+           FTK=_A5FCF593216C437BBC43E9162B4EAA2D; temp location=Family1\00354.FLE.
+WARNING (14): File versions are equal.  Upgraded: 'C:\jasonl\development\patches\8.1.3\uncompressed\Latest813\.\AuditScanner.exe' ver=8.0.15.0;  Target: 'C:\jasonl\development\patches\8.1.1\uncompressed\Previous1\.\AuditScanner.exe' ver=8.0.15.0.
+    Patch API could not create a small patch; using whole upgraded file.
+  Including entire file: 'C:\jasonl\development\patches\8.1.3\uncompressed\Latest813\.\Reports\custom_reports\Printer Locations_layout.xml';
+           FTK=_A811ED3C4F584193870EEBD6B5CD4C40; temp location=Family1\00356.FLE.
+    Patch API could not create a small patch; using whole upgraded file.
+  Including entire file: 'C:\jasonl\development\patches\8.1.3\uncompressed\Latest813\.\System.Data.SqlServerCe.dll';
+           FTK=_A90C24DE92A4004EFB4A5EC45E684F52; temp location=Family1\00357.FLE.
+    Patch API could not create a small patch; using whole upgraded file.
+  Including entire file: 'C:\jasonl\development\patches\8.1.3\uncompressed\Latest813\.\ChilkatDotNet2.dll';
+           FTK=_AAFC6CF4CF3C76CD47A679BF1D23735A; temp location=Family1\00358.FLE.
+WARNING (11): File.FileName mismatch between Upgraded ('INFRA~15.DLL|Infragistics2.Win.UltraWinSchedule.v8.1.dll') and Target ('INFRA~14.DLL|Infragistics2.Win.UltraWinSchedule.v8.1.dll') Images means old files may be orphaned.  File Table Key: _B280840AC683027B8CE82378C0DFDA92
+    Patch API could not create a small patch; using whole upgraded file.
+  Including entire file: 'C:\jasonl\development\patches\8.1.3\uncompressed\Latest813\.\Infragistics2.Win.UltraWinSchedule.v8.1.dll';
+           FTK=_B280840AC683027B8CE82378C0DFDA92; temp location=Family1\00360.FLE.
+    Patch API could not create a small patch; using whole upgraded file.
+  Including entire file: 'C:\jasonl\development\patches\8.1.3\uncompressed\Latest813\.\Reports\Asset Configuration Report.awr';
+           FTK=_B336E00CAAAC41649709FEA144F296D0; temp location=Family1\00361.FLE.
+WARNING (11): File.FileName mismatch between Upgraded ('INFRA~16.DLL|Infragistics2.Win.UltraWinDock.v8.1.dll') and Target ('INFRA~15.DLL|Infragistics2.Win.UltraWinDock.v8.1.dll') Images means old files may be orphaned.  File Table Key: _B35564D3B2A98444482704C5268E8313
+WARNING (11): File.FileName mismatch between Upgraded ('INFRA~16.DLL|Infragistics2.Win.UltraWinDock.v8.1.dll') and Target ('INFRA~15.DLL|Infragistics2.Win.UltraWinDock.v8.1.dll') Images means old files may be orphaned.  File Table Key: _B35564D3B2A98444482704C5268E8313
+    Patch API could not create a small patch; using whole upgraded file.
+  Including entire file: 'C:\jasonl\development\patches\8.1.3\uncompressed\Latest813\.\Infragistics2.Win.UltraWinDock.v8.1.dll';
+           FTK=_B35564D3B2A98444482704C5268E8313; temp location=Family1\00362.FLE.
+WARNING (11): File.FileName mismatch between Upgraded ('INFRA~17.DLL|Infragistics2.Win.UltraWinTree.v8.1.dll') and Target ('INFRA~16.DLL|Infragistics2.Win.UltraWinTree.v8.1.dll') Images means old files may be orphaned.  File Table Key: _B6A3E33DAF6232FE040AB253CF030216
+WARNING (11): File.FileName mismatch between Upgraded ('INFRA~17.DLL|Infragistics2.Win.UltraWinTree.v8.1.dll') and Target ('INFRA~16.DLL|Infragistics2.Win.UltraWinTree.v8.1.dll') Images means old files may be orphaned.  File Table Key: _B6A3E33DAF6232FE040AB253CF030216
+    Patch API could not create a small patch; using whole upgraded file.
+  Including entire file: 'C:\jasonl\development\patches\8.1.3\uncompressed\Latest813\.\Infragistics2.Win.UltraWinTree.v8.1.dll';
+           FTK=_B6A3E33DAF6232FE040AB253CF030216; temp location=Family1\00364.FLE.
+WARNING (11): File.FileName mismatch between Upgraded ('INFRA~18.DLL|Infragistics.Practices.CompositeUI.WinForms.dll') and Target ('INFRA~17.DLL|Infragistics.Practices.CompositeUI.WinForms.dll') Images means old files may be orphaned.  File Table Key: _BABEE93CF953FC999D710F3F46708097
+WARNING (11): File.FileName mismatch between Upgraded ('INFRA~18.DLL|Infragistics.Practices.CompositeUI.WinForms.dll') and Target ('INFRA~17.DLL|Infragistics.Practices.CompositeUI.WinForms.dll') Images means old files may be orphaned.  File Table Key: _BABEE93CF953FC999D710F3F46708097
+    Patch API could not create a small patch; using whole upgraded file.
+  Including entire file: 'C:\jasonl\development\patches\8.1.3\uncompressed\Latest813\.\Infragistics.Practices.CompositeUI.WinForms.dll';
+           FTK=_BABEE93CF953FC999D710F3F46708097; temp location=Family1\00365.FLE.
+WARNING (11): File.FileName mismatch between Upgraded ('INFRA~19.DLL|Infragistics2.Win.UltraWinGrid.ExcelExport.v8.1.dll') and Target ('INFRA~18.DLL|Infragistics2.Win.UltraWinGrid.ExcelExport.v8.1.dll') Images means old files may be orphaned.  File Table Key: _BB75A72AF6E60BD23B154527A8756583
+WARNING (11): File.FileName mismatch between Upgraded ('INFRA~19.DLL|Infragistics2.Win.UltraWinGrid.ExcelExport.v8.1.dll') and Target ('INFRA~18.DLL|Infragistics2.Win.UltraWinGrid.ExcelExport.v8.1.dll') Images means old files may be orphaned.  File Table Key: _BB75A72AF6E60BD23B154527A8756583
+    Patch API could not create a small patch; using whole upgraded file.
+  Including entire file: 'C:\jasonl\development\patches\8.1.3\uncompressed\Latest813\.\Infragistics2.Win.UltraWinGrid.ExcelExport.v8.1.dll';
+           FTK=_BB75A72AF6E60BD23B154527A8756583; temp location=Family1\00366.FLE.
+    Patch API could not create a small patch; using whole upgraded file.
+  Including entire file: 'C:\jasonl\development\patches\8.1.3\uncompressed\Latest813\.\appAboutScreen.png';
+           FTK=_BBA18CB48C6641EF8473564F293698BA; temp location=Family1\00367.FLE.
+    Patch API could not create a small patch; using whole upgraded file.
+  Including entire file: 'C:\jasonl\development\patches\8.1.3\uncompressed\Latest813\.\Reports\Processor Speeds.awr';
+           FTK=_BC0CF7692A0749E9A8D3CD2FB619906E; temp location=Family1\00368.FLE.
+    Patch API could not create a small patch; using whole upgraded file.
+  Including entire file: 'C:\jasonl\development\patches\8.1.3\uncompressed\Latest813\.\Reports\Operating Systems Report_layout.xml';
+           FTK=_C0A5C1D3EC4744C0812A8B23846F21E1; temp location=Family1\00371.FLE.
+    Patch API could not create a small patch; using whole upgraded file.
+  Including entire file: 'C:\jasonl\development\patches\8.1.3\uncompressed\Latest813\.\Reports\Audit History - Most Recent Changes.awr';
+           FTK=_C296EAAF1AC6427EA29FBBF42CC92835; temp location=Family1\00372.FLE.
+WARNING (11): File.FileName mismatch between Upgraded ('INFRA~20.DLL|Infragistics2.Win.UltraWinListBar.v8.1.dll') and Target ('INFRA~19.DLL|Infragistics2.Win.UltraWinListBar.v8.1.dll') Images means old files may be orphaned.  File Table Key: _C817A8FA19C05DF120A341BB7C26A64C
+WARNING (11): File.FileName mismatch between Upgraded ('INFRA~20.DLL|Infragistics2.Win.UltraWinListBar.v8.1.dll') and Target ('INFRA~19.DLL|Infragistics2.Win.UltraWinListBar.v8.1.dll') Images means old files may be orphaned.  File Table Key: _C817A8FA19C05DF120A341BB7C26A64C
+    Patch API could not create a small patch; using whole upgraded file.
+  Including entire file: 'C:\jasonl\development\patches\8.1.3\uncompressed\Latest813\.\Infragistics2.Win.UltraWinListBar.v8.1.dll';
+           FTK=_C817A8FA19C05DF120A341BB7C26A64C; temp location=Family1\00373.FLE.
+    Patch API could not create a small patch; using whole upgraded file.
+  Including entire file: 'C:\jasonl\development\patches\8.1.3\uncompressed\Latest813\.\Reports\Asset Monitor Graphics_layout.xml';
+           FTK=_C96B8E9409314CAFA38D6D8D96ED17F0; temp location=Family1\00374.FLE.
+    Patch API could not create a small patch; using whole upgraded file.
+  Including entire file: 'C:\jasonl\development\patches\8.1.3\uncompressed\Latest813\.\nunit.framework.dll';
+           FTK=_C9B6A01B803896B61AB76DE680323963; temp location=Family1\00375.FLE.
+    Patch API could not create a small patch; using whole upgraded file.
+  Including entire file: 'C:\jasonl\development\patches\8.1.3\uncompressed\Latest813\.\Reports\custom_reports\Asset Register By Manufacturer_layout.xml';
+           FTK=_CA668157A1FA4138AA1F7DBC839E76EA; temp location=Family1\00376.FLE.
+    Patch API could not create a small patch; using whole upgraded file.
+  Including entire file: 'C:\jasonl\development\patches\8.1.3\uncompressed\Latest813\.\Reports\custom_reports\Operating Systems Report_layout.xml';
+           FTK=_CFDD9030ED2843B0A02799DD56449ABF; temp location=Family1\00377.FLE.
+    Patch API could not create a small patch; using whole upgraded file.
+  Including entire file: 'C:\jasonl\development\patches\8.1.3\uncompressed\Latest813\.\Reports\custom_reports\Asset Register By Asset Name.awr';
+           FTK=_D3D102553FE34737ACEB5CD2408B71A8; temp location=Family1\00378.FLE.
+    Patch API could not create a small patch; using whole upgraded file.
+  Including entire file: 'C:\jasonl\development\patches\8.1.3\uncompressed\Latest813\.\Reports\custom_reports\Asset Register By Manufacturer.awr';
+           FTK=_D7CF28A0DFAA446F8818F82D05F0E4F3; temp location=Family1\00380.FLE.
+    Patch API could not create a small patch; using whole upgraded file.
+  Including entire file: 'C:\jasonl\development\patches\8.1.3\uncompressed\Latest813\.\Reports\custom_reports\Processor Speeds_layout.xml';
+           FTK=_D87AF3877B1341E09A59ACDE4EDE13C8; temp location=Family1\00381.FLE.
+    Patch API could not create a small patch; using whole upgraded file.
+  Including entire file: 'C:\jasonl\development\patches\8.1.3\uncompressed\Latest813\.\Reports\Audit History - Last Audit Date.awr';
+           FTK=_D8A37B6808964CDA83BC57D237A223B4; temp location=Family1\00382.FLE.
+WARNING (11): File.FileName mismatch between Upgraded ('INFRA~21.DLL|Infragistics2.Win.UltraWinTabbedMdi.v8.1.dll') and Target ('INFRA~20.DLL|Infragistics2.Win.UltraWinTabbedMdi.v8.1.dll') Images means old files may be orphaned.  File Table Key: _D906F295D75C36771F39D7305E3D338E
+WARNING (11): File.FileName mismatch between Upgraded ('INFRA~21.DLL|Infragistics2.Win.UltraWinTabbedMdi.v8.1.dll') and Target ('INFRA~20.DLL|Infragistics2.Win.UltraWinTabbedMdi.v8.1.dll') Images means old files may be orphaned.  File Table Key: _D906F295D75C36771F39D7305E3D338E
+    Patch API could not create a small patch; using whole upgraded file.
+  Including entire file: 'C:\jasonl\development\patches\8.1.3\uncompressed\Latest813\.\Infragistics2.Win.UltraWinTabbedMdi.v8.1.dll';
+           FTK=_D906F295D75C36771F39D7305E3D338E; temp location=Family1\00383.FLE.
+    Patch API could not create a small patch; using whole upgraded file.
+  Including entire file: 'C:\jasonl\development\patches\8.1.3\uncompressed\Latest813\.\Reports\Asset Summary By Location_layout.xml';
+           FTK=_D99BC86D0A1D4121829BF537263FF901; temp location=Family1\00384.FLE.
+    Patch API could not create a small patch; using whole upgraded file.
+  Including entire file: 'C:\jasonl\development\patches\8.1.3\uncompressed\Latest813\.\Layton.AuditWizard.DataAccess.dll';
+           FTK=_DF2B3977B88E2DEBC16B6C37E9953144; temp location=Family1\00385.FLE.
+    Patch API could not create a small patch; using whole upgraded file.
+  Including entire file: 'C:\jasonl\development\patches\8.1.3\uncompressed\Latest813\.\Reports\Audit History - Last Audit Date_layout.xml';
+           FTK=_E0ECA212CF3B461AB510BF6F573F605A; temp location=Family1\00386.FLE.
+    Patch API could not create a small patch; using whole upgraded file.
+  Including entire file: 'C:\jasonl\development\patches\8.1.3\uncompressed\Latest813\.\Reports\Operating Systems Report.awr';
+           FTK=_E6CA1995F1764DD2B8D1E92602CC879E; temp location=Family1\00388.FLE.
+    Patch API could not create a small patch; using whole upgraded file.
+  Including entire file: 'C:\jasonl\development\patches\8.1.3\uncompressed\Latest813\.\ReleaseNotes.pdf';
+           FTK=_EC0A396CDBDF48CEB450FB2925CF1172; temp location=Family1\00389.FLE.
+    Patch API could not create a small patch; using whole upgraded file.
+  Including entire file: 'C:\jasonl\development\patches\8.1.3\uncompressed\Latest813\.\Reports\custom_reports\Asset Register By Location_layout.xml';
+           FTK=_EF5EB7306A2B4CA098F0B14A7EE085F6; temp location=Family1\00391.FLE.
+WARNING (14): File versions are equal.  Upgraded: 'C:\jasonl\development\patches\8.1.3\uncompressed\Latest813\.\HandleAWServices.dll' ver=1.0.0.0;  Target: 'C:\jasonl\development\patches\8.1.0\uncompressed\Previous1\.\HandleAWServices.dll' ver=1.0.0.0.
+WARNING (14): File versions are equal.  Upgraded: 'C:\jasonl\development\patches\8.1.3\uncompressed\Latest813\.\HandleAWServices.dll' ver=1.0.0.0;  Target: 'C:\jasonl\development\patches\8.1.1\uncompressed\Previous1\.\HandleAWServices.dll' ver=1.0.0.0.
+WARNING (14): File versions are equal.  Upgraded: 'C:\jasonl\development\patches\8.1.3\uncompressed\Latest813\.\HandleAWServices.dll' ver=1.0.0.0;  Target: 'C:\jasonl\development\patches\8.1.2\uncompressed\Previous1\.\HandleAWServices.dll' ver=1.0.0.0.
+
+***** Log finishing: 2010-03-26 12:16:41 *****
+

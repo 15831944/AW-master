@@ -1,0 +1,14 @@
+cd C:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\bin
+vcvars32.bat
+
+C:\Projects\DBTool\DBTool\bin\Release>signtool sign /f SecurityKey.p12 /d "LSD DBTool" /p Layt0n916 /t http://time
+stamp.comodoca.com/authenticode DBTool.exe
+
+C:\Lei\HelpBoxV6>signtool sign /f SecurityKey.p12 /d "Layton ServerDesk Background Process" /
+p Layt0n916 /t http://timestamp.comodoca.com/authenticode LaytonServiceDesk.exe
+
+C:\>signtool sign /f SecurityKey.p12 /d "Layton ServiceDesk Installer" /p Layt0n
+916 /t http://timestamp.comodoca.com/authenticode LaytonServiceDesk.msi
+
+C:\Projects\PatchTool\PatchTool\bin\Release>signtool sign /f SecurityKey.p12 /d "LSD Update Tool" /p Layt0n916 /t http://time
+stamp.comodoca.com/authenticode lsd_620_update.exe

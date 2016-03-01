@@ -1,0 +1,409 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{80fcc0ef-abf7-4cc7-8d59-0907312d0f96}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Resource Files">
+      <UniqueIdentifier>{b277001d-2cda-4e51-b5fe-f26540de8b9a}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;cnt;rtf;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{ff73e552-2bd2-4b27-8c3a-b3d9020fe197}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="AuditScannerCommon">
+      <UniqueIdentifier>{efb64a18-4495-4b4f-9eb8-eee30421aaf4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="PageBasicInformation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PageFinish.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PageLocations.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PageScanning.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PageUserData.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Scan32.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ScannerPage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ScannerTrayWnd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ShtScan.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StdAfx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AuditScannerCommon\ActiveProcessScanner.cpp">
+      <Filter>AuditScannerCommon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AuditScannerCommon\AlertDefinitionsFile.cpp">
+      <Filter>AuditScannerCommon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AuditScannerCommon\AlertNotificationFile.cpp">
+      <Filter>AuditScannerCommon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AuditScannerCommon\AlertTriggerScanner.cpp">
+      <Filter>AuditScannerCommon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AuditScannerCommon\ApplicationInstance.cpp">
+      <Filter>AuditScannerCommon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AuditScannerCommon\ApplicationRegistryMapping.cpp">
+      <Filter>AuditScannerCommon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AuditScannerCommon\ApplicationSerial.cpp">
+      <Filter>AuditScannerCommon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AuditScannerCommon\AssetCacheFile.cpp">
+      <Filter>AuditScannerCommon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AuditScannerCommon\AssetType.cpp">
+      <Filter>AuditScannerCommon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AuditScannerCommon\AuditDataFile.cpp">
+      <Filter>AuditScannerCommon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AuditScannerCommon\AuditDataScanner.cpp">
+      <Filter>AuditScannerCommon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AuditScannerCommon\AuditScannerConfiguration.cpp">
+      <Filter>AuditScannerCommon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AuditScannerCommon\EnvironmentVariablesScanner.cpp">
+      <Filter>AuditScannerCommon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AuditScannerCommon\ExplorerCache.cpp">
+      <Filter>AuditScannerCommon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AuditScannerCommon\FileSystemScanner.cpp">
+      <Filter>AuditScannerCommon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AuditScannerCommon\Firewall.cpp">
+      <Filter>AuditScannerCommon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AuditScannerCommon\GraphicsAdaptersScanner.cpp">
+      <Filter>AuditScannerCommon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AuditScannerCommon\HardwareScanner.cpp">
+      <Filter>AuditScannerCommon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AuditScannerCommon\IEVersion.cpp">
+      <Filter>AuditScannerCommon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AuditScannerCommon\InstalledPatches.cpp">
+      <Filter>AuditScannerCommon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AuditScannerCommon\InternetExplorerScanner.cpp">
+      <Filter>AuditScannerCommon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AuditScannerCommon\LaytonWMI.cpp">
+      <Filter>AuditScannerCommon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AuditScannerCommon\LocaleScanner.cpp">
+      <Filter>AuditScannerCommon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AuditScannerCommon\LogicalDriveScanner.cpp">
+      <Filter>AuditScannerCommon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AuditScannerCommon\MemoryScanner.cpp">
+      <Filter>AuditScannerCommon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AuditScannerCommon\MemorySlotScanner.cpp">
+      <Filter>AuditScannerCommon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AuditScannerCommon\ModuleVersion.cpp">
+      <Filter>AuditScannerCommon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AuditScannerCommon\NetworkAdaptersScanner.cpp">
+      <Filter>AuditScannerCommon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AuditScannerCommon\NetworkInformationScanner.cpp">
+      <Filter>AuditScannerCommon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AuditScannerCommon\ObjectScanner.cpp">
+      <Filter>AuditScannerCommon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AuditScannerCommon\OperatingSystemScanner.cpp">
+      <Filter>AuditScannerCommon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AuditScannerCommon\PhysicalDiskScanner.cpp">
+      <Filter>AuditScannerCommon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AuditScannerCommon\PrinterScanner.cpp">
+      <Filter>AuditScannerCommon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AuditScannerCommon\PublisherMappings.cpp">
+      <Filter>AuditScannerCommon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AuditScannerCommon\QuickFixScanner.cpp">
+      <Filter>AuditScannerCommon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AuditScannerCommon\RegistryScanner.cpp">
+      <Filter>AuditScannerCommon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AuditScannerCommon\ScanUtil.cpp">
+      <Filter>AuditScannerCommon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AuditScannerCommon\ServicesScanner.cpp">
+      <Filter>AuditScannerCommon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AuditScannerCommon\SoftwareScanner.cpp">
+      <Filter>AuditScannerCommon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AuditScannerCommon\SystemBiosScanner.cpp">
+      <Filter>AuditScannerCommon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AuditScannerCommon\SystemProcessorScanner.cpp">
+      <Filter>AuditScannerCommon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AuditScannerCommon\TcpClient.cpp">
+      <Filter>AuditScannerCommon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AuditScannerCommon\UpdateFile.cpp">
+      <Filter>AuditScannerCommon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AuditScannerCommon\UserDataCategory.cpp">
+      <Filter>AuditScannerCommon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AuditScannerCommon\UsersScanner.cpp">
+      <Filter>AuditScannerCommon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AuditScannerCommon\WindowsSecurityScanner.cpp">
+      <Filter>AuditScannerCommon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AuditScannerCommon\WindowsUpdate.cpp">
+      <Filter>AuditScannerCommon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AuditScannerCommon\WMIScanner.cpp">
+      <Filter>AuditScannerCommon</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Scan32.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="RES\alert.bmp">
+      <Filter>Source Files\Resource Files</Filter>
+    </None>
+    <None Include="RES\app.bmp">
+      <Filter>Source Files\Resource Files</Filter>
+    </None>
+    <None Include="RES\app1.bmp">
+      <Filter>Source Files\Resource Files</Filter>
+    </None>
+    <None Include="RES\bitmap2.bmp">
+      <Filter>Source Files\Resource Files</Filter>
+    </None>
+    <None Include="RES\bmp00001.bmp">
+      <Filter>Source Files\Resource Files</Filter>
+    </None>
+    <None Include="RES\bmp00002.bmp">
+      <Filter>Source Files\Resource Files</Filter>
+    </None>
+    <None Include="RES\location.bmp">
+      <Filter>Source Files\Resource Files</Filter>
+    </None>
+    <None Include="res\Scan32.ico">
+      <Filter>Source Files\Resource Files</Filter>
+    </None>
+    <None Include="res\Scan32.rc2">
+      <Filter>Source Files\Resource Files</Filter>
+    </None>
+    <None Include="res\scan_active.ico">
+      <Filter>Source Files\Resource Files</Filter>
+    </None>
+    <None Include="res\scan_sleep.ico">
+      <Filter>Source Files\Resource Files</Filter>
+    </None>
+    <None Include="RES\ver.bmp">
+      <Filter>Source Files\Resource Files</Filter>
+    </None>
+    <None Include="RES\ver1.bmp">
+      <Filter>Source Files\Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\AuditScannerCommon\ActiveProcessScanner.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AuditScannerCommon\AlertDefinitionsFile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AuditScannerCommon\AlertNotificationFile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AuditScannerCommon\AlertTriggerScanner.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AuditScannerCommon\ApplicationInstance.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AuditScannerCommon\ApplicationRegistryMapping.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AuditScannerCommon\ApplicationSerial.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AuditScannerCommon\AssetCacheFile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AssetType.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AuditScannerCommon\AuditDataFile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AuditScannerCommon\AuditDataScanner.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AuditScannerCommon\AuditScannerConfiguration.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AuditScannerCommon\CpuSpeed.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AuditScannerCommon\CpuType.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AuditScannerCommon\EnvironmentVariablesScanner.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AuditScannerCommon\ExplorerCache.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AuditScannerCommon\FileSystemScanner.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AuditScannerCommon\Firewall.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AuditScannerCommon\GraphicsAdaptersScanner.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AuditScannerCommon\HardwareScanner.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AuditScannerCommon\IEVersion.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AuditScannerCommon\InternetExplorerScanner.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AuditScannerCommon\LaytonWMI.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AuditScannerCommon\LocaleScanner.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AuditScannerCommon\LogicalDriveScanner.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AuditScannerCommon\MemoryScanner.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AuditScannerCommon\NetworkAdaptersScanner.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AuditScannerCommon\NetworkInformationScanner.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AuditScannerCommon\ObjectScanner.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AuditScannerCommon\OperatingSystemScanner.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PageLocations.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PageUserData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AuditScannerCommon\PhysicalDiskScanner.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AuditScannerCommon\Picklists.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Picklists.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AuditScannerCommon\printerscanner.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AuditScannerCommon\PublisherMappings.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AuditScannerCommon\QuickFixScanner.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AuditScannerCommon\RegistryScanner.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="scan32.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AuditScannerCommon\ServicesScanner.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AuditScannerCommon\SoftwareScanner.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AuditScannerCommon\SystemBiosScanner.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AuditScannerCommon\SystemProcessorScanner.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AuditScannerCommon\triggers.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AuditScannerCommon\UpdateFile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AuditScannerCommon\UserDataCategory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UserDataCategory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AuditScannerCommon\UsersScanner.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AuditScannerCommon\WindowsSecurityScanner.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AuditScannerCommon\WindowsUpdate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AuditScannerCommon\WMIScanner.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AuditScannerCommon\TcpClient.h">
+      <Filter>AuditScannerCommon</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,39 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="Layton.NetworkDiscovery.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="MainWorkItem" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">NetworkDiscoveryWorkItem</Value>
+    </Setting>
+    <Setting Name="MainTabView" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">NetworkDiscoverySplashTabView</Value>
+    </Setting>
+    <Setting Name="MainExplorerView" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">NetworkDiscoveryExplorerView</Value>
+    </Setting>
+    <Setting Name="WorkItemController" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">NetworkDiscoveryWorkItemController</Value>
+    </Setting>
+    <Setting Name="ToolbarsController" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">NetworkDiscoveryToolbarsController</Value>
+    </Setting>
+    <Setting Name="SettingsTabView" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">SettingsTabView</Value>
+    </Setting>
+    <Setting Name="Title" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Network Discovery</Value>
+    </Setting>
+    <Setting Name="Description" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Discovery computers on your network</Value>
+    </Setting>
+    <Setting Name="Image" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">network_discovery32</Value>
+    </Setting>
+    <Setting Name="NetworkDiscoveryTabView" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">NetworkDiscoveryTabView</Value>
+    </Setting>
+    <Setting Name="Namespace" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Layton.NetworkDiscovery</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<SolutionProfile xmlns="http://schemas.microsoft.com/pag/cab-profile" >
+  <Modules>
+	<ModuleInfo AssemblyFile="Layton.NetworkDiscovery.dll" />
+    <ModuleInfo AssemblyFile="Layton.AuditWizard.Administration.dll" />
+    <ModuleInfo AssemblyFile="Layton.AuditWizard.AuditTrail.dll" />
+    <ModuleInfo AssemblyFile="Layton.AuditWizard.Reports.dll" />
+	<ModuleInfo AssemblyFile="Layton.AuditWizard.Applications.dll" />
+	<ModuleInfo AssemblyFile="Layton.AuditWizard.Network.dll" />
+	<ModuleInfo AssemblyFile="Layton.AuditWizard.Overview.dll" />
+  </Modules>
+</SolutionProfile>

@@ -1,0 +1,396 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="AuditWizard Debug Static|Win32">
+      <Configuration>AuditWizard Debug Static</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug Static|Win32">
+      <Configuration>Debug Static</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release Static|Win32">
+      <Configuration>Release Static</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Template|Win32">
+      <Configuration>Template</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectName>AuditScanner</ProjectName>
+    <ProjectGuid>{31CC8A98-6C23-4870-A303-07D9A0B985EE}</ProjectGuid>
+    <RootNamespace>Scan32</RootNamespace>
+    <Keyword>MFCProj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='AuditWizard Debug Static|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug Static|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>Static</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release Static|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>Static</UseOfMfc>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='AuditWizard Debug Static|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug Static|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release Static|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.40219.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release Static|Win32'">..\Output\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release Static|Win32'">.\Temp\Release\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release Static|Win32'">false</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug Static|Win32'">C:\Temp\scanner\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug Static|Win32'">.\Scan32___Win32_Debug_Static\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug Static|Win32'">false</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='AuditWizard Debug Static|Win32'">$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='AuditWizard Debug Static|Win32'">$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='AuditWizard Debug Static|Win32'">true</LinkIncremental>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='AuditWizard Debug Static|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='AuditWizard Debug Static|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='AuditWizard Debug Static|Win32'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Debug Static|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Debug Static|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Debug Static|Win32'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Release Static|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Release Static|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Release Static|Win32'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Template|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Template|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Template|Win32'" />
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release Static|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TargetEnvironment>Win32</TargetEnvironment>
+      <TypeLibraryName>.\..\Output/Scan32.tlb</TypeLibraryName>
+      <HeaderFileName>
+      </HeaderFileName>
+    </Midl>
+    <ClCompile>
+      <Optimization>MinSpace</Optimization>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <PreprocessorDefinitions>NDEBUG;WIN32;_WINDOWS;_LICENSEWIZARD_;_CRT_SECURE_NO_WARNINGS;_SCANNER;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>.\Temp\Release/Scan32.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>.\Temp\Release/</AssemblerListingLocation>
+      <ObjectFileName>.\Temp\Release/</ObjectFileName>
+      <ProgramDataBaseFileName>.\Temp\Release/</ProgramDataBaseFileName>
+      <BrowseInformation>true</BrowseInformation>
+      <WarningLevel>Level3</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0809</Culture>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>netapi32.lib;mpr.lib;wsock32.lib;version.lib;wbemuuid.lib;../libs/ChilkatRel.lib;ws2_32.lib;crypt32.lib;rpcrt4.lib;dnsapi.lib;../../mfcext/lib/mfcexts.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>../output/AuditScanner.exe</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <ProgramDatabaseFile>.\..\Output/Scan32.pdb</ProgramDatabaseFile>
+      <GenerateMapFile>true</GenerateMapFile>
+      <MapFileName>.\Temp\Release/Scan32.map</MapFileName>
+      <SubSystem>Windows</SubSystem>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\..\Output/Scan32.bsc</OutputFile>
+    </Bscmake>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug Static|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TargetEnvironment>Win32</TargetEnvironment>
+      <TypeLibraryName>.\Scan32___Win32_Debug_Static/Scan32.tlb</TypeLibraryName>
+      <HeaderFileName>
+      </HeaderFileName>
+    </Midl>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>..\AuditScannerCommon;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_DEBUG;_SCANNER_;WIN32;_WINDOWS;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>.\Scan32___Win32_Debug_Static/Scan32.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>.\Scan32___Win32_Debug_Static/</AssemblerListingLocation>
+      <ObjectFileName>.\Scan32___Win32_Debug_Static/</ObjectFileName>
+      <ProgramDataBaseFileName>.\Scan32___Win32_Debug_Static/</ProgramDataBaseFileName>
+      <BrowseInformation>true</BrowseInformation>
+      <WarningLevel>Level3</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0809</Culture>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>Mpr.lib;netapi32.lib;version.lib;wsock32.lib;wbemuuid.lib;../../MfcExt/lib/MfcExtsd.lib;../libs/ChilkatRel.lib;ws2_32.lib;crypt32.lib;rpcrt4.lib;dnsapi.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <ShowProgress>NotSet</ShowProgress>
+      <Version>8.3.4.1</Version>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>.\Scan32___Win32_Debug_Static/Scan32.pdb</ProgramDatabaseFile>
+      <SubSystem>Windows</SubSystem>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\Scan32___Win32_Debug_Static/Scan32.bsc</OutputFile>
+    </Bscmake>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='AuditWizard Debug Static|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TargetEnvironment>Win32</TargetEnvironment>
+      <TypeLibraryName>.\Scan32___Win32_Debug_Static/Scan32.tlb</TypeLibraryName>
+      <HeaderFileName>
+      </HeaderFileName>
+    </Midl>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_DEBUG;_SCANNER_;WIN32;_WINDOWS;_AUDITWIZARD_;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>.\Scan32___Win32_Debug_Static/Scan32.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>.\Scan32___Win32_Debug_Static/</AssemblerListingLocation>
+      <ObjectFileName>.\Scan32___Win32_Debug_Static/</ObjectFileName>
+      <ProgramDataBaseFileName>.\Scan32___Win32_Debug_Static/</ProgramDataBaseFileName>
+      <BrowseInformation>true</BrowseInformation>
+      <WarningLevel>Level3</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0809</Culture>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>Mpr.lib;netapi32.lib;version.lib;wsock32.lib;wbemuuid.lib;../../MfcExt/lib/MfcExtd.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>c:\temp\Audit\scanner\AuditScanner.exe</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>.\Scan32___Win32_Debug_Static/Scan32.pdb</ProgramDatabaseFile>
+      <SubSystem>Windows</SubSystem>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\Scan32___Win32_Debug_Static/Scan32.bsc</OutputFile>
+    </Bscmake>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="PageBasicInformation.cpp" />
+    <ClCompile Include="PageFinish.cpp" />
+    <ClCompile Include="PageLocations.cpp" />
+    <ClCompile Include="PageScanning.cpp" />
+    <ClCompile Include="PageUserData.cpp" />
+    <ClCompile Include="Scan32.cpp">
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='AuditWizard Debug Static|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug Static|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release Static|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="ScannerPage.cpp" />
+    <ClCompile Include="ScannerTrayWnd.cpp" />
+    <ClCompile Include="ShtScan.cpp" />
+    <ClCompile Include="StdAfx.cpp">
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='AuditWizard Debug Static|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='AuditWizard Debug Static|Win32'">Create</PrecompiledHeader>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug Static|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug Static|Win32'">Create</PrecompiledHeader>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release Static|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release Static|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\AuditScannerCommon\ActiveProcessScanner.cpp">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='AuditWizard Debug Static|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='AuditWizard Debug Static|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug Static|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='Debug Static|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release Static|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='Release Static|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+    </ClCompile>
+    <ClCompile Include="..\AuditScannerCommon\AlertDefinitionsFile.cpp" />
+    <ClCompile Include="..\AuditScannerCommon\AlertNotificationFile.cpp" />
+    <ClCompile Include="..\AuditScannerCommon\AlertTriggerScanner.cpp" />
+    <ClCompile Include="..\AuditScannerCommon\ApplicationInstance.cpp" />
+    <ClCompile Include="..\AuditScannerCommon\ApplicationRegistryMapping.cpp" />
+    <ClCompile Include="..\AuditScannerCommon\ApplicationSerial.cpp" />
+    <ClCompile Include="..\AuditScannerCommon\AssetCacheFile.cpp" />
+    <ClCompile Include="..\AuditScannerCommon\AssetType.cpp" />
+    <ClCompile Include="..\AuditScannerCommon\AuditDataFile.cpp" />
+    <ClCompile Include="..\AuditScannerCommon\AuditDataScanner.cpp" />
+    <ClCompile Include="..\AuditScannerCommon\AuditScannerConfiguration.cpp" />
+    <ClCompile Include="..\AuditScannerCommon\EnvironmentVariablesScanner.cpp" />
+    <ClCompile Include="..\AuditScannerCommon\ExplorerCache.cpp" />
+    <ClCompile Include="..\AuditScannerCommon\FileSystemScanner.cpp" />
+    <ClCompile Include="..\AuditScannerCommon\Firewall.cpp" />
+    <ClCompile Include="..\AuditScannerCommon\GraphicsAdaptersScanner.cpp" />
+    <ClCompile Include="..\AuditScannerCommon\HardwareScanner.cpp" />
+    <ClCompile Include="..\AuditScannerCommon\IEVersion.cpp" />
+    <ClCompile Include="..\AuditScannerCommon\InstalledPatches.cpp" />
+    <ClCompile Include="..\AuditScannerCommon\InternetExplorerScanner.cpp" />
+    <ClCompile Include="..\AuditScannerCommon\LaytonWMI.cpp" />
+    <ClCompile Include="..\AuditScannerCommon\LocaleScanner.cpp" />
+    <ClCompile Include="..\AuditScannerCommon\LogicalDriveScanner.cpp" />
+    <ClCompile Include="..\AuditScannerCommon\MemoryScanner.cpp" />
+    <ClCompile Include="..\AuditScannerCommon\MemorySlotScanner.cpp" />
+    <ClCompile Include="..\AuditScannerCommon\ModuleVersion.cpp" />
+    <ClCompile Include="..\AuditScannerCommon\NetworkAdaptersScanner.cpp" />
+    <ClCompile Include="..\AuditScannerCommon\NetworkInformationScanner.cpp" />
+    <ClCompile Include="..\AuditScannerCommon\ObjectScanner.cpp" />
+    <ClCompile Include="..\AuditScannerCommon\OperatingSystemScanner.cpp" />
+    <ClCompile Include="..\AuditScannerCommon\PhysicalDiskScanner.cpp" />
+    <ClCompile Include="..\AuditScannerCommon\PrinterScanner.cpp" />
+    <ClCompile Include="..\AuditScannerCommon\PublisherMappings.cpp" />
+    <ClCompile Include="..\AuditScannerCommon\QuickFixScanner.cpp" />
+    <ClCompile Include="..\AuditScannerCommon\RegistryScanner.cpp" />
+    <ClCompile Include="..\AuditScannerCommon\ScanUtil.cpp" />
+    <ClCompile Include="..\AuditScannerCommon\ServicesScanner.cpp" />
+    <ClCompile Include="..\AuditScannerCommon\SoftwareScanner.cpp" />
+    <ClCompile Include="..\AuditScannerCommon\SystemBiosScanner.cpp" />
+    <ClCompile Include="..\AuditScannerCommon\SystemProcessorScanner.cpp" />
+    <ClCompile Include="..\AuditScannerCommon\TcpClient.cpp" />
+    <ClCompile Include="..\AuditScannerCommon\UpdateFile.cpp" />
+    <ClCompile Include="..\AuditScannerCommon\UserDataCategory.cpp" />
+    <ClCompile Include="..\AuditScannerCommon\UsersScanner.cpp" />
+    <ClCompile Include="..\AuditScannerCommon\WindowsSecurityScanner.cpp" />
+    <ClCompile Include="..\AuditScannerCommon\WindowsUpdate.cpp" />
+    <ClCompile Include="..\AuditScannerCommon\WMIScanner.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Scan32.rc">
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='AuditWizard Debug Static|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug Static|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release Static|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="RES\alert.bmp" />
+    <None Include="RES\app.bmp" />
+    <None Include="RES\app1.bmp" />
+    <None Include="RES\bitmap2.bmp" />
+    <None Include="RES\bmp00001.bmp" />
+    <None Include="RES\bmp00002.bmp" />
+    <None Include="RES\location.bmp" />
+    <None Include="res\Scan32.ico" />
+    <None Include="res\Scan32.rc2" />
+    <None Include="res\scan_active.ico" />
+    <None Include="res\scan_sleep.ico" />
+    <None Include="RES\ver.bmp" />
+    <None Include="RES\ver1.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\AuditScannerCommon\ActiveProcessScanner.h" />
+    <ClInclude Include="..\AuditScannerCommon\AlertDefinitionsFile.h" />
+    <ClInclude Include="..\AuditScannerCommon\AlertNotificationFile.h" />
+    <ClInclude Include="..\AuditScannerCommon\AlertTriggerScanner.h" />
+    <ClInclude Include="..\AuditScannerCommon\ApplicationInstance.h" />
+    <ClInclude Include="..\AuditScannerCommon\ApplicationRegistryMapping.h" />
+    <ClInclude Include="..\AuditScannerCommon\ApplicationSerial.h" />
+    <ClInclude Include="..\AuditScannerCommon\AssetCacheFile.h" />
+    <ClInclude Include="AssetType.h" />
+    <ClInclude Include="..\AuditScannerCommon\AuditDataFile.h" />
+    <ClInclude Include="..\AuditScannerCommon\AuditDataScanner.h" />
+    <ClInclude Include="..\AuditScannerCommon\AuditScannerConfiguration.h" />
+    <ClInclude Include="..\AuditScannerCommon\CpuSpeed.h" />
+    <ClInclude Include="..\AuditScannerCommon\CpuType.h" />
+    <ClInclude Include="..\AuditScannerCommon\EnvironmentVariablesScanner.h" />
+    <ClInclude Include="..\AuditScannerCommon\ExplorerCache.h" />
+    <ClInclude Include="..\AuditScannerCommon\FileSystemScanner.h" />
+    <ClInclude Include="..\AuditScannerCommon\Firewall.h" />
+    <ClInclude Include="..\AuditScannerCommon\GraphicsAdaptersScanner.h" />
+    <ClInclude Include="..\AuditScannerCommon\HardwareScanner.h" />
+    <ClInclude Include="..\AuditScannerCommon\IEVersion.h" />
+    <ClInclude Include="..\AuditScannerCommon\InternetExplorerScanner.h" />
+    <ClInclude Include="..\AuditScannerCommon\LaytonWMI.h" />
+    <ClInclude Include="..\AuditScannerCommon\LocaleScanner.h" />
+    <ClInclude Include="..\AuditScannerCommon\LogicalDriveScanner.h" />
+    <ClInclude Include="..\AuditScannerCommon\MemoryScanner.h" />
+    <ClInclude Include="..\AuditScannerCommon\NetworkAdaptersScanner.h" />
+    <ClInclude Include="..\AuditScannerCommon\NetworkInformationScanner.h" />
+    <ClInclude Include="..\AuditScannerCommon\ObjectScanner.h" />
+    <ClInclude Include="..\AuditScannerCommon\OperatingSystemScanner.h" />
+    <ClInclude Include="PageLocations.h" />
+    <ClInclude Include="PageUserData.h" />
+    <ClInclude Include="..\AuditScannerCommon\PhysicalDiskScanner.h" />
+    <ClInclude Include="..\AuditScannerCommon\Picklists.h" />
+    <ClInclude Include="Picklists.h" />
+    <ClInclude Include="..\AuditScannerCommon\printerscanner.h" />
+    <ClInclude Include="..\AuditScannerCommon\PublisherMappings.h" />
+    <ClInclude Include="..\AuditScannerCommon\QuickFixScanner.h" />
+    <ClInclude Include="..\AuditScannerCommon\RegistryScanner.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="scan32.h" />
+    <ClInclude Include="..\AuditScannerCommon\ServicesScanner.h" />
+    <ClInclude Include="..\AuditScannerCommon\SoftwareScanner.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="..\AuditScannerCommon\SystemBiosScanner.h" />
+    <ClInclude Include="..\AuditScannerCommon\SystemProcessorScanner.h" />
+    <ClInclude Include="..\AuditScannerCommon\triggers.h" />
+    <ClInclude Include="..\AuditScannerCommon\UpdateFile.h" />
+    <ClInclude Include="..\AuditScannerCommon\UserDataCategory.h" />
+    <ClInclude Include="UserDataCategory.h" />
+    <ClInclude Include="..\AuditScannerCommon\UsersScanner.h" />
+    <ClInclude Include="..\AuditScannerCommon\WindowsSecurityScanner.h" />
+    <ClInclude Include="..\AuditScannerCommon\WindowsUpdate.h" />
+    <ClInclude Include="..\AuditScannerCommon\WMIScanner.h" />
+    <ClInclude Include="..\AuditScannerCommon\TcpClient.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties RESOURCE_FILE="Scan32.rc" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

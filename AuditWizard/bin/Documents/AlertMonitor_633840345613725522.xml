@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<AuditDataFile>
+<general>
+<computername>LAY09</computername>
+<netbioscomputername/>
+<newcomputername/>
+<computerid/>
+<category/>
+<auditdate>1970-01-01 11:00:00</auditdate>
+<domain/>
+<make/>
+<model/>
+<serial/>
+<macaddress/>
+<ipaddress/>
+<location/>
+</general>
+<auditeditems/>
+<internet-items/>
+<applications/>
+</AuditDataFile>

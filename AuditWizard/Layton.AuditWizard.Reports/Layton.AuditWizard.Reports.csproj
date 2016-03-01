@@ -1,0 +1,594 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Release</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{DF8DA2AE-724A-4380-94B5-A8CC15C4E358}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Layton.AuditWizard.Reports</RootNamespace>
+    <AssemblyName>Layton.AuditWizard.Reports</AssemblyName>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\Output\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <OutputPath>..\Output\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Infragistics.Practices.CompositeUI.WinForms, Version=1.0.20111.2090, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Layton Framework\Infragistics.CompositeUI.WinForms\bin\Release\Infragistics.Practices.CompositeUI.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics2.Documents.Core.v11.1, Version=11.1.20111.2090, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\bin\Infragistics 11.1.20111.2090\Infragistics2.Documents.Core.v11.1.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics2.Documents.Excel.v11.1, Version=11.1.20111.2090, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\bin\Infragistics 11.1.20111.2090\Infragistics2.Documents.Excel.v11.1.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics2.Documents.IO.v11.1, Version=11.1.20111.2090, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\bin\Infragistics 11.1.20111.2090\Infragistics2.Documents.IO.v11.1.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics2.Documents.Reports.v11.1, Version=11.1.20111.2090, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\bin\Infragistics 11.1.20111.2090\Infragistics2.Documents.Reports.v11.1.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics2.Shared.v11.1, Version=11.1.20111.2090, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\bin\Infragistics 11.1.20111.2090\Infragistics2.Shared.v11.1.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics2.Win.Misc.v11.1, Version=11.1.20111.2090, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\bin\Infragistics 11.1.20111.2090\Infragistics2.Win.Misc.v11.1.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics2.Win.UltraWinChart.v11.1, Version=11.1.20111.2090, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\bin\Infragistics 11.1.20111.2090\Infragistics2.Win.UltraWinChart.v11.1.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics2.Win.UltraWinDataSource.v11.1, Version=11.1.20111.2090, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\bin\Infragistics 11.1.20111.2090\Infragistics2.Win.UltraWinDataSource.v11.1.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics2.Win.UltraWinDock.v11.1, Version=11.1.20111.2090, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\bin\Infragistics 11.1.20111.2090\Infragistics2.Win.UltraWinDock.v11.1.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics2.Win.UltraWinEditors.v11.1, Version=11.1.20111.2090, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\bin\Infragistics 11.1.20111.2090\Infragistics2.Win.UltraWinEditors.v11.1.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics2.Win.UltraWinExplorerBar.v11.1, Version=11.1.20111.2090, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\bin\Infragistics 11.1.20111.2090\Infragistics2.Win.UltraWinExplorerBar.v11.1.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics2.Win.UltraWinGrid.DocumentExport.v11.1, Version=11.1.20111.2090, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\bin\Infragistics 11.1.20111.2090\Infragistics2.Win.UltraWinGrid.DocumentExport.v11.1.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics2.Win.UltraWinGrid.ExcelExport.v11.1, Version=11.1.20111.2090, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\bin\Infragistics 11.1.20111.2090\Infragistics2.Win.UltraWinGrid.ExcelExport.v11.1.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics2.Win.UltraWinGrid.v11.1, Version=11.1.20111.2090, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\bin\Infragistics 11.1.20111.2090\Infragistics2.Win.UltraWinGrid.v11.1.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics2.Win.UltraWinListView.v11.1, Version=11.1.20111.2090, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\bin\Infragistics 11.1.20111.2090\Infragistics2.Win.UltraWinListView.v11.1.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics2.Win.UltraWinPrintPreviewDialog.v11.1, Version=11.1.20111.2090, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\bin\Infragistics 11.1.20111.2090\Infragistics2.Win.UltraWinPrintPreviewDialog.v11.1.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics2.Win.UltraWinSchedule.v11.1, Version=11.1.20111.2090, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\bin\Infragistics 11.1.20111.2090\Infragistics2.Win.UltraWinSchedule.v11.1.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics2.Win.UltraWinStatusBar.v11.1, Version=11.1.20111.2090, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\bin\Infragistics 11.1.20111.2090\Infragistics2.Win.UltraWinStatusBar.v11.1.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics2.Win.UltraWinTabControl.v11.1, Version=11.1.20111.2090, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\bin\Infragistics 11.1.20111.2090\Infragistics2.Win.UltraWinTabControl.v11.1.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics2.Win.UltraWinToolbars.v11.1, Version=11.1.20111.2090, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\bin\Infragistics 11.1.20111.2090\Infragistics2.Win.UltraWinToolbars.v11.1.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics2.Win.UltraWinTree.v11.1, Version=11.1.20111.2090, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\bin\Infragistics 11.1.20111.2090\Infragistics2.Win.UltraWinTree.v11.1.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics2.Win.v11.1, Version=11.1.20111.2090, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\bin\Infragistics 11.1.20111.2090\Infragistics2.Win.v11.1.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Layton Framework\Cab\Shell\lib\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.CompositeUI, Version=1.0.51205.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Layton Framework\Assemblies\Microsoft.Practices.CompositeUI.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.CompositeUI.WinForms, Version=1.0.51205.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Layton Framework\Assemblies\Microsoft.Practices.CompositeUI.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.ObjectBuilder, Version=1.0.51205.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Layton Framework\Assemblies\Microsoft.Practices.ObjectBuilder.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Runtime.Serialization.Formatters.Soap" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WizardBase, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\bin\WizardBase.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AuditedDataReportDefinition.cs" />
+    <Compile Include="AuditDataReportColumn.cs" />
+    <Compile Include="FormAppByLocation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAppByLocation.designer.cs">
+      <DependentUpon>FormAppByLocation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormComplianceReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormComplianceReport.Designer.cs">
+      <DependentUpon>FormComplianceReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormCustomReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormCustomReport.Designer.cs">
+      <DependentUpon>FormCustomReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormProgress.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormProgress.Designer.cs">
+      <DependentUpon>FormProgress.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormSaveCustomReportName.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormSaveCustomReportName.Designer.cs">
+      <DependentUpon>FormSaveCustomReportName.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormScheduleReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormScheduleReport.Designer.cs">
+      <DependentUpon>FormScheduleReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormSQLReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormSQLReport.Designer.cs">
+      <DependentUpon>FormSQLReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormViewSchedules.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormViewSchedules.Designer.cs">
+      <DependentUpon>FormViewSchedules.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HistoryReportDefinition.cs" />
+    <Compile Include="HistoryReportEntry.cs" />
+    <Compile Include="ReportsExplorerView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ReportsExplorerView.Designer.cs">
+      <DependentUpon>ReportsExplorerView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReportsModuleInit.cs" />
+    <Compile Include="ReportsStrings.cs" />
+    <Compile Include="ReportsTabView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ReportsTabView.Designer.cs">
+      <DependentUpon>ReportsTabView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReportsTabViewPresenter.cs" />
+    <Compile Include="ReportsToolbarsController.cs" />
+    <Compile Include="ReportsWorkItem.cs" />
+    <Compile Include="ReportsWorkItemController.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="FormAppByLocation.resx">
+      <DependentUpon>FormAppByLocation.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormComplianceReport.resx">
+      <DependentUpon>FormComplianceReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormCustomReport.resx">
+      <DependentUpon>FormCustomReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormProgress.resx">
+      <DependentUpon>FormProgress.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormSaveCustomReportName.resx">
+      <DependentUpon>FormSaveCustomReportName.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormScheduleReport.resx">
+      <DependentUpon>FormScheduleReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormSQLReport.resx">
+      <DependentUpon>FormSQLReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormViewSchedules.resx">
+      <DependentUpon>FormViewSchedules.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <SubType>Designer</SubType>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportsExplorerView.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ReportsExplorerView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportsTabView.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ReportsTabView.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\export_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\generalreporting96.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Layton Framework\Cab\Interface\Layton.Cab.Interface.csproj">
+      <Project>{CA632E36-6514-40A6-B43B-925B89DE7A81}</Project>
+      <Name>Layton.Cab.Interface</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Layton.AuditWizard.Common\Layton.AuditWizard.Common.csproj">
+      <Project>{2E7C0E1A-E76B-4940-B9F4-2AC30F8E30D4}</Project>
+      <Name>Layton.AuditWizard.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Layton.AuditWizard.DataAccess\Layton.AuditWizard.DataAccess.csproj">
+      <Project>{AA9AF8D0-E825-4BDD-9291-624858D076CA}</Project>
+      <Name>Layton.AuditWizard.DataAccess</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Layton.AuditWizard.Network\Layton.AuditWizard.Network.csproj">
+      <Project>{9103C255-D71C-4E99-87A6-047D4A32EF67}</Project>
+      <Name>Layton.AuditWizard.Network</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Layton.Common.Controls\Layton.Common.Controls.csproj">
+      <Project>{8CD552D1-01D2-4420-B5F8-4E57B84CB39B}</Project>
+      <Name>Layton.Common.Controls</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\application_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\computer16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\computer32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\computer_audited_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AuditTrail_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ghosted_all_history_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\application_license_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\application_license_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\application_publisher_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\xps_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pdf_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\excel_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pdf.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\xps_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\excel_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\computer_reporting_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\application_reporting_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\show_application_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\filter_publishers_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hide_application_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\application_license_321.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\computer321.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\application_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\support_reporting_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\printer32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\printer16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\application_serial_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\entire_network161.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\entire_network321.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\generalreporting321.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\generalreporting961.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\generate_report321.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\report_options_321.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\daterange961.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\daterange161.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\daterange321.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\audittrail_161.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\internet_explorer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\location_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\load_report_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\load_report_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\save_report_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\save_report_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\load_report_corner.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\save_report_corner.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\application_serial_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\report_properties_corner.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\system_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hardware.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\report_addauditeddata_corner.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Calendar_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\report_labels_corner.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\label_161.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\os_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\folder_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\file_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\report_add32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\report_add16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\top_grad.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\transparent.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wizard.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\top_grad_green.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\usb.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\expand_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\collapse_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Printer_preview16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\print_preview_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\report_generate32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\report_run_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon_go.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clock.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\open_folder_full.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\open_folder_accept.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\save.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delete.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\process.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\folder_process.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\excel_321.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\export_161.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pdf_321.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\xps_321.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add_report_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\edit_report_16.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

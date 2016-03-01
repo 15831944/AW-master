@@ -1,0 +1,68 @@
+-- SESSION STARTED 15/11/2010 5:16:38 PM ---
+15/11/2010 5:16:40 PM : This is a licensed copy of AuditWizard.  It is limited to uploading a total of 50000 computers into the database.
+15/11/2010 5:16:40 PM : Email timer configured to fire at 16/11/2010 9:00:00 AM in 943.326302083333 minutes time
+15/11/2010 5:16:40 PM : Email Controller Task Started Successfully
+15/11/2010 5:16:40 PM : Creating the Audit Upload Controller Thread...
+15/11/2010 5:16:40 PM : Main Audit Upload Controller Thread Running
+15/11/2010 5:16:40 PM : Audit AutoLoader Controller Task Started Successfully
+15/11/2010 5:16:40 PM : AuditUploadThreadStart:: Audit Upload Controller Thread active...
+15/11/2010 5:16:40 PM : Refreshing the Auto-Loader Task Settings
+15/11/2010 5:16:40 PM : TCP AutoLoader Controller Task Started Successfully
+15/11/2010 5:16:41 PM : Creating the Audit Upload Controller Thread...
+15/11/2010 5:16:44 PM : Main Audit Upload Controller Thread Running
+15/11/2010 5:16:44 PM : Discovery Controller Task Started Successfully
+15/11/2010 5:16:44 PM : Alerter Task Started Successfully
+15/11/2010 5:16:44 PM : Creating the Main Operations Controller Thread...
+15/11/2010 5:16:44 PM : Main Operations Controller Thread Running
+15/11/2010 5:16:44 PM : Operations Controller Task Started Successfully
+15/11/2010 5:16:44 PM : OperationThreadStart:: operations Controller Thread active...
+15/11/2010 5:16:50 PM : RefreshAutoLoaderTask: Watching 7 Folders
+15/11/2010 5:16:50 PM : Uploading any new audit data files from [\\Oldlaytonserv1\Auditv8\data]
+15/11/2010 5:17:45 PM : CheckForAlerts
+15/11/2010 5:17:45 PM : Checking For Alerts generated since 15/11/2010 2:45:39 PM
+15/11/2010 5:18:23 PM : Uploading any new alert notification files from [\\Oldlaytonserv1\Auditv8\data]
+15/11/2010 5:18:42 PM : CheckForAlerts
+15/11/2010 5:18:43 PM : Checking For Alerts generated since 15/11/2010 5:17:45 PM
+15/11/2010 5:19:41 PM : CheckForAlerts
+15/11/2010 5:19:41 PM : Checking For Alerts generated since 15/11/2010 5:18:43 PM
+15/11/2010 5:20:27 PM : Exception processing ANF Files, the error was The network path was not found.
+
+15/11/2010 5:20:39 PM : CheckForAlerts
+15/11/2010 5:20:39 PM : Checking For Alerts generated since 15/11/2010 5:19:41 PM
+15/11/2010 5:21:37 PM : CheckForAlerts
+15/11/2010 5:21:37 PM : Checking For Alerts generated since 15/11/2010 5:20:39 PM
+15/11/2010 5:21:55 PM : Exception processing USB/PDA Audit Files, the error was The network path was not found.
+
+15/11/2010 5:21:55 PM : ...done
+15/11/2010 5:21:55 PM : Uploading any new audit data files from [\\lay09\jml_share\data]
+15/11/2010 5:21:56 PM : Uploading audit data file [LAY09.ADF]
+15/11/2010 5:22:35 PM : CheckForAlerts
+15/11/2010 5:22:35 PM : Checking For Alerts generated since 15/11/2010 5:21:37 PM
+15/11/2010 5:22:41 PM : Uploading audit data file [LAYSQL01.ADF]
+15/11/2010 5:22:50 PM : Uploading audit data file [LAYSVR02.ADF]
+15/11/2010 5:22:57 PM : Uploading audit data file [LAY091.ADF]
+15/11/2010 5:23:29 PM : Uploading any new alert notification files from [\\lay09\jml_share\data]
+15/11/2010 5:23:32 PM : ...done
+15/11/2010 5:23:32 PM : Uploading any new audit data files from [\\lay09\jml_share\data]
+15/11/2010 5:23:32 PM : Uploading any new alert notification files from [\\lay09\jml_share\data]
+15/11/2010 5:23:32 PM : ...done
+15/11/2010 5:23:32 PM : Uploading any new audit data files from [\\lay09\jml_share\data]
+15/11/2010 5:23:33 PM : Uploading any new alert notification files from [\\lay09\jml_share\data]
+15/11/2010 5:23:33 PM : ...done
+15/11/2010 5:23:33 PM : Uploading any new audit data files from [\\lay09\jml_share\data]
+15/11/2010 5:23:33 PM : Uploading any new alert notification files from [\\lay09\jml_share\data]
+15/11/2010 5:23:33 PM : ...done
+15/11/2010 5:23:33 PM : Uploading any new audit data files from [\\lay09\jml_share\data]
+15/11/2010 5:23:33 PM : Uploading any new alert notification files from [\\lay09\jml_share\data]
+15/11/2010 5:23:33 PM : ...done
+15/11/2010 5:23:33 PM : Uploading any new audit data files from [\\lay09\jml_share\data]
+15/11/2010 5:23:33 PM : Uploading any new alert notification files from [\\lay09\jml_share\data]
+15/11/2010 5:23:33 PM : ...done
+15/11/2010 5:23:35 PM : CheckForAlerts
+15/11/2010 5:23:35 PM : Checking For Alerts generated since 15/11/2010 5:22:35 PM
+15/11/2010 5:24:33 PM : disable all uploads is set to TRUE - not uploading adf file(s)
+15/11/2010 5:24:34 PM : CheckForAlerts
+15/11/2010 5:24:34 PM : Checking For Alerts generated since 15/11/2010 5:23:35 PM
+15/11/2010 5:25:32 PM : disable all uploads is set to TRUE - not uploading adf file(s)
+15/11/2010 5:25:33 PM : CheckForAlerts
+15/11/2010 5:25:33 PM : Checking For Alerts generated since 15/11/2010 5:24:34 PM

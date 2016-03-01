@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Scan32", "Scan32.vcproj", "{31CC8A98-6C23-4870-A303-07D9A0B985EE}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MfcExt", "..\..\MfcExt\MfcExt.vcproj", "{38F8B71E-0C71-4790-98A6-817074F26D55}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "awScanService", "..\AuditScannerService WIN32\awScanService.vcproj", "{743BC7DC-B7E3-47B8-BB02-34E5FA6208B2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug Static|Win32 = Debug Static|Win32
+		Debug|Win32 = Debug|Win32
+		Release Static|Win32 = Release Static|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{31CC8A98-6C23-4870-A303-07D9A0B985EE}.Debug Static|Win32.ActiveCfg = Debug Static|Win32
+		{31CC8A98-6C23-4870-A303-07D9A0B985EE}.Debug Static|Win32.Build.0 = Debug Static|Win32
+		{31CC8A98-6C23-4870-A303-07D9A0B985EE}.Debug|Win32.ActiveCfg = Debug Static|Win32
+		{31CC8A98-6C23-4870-A303-07D9A0B985EE}.Debug|Win32.Build.0 = Debug Static|Win32
+		{31CC8A98-6C23-4870-A303-07D9A0B985EE}.Release Static|Win32.ActiveCfg = Release Static|Win32
+		{31CC8A98-6C23-4870-A303-07D9A0B985EE}.Release Static|Win32.Build.0 = Release Static|Win32
+		{31CC8A98-6C23-4870-A303-07D9A0B985EE}.Release|Win32.ActiveCfg = Release Static|Win32
+		{31CC8A98-6C23-4870-A303-07D9A0B985EE}.Release|Win32.Build.0 = Release Static|Win32
+		{38F8B71E-0C71-4790-98A6-817074F26D55}.Debug Static|Win32.ActiveCfg = Debug Static|Win32
+		{38F8B71E-0C71-4790-98A6-817074F26D55}.Debug Static|Win32.Build.0 = Debug Static|Win32
+		{38F8B71E-0C71-4790-98A6-817074F26D55}.Debug|Win32.ActiveCfg = Debug|Win32
+		{38F8B71E-0C71-4790-98A6-817074F26D55}.Debug|Win32.Build.0 = Debug|Win32
+		{38F8B71E-0C71-4790-98A6-817074F26D55}.Release Static|Win32.ActiveCfg = Release Static|Win32
+		{38F8B71E-0C71-4790-98A6-817074F26D55}.Release Static|Win32.Build.0 = Release Static|Win32
+		{38F8B71E-0C71-4790-98A6-817074F26D55}.Release|Win32.ActiveCfg = Release|Win32
+		{38F8B71E-0C71-4790-98A6-817074F26D55}.Release|Win32.Build.0 = Release|Win32
+		{743BC7DC-B7E3-47B8-BB02-34E5FA6208B2}.Debug Static|Win32.ActiveCfg = Debug|Win32
+		{743BC7DC-B7E3-47B8-BB02-34E5FA6208B2}.Debug Static|Win32.Build.0 = Debug|Win32
+		{743BC7DC-B7E3-47B8-BB02-34E5FA6208B2}.Debug|Win32.ActiveCfg = Debug|Win32
+		{743BC7DC-B7E3-47B8-BB02-34E5FA6208B2}.Debug|Win32.Build.0 = Debug|Win32
+		{743BC7DC-B7E3-47B8-BB02-34E5FA6208B2}.Release Static|Win32.ActiveCfg = Release|Win32
+		{743BC7DC-B7E3-47B8-BB02-34E5FA6208B2}.Release Static|Win32.Build.0 = Release|Win32
+		{743BC7DC-B7E3-47B8-BB02-34E5FA6208B2}.Release|Win32.ActiveCfg = Release|Win32
+		{743BC7DC-B7E3-47B8-BB02-34E5FA6208B2}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

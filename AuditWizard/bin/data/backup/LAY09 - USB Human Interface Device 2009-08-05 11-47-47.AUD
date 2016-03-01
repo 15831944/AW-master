@@ -1,0 +1,10 @@
+
+[Asset]
+Name=USB Human Interface Device
+Parent=LAY09
+Scanner=5.2.0.9 USB
+Date=2009-08-05 11:47:47
+Category=HIDClass
+Action=Insert
+BusType=USB
+HostPC=LAY09

@@ -1,0 +1,86 @@
+using System;
+using System.Collections.Specialized;
+using System.ComponentModel;
+using System.Drawing;
+using System.Data;
+using System.Text;
+using Infragistics.Win.UltraWinListView;
+using System.Windows.Forms;
+using Microsoft.Practices.ObjectBuilder;
+using Microsoft.Practices.CompositeUI.SmartParts;
+using Microsoft.Practices.CompositeUI.EventBroker;
+
+namespace NetworkDiscoveryModule
+{    
+    [SmartPart]
+    public partial class SettingsTabView : UserControl
+    {
+        private SettingsTabViewPresenter presenter;
+        public SettingsTabView()
+        {
+            InitializeComponent();
+        }
+
+        [CreateNew]
+        public SettingsTabViewPresenter Presenter
+        {
+            set
+            {
+                presenter = value;
+                presenter.View = this;
+                presenter.Initialize();
+            }
+        }
+
+        public NameValueCollection GetIPRanges()
+        {
+            NameValueCollection ipRanges = new NameValueCollection();
+            foreach (UltraListViewItem item in tcpipListView.Items)
+            {
+                ipRanges.Add(item.Text, item.SubItems[0].Text);
+            }
+            return ipRanges;
+        }
+
+        public void AddIpRanges(NameValueCollection ipRanges)
+        {
+            foreach (string startIp in ipRanges.AllKeys)
+            {
+                UltraListViewItem item = tcpipListView.Items.Add(startIp, startIp);
+                item.SubItems[0].Value = ipRanges[startIp];
+            }
+        }
+
+        private void addButton_Click(object sender, EventArgs e)
+        {
+            IpAddressRangeForm ipForm = new IpAddressRangeForm();
+            if (ipForm.ShowDialog() == DialogResult.OK)
+            {
+                if (!tcpipListView.Items.Exists(ipForm.StartAddress))
+                {
+                    UltraListViewItem item = tcpipListView.Items.Add(ipForm.StartAddress, ipForm.StartAddress);
+                    item.SubItems[0].Value = ipForm.EndAddress;
+                }
+                else
+                {
+                    MessageBox.Show("Start IP address already exists. Range will not be added.", "Invalid IP Range", MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
+                }
+            }
+        }
+
+        private void removeButton_Click(object sender, EventArgs e)
+        {
+            while (tcpipListView.SelectedItems.Count > 0)
+            {
+                 tcpipListView.Items.Remove(tcpipListView.SelectedItems[0]);
+            }
+        }
+
+        [EventSubscription("event://SettingsFormShell/SettingsFormClosed")]
+        public void SettingsFormClosedHandler(object sender, EventArgs e)
+        {
+            // Save the settings
+            presenter.SaveSettings();
+        }
+    }
+}

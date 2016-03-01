@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AlertDefinition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>Service Changes</Name>
+  <Description>Add an alert for changes in services</Description>
+  <DisplayAlert>false</DisplayAlert>
+  <EmailAlert>true</EmailAlert>
+  <Triggers>
+    <AlertTrigger>
+      <TriggerField>System|Services|SQL Server (MSSMLBIZ)|State</TriggerField>
+      <Condition>changed</Condition>
+      <Value />
+    </AlertTrigger>
+  </Triggers>
+  <MonitoredComputers>
+    <string>LAY09</string>
+  </MonitoredComputers>
+</AlertDefinition>

@@ -1,0 +1,2088 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="livetemplates.csharp.usevar">False</setting>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="95C209BD-EA16-4F97-BC2B-FB96B7076E6F/f:FormUserDataField.cs" caret="16573" fromTop="15" />
+      <File id="9103C255-D71C-4E99-87A6-047D4A32EF67/f:SummaryTabView.cs" caret="7853" fromTop="15" />
+      <File id="AA9AF8D0-E825-4BDD-9291-624858D076CA/f:UserDefinedData.cs" caret="29737" fromTop="18" />
+      <File id="3A5DB212-B10D-4F7F-8760-AE60B99E3F68/f:LaytonFormShell.cs" caret="13003" fromTop="9" />
+      <File id="AA9AF8D0-E825-4BDD-9291-624858D076CA/f:VersionDAO.cs" caret="3897" fromTop="20" />
+      <File id="9569DD52-34F7-4F8D-97E6-3EA95774B56D/f:OverviewStrings.cs" caret="1262" fromTop="25" />
+      <File id="778E67B2-B7E9-4B27-A4B9-657A1331856B/f:AlerterController.cs" caret="4269" fromTop="17" />
+      <File id="9569DD52-34F7-4F8D-97E6-3EA95774B56D/f:OverviewTabView.cs" caret="14337" fromTop="7" />
+      <File id="AA9AF8D0-E825-4BDD-9291-624858D076CA/f:AssetGroup.cs" caret="734" fromTop="15" />
+      <File id="AA9AF8D0-E825-4BDD-9291-624858D076CA/f:AuditWizardDataAccess.cs" caret="194586" fromTop="22" />
+      <File id="9103C255-D71C-4E99-87A6-047D4A32EF67/f:NetworkExplorerViewPresenter.cs" caret="2198" fromTop="15" />
+      <File id="AA9AF8D0-E825-4BDD-9291-624858D076CA/f:ApplicationInstance.cs" caret="4927" fromTop="9" />
+      <File id="AA9AF8D0-E825-4BDD-9291-624858D076CA/f:InstalledApplication.cs" caret="6738" fromTop="15" />
+      <File id="AA9AF8D0-E825-4BDD-9291-624858D076CA/f:StatisticsDAO.cs" caret="150871" fromTop="25" />
+      <File id="778E67B2-B7E9-4B27-A4B9-657A1331856B/f:AuditUploadController.cs" caret="13718" fromTop="17" />
+      <File id="9103C255-D71C-4E99-87A6-047D4A32EF67/f:NetworkWorkItemController.cs" caret="39715" fromTop="33" />
+      <File id="D9FDDCE5-F067-435C-B0AF-EE3C2763D8E0/f:ApplicationsWorkItemController.cs" caret="14006" fromTop="20" />
+      <File id="DF8DA2AE-724A-4380-94B5-A8CC15C4E358/f:ReportsToolbarsController.cs" caret="18153" fromTop="8" />
+      <File id="DF8DA2AE-724A-4380-94B5-A8CC15C4E358/f:ReportsWorkItemController.cs" caret="10648" fromTop="10" />
+      <File id="95C209BD-EA16-4F97-BC2B-FB96B7076E6F/f:PickListTabView.cs" caret="6442" fromTop="9" />
+      <File id="AA9AF8D0-E825-4BDD-9291-624858D076CA/f:AssetDAO.cs" caret="41431" fromTop="16" />
+      <File id="3A5DB212-B10D-4F7F-8760-AE60B99E3F68/f:LaytonRegistrationForm.cs" caret="4853" fromTop="6" />
+      <File id="3A5DB212-B10D-4F7F-8760-AE60B99E3F68/f:LaytonCabShellWorkItem.cs" caret="1451" fromTop="35" />
+      <File id="2E7C0E1A-E76B-4940-B9F4-2AC30F8E30D4/f:ReportDefinition.cs" caret="11726" fromTop="7" />
+      <File id="2E7C0E1A-E76B-4940-B9F4-2AC30F8E30D4/f:LicensingReportDefinition.cs" caret="12336" fromTop="0" />
+      <File id="DF8DA2AE-724A-4380-94B5-A8CC15C4E358/f:ReportsTabView.cs" caret="9940" fromTop="0" />
+      <File id="AA9AF8D0-E825-4BDD-9291-624858D076CA/f:UserDataDefinitionsDAO.cs" caret="1128" fromTop="25" />
+      <File id="AA9AF8D0-E825-4BDD-9291-624858D076CA/f:LocationsDAO.cs" caret="22523" fromTop="7" />
+      <File id="2E7C0E1A-E76B-4940-B9F4-2AC30F8E30D4/f:AuditUploader.cs" caret="9349" fromTop="13" />
+      <File id="AA9AF8D0-E825-4BDD-9291-624858D076CA/f:LayDAO.cs" caret="204" fromTop="6" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="CA632E36-6514-40A6-B43B-925B89DE7A81/d:Properties/f:AssemblyInfo.cs" caret="0" fromTop="0" />
+      <File id="02B1DD51-D480-4FE2-A7F6-8093D4B0BCEF/d:Properties/f:AssemblyInfo.cs" caret="0" fromTop="0" />
+      <File id="8362B063-98B7-47F1-A59D-5CE6EC5F34FE/d:Properties/f:AssemblyInfo.cs" caret="0" fromTop="0" />
+      <File id="AA9AF8D0-E825-4BDD-9291-624858D076CA/d:Properties/f:AssemblyInfo.cs" caret="0" fromTop="0" />
+      <File id="3A5DB212-B10D-4F7F-8760-AE60B99E3F68/f:app.config" caret="9083" fromTop="18" />
+      <File id="3A5DB212-B10D-4F7F-8760-AE60B99E3F68/f:LaytonAboutForm.cs" caret="1177" fromTop="35" />
+      <File id="3A5DB212-B10D-4F7F-8760-AE60B99E3F68/d:Properties/f:Settings.settings" caret="5405" fromTop="18" />
+      <File id="AA9AF8D0-E825-4BDD-9291-624858D076CA/f:AssetDAO.cs" caret="28097" fromTop="15" />
+      <File id="AA9AF8D0-E825-4BDD-9291-624858D076CA/f:AssetDAO.cs" caret="30491" fromTop="17" />
+      <File id="AA9AF8D0-E825-4BDD-9291-624858D076CA/f:AssetDAO.cs" caret="26775" fromTop="25" />
+      <File id="AA9AF8D0-E825-4BDD-9291-624858D076CA/f:UserDefinedData.cs" caret="29548" fromTop="13" />
+      <File id="AA9AF8D0-E825-4BDD-9291-624858D076CA/f:UserDataDefinitionsDAO.cs" caret="23299" fromTop="36" />
+      <File id="AA9AF8D0-E825-4BDD-9291-624858D076CA/f:UserDataDefinitionsDAO.cs" caret="20514" fromTop="11" />
+      <File id="AA9AF8D0-E825-4BDD-9291-624858D076CA/f:UserDataDefinitionsDAO.cs" caret="20184" fromTop="4" />
+      <File id="AA9AF8D0-E825-4BDD-9291-624858D076CA/f:UserDefinedData.cs" caret="29805" fromTop="18" />
+      <File id="AA9AF8D0-E825-4BDD-9291-624858D076CA/f:UserDataDefinitionsDAO.cs" caret="20961" fromTop="23" />
+      <File id="AA9AF8D0-E825-4BDD-9291-624858D076CA/f:UserDataDefinitionsDAO.cs" caret="21681" fromTop="29" />
+      <File id="9569DD52-34F7-4F8D-97E6-3EA95774B56D/f:OverviewStrings.cs" caret="1275" fromTop="31" />
+      <File id="AA9AF8D0-E825-4BDD-9291-624858D076CA/f:StatisticsDAO.cs" caret="150438" fromTop="14" />
+      <File id="AA9AF8D0-E825-4BDD-9291-624858D076CA/f:StatisticsDAO.cs" caret="150713" fromTop="20" />
+      <File id="9103C255-D71C-4E99-87A6-047D4A32EF67/f:NetworkWorkItemController.cs" caret="35183" fromTop="18" />
+      <File id="9103C255-D71C-4E99-87A6-047D4A32EF67/f:NetworkWorkItemController.cs" caret="35179" fromTop="20" />
+      <File id="DF8DA2AE-724A-4380-94B5-A8CC15C4E358/f:ReportsTabView.cs" caret="33811" fromTop="19" />
+      <File id="DF8DA2AE-724A-4380-94B5-A8CC15C4E358/f:ReportsTabView.cs" caret="29378" fromTop="12" />
+      <File id="95C209BD-EA16-4F97-BC2B-FB96B7076E6F/f:PickListTabView.cs" caret="8036" fromTop="13" />
+      <File id="95C209BD-EA16-4F97-BC2B-FB96B7076E6F/f:PickListTabView.cs" caret="8998" fromTop="51" />
+      <File id="95C209BD-EA16-4F97-BC2B-FB96B7076E6F/f:PickListTabView.cs" caret="6493" fromTop="11" />
+      <File id="3A5DB212-B10D-4F7F-8760-AE60B99E3F68/f:LaytonRegistrationForm.cs" caret="1491" fromTop="23" />
+      <File id="3A5DB212-B10D-4F7F-8760-AE60B99E3F68/f:LaytonRegistrationForm.cs" caret="4978" fromTop="14" />
+      <File id="3A5DB212-B10D-4F7F-8760-AE60B99E3F68/f:LaytonCabShellWorkItem.cs" caret="3093" fromTop="17" />
+    </RecentEdits>
+  </RecentFiles>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir>C:\Program Files\NUnit 2.4.8\bin\net-2.0\</NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Default">
+      <Item value="dt" priority="13" />
+      <Item value="aAsset" priority="31" />
+      <Item value="GetAssetBySerialUUIDMakeModelName`0" priority="0" />
+      <Item value="if" priority="92" />
+      <Item value="return" priority="93" />
+      <Item value="else" priority="36" />
+      <Item value="string" priority="124" />
+      <Item value="aSerialNumber" priority="3" />
+      <Item value="aUuid" priority="1" />
+      <Item value="aMake" priority="3" />
+      <Item value="aModel" priority="1" />
+      <Item value="aName" priority="0" />
+      <Item value="RationaliseManufacturerNames`0" priority="0" />
+      <Item value="GetAssetBySerialUuidMakeModelName`0" priority="0" />
+      <Item value="item" priority="36" />
+      <Item value="lvAudits" priority="4" />
+      <Item value="dataFile" priority="2" />
+      <Item value="foreach" priority="48" />
+      <Item value="UltraListViewItem`0" priority="5" />
+      <Item value="listViewItem" priority="2" />
+      <Item value="break" priority="18" />
+      <Item value="auditFileInfo" priority="0" />
+      <Item value="List" priority="19" />
+      <Item value="AuditDataFile`0" priority="1" />
+      <Item value="_uploadedFiles" priority="1" />
+      <Item value="List&lt;AuditDataFile&gt;" priority="0" />
+      <Item value="_uploadFolder" priority="0" />
+      <Item value="file" priority="1" />
+      <Item value="lblProgress" priority="0" />
+      <Item value="Refresh`0" priority="2" />
+      <Item value="UltraListViewItems" priority="0" />
+      <Item value="for" priority="4" />
+      <Item value="listAuditFiles" priority="1" />
+      <Item value="thisAuditFile" priority="0" />
+      <Item value="items" priority="0" />
+      <Item value="logger" priority="7" />
+      <Item value="String`0" priority="15" />
+      <Item value="returnSetting" priority="0" />
+      <Item value="decrypt" priority="0" />
+      <Item value="resultValue" priority="0" />
+      <Item value="using" priority="11" />
+      <Item value="Data" priority="4" />
+      <Item value="SqlClient" priority="0" />
+      <Item value="returnString" priority="1" />
+      <Item value="defaultValue" priority="0" />
+      <Item value="catch" priority="4" />
+      <Item value="FormatException`0" priority="4" />
+      <Item value="commandText" priority="1" />
+      <Item value="lCount" priority="1" />
+      <Item value="private" priority="43" />
+      <Item value="void" priority="27" />
+      <Item value="public" priority="39" />
+      <Item value="_compactDatabaseType" priority="1" />
+      <Item value="cmdText" priority="29" />
+      <Item value="command" priority="15" />
+      <Item value="new" priority="104" />
+      <Item value="SettingsDAO`0" priority="5" />
+      <Item value="try" priority="19" />
+      <Item value="Logger" priority="2" />
+      <Item value="SqlCeException`0" priority="0" />
+      <Item value="ex" priority="10" />
+      <Item value="constraintName" priority="1" />
+      <Item value="prop" priority="10" />
+      <Item value="bool" priority="46" />
+      <Item value="IPAddress`0" priority="0" />
+      <Item value="ipAddress" priority="2" />
+      <Item value="DataTable`0" priority="22" />
+      <Item value="DataTable" priority="3" />
+      <Item value="System" priority="9" />
+      <Item value="IpAddressDAO`0" priority="0" />
+      <Item value="DataRow`0" priority="13" />
+      <Item value="row" priority="12" />
+      <Item value="Convert`0" priority="9" />
+      <Item value="true" priority="67" />
+      <Item value="cbActive" priority="1" />
+      <Item value="value" priority="3" />
+      <Item value="ipForm" priority="2" />
+      <Item value="Unchecked" priority="0" />
+      <Item value="CheckState`0" priority="1" />
+      <Item value="LayIPAddress`0" priority="0" />
+      <Item value="IPAddressRange`0" priority="4" />
+      <Item value="ipAddressRange" priority="4" />
+      <Item value="IPAddressRange" priority="1" />
+      <Item value="IpStart" priority="0" />
+      <Item value="ipStart" priority="0" />
+      <Item value="IpEnd" priority="0" />
+      <Item value="ipEnd" priority="0" />
+      <Item value="Active" priority="0" />
+      <Item value="active" priority="2" />
+      <Item value="Checked" priority="1" />
+      <Item value="LayIpAddressDAO`0" priority="1" />
+      <Item value="ipAddressDao" priority="2" />
+      <Item value="LayIpAddressDAO" priority="1" />
+      <Item value="SqlServerCe" priority="0" />
+      <Item value="SqlCeCommand`0" priority="0" />
+      <Item value="tcpipListView" priority="3" />
+      <Item value="range" priority="1" />
+      <Item value="layIpAddressDao" priority="1" />
+      <Item value="ipRanges" priority="1" />
+      <Item value="tabView" priority="0" />
+      <Item value="applicationNode" priority="0" />
+      <Item value="ignoredAppearance" priority="3" />
+      <Item value="Drawing" priority="1" />
+      <Item value="Color`0" priority="3" />
+      <Item value="theApplication" priority="0" />
+      <Item value="GetAllPublisherNamesAsDataTable`0" priority="0" />
+      <Item value="aPublisherFilter" priority="0" />
+      <Item value="false" priority="67" />
+      <Item value="showIncluded" priority="3" />
+      <Item value="showIgnored" priority="3" />
+      <Item value="int" priority="37" />
+      <Item value="isCompactDatabase" priority="0" />
+      <Item value="ApplicationsDAO`0" priority="6" />
+      <Item value="ApplicationsDAO" priority="2" />
+      <Item value="publisherNode" priority="4" />
+      <Item value="i" priority="1" />
+      <Item value="lApplicationsDAO" priority="1" />
+      <Item value="lPublisher" priority="0" />
+      <Item value="aPublisherName" priority="2" />
+      <Item value="myDataTable" priority="0" />
+      <Item value="WorkItem" priority="5" />
+      <Item value="enum" priority="1" />
+      <Item value="IPType`0" priority="1" />
+      <Item value="ipType" priority="1" />
+      <Item value="TypeOfIp" priority="0" />
+      <Item value="Tcpip" priority="1" />
+      <Item value="PerformQuery`0" priority="11" />
+      <Item value="StringBuilder`0" priority="0" />
+      <Item value="StringBuilder" priority="0" />
+      <Item value="PerformExecuteNonQuery`0" priority="0" />
+      <Item value="node" priority="10" />
+      <Item value="MiscStrings" priority="0" />
+      <Item value="null" priority="17" />
+      <Item value="returner" priority="2" />
+      <Item value="lUnionResultsDataTable" priority="0" />
+      <Item value="lAssetId" priority="1" />
+      <Item value="CreateUnionSqlStatement`0" priority="1" />
+      <Item value="lCurrentReportCondition" priority="1" />
+      <Item value="aAssetIds" priority="1" />
+      <Item value="AssetDAO`0" priority="9" />
+      <Item value="SqlCeConnection`0" priority="3" />
+      <Item value="conn" priority="3" />
+      <Item value="Asset`0" priority="4" />
+      <Item value="lMake" priority="1" />
+      <Item value="_uniqueid" priority="0" />
+      <Item value="GetSelectedAssets`0" priority="0" />
+      <Item value="includeDisposed" priority="0" />
+      <Item value="GetApplications`0" priority="0" />
+      <Item value="aForPublishers" priority="0" />
+      <Item value="aApplicationId" priority="1" />
+      <Item value="dataRow" priority="7" />
+      <Item value="lwDataAccess" priority="2" />
+      <Item value="thisApplication" priority="6" />
+      <Item value="List&lt;int&gt;" priority="4" />
+      <Item value="aliasedToApplicationsList" priority="0" />
+      <Item value="rows" priority="0" />
+      <Item value="Length" priority="2" />
+      <Item value="continue" priority="7" />
+      <Item value="applicationId" priority="10" />
+      <Item value="LicensesDAO`0" priority="0" />
+      <Item value="LicensesDAO" priority="0" />
+      <Item value="lLicenseDao" priority="1" />
+      <Item value="aliasedApplicationId" priority="1" />
+      <Item value="PerformScalarQuery`0" priority="1" />
+      <Item value="foundNonCountedLicense" priority="1" />
+      <Item value="licenseCount" priority="3" />
+      <Item value="licenseCountTable" priority="1" />
+      <Item value="AuditTrailWorkItem`0" priority="0" />
+      <Item value="AuditTrailWorkItem" priority="0" />
+      <Item value="wi" priority="0" />
+      <Item value="AuditTrailWorkItemController`0" priority="0" />
+      <Item value="this" priority="8" />
+      <Item value="ultraGridSuppliers" priority="3" />
+      <Item value="e" priority="10" />
+      <Item value="Right" priority="2" />
+      <Item value="UltraGridCell`0" priority="2" />
+      <Item value="GetCellAtPoint`0" priority="0" />
+      <Item value="Point" priority="2" />
+      <Item value="UIElement`0" priority="0" />
+      <Item value="element" priority="1" />
+      <Item value="GetType`0" priority="0" />
+      <Item value="cell" priority="2" />
+      <Item value="_alertDefinition" priority="0" />
+      <Item value="List&lt;string&gt;" priority="8" />
+      <Item value="AssetDAO" priority="4" />
+      <Item value="monitoredComputer" priority="1" />
+      <Item value="lAssetDao" priority="0" />
+      <Item value="communityNames" priority="2" />
+      <Item value="NotifyFilters`0" priority="0" />
+      <Item value="config" priority="0" />
+      <Item value="override" priority="0" />
+      <Item value="lAssetsPurged" priority="0" />
+      <Item value="AssetUpdate`0" priority="0" />
+      <Item value="Layton" priority="5" />
+      <Item value="AuditWizard.DataAccess" priority="0" />
+      <Item value="PerformStartupDatabaseTasks`0" priority="0" />
+      <Item value="lDataTable" priority="5" />
+      <Item value="GetUuidsBySerialMakeModel`0" priority="0" />
+      <Item value="GetUuidsBySerialMakeModelName`0" priority="1" />
+      <Item value="Exception`0" priority="1" />
+      <Item value="ArgumentException`0" priority="0" />
+      <Item value="mbox" priority="12" />
+      <Item value="currentChart" priority="1" />
+      <Item value="Printersettings" priority="0" />
+      <Item value="Printing" priority="0" />
+      <Item value="PrinterSettings`0" priority="0" />
+      <Item value="PrinterSettings" priority="0" />
+      <Item value="ps" priority="0" />
+      <Item value="SettingsDAO" priority="2" />
+      <Item value="File`0" priority="4" />
+      <Item value="_fileName" priority="0" />
+      <Item value="aApplicationName" priority="0" />
+      <Item value="aApplicationVersion" priority="0" />
+      <Item value="ExecuteNonQuery`0" priority="7" />
+      <Item value="AuditedItemsDAO`0" priority="5" />
+      <Item value="serviceStatus" priority="1" />
+      <Item value="LaytonServiceController`0" priority="0" />
+      <Item value="selectedOSs" priority="0" />
+      <Item value="lNewVersion" priority="3" />
+      <Item value="rootNode" priority="3" />
+      <Item value="AWMiscStrings`0" priority="2" />
+      <Item value="closeAllTabsToolStripMenuItem" priority="0" />
+      <Item value="closeAllToolStripMenuItem" priority="1" />
+      <Item value="closeToolStripMenuItem" priority="0" />
+      <Item value="ShowIncluded" priority="0" />
+      <Item value="_showIncluded" priority="0" />
+      <Item value="_showIgnored" priority="0" />
+      <Item value="installRows" priority="0" />
+      <Item value="notesControl" priority="3" />
+      <Item value="NotesControl`0" priority="0" />
+      <Item value="NotesControl" priority="0" />
+      <Item value="notes" priority="0" />
+      <Item value="NoteList`0" priority="0" />
+      <Item value="_notes" priority="5" />
+      <Item value="Note`0" priority="8" />
+      <Item value="note" priority="28" />
+      <Item value="updatedLicense" priority="1" />
+      <Item value="License" priority="0" />
+      <Item value="Document`0" priority="1" />
+      <Item value="Document" priority="0" />
+      <Item value="_documents" priority="1" />
+      <Item value="newDocument" priority="0" />
+      <Item value="documentsControl" priority="0" />
+      <Item value="DocumentList`0" priority="0" />
+      <Item value="_listLicenses" priority="0" />
+      <Item value="nextEmail" priority="2" />
+      <Item value="DateTime`0" priority="10" />
+      <Item value="AuditWizard" priority="7" />
+      <Item value="DataAccess" priority="0" />
+      <Item value="lSettingsDao" priority="3" />
+      <Item value="aCmdText" priority="2" />
+      <Item value="lSuccess" priority="1" />
+      <Item value="DatabaseMaintenanceDAO`0" priority="1" />
+      <Item value="tbSql" priority="5" />
+      <Item value="MessageBox`0" priority="3" />
+      <Item value="bnOk" priority="1" />
+      <Item value="Close`0" priority="7" />
+      <Item value="Cursor`0" priority="1" />
+      <Item value="Cursors`0" priority="2" />
+      <Item value="lMsg" priority="1" />
+      <Item value="FormDatabaseMaintenance" priority="0" />
+      <Item value="form" priority="12" />
+      <Item value="lSqlText" priority="1" />
+      <Item value="Environment`0" priority="47" />
+      <Item value="SqlCeTransaction`0" priority="0" />
+      <Item value="transaction" priority="5" />
+      <Item value="SqlCeTransaction" priority="0" />
+      <Item value="RunManintenanceScriptCompact`0" priority="0" />
+      <Item value="FileDialog`0" priority="0" />
+      <Item value="fileDialog" priority="0" />
+      <Item value="OpenFileDialog" priority="0" />
+      <Item value="openFileDialog" priority="1" />
+      <Item value="licensePercentUsed" priority="0" />
+      <Item value="GetComputerStatisticsReportAsText`0" priority="0" />
+      <Item value="computerStatistics" priority="0" />
+      <Item value="GetApplicationStatisticsReport`0" priority="0" />
+      <Item value="applicationStatistics" priority="0" />
+      <Item value="reportText" priority="5" />
+      <Item value="GenerateMailSubjectAndBodyAsText`0" priority="0" />
+      <Item value="nl" priority="0" />
+      <Item value="AddSupportContractAlertsAsText`0" priority="0" />
+      <Item value="mailSubjectAndBody" priority="0" />
+      <Item value="emailAsText" priority="0" />
+      <Item value="GenerateMailSubjectAndBody`0" priority="0" />
+      <Item value="dailyReport" priority="0" />
+      <Item value="listAlerts" priority="0" />
+      <Item value="AddAlertMonitorAlertsAsText`0" priority="0" />
+      <Item value="alertsGrid" priority="0" />
+      <Item value="rbHtml" priority="3" />
+      <Item value="ListSortDescription`0" priority="1" />
+      <Item value="SaveEmailSettings`0" priority="0" />
+      <Item value="rbText" priority="1" />
+      <Item value="HandleAuditDataFileVersion`0" priority="0" />
+      <Item value="aAuditDataFile" priority="0" />
+      <Item value="thisScannerVersion" priority="3" />
+      <Item value="lNewVersionAvailable" priority="1" />
+      <Item value="isAgentAdf" priority="0" />
+      <Item value="currentVersion" priority="0" />
+      <Item value="latestVersion" priority="0" />
+      <Item value="latestScannerVersion" priority="0" />
+      <Item value="newOperation" priority="3" />
+      <Item value="Operation" priority="0" />
+      <Item value="reaudit" priority="0" />
+      <Item value="Threading" priority="0" />
+      <Item value="Thread`0" priority="1" />
+      <Item value="dataTabControl" priority="13" />
+      <Item value="AddUserDefinedCategoryTabs`0" priority="0" />
+      <Item value="TabControl`0" priority="0" />
+      <Item value="TabControl" priority="0" />
+      <Item value="newTab" priority="5" />
+      <Item value="UltraTab`0" priority="5" />
+      <Item value="UltraTab" priority="0" />
+      <Item value="ultraTab" priority="2" />
+      <Item value="ultraTabPageControl" priority="0" />
+      <Item value="Resources" priority="1" />
+      <Item value="Properties" priority="1" />
+      <Item value="Resources`0" priority="2" />
+      <Item value="UserDataDefinitionsDAO`0" priority="7" />
+      <Item value="_asset" priority="18" />
+      <Item value="tab" priority="7" />
+      <Item value="selectedTab" priority="4" />
+      <Item value="List&lt;UltraTab&gt;" priority="0" />
+      <Item value="GroupBox`0" priority="3" />
+      <Item value="GroupBox" priority="0" />
+      <Item value="gb" priority="7" />
+      <Item value="tableLayoutPanel" priority="4" />
+      <Item value="Fill" priority="2" />
+      <Item value="Size" priority="1" />
+      <Item value="Padding" priority="2" />
+      <Item value="textbox" priority="2" />
+      <Item value="dataField" priority="8" />
+      <Item value="FillUserDefinedData`0" priority="0" />
+      <Item value="TabPage`0" priority="4" />
+      <Item value="tabIndex" priority="0" />
+      <Item value="Control`0" priority="2" />
+      <Item value="thisTab" priority="0" />
+      <Item value="UserDataField`0" priority="22" />
+      <Item value="ctrl" priority="1" />
+      <Item value="udf" priority="5" />
+      <Item value="userDataField" priority="14" />
+      <Item value="TextBox`0" priority="6" />
+      <Item value="returnValue" priority="1" />
+      <Item value="userDefId" priority="2" />
+      <Item value="itemId" priority="0" />
+      <Item value="UserDataDefinitionsDAO" priority="3" />
+      <Item value="label" priority="4" />
+      <Item value="MiddleCenter" priority="3" />
+      <Item value="_assetTypes" priority="0" />
+      <Item value="_listCategories" priority="1" />
+      <Item value="UpdateUserDataFieldValue`0" priority="0" />
+      <Item value="SaveUserDefinedData`0" priority="1" />
+      <Item value="UltraTabPageControl`0" priority="0" />
+      <Item value="UltraTabPageControl" priority="0" />
+      <Item value="utpc" priority="3" />
+      <Item value="ComboBox`0" priority="1" />
+      <Item value="textBox" priority="9" />
+      <Item value="combo" priority="5" />
+      <Item value="VerticalScroll" priority="1" />
+      <Item value="Panel`0" priority="0" />
+      <Item value="AutoScroll" priority="0" />
+      <Item value="BorderStyle" priority="1" />
+      <Item value="case" priority="13" />
+      <Item value="CreateDateField`0" priority="0" />
+      <Item value="nullableDateTime" priority="2" />
+      <Item value="Format" priority="0" />
+      <Item value="DateTimePickerFormat`0" priority="1" />
+      <Item value="CanEnableIme" priority="0" />
+      <Item value="DateTimePicker`0" priority="0" />
+      <Item value="dateTimePicker" priority="5" />
+      <Item value="control" priority="3" />
+      <Item value="newValue" priority="1" />
+      <Item value="dateValue" priority="0" />
+      <Item value="CreateTextField`0" priority="0" />
+      <Item value="CreateEnvironmentOrRegistryField`0" priority="0" />
+      <Item value="ColumnStyle" priority="0" />
+      <Item value="SizeType`0" priority="0" />
+      <Item value="scannerDefinition" priority="0" />
+      <Item value="Utility`0" priority="3" />
+      <Item value="aSelectedAssets" priority="0" />
+      <Item value="auditScannerDefinition" priority="0" />
+      <Item value="rootLocation" priority="1" />
+      <Item value="NullableDateTimePicker`0" priority="1" />
+      <Item value="TextAlign" priority="0" />
+      <Item value="MiddleLeft" priority="0" />
+      <Item value="NumericUpDown`0" priority="1" />
+      <Item value="numericUpDown" priority="1" />
+      <Item value="pnlText" priority="0" />
+      <Item value="pnlRegistry" priority="1" />
+      <Item value="pnlPicklist" priority="0" />
+      <Item value="pnlNumeric" priority="0" />
+      <Item value="pnlEnvVar" priority="1" />
+      <Item value="cbMandatory" priority="1" />
+      <Item value="cbInteractiveInclude" priority="3" />
+      <Item value="nupMin" priority="3" />
+      <Item value="nupMax" priority="3" />
+      <Item value="FormRegistryBrowser`0" priority="1" />
+      <Item value="FormRegistryBrowser" priority="0" />
+      <Item value="RegistryValue" priority="0" />
+      <Item value="RegistryKey" priority="0" />
+      <Item value="tvRegistry" priority="1" />
+      <Item value="DialogResult" priority="0" />
+      <Item value="_field" priority="4" />
+      <Item value="asset" priority="29" />
+      <Item value="NonInteractiveAsset" priority="1" />
+      <Item value="aScope" priority="0" />
+      <Item value="Application" priority="0" />
+      <Item value="field" priority="13" />
+      <Item value="category" priority="23" />
+      <Item value="SCOPE`0" priority="1" />
+      <Item value="UserDataCategory`0" priority="14" />
+      <Item value="List&lt;UserDataField&gt;" priority="1" />
+      <Item value="parentCategory" priority="1" />
+      <Item value="UltraCurrencyEditor`0" priority="4" />
+      <Item value="currencyEditor" priority="10" />
+      <Item value="CreateCurrencyField`0" priority="0" />
+      <Item value="out" priority="2" />
+      <Item value="MaskClipMode" priority="0" />
+      <Item value="PromptChar" priority="0" />
+      <Item value="NetworkDiscoveryWorkItemController`0" priority="1" />
+      <Item value="networkDiscoveryWorkItemController" priority="2" />
+      <Item value="NetworkDiscoveryWorkItemController" priority="0" />
+      <Item value="as" priority="9" />
+      <Item value="wiController" priority="4" />
+      <Item value="AutoSize" priority="0" />
+      <Item value="RefreshView`0" priority="2" />
+      <Item value="_activeItem" priority="4" />
+      <Item value="cat" priority="0" />
+      <Item value="userDataCategory" priority="1" />
+      <Item value="OnMouseEnter" priority="0" />
+      <Item value="list" priority="2" />
+      <Item value="UltraExplorerBar`0" priority="4" />
+      <Item value="UltraExplorerBarItem`0" priority="1" />
+      <Item value="aCategory" priority="0" />
+      <Item value="ultraListViewItem" priority="1" />
+      <Item value="ulvUserData" priority="5" />
+      <Item value="listView" priority="0" />
+      <Item value="RefreshTab`0" priority="0" />
+      <Item value="object" priority="2" />
+      <Item value="EnvVariable" priority="0" />
+      <Item value="lvEnvVar" priority="3" />
+      <Item value="FormEnvVarBrowser`0" priority="0" />
+      <Item value="FormEnvVarBrowser" priority="0" />
+      <Item value="OK" priority="5" />
+      <Item value="tbEnvironmentVariableName" priority="0" />
+      <Item value="IDictionary`0" priority="0" />
+      <Item value="dictionaryEntry1" priority="1" />
+      <Item value="SortedDictionary" priority="0" />
+      <Item value="dictionaryEntry" priority="0" />
+      <Item value="sortedEnvVarList" priority="0" />
+      <Item value="Label`0" priority="1" />
+      <Item value="SetHeaderText`0" priority="0" />
+      <Item value="success" priority="1" />
+      <Item value="nup" priority="4" />
+      <Item value="Left" priority="0" />
+      <Item value="Width" priority="0" />
+      <Item value="pickitem" priority="0" />
+      <Item value="maxWidth" priority="2" />
+      <Item value="explorerBar" priority="3" />
+      <Item value="sender" priority="7" />
+      <Item value="dragExplorerItem" priority="4" />
+      <Item value="dropExplorerItem" priority="3" />
+      <Item value="index" priority="1" />
+      <Item value="X" priority="1" />
+      <Item value="dragItem" priority="0" />
+      <Item value="dropItem" priority="1" />
+      <Item value="ListViewItem`0" priority="3" />
+      <Item value="ListViewItem" priority="1" />
+      <Item value="IOException`0" priority="0" />
+      <Item value="tbValue1Entered" priority="0" />
+      <Item value="tbValue2Entered" priority="1" />
+      <Item value="Common.Controls" priority="1" />
+      <Item value="Common" priority="1" />
+      <Item value="Security" priority="0" />
+      <Item value="SecurityException`0" priority="0" />
+      <Item value="AuditWizardUtility`0" priority="0" />
+      <Item value="finally" priority="1" />
+      <Item value="log4net" priority="0" />
+      <Item value="LogManager`0" priority="0" />
+      <Item value="subKeyNode" priority="3" />
+      <Item value="Font" priority="1" />
+      <Item value="FontStyle`0" priority="0" />
+      <Item value="FontFamily`0" priority="0" />
+      <Item value="_hKeyLocalMachineOnly" priority="4" />
+      <Item value="InitializeForm`0" priority="1" />
+      <Item value="hKeyLocalMachineOnly" priority="0" />
+      <Item value="AddNodes`0" priority="0" />
+      <Item value="FormShadedAskInput2`0" priority="0" />
+      <Item value="_editing" priority="3" />
+      <Item value="editing" priority="1" />
+      <Item value="readonly" priority="1" />
+      <Item value="_category" priority="2" />
+      <Item value="count" priority="7" />
+      <Item value="ParentScope" priority="0" />
+      <Item value="Asset" priority="0" />
+      <Item value="fields" priority="0" />
+      <Item value="Yes" priority="1" />
+      <Item value="Name" priority="0" />
+      <Item value="YesNo" priority="1" />
+      <Item value="Question" priority="0" />
+      <Item value="deletePicklist" priority="1" />
+      <Item value="DeleteUserDefinedDataByPicklist`0" priority="0" />
+      <Item value="listCategories" priority="0" />
+      <Item value="Picklist" priority="0" />
+      <Item value="_installedApplication" priority="3" />
+      <Item value="GetAssetBySerialModel`0" priority="0" />
+      <Item value="UpdateFieldsTabOrder`0" priority="0" />
+      <Item value="UpdateCategoriesTabOrder`0" priority="0" />
+      <Item value="_listPickLists" priority="0" />
+      <Item value="ImageList`0" priority="0" />
+      <Item value="ImageList" priority="0" />
+      <Item value="ImageIndex" priority="0" />
+      <Item value="ImageKey" priority="0" />
+      <Item value="UserDefinedDataTabView`0" priority="0" />
+      <Item value="userDefinedDataTabView" priority="3" />
+      <Item value="UserDefinedDataTabView" priority="1" />
+      <Item value="workItem" priority="8" />
+      <Item value="Administration" priority="0" />
+      <Item value="controller" priority="0" />
+      <Item value="explorerView" priority="6" />
+      <Item value="deployToolStripMenuItem" priority="3" />
+      <Item value="ToolStripMenuItem`0" priority="4" />
+      <Item value="menuItem" priority="10" />
+      <Item value="Menu`0" priority="0" />
+      <Item value="ToolStripMenuItem" priority="0" />
+      <Item value="configuration" priority="2" />
+      <Item value="Text" priority="4" />
+      <Item value="deployToolStripMenuItem_Click`0" priority="1" />
+      <Item value="fileName" priority="6" />
+      <Item value="updateConfigurationToolStripMenuItem" priority="0" />
+      <Item value="PopulateMenuItemWithAgents`0" priority="0" />
+      <Item value="ultraGridNotes" priority="0" />
+      <Item value="scope" priority="0" />
+      <Item value="parentID" priority="0" />
+      <Item value="cbExistingNotes" priority="14" />
+      <Item value="_name" priority="2" />
+      <Item value="NoteListItem`0" priority="2" />
+      <Item value="noteListItem" priority="4" />
+      <Item value="NoteListItem" priority="0" />
+      <Item value="tbNoteText" priority="19" />
+      <Item value="lbNoteDate" priority="4" />
+      <Item value="seletedNote" priority="0" />
+      <Item value="selectedNote" priority="3" />
+      <Item value="GetSelectedNote`0" priority="2" />
+      <Item value="tbNoteName" priority="1" />
+      <Item value="FormNewNote`0" priority="0" />
+      <Item value="InitializeComponent`0" priority="0" />
+      <Item value="_scope" priority="3" />
+      <Item value="_parentId" priority="1" />
+      <Item value="bnUpdateNote" priority="1" />
+      <Item value="_newNote" priority="0" />
+      <Item value="LoadNotes`0" priority="0" />
+      <Item value="_parentID" priority="1" />
+      <Item value="DesktopAlert`0" priority="3" />
+      <Item value="lvExistingNotes" priority="24" />
+      <Item value="splitContainer1" priority="0" />
+      <Item value="split" priority="1" />
+      <Item value="NotesDAO`0" priority="0" />
+      <Item value="Note" priority="0" />
+      <Item value="AddNoteToListView`0" priority="0" />
+      <Item value="lbCharsLeft" priority="1" />
+      <Item value="ToolTipText" priority="0" />
+      <Item value="InvokeGotFocus`0" priority="0" />
+      <Item value="applicationName" priority="0" />
+      <Item value="isBrowser" priority="0" />
+      <Item value="appName" priority="1" />
+      <Item value="IsInternetBrowser`0" priority="0" />
+      <Item value="AuditedItemsDAO" priority="0" />
+      <Item value="lAuditedItemsDao" priority="0" />
+      <Item value="AuditedItem`0" priority="0" />
+      <Item value="auditedItem" priority="14" />
+      <Item value="AuditedItem" priority="0" />
+      <Item value="thisItem" priority="1" />
+      <Item value="_defaultBrowser" priority="1" />
+      <Item value="browserPath" priority="1" />
+      <Item value="BrowserType`0" priority="5" />
+      <Item value="SelectApplicationsControl`0" priority="0" />
+      <Item value="FindDefaultBrowser`0" priority="0" />
+      <Item value="browser" priority="5" />
+      <Item value="browserType" priority="1" />
+      <Item value="GetBrowserType`0" priority="0" />
+      <Item value="text" priority="0" />
+      <Item value="switch" priority="2" />
+      <Item value="default" priority="0" />
+      <Item value="name" priority="5" />
+      <Item value="alreadyAssigned" priority="1" />
+      <Item value="parentId" priority="0" />
+      <Item value="lAssignedUserId" priority="3" />
+      <Item value="lAssetID" priority="2" />
+      <Item value="assignedUserSet" priority="3" />
+      <Item value="username" priority="4" />
+      <Item value="UserDataField" priority="0" />
+      <Item value="bnDeleteNote" priority="2" />
+      <Item value="lbNoNotes" priority="3" />
+      <Item value="AddNewNote`0" priority="0" />
+      <Item value="lbNotePrompt" priority="2" />
+      <Item value="MessageBoxIcon`0" priority="3" />
+      <Item value="tbVersion" priority="0" />
+      <Item value="Label" priority="0" />
+      <Item value="addUDDLabel" priority="1" />
+      <Item value="addLabel" priority="1" />
+      <Item value="reportData" priority="2" />
+      <Item value="lStatisticsDAO" priority="2" />
+      <Item value="StatisticsDefaultBrowser`0" priority="0" />
+      <Item value="aRowLabel" priority="3" />
+      <Item value="AddUserDataCategory`0" priority="0" />
+      <Item value="DeleteUserDataCategory`0" priority="0" />
+      <Item value="AddUserDataField`0" priority="1" />
+      <Item value="DeleteUserDataField`0" priority="1" />
+      <Item value="EditUserDataCategory`0" priority="0" />
+      <Item value="EditUserDataField`0" priority="0" />
+      <Item value="bnEditUserCategory" priority="1" />
+      <Item value="userDataExplorerBar" priority="2" />
+      <Item value="bnEditUserField" priority="0" />
+      <Item value="miDeletePickList" priority="0" />
+      <Item value="DeletePickList`0" priority="0" />
+      <Item value="AddNewPickList`0" priority="0" />
+      <Item value="EditPickList`0" priority="0" />
+      <Item value="bnAddItem" priority="0" />
+      <Item value="AddNewItem`0" priority="0" />
+      <Item value="DeleteItem`0" priority="0" />
+      <Item value="bnEditList" priority="0" />
+      <Item value="pickListsExplorerBar" priority="0" />
+      <Item value="ulvPickItems" priority="1" />
+      <Item value="bnEditItem" priority="0" />
+      <Item value="AddCategory`0" priority="0" />
+      <Item value="DeleteCategory`0" priority="0" />
+      <Item value="EditCategory`0" priority="0" />
+      <Item value="AddType`0" priority="0" />
+      <Item value="DeleteType`0" priority="0" />
+      <Item value="EditType`0" priority="0" />
+      <Item value="bnEditCategory" priority="0" />
+      <Item value="ulvAssetTypes" priority="0" />
+      <Item value="bnEditField" priority="0" />
+      <Item value="DeleteSupplier`0" priority="0" />
+      <Item value="EditSupplier`0" priority="0" />
+      <Item value="bnEditSupplier" priority="0" />
+      <Item value="_selectedReport" priority="0" />
+      <Item value="newGrid" priority="0" />
+      <Item value="aReportName" priority="1" />
+      <Item value="lReportGrid" priority="0" />
+      <Item value="cbMake" priority="6" />
+      <Item value="FillAssetMakes`0" priority="0" />
+      <Item value="FillAssetModels`0" priority="0" />
+      <Item value="AssetType`0" priority="0" />
+      <Item value="isAgent" priority="1" />
+      <Item value="IsCurrentVersionOlder`0" priority="0" />
+      <Item value="scannerVersionToCheck" priority="0" />
+      <Item value="assetTypeId" priority="1" />
+      <Item value="cbModel" priority="2" />
+      <Item value="assetType" priority="0" />
+      <Item value="make" priority="0" />
+      <Item value="FormUserGuide`0" priority="0" />
+      <Item value="FormUserGuide" priority="0" />
+      <Item value="userDataNode" priority="0" />
+      <Item value="categoryNode" priority="0" />
+      <Item value="internetNode" priority="1" />
+      <Item value="UltraTreeNode`0" priority="4" />
+      <Item value="cmdTxt" priority="0" />
+      <Item value="protected" priority="1" />
+      <Item value="ExpandAllAssetsInternetValues`0" priority="0" />
+      <Item value="expandingNode" priority="2" />
+      <Item value="rootInternetNode" priority="1" />
+      <Item value="allAssets" priority="1" />
+      <Item value="browserName" priority="2" />
+      <Item value="browserVersion" priority="0" />
+      <Item value="version" priority="6" />
+      <Item value="valueNode" priority="1" />
+      <Item value="lbAddUserData" priority="0" />
+      <Item value="tbFocus" priority="0" />
+      <Item value="cbAutoDeployAgent" priority="2" />
+      <Item value="DatabaseSettingsKeys`0" priority="1" />
+      <Item value="_existingType" priority="1" />
+      <Item value="MessageBoxButtons`0" priority="3" />
+      <Item value="No" priority="2" />
+      <Item value="activeExplorerView" priority="4" />
+      <Item value="activeTabView" priority="0" />
+      <Item value="networkTree" priority="2" />
+      <Item value="RestoreSelectedNodes`0" priority="0" />
+      <Item value="RootNode" priority="0" />
+      <Item value="explorerTree" priority="0" />
+      <Item value="Decimal`0" priority="3" />
+      <Item value="_auditScannerDefinition" priority="1" />
+      <Item value="latestHBSPVersion" priority="1" />
+      <Item value="LinkLabel`0" priority="1" />
+      <Item value="linkLabel" priority="0" />
+      <Item value="Diagnostics" priority="0" />
+      <Item value="Process`0" priority="0" />
+      <Item value="SCOPE" priority="1" />
+      <Item value="agentIniFileName" priority="1" />
+      <Item value="ParameterizedThreadStart`0" priority="0" />
+      <Item value="HideNotApplicableTabs`0" priority="0" />
+      <Item value="_listAssetTypes" priority="0" />
+      <Item value="newAssetToolStripMenuItem" priority="0" />
+      <Item value="LaytonFormShell`0" priority="0" />
+      <Item value="LaytonFormShell" priority="0" />
+      <Item value="lfs" priority="0" />
+      <Item value="deployed" priority="0" />
+      <Item value="inuse" priority="0" />
+      <Item value="AddAsset`0" priority="0" />
+      <Item value="_assetDAO" priority="4" />
+      <Item value="Assert`0" priority="3" />
+      <Item value="assetID" priority="0" />
+      <Item value="TearDown" priority="0" />
+      <Item value="applicationsTree" priority="3" />
+      <Item value="UltraTree`0" priority="0" />
+      <Item value="ApplicationsExplorerView`0" priority="1" />
+      <Item value="_listApplications" priority="0" />
+      <Item value="InstalledApplication`0" priority="4" />
+      <Item value="ApplicationsTabViewPresenter`0" priority="0" />
+      <Item value="FindSelectedApplications`0" priority="0" />
+      <Item value="Type`0" priority="0" />
+      <Item value="result" priority="0" />
+      <Item value="paneUltraGrid" priority="2" />
+      <Item value="tabControlReport" priority="0" />
+      <Item value="bnSaveComplianceReport" priority="0" />
+      <Item value="Path`0" priority="2" />
+      <Item value="ToString`0" priority="0" />
+      <Item value="ThreadExceptionDialog`0" priority="0" />
+      <Item value="backgroundWorker1" priority="5" />
+      <Item value="BackgroundWorker" priority="1" />
+      <Item value="alertMsg" priority="2" />
+      <Item value="lSupportExpiryDate" priority="2" />
+      <Item value="startupStrings" priority="2" />
+      <Item value="Dictionary" priority="3" />
+      <Item value="List&lt;Dictionary&lt;string,string&gt;&gt;" priority="0" />
+      <Item value="Dictionary&lt;string,string&gt;" priority="1" />
+      <Item value="CheckNewVersionAvailable`0" priority="1" />
+      <Item value="CheckSupportExpiry`0" priority="0" />
+      <Item value="supportMsg" priority="4" />
+      <Item value="results" priority="1" />
+      <Item value="supportExpiredString" priority="0" />
+      <Item value="FormSupplierProperties`0" priority="0" />
+      <Item value="FormSupportExpiry`0" priority="0" />
+      <Item value="reportName" priority="9" />
+      <Item value="selectedNode" priority="0" />
+      <Item value="aGroup" priority="6" />
+      <Item value="aParentId" priority="0" />
+      <Item value="GetLocationByParentId`0" priority="2" />
+      <Item value="aGroupId" priority="0" />
+      <Item value="UpdateLocationFullName`0" priority="0" />
+      <Item value="AssetGroup`0" priority="7" />
+      <Item value="AssetGroup" priority="3" />
+      <Item value="userlocation" priority="4" />
+      <Item value="UpdateChildLocationsFullName`0" priority="0" />
+      <Item value="group" priority="12" />
+      <Item value="fullName" priority="0" />
+      <Item value="GetLocationById`0" priority="1" />
+      <Item value="while" priority="1" />
+      <Item value="parent" priority="1" />
+      <Item value="GenerateFullName`0" priority="0" />
+      <Item value="originalFullName" priority="2" />
+      <Item value="GroupUpdate`0" priority="0" />
+      <Item value="newFullName" priority="3" />
+      <Item value="origGroup" priority="0" />
+      <Item value="tbOrganization" priority="0" />
+      <Item value="LocationsDAO`0" priority="0" />
+      <Item value="cbAssetTypes" priority="0" />
+      <Item value="SqlException`0" priority="1" />
+      <Item value="Exclamation" priority="1" />
+      <Item value="Application`0" priority="0" />
+      <Item value="LoadProductKey`0" priority="0" />
+      <Item value="tbProductKey" priority="0" />
+      <Item value="tbCompanyName" priority="0" />
+      <Item value="tbCompanyId" priority="0" />
+      <Item value="AssetTypesDAO`0" priority="0" />
+      <Item value="UnauthorizedAccessException`0" priority="0" />
+      <Item value="Information" priority="2" />
+      <Item value="exporter" priority="4" />
+      <Item value="ThrowException" priority="0" />
+      <Item value="ExportToExcel`0" priority="0" />
+      <Item value="UltraGrid`0" priority="1" />
+      <Item value="saveFileDialog" priority="6" />
+      <Item value="worksheet" priority="0" />
+      <Item value="worksheetName" priority="1" />
+      <Item value="currentGrid" priority="2" />
+      <Item value="BIFF8Writer`0" priority="0" />
+      <Item value="workbook" priority="1" />
+      <Item value="currentTabpage" priority="2" />
+      <Item value="tabPage" priority="2" />
+      <Item value="c" priority="1" />
+      <Item value="UltraChart`0" priority="1" />
+      <Item value="TabPageContainsChart`0" priority="0" />
+      <Item value="containsChart" priority="0" />
+      <Item value="tbCustomReportName" priority="0" />
+      <Item value="report" priority="0" />
+      <Item value="static" priority="0" />
+      <Item value="UltraGridExcelExporter`0" priority="0" />
+      <Item value="UltraGridExporter`0" priority="12" />
+      <Item value="grid" priority="0" />
+      <Item value="rowsCount" priority="0" />
+      <Item value="alertsMenuStrip" priority="0" />
+      <Item value="alertsGridView" priority="1" />
+      <Item value="headerLabel" priority="8" />
+      <Item value="applicationsGridView" priority="1" />
+      <Item value="instancesGridView" priority="0" />
+      <Item value="OSGridView" priority="0" />
+      <Item value="auditTrailGridView" priority="0" />
+      <Item value="auditGridView" priority="0" />
+      <Item value="operationsGridView" priority="0" />
+      <Item value="groupMenuStrip" priority="0" />
+      <Item value="groupGridView" priority="0" />
+      <Item value="historyGridView" priority="0" />
+      <Item value="_currentGrid" priority="0" />
+      <Item value="tbReportName" priority="1" />
+      <Item value="sheetName" priority="0" />
+      <Item value="cmbSQLReports" priority="1" />
+      <Item value="selectedIndex" priority="1" />
+      <Item value="comboBoxCustomReports" priority="0" />
+      <Item value="ipAddresses" priority="3" />
+      <Item value="currentIpAddress" priority="0" />
+      <Item value="NumThreads" priority="2" />
+      <Item value="ManualResetEvent`0" priority="0" />
+      <Item value="ManualResetEvent" priority="1" />
+      <Item value="resetEvents" priority="1" />
+      <Item value="ThreadPool`0" priority="3" />
+      <Item value="ExecuteTcpipDiscover`0" priority="0" />
+      <Item value="SetValue`0" priority="0" />
+      <Item value="_ipAddresses" priority="2" />
+      <Item value="o" priority="1" />
+      <Item value="Countdown`0" priority="0" />
+      <Item value="_countdown" priority="2" />
+      <Item value="Countdown" priority="0" />
+      <Item value="NameValueCollection`0" priority="0" />
+      <Item value="GetIpAddressCount`0" priority="2" />
+      <Item value="_isComplete" priority="0" />
+      <Item value="threadA" priority="0" />
+      <Item value="_ipRanges" priority="1" />
+      <Item value="nextIpAddress" priority="0" />
+      <Item value="aCurrentIpAddress" priority="0" />
+      <Item value="selectedItem" priority="0" />
+      <Item value="_maximumCount" priority="0" />
+      <Item value="installationCount" priority="0" />
+      <Item value="ReportsDAO`0" priority="0" />
+      <Item value="_reportType" priority="6" />
+      <Item value="CustomReport" priority="1" />
+      <Item value="ComplianceReport" priority="1" />
+      <Item value="SystemReport" priority="1" />
+      <Item value="SqlReport" priority="0" />
+      <Item value="lBarChart" priority="0" />
+      <Item value="lStackColumnChart" priority="3" />
+      <Item value="lColumnChart" priority="0" />
+      <Item value="lPieChart3D" priority="0" />
+      <Item value="lPieChart" priority="0" />
+      <Item value="inventoryChart" priority="0" />
+      <Item value="backupFile" priority="1" />
+      <Item value="ReportsWorkItemController`0" priority="0" />
+      <Item value="CustomReport`0" priority="1" />
+      <Item value="_showIncludedApplications" priority="2" />
+      <Item value="_showIgnoredApplications" priority="2" />
+      <Item value="Cursor" priority="0" />
+      <Item value="publisher" priority="0" />
+      <Item value="deleteApplicationToolStripMenuItem" priority="3" />
+      <Item value="ApplicationPublisher`0" priority="0" />
+      <Item value="installedApplication" priority="4" />
+      <Item value="appIdsToDelete" priority="2" />
+      <Item value="_AppDomain`0" priority="0" />
+      <Item value="applicationIds" priority="1" />
+      <Item value="applicationsTreeMenu" priority="0" />
+      <Item value="GetSelectedApplications`0" priority="7" />
+      <Item value="selectedApplicationIds" priority="1" />
+      <Item value="publisherName" priority="4" />
+      <Item value="appsToAlias" priority="2" />
+      <Item value="_selectedOSs" priority="0" />
+      <Item value="aliasedApplications" priority="0" />
+      <Item value="GetAliasedApplicationsByApplicationId`0" priority="0" />
+      <Item value="RetrieveVirtualItemEventArgs`0" priority="0" />
+      <Item value="GetApplicationNameAndVersionById`0" priority="0" />
+      <Item value="aliasedAppDataTable" priority="0" />
+      <Item value="aliasedApps" priority="1" />
+      <Item value="editPublisherToolStripMenuItem" priority="0" />
+      <Item value="newPublisherName" priority="0" />
+      <Item value="originalPublisherName" priority="0" />
+      <Item value="textBox1" priority="2" />
+      <Item value="_publisherName" priority="0" />
+      <Item value="bnOK" priority="0" />
+      <Item value="FormEditPublisherName`0" priority="0" />
+      <Item value="FormEditPublisherName" priority="0" />
+      <Item value="currentGroup" priority="2" />
+      <Item value="ExpandAssetGroup`0" priority="0" />
+      <Item value="Network" priority="0" />
+      <Item value="NetworkExplorerView`0" priority="0" />
+      <Item value="networkExplorerView" priority="0" />
+      <Item value="Overview" priority="1" />
+      <Item value="OverviewExplorerView" priority="0" />
+      <Item value="existingAsset" priority="12" />
+      <Item value="discoveredAsset" priority="8" />
+      <Item value="manufacturer" priority="1" />
+      <Item value="printerAsset" priority="1" />
+      <Item value="printer" priority="1" />
+      <Item value="delegate" priority="0" />
+      <Item value="event" priority="0" />
+      <Item value="ChangedEventHandler`0" priority="0" />
+      <Item value="virtual" priority="0" />
+      <Item value="EventArgs`0" priority="0" />
+      <Item value="Changed" priority="1" />
+      <Item value="OverviewExplorerView`0" priority="0" />
+      <Item value="OverviewWorkItemController`0" priority="0" />
+      <Item value="LaytonWorkItemController`0" priority="0" />
+      <Item value="LaytonToolbarsController" priority="5" />
+      <Item value="laytonToolbarsController" priority="1" />
+      <Item value="la" priority="1" />
+      <Item value="overViewExplorerView" priority="0" />
+      <Item value="IGApplicationContextApplication" priority="0" />
+      <Item value="ContextMenu" priority="4" />
+      <Item value="lResultsGrid" priority="0" />
+      <Item value="contextMenuStripExportData" priority="0" />
+      <Item value="_resultsGrid" priority="0" />
+      <Item value="ExportToXLS`0" priority="0" />
+      <Item value="ExportToPDF`0" priority="0" />
+      <Item value="ExportToXPS`0" priority="0" />
+      <Item value="sqlCeConnection" priority="3" />
+      <Item value="CreateOpenCEConnection`0" priority="0" />
+      <Item value="connected" priority="1" />
+      <Item value="Open" priority="0" />
+      <Item value="CreateOpenStandardConnection`0" priority="0" />
+      <Item value="DatabaseConnection`0" priority="0" />
+      <Item value="parnetType" priority="0" />
+      <Item value="parentTypeId" priority="0" />
+      <Item value="lUserDataDefinitionsDAO" priority="0" />
+      <Item value="message" priority="0" />
+      <Item value="relocated" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.DataTable">
+      <Item value="Rows" priority="31" />
+      <Item value="DefaultView" priority="0" />
+      <Item value="Columns" priority="0" />
+      <Item value="ImportRow`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.DataRowCollection">
+      <Item value="Count" priority="9" />
+      <Item value="Add`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Layton.AuditWizard.DataAccess.Asset">
+      <Item value="Name" priority="11" />
+      <Item value="SerialNumber" priority="7" />
+      <Item value="UniqueID" priority="5" />
+      <Item value="MACAddress" priority="1" />
+      <Item value="Model" priority="11" />
+      <Item value="Domain" priority="2" />
+      <Item value="Make" priority="9" />
+      <Item value="AssetID" priority="10" />
+      <Item value="AssetTypeID" priority="4" />
+      <Item value="AgentStatus" priority="0" />
+      <Item value="AgentVersion" priority="0" />
+      <Item value="AlertsEnabled" priority="0" />
+      <Item value="AssetTag" priority="2" />
+      <Item value="Auditable" priority="0" />
+      <Item value="AuditedItems" priority="0" />
+      <Item value="DomainID" priority="0" />
+      <Item value="FullLocation" priority="0" />
+      <Item value="IPAddress" priority="0" />
+      <Item value="LastAudit" priority="1" />
+      <Item value="Location" priority="0" />
+      <Item value="LocationID" priority="0" />
+      <Item value="OverwriteData" priority="5" />
+      <Item value="ParentAssetID" priority="0" />
+      <Item value="RequestAudit" priority="0" />
+      <Item value="StockStatus" priority="2" />
+      <Item value="SupplierID" priority="0" />
+      <Item value="SupplierName" priority="0" />
+      <Item value="TypeAsString" priority="2" />
+      <Item value="Tag" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Infragistics.Win.UltraWinListView.UltraListViewItem">
+      <Item value="Key" priority="2" />
+      <Item value="SubItems" priority="2" />
+      <Item value="CheckState" priority="5" />
+      <Item value="Text" priority="1" />
+      <Item value="Tag" priority="0" />
+      <Item value="Bounds" priority="3" />
+      <Item value="BeginEdit`0" priority="0" />
+      <Item value="IsSelected" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Infragistics.Win.UltraWinListView.UltraListView">
+      <Item value="Items" priority="13" />
+      <Item value="Contains`0" priority="0" />
+      <Item value="SelectedItems" priority="7" />
+      <Item value="Refresh`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Infragistics.Win.UltraWinListView.UltraListViewItemsCollection">
+      <Item value="Contains`0" priority="0" />
+      <Item value="Remove`0" priority="0" />
+      <Item value="AddRange`0" priority="0" />
+      <Item value="Count" priority="3" />
+      <Item value="Add`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Layton.AuditWizard.DataAccess.AuditDataFile">
+      <Item value="FileName" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Layton.AuditWizard.Common.AuditFileInfo">
+      <Item value="Filename" priority="0" />
+      <Item value="AuditFile" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.List`1">
+      <Item value="Add`0" priority="14" />
+      <Item value="Count" priority="9" />
+      <Item value="Contains`0" priority="0" />
+      <Item value="Insert`0" priority="0" />
+      <Item value="Sort`0" priority="0" />
+      <Item value="Clear`0" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.Label">
+      <Item value="Text" priority="1" />
+      <Item value="TextAlign" priority="5" />
+      <Item value="Padding" priority="0" />
+      <Item value="Visible" priority="12" />
+      <Item value="Location" priority="0" />
+      <Item value="Site" priority="0" />
+      <Item value="Size" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:log4net.ILog">
+      <Item value="Debug`0" priority="8" />
+      <Item value="Error`0" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.String">
+      <Item value="Format`0" priority="13" />
+      <Item value="IsNullOrEmpty`0" priority="0" />
+      <Item value="Empty" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Layton.AuditWizard.DataAccess.DatabaseConnection">
+      <Item value="CreateOpenStandardConnection`0" priority="15" />
+      <Item value="TestConnection`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.SqlServerCe.SqlCeCommand">
+      <Item value="ExecuteNonQuery`0" priority="2" />
+      <Item value="Parameters" priority="5" />
+      <Item value="Transaction" priority="0" />
+      <Item value="ExecuteScalar`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Layton.AuditWizard.DataAccess.SettingsDAO">
+      <Item value="AlterValueColumnType`0" priority="0" />
+      <Item value="GetSettingAsBoolean`0" priority="6" />
+      <Item value="SetSetting`0" priority="1" />
+      <Item value="GetSetting`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.SqlServerCe.SqlCeException">
+      <Item value="Message" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Exception">
+      <Item value="Message" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.SqlClient.SqlCommand">
+      <Item value="Parameters" priority="0" />
+      <Item value="ExecuteNonQuery`0" priority="0" />
+      <Item value="Transaction" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.SqlClient.SqlParameterCollection">
+      <Item value="AddWithValue`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.SqlServerCe.SqlCeParameterCollection">
+      <Item value="AddWithValue`0" priority="5" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Layton.AuditWizard.DataAccess.IPAddress">
+      <Item value="IPStart" priority="0" />
+      <Item value="IPEnd" priority="0" />
+      <Item value="Active" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Layton.AuditWizard.DataAccess.IpAddressDAO">
+      <Item value="SelectAllActive`0" priority="0" />
+      <Item value="SelectAll`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Object">
+      <Item value="ToString`0" priority="24" />
+      <Item value="GetType`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Infragistics.Win.UltraWinListView.UltraListViewSubItem">
+      <Item value="Value" priority="1" />
+      <Item value="Text" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Convert">
+      <Item value="ToBoolean`0" priority="0" />
+      <Item value="ToInt32`0" priority="4" />
+      <Item value="ToDateTime`0" priority="1" />
+      <Item value="ToDecimal`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.CheckBox">
+      <Item value="Checked" priority="7" />
+      <Item value="Enabled" priority="1" />
+      <Item value="Visible" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Layton.NetworkDiscovery.IpAddressRangeForm">
+      <Item value="Active" priority="0" />
+      <Item value="EndAddress" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Windows.Forms.CheckState">
+      <Item value="Checked" priority="0" />
+      <Item value="Unchecked" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Layton.AuditWizard.DataAccess.IPAddressRange">
+      <Item value="IpStart" priority="0" />
+      <Item value="TypeOfIp" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Layton.AuditWizard.DataAccess.LayIpAddressDAO">
+      <Item value="Add`0" priority="1" />
+      <Item value="DeleteAll`0" priority="0" />
+      <Item value="SelectAllActive`0" priority="0" />
+      <Item value="SelectAll`0" priority="0" />
+      <Item value="SelectAllTcpIp`0" priority="1" />
+      <Item value="SelectAllSnmp`0" priority="1" />
+      <Item value="DeleteAllSnmp`0" priority="0" />
+      <Item value="DeleteAllTcpIp`0" priority="0" />
+      <Item value="SelectAllActiveSnmp`0" priority="0" />
+      <Item value="SelectAllActiveTcpIp`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Infragistics.Win.UltraWinTree.UltraTreeNode">
+      <Item value="Override" priority="1" />
+      <Item value="Text" priority="11" />
+      <Item value="Parent" priority="0" />
+      <Item value="Nodes" priority="4" />
+      <Item value="Tag" priority="7" />
+      <Item value="Key" priority="0" />
+      <Item value="HasNodes" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Infragistics.Win.UltraWinTree.Override">
+      <Item value="NodeAppearance" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Infragistics.Win.AppearanceBase">
+      <Item value="ForeColor" priority="0" />
+      <Item value="Image" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Infragistics.Win.Appearance">
+      <Item value="ForeColor" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Drawing.Color">
+      <Item value="Gray" priority="1" />
+      <Item value="Red" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Layton.AuditWizard.DataAccess.InstalledApplication">
+      <Item value="IsIgnored" priority="0" />
+      <Item value="ApplicationID" priority="9" />
+      <Item value="Version" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Layton.AuditWizard.DataAccess.ApplicationsDAO">
+      <Item value="GetCountIncludedAppsForPublisher`0" priority="0" />
+      <Item value="GetAliasedApplicationsByApplicationId`0" priority="0" />
+      <Item value="GetAliasedToApplications`0" priority="0" />
+      <Item value="DeleteApplications`0" priority="0" />
+      <Item value="CheckApplicationIsAnAlias`0" priority="0" />
+      <Item value="UpdatePublisherName`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.DataView">
+      <Item value="Sort" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Layton.Cab.Interface.LaytonWorkItem">
+      <Item value="ExplorerView" priority="1" />
+      <Item value="Controller" priority="0" />
+      <Item value="TabView" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Layton.Cab.Interface.ILaytonView">
+      <Item value="RefreshView`0" priority="2" />
+      <Item value="WorkItem" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Layton.AuditWizard.DataAccess.IPAddressRange+IPType">
+      <Item value="Snmp" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Layton.AuditWizard.Applications.MiscStrings">
+      <Item value="AllPublishers" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Layton.AuditWizard.DataAccess.AssetDAO">
+      <Item value="RunCustomUnionStatement`0" priority="0" />
+      <Item value="ConvertNameListToIds`0" priority="0" />
+      <Item value="GetSelectedAssets`0" priority="0" />
+      <Item value="GetAssetMakesByType`0" priority="0" />
+      <Item value="GetAssetModelsByType`0" priority="0" />
+      <Item value="GetInstalledBrowserAssetId`0" priority="0" />
+      <Item value="GetBrowserVersionAssetId`0" priority="0" />
+      <Item value="AssetAdd`0" priority="0" />
+      <Item value="AssetUpdate`0" priority="0" />
+      <Item value="AssetDelete`0" priority="0" />
+      <Item value="GetAssetNameById`0" priority="0" />
+      <Item value="AssetAudited`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.SqlServerCe.SqlCeConnection">
+      <Item value="Close`0" priority="0" />
+      <Item value="Open`0" priority="0" />
+      <Item value="BeginTransaction`0" priority="0" />
+      <Item value="State" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Layton.AuditWizard.DataAccess.LicensesDAO">
+      <Item value="GetNotCountedLicenseCountByApplicationId`0" priority="0" />
+      <Item value="GetLicenseCountByApplicationId`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Layton.AuditWizard.Administration.SuppliersTabView">
+      <Item value="ultraGridSuppliers" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Infragistics.Win.UltraWinGrid.UltraGrid">
+      <Item value="Rows" priority="2" />
+      <Item value="Refresh`0" priority="0" />
+      <Item value="DisplayLayout" priority="2" />
+      <Item value="Selected" priority="0" />
+      <Item value="DataSource" priority="2" />
+      <Item value="ActiveRow" priority="0" />
+      <Item value="ContextMenu" priority="0" />
+      <Item value="ContextMenuStrip" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.MouseEventArgs">
+      <Item value="Button" priority="2" />
+      <Item value="X" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Infragistics.Win.UltraWinGrid.UltraGridLayout">
+      <Item value="UIElement" priority="0" />
+      <Item value="Appearance" priority="0" />
+      <Item value="Bands" priority="0" />
+      <Item value="Rows" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Infragistics.Win.UltraWinGrid.UltraGridUIElement">
+      <Item value="ElementFromPoint`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Infragistics.Win.UIElement">
+      <Item value="GetContext`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Infragistics.Win.UltraWinGrid.Selected">
+      <Item value="Rows" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Infragistics.Win.UltraWinGrid.SelectedRowsCollection">
+      <Item value="Clear`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Infragistics.Win.UltraWinGrid.UltraGridCell">
+      <Item value="Row" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Infragistics.Win.UltraWinGrid.UltraGridRow">
+      <Item value="Activate`0" priority="0" />
+      <Item value="Selected" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Layton.AuditWizard.Common.AlertDefinition">
+      <Item value="MonitoredComputers" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Configuration.Configuration">
+      <Item value="Save`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Boolean">
+      <Item value="ToString`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.ArgumentException">
+      <Item value="Message" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Infragistics.Win.UltraWinChart.UltraChart">
+      <Item value="PrintChart`0" priority="0" />
+      <Item value="MouseDown" priority="0" />
+      <Item value="ContextMenu" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.IO.File">
+      <Item value="Exists`0" priority="2" />
+      <Item value="ReadAllText`0" priority="0" />
+      <Item value="Delete`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.String">
+      <Item value="Contains`0" priority="8" />
+      <Item value="Length" priority="7" />
+      <Item value="Replace`0" priority="3" />
+      <Item value="StartsWith`0" priority="4" />
+      <Item value="Substring`0" priority="8" />
+      <Item value="Equals`0" priority="2" />
+      <Item value="Split`0" priority="3" />
+      <Item value="IndexOf`0" priority="0" />
+      <Item value="Trim`0" priority="0" />
+      <Item value="IndexOfAny`0" priority="0" />
+      <Item value="TrimEnd`0" priority="0" />
+      <Item value="LastIndexOf`0" priority="1" />
+      <Item value="EndsWith`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Layton.AuditWizard.DataAccess.AuditedItemsDAO">
+      <Item value="UpdateHardwareDisplayCategory`0" priority="0" />
+      <Item value="AuditedItemAdd`0" priority="0" />
+      <Item value="GetUSBDevicesFromLastAudit`0" priority="0" />
+      <Item value="GetInstalledBrowsersByAsset`0" priority="1" />
+      <Item value="GetInstalledBrowsers`0" priority="0" />
+      <Item value="GetVersionBrowsers`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Layton.AuditWizard.Common.LaytonServiceController">
+      <Item value="ServiceStatus`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Layton.AuditWizard.Common.LaytonServiceController+ServiceStatus">
+      <Item value="NotInstalled" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Infragistics.Win.UltraWinTree.TreeNodesCollection">
+      <Item value="Clear`0" priority="0" />
+      <Item value="Add`0" priority="1" />
+      <Item value="Count" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Layton.AuditWizard.DataAccess.AWMiscStrings">
+      <Item value="OSNode" priority="0" />
+      <Item value="AssetDetails" priority="0" />
+      <Item value="UserDataNode" priority="2" />
+      <Item value="InternetNode" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Layton.AuditWizard.DataAccess.MailFrequencyValues">
+      <Item value="Never" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.ToolStripMenuItem">
+      <Item value="Enabled" priority="6" />
+      <Item value="DropDownItems" priority="3" />
+      <Item value="Tag" priority="2" />
+      <Item value="Name" priority="0" />
+      <Item value="ToolTipText" priority="0" />
+      <Item value="Click" priority="1" />
+      <Item value="Text" priority="1" />
+      <Item value="Visible" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Layton.AuditWizard.Common.NotesControl">
+      <Item value="LoadNotes`0" priority="0" />
+      <Item value="Notes" priority="0" />
+      <Item value="cbNoteNames" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Layton.AuditWizard.DataAccess.Note">
+      <Item value="Update`0" priority="1" />
+      <Item value="ParentID" priority="5" />
+      <Item value="Scope" priority="4" />
+      <Item value="NoteID" priority="4" />
+      <Item value="Name" priority="9" />
+      <Item value="Text" priority="6" />
+      <Item value="DateOfNote" priority="0" />
+      <Item value="User" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Layton.AuditWizard.DataAccess.ApplicationLicense">
+      <Item value="LicenseID" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Layton.AuditWizard.DataAccess.SCOPE">
+      <Item value="ToString`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Layton.AuditWizard.DataAccess.DocumentList">
+      <Item value="Add`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Layton.AuditWizard.Common.DocumentsControl">
+      <Item value="Documents" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Layton.AuditWizard.DataAccess.Document">
+      <Item value="Scope" priority="0" />
+      <Item value="ParentID" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.DateTime">
+      <Item value="Now" priority="8" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.DateTime">
+      <Item value="AddSeconds`0" priority="0" />
+      <Item value="AddHours`0" priority="0" />
+      <Item value="AddMinutes`0" priority="0" />
+      <Item value="ToString`0" priority="1" />
+      <Item value="ToLongDateString`0" priority="0" />
+      <Item value="ToShortDateString`0" priority="0" />
+      <Item value="AddDays`0" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Layton.AuditWizard.DataAccess.DatabaseMaintenanceDAO">
+      <Item value="RunManintenanceScript`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.TextBox">
+      <Item value="Text" priority="39" />
+      <Item value="Tag" priority="0" />
+      <Item value="Enabled" priority="0" />
+      <Item value="ReadOnly" priority="0" />
+      <Item value="Focus`0" priority="2" />
+      <Item value="Select`0" priority="1" />
+      <Item value="ScrollToCaret`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.SqlClient.SqlException">
+      <Item value="Message" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Windows.Forms.MessageBox">
+      <Item value="Show`0" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.Button">
+      <Item value="Enabled" priority="14" />
+      <Item value="Visible" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Windows.Forms.Cursor">
+      <Item value="Current" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Windows.Forms.Cursors">
+      <Item value="WaitCursor" priority="1" />
+      <Item value="Default" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Layton.AuditWizard.Administration.FormDatabaseMaintenance">
+      <Item value="ShowDialog`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.SqlServerCe.SqlCeTransaction">
+      <Item value="Rollback`0" priority="0" />
+      <Item value="Commit`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.OpenFileDialog">
+      <Item value="InitialDirectory" priority="0" />
+      <Item value="FileName" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Int32">
+      <Item value="ToString`0" priority="4" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Environment">
+      <Item value="NewLine" priority="45" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.RadioButton">
+      <Item value="Checked" priority="5" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Layton.AuditWizard.DataAccess.Operation+OPERATION">
+      <Item value="deployagent" priority="0" />
+      <Item value="removeagent" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Layton.AuditWizard.DataAccess.Operation">
+      <Item value="Add`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Threading.Thread">
+      <Item value="Sleep`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Infragistics.Win.UltraWinTabControl.UltraTabControl">
+      <Item value="Tabs" priority="9" />
+      <Item value="Controls" priority="1" />
+      <Item value="SelectedTab" priority="2" />
+      <Item value="BeginUpdate`0" priority="0" />
+      <Item value="EndUpdate`0" priority="0" />
+      <Item value="ActiveTab" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Infragistics.Win.UltraWinTabControl.UltraTabsCollection">
+      <Item value="Add`0" priority="1" />
+      <Item value="Remove`0" priority="1" />
+      <Item value="Contains`0" priority="0" />
+      <Item value="IndexOf`0" priority="0" />
+      <Item value="GetItem`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.TabControl">
+      <Item value="Text" priority="0" />
+      <Item value="TabPages" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Infragistics.Win.UltraWinTabControl.UltraTab">
+      <Item value="Text" priority="2" />
+      <Item value="TabPage" priority="5" />
+      <Item value="Appearance" priority="0" />
+      <Item value="Key" priority="1" />
+      <Item value="Active" priority="0" />
+      <Item value="Visible" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Layton.AuditWizard.Network.Properties.Resources">
+      <Item value="userdata_corner" priority="0" />
+      <Item value="userdata_16" priority="1" />
+      <Item value="aw_internet" priority="3" />
+      <Item value="internet_explorer" priority="0" />
+      <Item value="ie" priority="0" />
+      <Item value="chrome" priority="0" />
+      <Item value="firefox" priority="0" />
+      <Item value="safari" priority="0" />
+      <Item value="opera" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Layton.AuditWizard.DataAccess.UserDataCategory+SCOPE">
+      <Item value="asset" priority="0" />
+      <Item value="Asset" priority="4" />
+      <Item value="Application" priority="1" />
+      <Item value="NonInteractiveAsset" priority="1" />
+      <Item value="any" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Infragistics.Win.UltraWinTabControl.UltraTabPageControl">
+      <Item value="Controls" priority="2" />
+      <Item value="Leave" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.Control+ControlCollection">
+      <Item value="Add`0" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.GroupBox">
+      <Item value="Text" priority="0" />
+      <Item value="Controls" priority="0" />
+      <Item value="Dock" priority="1" />
+      <Item value="AutoSize" priority="0" />
+      <Item value="Location" priority="1" />
+      <Item value="Size" priority="0" />
+      <Item value="Padding" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.TableLayoutPanel">
+      <Item value="Dock" priority="0" />
+      <Item value="AutoScroll" priority="0" />
+      <Item value="ColumnStyles" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Layton.AuditWizard.DataAccess.UserDataField">
+      <Item value="FieldID" priority="6" />
+      <Item value="Value1" priority="3" />
+      <Item value="GetValueFor`0" priority="3" />
+      <Item value="TabOrder" priority="2" />
+      <Item value="Tag" priority="5" />
+      <Item value="ParentScope" priority="6" />
+      <Item value="Name" priority="0" />
+      <Item value="Delete`0" priority="0" />
+      <Item value="Update`0" priority="0" />
+      <Item value="Type" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.Control">
+      <Item value="Tag" priority="0" />
+      <Item value="Text" priority="0" />
+      <Item value="Enabled" priority="0" />
+      <Item value="Padding" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Drawing.ContentAlignment">
+      <Item value="MiddleLeft" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.ComboBox">
+      <Item value="SelectedIndex" priority="3" />
+      <Item value="Width" priority="2" />
+      <Item value="AutoSize" priority="1" />
+      <Item value="DisplayMember" priority="0" />
+      <Item value="ValueMember" priority="0" />
+      <Item value="Items" priority="10" />
+      <Item value="DataSource" priority="1" />
+      <Item value="SelectedValue" priority="0" />
+      <Item value="BeginInvoke`0" priority="0" />
+      <Item value="EndUpdate`0" priority="0" />
+      <Item value="SelectedItem" priority="1" />
+      <Item value="SelectedText" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.Panel">
+      <Item value="VerticalScroll" priority="0" />
+      <Item value="Visible" priority="6" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.BorderStyle">
+      <Item value="FixedSingle" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Layton.AuditWizard.DataAccess.UserDataField">
+      <Item value="FieldType`0" priority="8" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Layton.AuditWizard.DataAccess.UserDataField+FieldType">
+      <Item value="Date" priority="9" />
+      <Item value="Registry" priority="0" />
+      <Item value="Environment" priority="0" />
+      <Item value="Currency" priority="7" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Layton.Common.Controls.NullableDateTimePicker">
+      <Item value="Value" priority="0" />
+      <Item value="CustomFormat" priority="0" />
+      <Item value="Width" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Windows.Forms.DateTimePickerFormat">
+      <Item value="Short" priority="0" />
+      <Item value="Custom" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.DateTimePicker">
+      <Item value="Text" priority="1" />
+      <Item value="Value" priority="2" />
+      <Item value="CustomFormat" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Windows.Forms.AnchorStyles">
+      <Item value="Top" priority="0" />
+      <Item value="None" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.TableLayoutColumnStyleCollection">
+      <Item value="Add`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Windows.Forms.SizeType">
+      <Item value="Absolute" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Layton.AuditWizard.DataAccess.ApplicationInstance">
+      <Item value="InstalledOnComputerID" priority="1" />
+      <Item value="Name" priority="2" />
+      <Item value="Version" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Layton.AuditWizard.DataAccess.Utility">
+      <Item value="ListFromString`0" priority="0" />
+      <Item value="DisplayErrorMessage`0" priority="0" />
+      <Item value="DisplayApplicationErrorMessage`0" priority="1" />
+      <Item value="ToSingleSpace`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Layton.AuditWizard.Common.AuditScannerDefinition">
+      <Item value="RootLocation" priority="0" />
+      <Item value="Filename" priority="0" />
+      <Item value="ScannerName" priority="0" />
+      <Item value="Description" priority="0" />
+      <Item value="DeployPathRoot" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Layton.AuditWizard.DataAccess.AssetGroup">
+      <Item value="Name" priority="4" />
+      <Item value="GroupID" priority="4" />
+      <Item value="ParentID" priority="3" />
+      <Item value="FullName" priority="3" />
+      <Item value="Update`0" priority="0" />
+      <Item value="Populate`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.NumericUpDown">
+      <Item value="Value" priority="0" />
+      <Item value="TextAlign" priority="0" />
+      <Item value="Maximum" priority="1" />
+      <Item value="Minimum" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Layton.AuditWizard.Administration.FormUserDataField">
+      <Item value="nupMin" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Layton.AuditWizard.Common.FormRegistryBrowser">
+      <Item value="Value" priority="0" />
+      <Item value="Key" priority="0" />
+      <Item value="ShowDialog`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.TreeView">
+      <Item value="SelectedNode" priority="0" />
+      <Item value="Nodes" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Microsoft.Win32.RegistryKey">
+      <Item value="Name" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.DialogResult">
+      <Item value="Cancel" priority="0" />
+      <Item value="OK" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Layton.AuditWizard.DataAccess.UserDataCategory">
+      <Item value="Scope" priority="2" />
+      <Item value="Remove`0" priority="2" />
+      <Item value="Count" priority="3" />
+      <Item value="TabOrder" priority="3" />
+      <Item value="Sort`0" priority="0" />
+      <Item value="AppliesTo" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Layton.AuditWizard.DataAccess.SCOPE">
+      <Item value="Asset" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Layton.AuditWizard.DataAccess.UserDataCategory">
+      <Item value="SCOPE`0" priority="5" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Infragistics.Win.UltraWinEditors.UltraCurrencyEditor">
+      <Item value="Value" priority="3" />
+      <Item value="MaskInput" priority="0" />
+      <Item value="SpinButtonDisplayStyle" priority="0" />
+      <Item value="Width" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Decimal">
+      <Item value="ToString`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Layton.NetworkDiscovery.NetworkDiscoveryWorkItemController">
+      <Item value="WorkItem" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Layton.AuditWizard.Applications.ApplicationsWorkItemController">
+      <Item value="ShowIgnoredApplications" priority="0" />
+      <Item value="DeleteApplication`0" priority="1" />
+      <Item value="EditPublisherName`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Infragistics.Win.UltraWinExplorerBar.UltraExplorerBarItem">
+      <Item value="Tag" priority="2" />
+      <Item value="Index" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Layton.AuditWizard.DataAccess.UserDataDefinitionsDAO">
+      <Item value="UserDataCategoryUpdate`0" priority="1" />
+      <Item value="UserDataFieldUpdate`0" priority="1" />
+      <Item value="UserDataDefinitionFieldDelete`0" priority="1" />
+      <Item value="UserDataDefinitionCategoryDelete`0" priority="0" />
+      <Item value="GetCountUserDataCategories`0" priority="0" />
+      <Item value="GetAssignedUserId`0" priority="0" />
+      <Item value="AssignedUserPopulated`0" priority="0" />
+      <Item value="UserDataUpdateValue`0" priority="0" />
+      <Item value="UpdateUserDataValueParentType`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Layton.AuditWizard.DataAccess.UserDataCategoryList">
+      <Item value="Populate`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.ListView">
+      <Item value="SelectedItems" priority="9" />
+      <Item value="Items" priority="14" />
+      <Item value="Columns" priority="0" />
+      <Item value="SelectedIndices" priority="1" />
+      <Item value="FocusedItem" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.ListViewItem">
+      <Item value="ToolTipText" priority="0" />
+      <Item value="ToString`0" priority="0" />
+      <Item value="Text" priority="2" />
+      <Item value="Bounds" priority="0" />
+      <Item value="Tag" priority="1" />
+      <Item value="Selected" priority="2" />
+      <Item value="Focused" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.ListView+SelectedListViewItemCollection">
+      <Item value="Count" priority="4" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Layton.AuditWizard.Common.FormEnvVarBrowser">
+      <Item value="ShowDialog`0" priority="0" />
+      <Item value="EnvVariable" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.DictionaryEntry">
+      <Item value="Key" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.ListView+ListViewItemCollection">
+      <Item value="Add`0" priority="4" />
+      <Item value="Count" priority="4" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Layton.AuditWizard.DataAccess.PickItem">
+      <Item value="Name" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.TableLayoutControlCollection">
+      <Item value="Add`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Infragistics.Win.UltraWinExplorerBar.UltraExplorerBarGroup">
+      <Item value="Rename`0" priority="0" />
+      <Item value="Items" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Infragistics.Win.UltraWinExplorerBar.UltraExplorerBarGroupsCollection">
+      <Item value="Remove`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Infragistics.Win.UltraWinExplorerBar.ItemEventArgs">
+      <Item value="Item" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Security.SecurityException">
+      <Item value="Message" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@log4net.LogManager">
+      <Item value="GetLogger`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.TreeNode">
+      <Item value="NodeFont" priority="0" />
+      <Item value="ForeColor" priority="0" />
+      <Item value="Text" priority="0" />
+      <Item value="Tag" priority="0" />
+      <Item value="ImageKey" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Drawing.Font">
+      <Item value="Italic" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Drawing.FontStyle">
+      <Item value="Italic" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Drawing.FontFamily">
+      <Item value="GenericSerif" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.TreeViewEventArgs">
+      <Item value="Node" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Layton.Common.Controls.FormRegistryBrowser">
+      <Item value="RegKey" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Microsoft.Win32.Registry">
+      <Item value="PerformanceData" priority="0" />
+      <Item value="LocalMachine" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Windows.Forms.MessageBoxButtons">
+      <Item value="YesNo" priority="2" />
+      <Item value="OK" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Windows.Forms.MessageBoxIcon">
+      <Item value="Question" priority="3" />
+      <Item value="Information" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Layton.AuditWizard.DataAccess.PickListList">
+      <Item value="Populate`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.ImageList">
+      <Item value="Images" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.ImageList+ImageCollection">
+      <Item value="Add`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Layton.AuditWizard.Network.UserDefinedDataTabView">
+      <Item value="Show`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Layton.AuditWizard.Administration.UserDefinedDataTabView">
+      <Item value="Activate`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Layton.AuditWizard.Administration.AdministrationWorkItemController">
+      <Item value="DisplayDataSetupOptions`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Layton.AuditWizard.Administration.AdministrationExplorerView">
+      <Item value="DisplayDataSetupOptions`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.ToolStripItemCollection">
+      <Item value="Add`0" priority="0" />
+      <Item value="Clear`0" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Layton.AuditWizard.DataAccess.NotesDAO">
+      <Item value="EnumerateNotes`0" priority="0" />
+      <Item value="GetNotesByScopeAndParent`0" priority="0" />
+      <Item value="GetNotesNameAndIdByScopeAndParent`0" priority="0" />
+      <Item value="NoteAdd`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.ComboBox+ObjectCollection">
+      <Item value="Count" priority="4" />
+      <Item value="Add`0" priority="3" />
+      <Item value="Insert`0" priority="0" />
+      <Item value="Clear`0" priority="1" />
+      <Item value="Contains`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Layton.AuditWizard.DataAccess.NoteListItem">
+      <Item value="Description" priority="1" />
+      <Item value="Value" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Layton.AuditWizard.DataAccess.NoteList">
+      <Item value="FindNoteById`0" priority="1" />
+      <Item value="Remove`0" priority="0" />
+      <Item value="Add`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Layton.AuditWizard.Common.DesktopAlert">
+      <Item value="ShowDesktopAlert`0" priority="4" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Layton.AuditWizard.Common.FormNewNote">
+      <Item value="NewNote" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.ColumnHeader">
+      <Item value="Width" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.SplitContainer">
+      <Item value="Panel1" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.SplitterPanel">
+      <Item value="Width" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Layton.AuditWizard.DataAccess.AuditedItem">
+      <Item value="AssetID" priority="0" />
+      <Item value="Name" priority="5" />
+      <Item value="Category" priority="5" />
+      <Item value="Value" priority="6" />
+      <Item value="Grouped" priority="0" />
+      <Item value="Historied" priority="0" />
+      <Item value="Datatype" priority="0" />
+      <Item value="DisplayUnits" priority="0" />
+      <Item value="Icon" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Layton.AuditWizard.Common.AuditUploader+BrowserType">
+      <Item value="Firefox" priority="2" />
+      <Item value="IE" priority="1" />
+      <Item value="Safari" priority="1" />
+      <Item value="Opera" priority="1" />
+      <Item value="Chrome" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Layton.AuditWizard.DataAccess.StatisticsDAO">
+      <Item value="StatisticsDefaultBrowser`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Infragistics.Win.UltraWinExplorerBar.UltraExplorerBar">
+      <Item value="SelectedGroup" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Infragistics.Win.UltraWinListView.UltraListViewSelectedItemsCollection">
+      <Item value="Count" priority="1" />
+      <Item value="Add`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Layton.AuditWizard.DataAccess.AssetType">
+      <Item value="AssetTypeID" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Infragistics.Win.UltraWinExplorerBar.UltraExplorerBarItemsCollection">
+      <Item value="Count" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:AuditWizardv8.FormUserGuide">
+      <Item value="ShowDialog`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Infragistics.Win.UltraWinTabControl.SelectedTabChangedEventArgs">
+      <Item value="Tab" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Layton.AuditWizard.DataAccess.DatabaseSettingsKeys">
+      <Item value="Setting_UpdateAgent" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Infragistics.Win.UltraWinTree.UltraTree">
+      <Item value="SelectedNodes" priority="4" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Infragistics.Win.UltraWinTree.SelectedNodesCollection">
+      <Item value="Clear`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Layton.AuditWizard.Network.NetworkExplorerView">
+      <Item value="Clear`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Decimal">
+      <Item value="MaxValue" priority="1" />
+      <Item value="MinValue" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.LinkLabel">
+      <Item value="Text" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Diagnostics.Process">
+      <Item value="Start`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Threading.ParameterizedThreadStart">
+      <Item value="Combine`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Layton.AuditWizard.DataAccess.AssetTypeList">
+      <Item value="Populate`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@NUnit.Framework.Assert">
+      <Item value="AreNotEqual`0" priority="1" />
+      <Item value="AreEqual`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Layton.AuditWizard.Applications.ApplicationsExplorerView">
+      <Item value="ApplicationsTree" priority="0" />
+      <Item value="PreferredSize" priority="0" />
+      <Item value="Presenter" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Layton.AuditWizard.Applications.ApplicationsExplorerViewPresenter">
+      <Item value="ExpandApplications`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Type">
+      <Item value="GetType`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Infragistics.Win.UltraWinDock.DockableControlPane">
+      <Item value="Close`0" priority="2" />
+      <Item value="Show`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.TabControl+TabPageCollection">
+      <Item value="Count" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.IO.Path">
+      <Item value="GetInvalidFileNameChars`0" priority="1" />
+      <Item value="GetInvalidPathChars`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.EventArgs">
+      <Item value="Equals`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.ComponentModel.BackgroundWorker">
+      <Item value="RunWorkerAsync`0" priority="1" />
+      <Item value="DoWork" priority="0" />
+      <Item value="RunWorkerCompleted" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.ComponentModel.DoWorkEventArgs">
+      <Item value="Argument" priority="0" />
+      <Item value="Result" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.ComponentModel.RunWorkerCompletedEventArgs">
+      <Item value="Result" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.Dictionary`2">
+      <Item value="Add`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Layton.AuditWizard.Reports.ReportsWorkItemController">
+      <Item value="ShowIncludedApplications" priority="1" />
+      <Item value="ShowIgnoredApplications" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Layton.AuditWizard.DataAccess.LocationsDAO">
+      <Item value="GetRootLocation`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Windows.Forms.Application">
+      <Item value="Exit`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Layton.AuditWizard.DataAccess.AssetTypesDAO">
+      <Item value="GetAssetTypesPickerValues`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Infragistics.Win.UltraWinGrid.ExcelExport.UltraGridExcelExporter">
+      <Item value="FileLimitBehaviour" priority="1" />
+      <Item value="RowExporting" priority="0" />
+      <Item value="InitializeColumn" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.SaveFileDialog">
+      <Item value="FileName" priority="8" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Infragistics.Excel.BIFF8Writer">
+      <Item value="WriteWorkbookToFile`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Infragistics.Excel.Workbook">
+      <Item value="Save`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.TabPage">
+      <Item value="Controls" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Layton.AuditWizard.Common.UltraGridExporter">
+      <Item value="ExportUltraGridToExcel`0" priority="12" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Infragistics.Win.UltraWinGrid.RowsCollection">
+      <Item value="Count" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Infragistics.Win.Misc.UltraLabel">
+      <Item value="Text" priority="8" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Layton.AuditWizard.Reports.FormSQLReport">
+      <Item value="ReportName" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Infragistics.Win.UltraWinGrid.ExcelExport.InitializeColumnEventArgs">
+      <Item value="ExcelFormatStr" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Net.IPAddress">
+      <Item value="ToString`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Threading.ThreadPool">
+      <Item value="QueueUserWorkItem`0" priority="0" />
+      <Item value="SetMinThreads`0" priority="1" />
+      <Item value="GetMinThreads`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Threading.ManualResetEvent">
+      <Item value="Set`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Layton.NetworkDiscovery.Countdown">
+      <Item value="Wait`0" priority="0" />
+      <Item value="Signal`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Net.IPAddress">
+      <Item value="Parse`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Layton.AuditWizard.DataAccess.ReportsDAO">
+      <Item value="ReportType`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Layton.AuditWizard.Applications.FormEditPublisherName">
+      <Item value="ShowDialog`0" priority="0" />
+      <Item value="PublisherName" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Layton.AuditWizard.Overview.OverviewExplorerView">
+      <Item value="RefreshView`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:AuditWizardv8.LaytonCabShellWorkItem">
+      <Item value="Shell" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Layton.AuditWizard.DataAccess.Printer">
+      <Item value="ModelName" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:AuditWizardv8.LaytonToolbarsController">
+      <Item value="WorkItem" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Layton.AuditWizard.Overview.ServerDataWidget">
+      <Item value="ContextMenu" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Layton.AuditWizard.Overview.ApplicationComplianceWidget">
+      <Item value="ContextMenu" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Layton.AuditWizard.Overview.NewsFeedWidget">
+      <Item value="ContextMenu" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Layton.AuditWizard.Overview.InventoryWidget">
+      <Item value="ContextMenu" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.IO.IOException">
+      <Item value="Message" priority="0" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+</Configuration>

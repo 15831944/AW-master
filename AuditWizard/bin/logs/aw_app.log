@@ -1,0 +1,827 @@
+2010-07-14 13:40:02,345 [1] ERROR Layton.AuditWizard.DataAccess.Asset Unable to cast object of type 'System.DBNull' to type 'System.String'.
+2010-07-14 13:40:02,361 [1] ERROR Layton.AuditWizard.DataAccess.Asset Unable to cast object of type 'System.DBNull' to type 'System.String'.
+2010-07-14 13:40:03,001 [1] ERROR Layton.AuditWizard.DataAccess.Asset Unable to cast object of type 'System.DBNull' to type 'System.String'.
+2010-07-14 13:40:03,001 [1] ERROR Layton.AuditWizard.DataAccess.Asset Unable to cast object of type 'System.DBNull' to type 'System.String'.
+2010-07-14 13:40:03,017 [1] ERROR Layton.AuditWizard.DataAccess.Asset Unable to cast object of type 'System.DBNull' to type 'System.String'.
+2010-07-14 13:40:03,017 [1] ERROR Layton.AuditWizard.DataAccess.Asset Unable to cast object of type 'System.DBNull' to type 'System.String'.
+2010-07-14 13:40:03,298 [1] ERROR Layton.AuditWizard.DataAccess.Asset Unable to cast object of type 'System.DBNull' to type 'System.String'.
+2010-07-14 13:40:03,298 [1] ERROR Layton.AuditWizard.DataAccess.Asset Unable to cast object of type 'System.DBNull' to type 'System.String'.
+2010-07-14 13:40:04,048 [1] ERROR Layton.AuditWizard.DataAccess.Asset Unable to cast object of type 'System.DBNull' to type 'System.String'.
+2010-07-14 13:40:04,048 [1] ERROR Layton.AuditWizard.DataAccess.Asset Unable to cast object of type 'System.DBNull' to type 'System.String'.
+2010-07-14 13:40:04,064 [1] ERROR Layton.AuditWizard.DataAccess.Asset Unable to cast object of type 'System.DBNull' to type 'System.String'.
+2010-07-14 13:40:04,064 [1] ERROR Layton.AuditWizard.DataAccess.Asset Unable to cast object of type 'System.DBNull' to type 'System.String'.
+2010-07-14 13:40:04,845 [1] ERROR Layton.AuditWizard.DataAccess.Asset Unable to cast object of type 'System.DBNull' to type 'System.String'.
+2010-07-14 13:40:04,845 [1] ERROR Layton.AuditWizard.DataAccess.Asset Unable to cast object of type 'System.DBNull' to type 'System.String'.
+2010-07-14 13:40:04,845 [1] ERROR Layton.AuditWizard.DataAccess.Asset Unable to cast object of type 'System.DBNull' to type 'System.String'.
+2010-07-14 13:40:04,845 [1] ERROR Layton.AuditWizard.DataAccess.Asset Unable to cast object of type 'System.DBNull' to type 'System.String'.
+2010-07-14 13:40:04,860 [1] ERROR Layton.AuditWizard.DataAccess.Asset Unable to cast object of type 'System.DBNull' to type 'System.String'.
+2010-07-14 13:40:04,860 [1] ERROR Layton.AuditWizard.DataAccess.Asset Unable to cast object of type 'System.DBNull' to type 'System.String'.
+2010-07-14 13:40:04,860 [1] ERROR Layton.AuditWizard.DataAccess.Asset Unable to cast object of type 'System.DBNull' to type 'System.String'.
+2010-07-14 13:40:04,860 [1] ERROR Layton.AuditWizard.DataAccess.Asset Unable to cast object of type 'System.DBNull' to type 'System.String'.
+2010-07-14 13:40:05,095 [1] ERROR Layton.AuditWizard.DataAccess.Asset Unable to cast object of type 'System.DBNull' to type 'System.String'.
+2010-07-14 13:40:05,095 [1] ERROR Layton.AuditWizard.DataAccess.Asset Unable to cast object of type 'System.DBNull' to type 'System.String'.
+2010-07-14 15:28:46,591 [1] ERROR Layton.AuditWizard.DataAccess.AssetDAO Exception in PerformQuery
+System.Data.SqlClient.SqlException: Incorrect syntax near ')'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   at Layton.AuditWizard.DataAccess.AssetDAO.PerformQuery(String aCommandText) in C:\jasonl\development\layton_products\AuditWizard\working\source_code\AuditWizard_v8\Layton.AuditWizard.DataAccess\AssetDAO.cs:line 1713
+2010-07-14 15:29:18,651 [1] ERROR Layton.AuditWizard.DataAccess.AssetDAO Exception in PerformQuery
+System.Data.SqlClient.SqlException: Incorrect syntax near ')'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   at Layton.AuditWizard.DataAccess.AssetDAO.PerformQuery(String aCommandText) in C:\jasonl\development\layton_products\AuditWizard\working\source_code\AuditWizard_v8\Layton.AuditWizard.DataAccess\AssetDAO.cs:line 1713
+2010-07-14 15:29:18,870 [1] ERROR AuditWizardv8.LaytonCabApplication Exception occurred in Main().
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Convert.ToInt32(String value)
+   at Layton.AuditWizard.Common.LicensingReportDefinition.GenerateReportData() in C:\jasonl\development\layton_products\AuditWizard\working\source_code\AuditWizard_v8\Layton.AuditWizard.Common\LicensingReportDefinition.cs:line 344
+   at Layton.AuditWizard.Common.LicensingReportDefinition.GenerateReport(UltraGrid grid) in C:\jasonl\development\layton_products\AuditWizard\working\source_code\AuditWizard_v8\Layton.AuditWizard.Common\LicensingReportDefinition.cs:line 159
+   at Layton.AuditWizard.Reports.ReportsTabView.RunReport(ReportDefinition report) in C:\jasonl\development\layton_products\AuditWizard\working\source_code\AuditWizard_v8\Layton.AuditWizard.Reports\ReportsTabView.cs:line 256
+   at Layton.AuditWizard.Reports.ReportsTabView.RunReport(String aReportName) in C:\jasonl\development\layton_products\AuditWizard\working\source_code\AuditWizard_v8\Layton.AuditWizard.Reports\ReportsTabView.cs:line 512
+   at Layton.AuditWizard.Reports.ReportsWorkItemController.RunReport(String reportName) in C:\jasonl\development\layton_products\AuditWizard\working\source_code\AuditWizard_v8\Layton.AuditWizard.Reports\ReportsWorkItemController.cs:line 173
+   at Layton.AuditWizard.Reports.ReportsExplorerView.GeneratePresetReport(String reportName) in C:\jasonl\development\layton_products\AuditWizard\working\source_code\AuditWizard_v8\Layton.AuditWizard.Reports\ReportsExplorerView.cs:line 150
+   at Layton.AuditWizard.Reports.ReportsExplorerView.bnSoftwareReportRun_Click(Object sender, EventArgs e) in C:\jasonl\development\layton_products\AuditWizard\working\source_code\AuditWizard_v8\Layton.AuditWizard.Reports\ReportsExplorerView.cs:line 282
+   at System.Windows.Forms.Control.OnClick(EventArgs e)
+   at System.Windows.Forms.Button.OnClick(EventArgs e)
+   at System.Windows.Forms.Button.OnMouseUp(MouseEventArgs mevent)
+   at System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   at System.Windows.Forms.Control.WndProc(Message& m)
+   at System.Windows.Forms.ButtonBase.WndProc(Message& m)
+   at System.Windows.Forms.Button.WndProc(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   at System.Windows.Forms.NativeWindow.DebuggableCallback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+   at System.Windows.Forms.UnsafeNativeMethods.DispatchMessageW(MSG& msg)
+   at System.Windows.Forms.Application.ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop(Int32 dwComponentID, Int32 reason, Int32 pvLoopData)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.Run(Form mainForm)
+   at Infragistics.Practices.CompositeUI.WinForms.IGFormShellApplication`2.Start()
+   at AuditWizardv8.LaytonCabApplication.Start() in C:\jasonl\development\layton_products\AuditWizard\working\source_code\AuditWizard_v8\Layton Framework\Cab\Shell\LaytonCabApplication.cs:line 106
+   at Microsoft.Practices.CompositeUI.CabApplication`1.Run()
+   at AuditWizardv8.LaytonCabApplication.Main() in C:\jasonl\development\layton_products\AuditWizard\working\source_code\AuditWizard_v8\Layton Framework\Cab\Shell\LaytonCabApplication.cs:line 34
+2010-07-14 15:29:18,995 [1] ERROR Layton.AuditWizard.Overview.NewsFeedWidget Object reference not set to an instance of an object.
+2010-07-14 15:29:54,149 [1] ERROR Layton.AuditWizard.DataAccess.AssetDAO Exception in PerformQuery
+System.Data.SqlClient.SqlException: Incorrect syntax near ')'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   at Layton.AuditWizard.DataAccess.AssetDAO.PerformQuery(String aCommandText) in C:\jasonl\development\layton_products\AuditWizard\working\source_code\AuditWizard_v8\Layton.AuditWizard.DataAccess\AssetDAO.cs:line 1713
+2010-07-14 15:31:10,113 [1] ERROR Layton.AuditWizard.DataAccess.AssetDAO Exception in PerformQuery
+System.Data.SqlClient.SqlException: Incorrect syntax near ')'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   at Layton.AuditWizard.DataAccess.AssetDAO.PerformQuery(String aCommandText) in C:\jasonl\development\layton_products\AuditWizard\working\source_code\AuditWizard_v8\Layton.AuditWizard.DataAccess\AssetDAO.cs:line 1713
+2010-07-14 15:56:47,952 [1] ERROR Layton.AuditWizard.Overview.NewsFeedWidget String was not recognized as a valid DateTime.
+2010-07-14 15:57:18,028 [1] ERROR Layton.AuditWizard.Overview.NewsFeedWidget String was not recognized as a valid DateTime.
+2010-07-14 15:57:48,042 [1] ERROR Layton.AuditWizard.Overview.NewsFeedWidget String was not recognized as a valid DateTime.
+2010-07-14 15:58:18,087 [1] ERROR Layton.AuditWizard.Overview.NewsFeedWidget String was not recognized as a valid DateTime.
+2010-07-14 15:58:48,100 [1] ERROR Layton.AuditWizard.Overview.NewsFeedWidget String was not recognized as a valid DateTime.
+2010-07-14 15:59:18,130 [1] ERROR Layton.AuditWizard.Overview.NewsFeedWidget String was not recognized as a valid DateTime.
+2010-07-14 15:59:48,237 [1] ERROR Layton.AuditWizard.Overview.NewsFeedWidget String was not recognized as a valid DateTime.
+2010-07-14 16:21:01,893 [1] ERROR Layton.AuditWizard.Overview.NewsFeedWidget String was not recognized as a valid DateTime.
+2010-07-14 16:21:31,953 [1] ERROR Layton.AuditWizard.Overview.NewsFeedWidget String was not recognized as a valid DateTime.
+2010-07-14 16:22:01,998 [1] ERROR Layton.AuditWizard.Overview.NewsFeedWidget String was not recognized as a valid DateTime.
+2010-07-14 16:22:32,043 [1] ERROR Layton.AuditWizard.Overview.NewsFeedWidget String was not recognized as a valid DateTime.
+2010-07-14 16:23:02,088 [1] ERROR Layton.AuditWizard.Overview.NewsFeedWidget String was not recognized as a valid DateTime.
+2010-07-14 16:23:32,133 [1] ERROR Layton.AuditWizard.Overview.NewsFeedWidget String was not recognized as a valid DateTime.
+2010-07-14 16:24:02,178 [1] ERROR Layton.AuditWizard.Overview.NewsFeedWidget String was not recognized as a valid DateTime.
+2010-07-14 16:24:32,223 [1] ERROR Layton.AuditWizard.Overview.NewsFeedWidget String was not recognized as a valid DateTime.
+2010-07-14 16:25:02,268 [1] ERROR Layton.AuditWizard.Overview.NewsFeedWidget String was not recognized as a valid DateTime.
+2010-07-14 16:25:32,313 [1] ERROR Layton.AuditWizard.Overview.NewsFeedWidget String was not recognized as a valid DateTime.
+2010-07-14 16:26:02,342 [1] ERROR Layton.AuditWizard.Overview.NewsFeedWidget String was not recognized as a valid DateTime.
+2010-07-14 16:29:50,296 [1] ERROR Layton.AuditWizard.Overview.NewsFeedWidget String was not recognized as a valid DateTime.
+2010-07-14 16:30:20,341 [1] ERROR Layton.AuditWizard.Overview.NewsFeedWidget String was not recognized as a valid DateTime.
+2010-07-14 16:30:50,386 [1] ERROR Layton.AuditWizard.Overview.NewsFeedWidget String was not recognized as a valid DateTime.
+2010-07-14 16:31:20,431 [1] ERROR Layton.AuditWizard.Overview.NewsFeedWidget String was not recognized as a valid DateTime.
+2010-07-14 16:31:50,461 [1] ERROR Layton.AuditWizard.Overview.NewsFeedWidget String was not recognized as a valid DateTime.
+2010-07-14 16:32:20,506 [1] ERROR Layton.AuditWizard.Overview.NewsFeedWidget String was not recognized as a valid DateTime.
+2010-07-14 16:32:50,550 [1] ERROR Layton.AuditWizard.Overview.NewsFeedWidget String was not recognized as a valid DateTime.
+2010-07-14 16:33:20,595 [1] ERROR Layton.AuditWizard.Overview.NewsFeedWidget String was not recognized as a valid DateTime.
+2010-07-14 16:39:58,679 [10] ERROR AuditWizardv8.LaytonCabApplication Exception occurred in Main().
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Layton.NetworkDiscovery.NetworkDiscoveryWorkItemController.discoverer_NetworkDiscoveryUpdate(Object sender, DiscoveryUpdateEventArgs e) in C:\jasonl\development\layton_products\AuditWizard\working\source_code\AuditWizard_v8\Layton Framework\NetworkDiscovery\NetworkDiscoveryWorkItemController.cs:line 197
+   at Layton.NetworkDiscovery.NetworkDiscovery.FireNetworkDiscoveryUpdate(DiscoveryUpdateEventArgs e) in C:\jasonl\development\layton_products\AuditWizard\working\source_code\AuditWizard_v8\Layton Framework\NetworkDiscovery\NetworkDiscovery.cs:line 28
+   at Layton.NetworkDiscovery.TcpipNetworkDiscovery.ExecuteTcpipDiscover(Object aIpAddress) in C:\jasonl\development\layton_products\AuditWizard\working\source_code\AuditWizard_v8\Layton Framework\NetworkDiscovery\TcpipNetworkDiscovery.cs:line 306
+   at System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   at System.Threading.ExecutionContext.runTryCode(Object userData)
+   at System.Runtime.CompilerServices.RuntimeHelpers.ExecuteCodeWithGuaranteedCleanup(TryCode code, CleanupCode backoutCode, Object userData)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.ThreadHelper.ThreadStart(Object obj)
+2010-07-14 16:41:10,722 [1] ERROR Layton.AuditWizard.DataAccess.AssetDAO Exception in PerformQuery
+There was an error parsing the query. [ Token line number = 1,Token line offset = 1,Token in error = AND ]
+2010-07-14 16:41:10,925 [1] ERROR AuditWizardv8.LaytonCabApplication Exception occurred in Main().
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Convert.ToInt32(String value)
+   at Layton.AuditWizard.Common.LicensingReportDefinition.GenerateReportData() in C:\jasonl\development\layton_products\AuditWizard\working\source_code\AuditWizard_v8\Layton.AuditWizard.Common\LicensingReportDefinition.cs:line 346
+   at Layton.AuditWizard.Common.LicensingReportDefinition.GenerateReport(UltraGrid grid) in C:\jasonl\development\layton_products\AuditWizard\working\source_code\AuditWizard_v8\Layton.AuditWizard.Common\LicensingReportDefinition.cs:line 161
+   at Layton.AuditWizard.Reports.ReportsTabView.RunReport(ReportDefinition report) in C:\jasonl\development\layton_products\AuditWizard\working\source_code\AuditWizard_v8\Layton.AuditWizard.Reports\ReportsTabView.cs:line 256
+   at Layton.AuditWizard.Reports.ReportsTabView.RunReport(String aReportName) in C:\jasonl\development\layton_products\AuditWizard\working\source_code\AuditWizard_v8\Layton.AuditWizard.Reports\ReportsTabView.cs:line 512
+   at Layton.AuditWizard.Reports.ReportsWorkItemController.RunReport(String reportName) in C:\jasonl\development\layton_products\AuditWizard\working\source_code\AuditWizard_v8\Layton.AuditWizard.Reports\ReportsWorkItemController.cs:line 173
+   at Layton.AuditWizard.Reports.ReportsExplorerView.GeneratePresetReport(String reportName) in C:\jasonl\development\layton_products\AuditWizard\working\source_code\AuditWizard_v8\Layton.AuditWizard.Reports\ReportsExplorerView.cs:line 150
+   at Layton.AuditWizard.Reports.ReportsExplorerView.bnSoftwareReportRun_Click(Object sender, EventArgs e) in C:\jasonl\development\layton_products\AuditWizard\working\source_code\AuditWizard_v8\Layton.AuditWizard.Reports\ReportsExplorerView.cs:line 282
+   at System.Windows.Forms.Control.OnClick(EventArgs e)
+   at System.Windows.Forms.Button.OnClick(EventArgs e)
+   at System.Windows.Forms.Button.OnMouseUp(MouseEventArgs mevent)
+   at System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   at System.Windows.Forms.Control.WndProc(Message& m)
+   at System.Windows.Forms.ButtonBase.WndProc(Message& m)
+   at System.Windows.Forms.Button.WndProc(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   at System.Windows.Forms.NativeWindow.DebuggableCallback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+   at System.Windows.Forms.UnsafeNativeMethods.DispatchMessageW(MSG& msg)
+   at System.Windows.Forms.Application.ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop(Int32 dwComponentID, Int32 reason, Int32 pvLoopData)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.Run(Form mainForm)
+   at Infragistics.Practices.CompositeUI.WinForms.IGFormShellApplication`2.Start()
+   at AuditWizardv8.LaytonCabApplication.Start() in C:\jasonl\development\layton_products\AuditWizard\working\source_code\AuditWizard_v8\Layton Framework\Cab\Shell\LaytonCabApplication.cs:line 106
+   at Microsoft.Practices.CompositeUI.CabApplication`1.Run()
+   at AuditWizardv8.LaytonCabApplication.Main() in C:\jasonl\development\layton_products\AuditWizard\working\source_code\AuditWizard_v8\Layton Framework\Cab\Shell\LaytonCabApplication.cs:line 34
+2010-07-14 16:43:00,355 [1] ERROR Layton.AuditWizard.DataAccess.AssetDAO Exception in PerformQuery
+There was an error parsing the query. [ Token line number = 1,Token line offset = 1,Token in error = AND ]
+2010-07-14 16:48:24,694 [1] ERROR Layton.AuditWizard.Common.AuditUploader Error in EnumerateFiles()
+System.FormatException: String was not recognized as a valid DateTime.
+   at System.DateTimeParse.ParseExact(String s, String format, DateTimeFormatInfo dtfi, DateTimeStyles style)
+   at System.DateTime.ParseExact(String s, String format, IFormatProvider provider)
+   at Layton.AuditWizard.DataAccess.AuditDataFile.ProcessGeneralElementRead(XmlSimpleElement xmlSimpleElement) in C:\jasonl\development\layton_products\AuditWizard\working\source_code\AuditWizard_v8\Layton.AuditWizard.DataAccess\AuditDataFile.cs:line 545
+   at Layton.AuditWizard.DataAccess.AuditDataFile.ProcessElementRead(XmlSimpleElement xmlSimpleElement) in C:\jasonl\development\layton_products\AuditWizard\working\source_code\AuditWizard_v8\Layton.AuditWizard.DataAccess\AuditDataFile.cs:line 485
+   at Layton.AuditWizard.DataAccess.AuditDataFile.Read(String fileName) in C:\jasonl\development\layton_products\AuditWizard\working\source_code\AuditWizard_v8\Layton.AuditWizard.DataAccess\AuditDataFile.cs:line 422
+   at Layton.AuditWizard.Common.AuditUploader.EnumerateFiles(List`1 list) in C:\jasonl\development\layton_products\AuditWizard\working\source_code\AuditWizard_v8\Layton.AuditWizard.Common\AuditUploader.cs:line 214
+2010-07-14 16:48:33,631 [1] ERROR Layton.AuditWizard.DataAccess.AuditDataFile Root element is missing.
+2010-07-14 16:48:33,740 [1] ERROR Layton.AuditWizard.DataAccess.AuditDataFile There is no Unicode byte order mark. Cannot switch to Unicode.
+2010-07-14 16:48:33,787 [1] ERROR Layton.AuditWizard.DataAccess.AuditDataFile There is no Unicode byte order mark. Cannot switch to Unicode.
+2010-07-14 16:48:33,818 [1] ERROR Layton.AuditWizard.DataAccess.AuditDataFile There is no Unicode byte order mark. Cannot switch to Unicode.
+2010-07-14 16:48:33,865 [1] ERROR Layton.AuditWizard.DataAccess.AuditDataFile There is no Unicode byte order mark. Cannot switch to Unicode.
+2010-07-14 16:48:33,896 [1] ERROR Layton.AuditWizard.DataAccess.AuditDataFile There is no Unicode byte order mark. Cannot switch to Unicode.
+2010-07-14 16:48:33,943 [1] ERROR Layton.AuditWizard.DataAccess.AuditDataFile There is no Unicode byte order mark. Cannot switch to Unicode.
+2010-07-14 16:48:33,959 [1] ERROR Layton.AuditWizard.DataAccess.AuditDataFile There is no Unicode byte order mark. Cannot switch to Unicode.
+2010-07-14 16:48:34,006 [1] ERROR Layton.AuditWizard.DataAccess.AuditDataFile There is no Unicode byte order mark. Cannot switch to Unicode.
+2010-07-14 16:48:34,037 [1] ERROR Layton.AuditWizard.DataAccess.AuditDataFile There is no Unicode byte order mark. Cannot switch to Unicode.
+2010-07-14 16:48:34,068 [1] ERROR Layton.AuditWizard.DataAccess.AuditDataFile There is no Unicode byte order mark. Cannot switch to Unicode.
+2010-07-14 16:48:34,131 [1] ERROR Layton.AuditWizard.DataAccess.AuditDataFile There is no Unicode byte order mark. Cannot switch to Unicode.
+2010-07-14 16:48:34,146 [1] ERROR Layton.AuditWizard.DataAccess.AuditDataFile There is no Unicode byte order mark. Cannot switch to Unicode.
+2010-07-14 16:48:34,224 [1] ERROR Layton.AuditWizard.DataAccess.AuditDataFile There is no Unicode byte order mark. Cannot switch to Unicode.
+2010-07-14 16:48:34,256 [1] ERROR Layton.AuditWizard.DataAccess.AuditDataFile There is no Unicode byte order mark. Cannot switch to Unicode.
+2010-07-14 16:48:34,303 [1] ERROR Layton.AuditWizard.DataAccess.AuditDataFile There is no Unicode byte order mark. Cannot switch to Unicode.
+2010-07-14 16:48:34,365 [1] ERROR Layton.AuditWizard.DataAccess.AuditDataFile There is no Unicode byte order mark. Cannot switch to Unicode.
+2010-07-14 16:48:34,396 [1] ERROR Layton.AuditWizard.DataAccess.AuditDataFile There is no Unicode byte order mark. Cannot switch to Unicode.
+2010-07-14 16:48:34,443 [1] ERROR Layton.AuditWizard.DataAccess.AuditDataFile There is no Unicode byte order mark. Cannot switch to Unicode.
+2010-07-14 16:48:34,474 [1] ERROR Layton.AuditWizard.DataAccess.AuditDataFile There is no Unicode byte order mark. Cannot switch to Unicode.
+2010-07-14 16:48:34,521 [1] ERROR Layton.AuditWizard.DataAccess.AuditDataFile There is no Unicode byte order mark. Cannot switch to Unicode.
+2010-07-14 16:48:34,553 [1] ERROR Layton.AuditWizard.DataAccess.AuditDataFile There is no Unicode byte order mark. Cannot switch to Unicode.
+2010-07-14 16:48:34,599 [1] ERROR Layton.AuditWizard.DataAccess.AuditDataFile There is no Unicode byte order mark. Cannot switch to Unicode.
+2010-07-14 16:48:34,756 [1] ERROR Layton.AuditWizard.DataAccess.AuditDataFile There is no Unicode byte order mark. Cannot switch to Unicode.
+2010-07-14 16:48:34,818 [1] ERROR Layton.AuditWizard.DataAccess.AuditDataFile There is no Unicode byte order mark. Cannot switch to Unicode.
+2010-07-14 16:48:34,943 [1] ERROR Layton.AuditWizard.DataAccess.AuditDataFile There is no Unicode byte order mark. Cannot switch to Unicode.
+2010-07-14 16:48:34,990 [1] ERROR Layton.AuditWizard.DataAccess.AuditDataFile There is no Unicode byte order mark. Cannot switch to Unicode.
+2010-07-14 16:48:35,068 [1] ERROR Layton.AuditWizard.DataAccess.AuditDataFile There is no Unicode byte order mark. Cannot switch to Unicode.
+2010-07-14 16:48:35,099 [1] ERROR Layton.AuditWizard.DataAccess.AuditDataFile There is no Unicode byte order mark. Cannot switch to Unicode.
+2010-07-14 16:48:35,131 [1] ERROR Layton.AuditWizard.DataAccess.AuditDataFile There is no Unicode byte order mark. Cannot switch to Unicode.
+2010-07-14 16:48:35,178 [1] ERROR Layton.AuditWizard.DataAccess.AuditDataFile There is no Unicode byte order mark. Cannot switch to Unicode.
+2010-07-14 16:48:35,209 [1] ERROR Layton.AuditWizard.DataAccess.AuditDataFile There is no Unicode byte order mark. Cannot switch to Unicode.
+2010-07-14 16:48:35,271 [1] ERROR Layton.AuditWizard.DataAccess.AuditDataFile There is no Unicode byte order mark. Cannot switch to Unicode.
+2010-07-14 16:48:35,334 [1] ERROR Layton.AuditWizard.DataAccess.AuditDataFile There is no Unicode byte order mark. Cannot switch to Unicode.
+2010-07-14 16:48:35,365 [1] ERROR Layton.AuditWizard.DataAccess.AuditDataFile There is no Unicode byte order mark. Cannot switch to Unicode.
+2010-07-14 16:48:35,412 [1] ERROR Layton.AuditWizard.DataAccess.AuditDataFile There is no Unicode byte order mark. Cannot switch to Unicode.
+2010-07-14 16:48:35,443 [1] ERROR Layton.AuditWizard.DataAccess.AuditDataFile There is no Unicode byte order mark. Cannot switch to Unicode.
+2010-07-14 16:48:35,474 [1] ERROR Layton.AuditWizard.DataAccess.AuditDataFile There is no Unicode byte order mark. Cannot switch to Unicode.
+2010-07-14 16:48:35,521 [1] ERROR Layton.AuditWizard.DataAccess.AuditDataFile There is no Unicode byte order mark. Cannot switch to Unicode.
+2010-07-14 16:48:35,568 [1] ERROR Layton.AuditWizard.DataAccess.AuditDataFile There is no Unicode byte order mark. Cannot switch to Unicode.
+2010-07-14 16:48:35,615 [1] ERROR Layton.AuditWizard.DataAccess.AuditDataFile There is no Unicode byte order mark. Cannot switch to Unicode.
+2010-07-14 16:48:35,631 [1] ERROR Layton.AuditWizard.DataAccess.AuditDataFile There is no Unicode byte order mark. Cannot switch to Unicode.
+2010-07-14 16:48:35,662 [1] ERROR Layton.AuditWizard.DataAccess.AuditDataFile There is no Unicode byte order mark. Cannot switch to Unicode.
+2010-07-14 16:48:35,693 [1] ERROR Layton.AuditWizard.DataAccess.AuditDataFile There is no Unicode byte order mark. Cannot switch to Unicode.
+2010-07-14 16:48:35,724 [1] ERROR Layton.AuditWizard.DataAccess.AuditDataFile There is no Unicode byte order mark. Cannot switch to Unicode.
+2010-07-14 16:48:35,756 [1] ERROR Layton.AuditWizard.DataAccess.AuditDataFile There is no Unicode byte order mark. Cannot switch to Unicode.
+2010-07-14 16:48:35,802 [1] ERROR Layton.AuditWizard.DataAccess.AuditDataFile There is no Unicode byte order mark. Cannot switch to Unicode.
+2010-07-14 16:48:35,834 [1] ERROR Layton.AuditWizard.DataAccess.AuditDataFile There is no Unicode byte order mark. Cannot switch to Unicode.
+2010-07-14 16:48:35,865 [1] ERROR Layton.AuditWizard.DataAccess.AuditDataFile There is no Unicode byte order mark. Cannot switch to Unicode.
+2010-07-14 16:48:35,927 [1] ERROR Layton.AuditWizard.DataAccess.AuditDataFile There is no Unicode byte order mark. Cannot switch to Unicode.
+2010-07-14 16:48:35,990 [1] ERROR Layton.AuditWizard.DataAccess.AuditDataFile There is no Unicode byte order mark. Cannot switch to Unicode.
+2010-07-14 16:48:36,021 [1] ERROR Layton.AuditWizard.DataAccess.AuditDataFile There is no Unicode byte order mark. Cannot switch to Unicode.
+2010-07-14 16:48:36,084 [1] ERROR Layton.AuditWizard.DataAccess.AuditDataFile There is no Unicode byte order mark. Cannot switch to Unicode.
+2010-07-14 16:48:36,162 [1] ERROR Layton.AuditWizard.DataAccess.AuditDataFile There is no Unicode byte order mark. Cannot switch to Unicode.
+2010-07-14 16:48:36,193 [1] ERROR Layton.AuditWizard.DataAccess.AuditDataFile There is no Unicode byte order mark. Cannot switch to Unicode.
+2010-07-14 16:48:36,256 [1] ERROR Layton.AuditWizard.DataAccess.AuditDataFile There is no Unicode byte order mark. Cannot switch to Unicode.
+2010-07-15 08:48:04,290 [1] ERROR Layton.AuditWizard.DataAccess.AssetDAO Exception in PerformQuery
+There was an error parsing the query. [ Token line number = 1,Token line offset = 126,Token in error = INNER ]
+2010-07-15 10:15:32,517 [10] ERROR AuditWizardv8.LaytonCabApplication Exception occurred in Main().
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Layton.NetworkDiscovery.NetworkDiscoveryWorkItemController.discoverer_NetworkDiscoveryUpdate(Object sender, DiscoveryUpdateEventArgs e) in C:\jasonl\development\layton_products\AuditWizard\working\source_code\AuditWizard_v8\Layton Framework\NetworkDiscovery\NetworkDiscoveryWorkItemController.cs:line 197
+   at Layton.NetworkDiscovery.NetworkDiscovery.FireNetworkDiscoveryUpdate(DiscoveryUpdateEventArgs e) in C:\jasonl\development\layton_products\AuditWizard\working\source_code\AuditWizard_v8\Layton Framework\NetworkDiscovery\NetworkDiscovery.cs:line 28
+   at Layton.NetworkDiscovery.TcpipNetworkDiscovery.ExecuteTcpipDiscover(Object aIpAddress) in C:\jasonl\development\layton_products\AuditWizard\working\source_code\AuditWizard_v8\Layton Framework\NetworkDiscovery\TcpipNetworkDiscovery.cs:line 306
+   at System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   at System.Threading.ExecutionContext.runTryCode(Object userData)
+   at System.Runtime.CompilerServices.RuntimeHelpers.ExecuteCodeWithGuaranteedCleanup(TryCode code, CleanupCode backoutCode, Object userData)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.ThreadHelper.ThreadStart(Object obj)
+2010-07-15 14:41:20,766 [1] ERROR Layton.AuditWizard.DataAccess.LayIpAddressDAO Exception in PerformQuery
+The column name is not valid. [ Node name (if any) = ,Column name = ACTIVE ]
+2010-07-15 14:41:37,155 [1] ERROR Layton.AuditWizard.DataAccess.LayIpAddressDAO Exception in PerformQuery
+The column name is not valid. [ Node name (if any) = ,Column name = ACTIVE ]
+2010-07-16 12:15:30,686 [1] ERROR Layton.AuditWizard.DataAccess.ReportsDAO Exception in ExecuteNonQuery
+System.Data.SqlClient.SqlException: There is already an object named 'REPORTS' in the database.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at Layton.AuditWizard.DataAccess.ReportsDAO.ExecuteNonQuery(String aCommandText) in C:\jasonl\development\layton_products\AuditWizard\working\source_code\AuditWizard_v8\Layton.AuditWizard.DataAccess\ReportsDAO.cs:line 367
+2010-07-16 12:15:30,826 [1] ERROR Layton.AuditWizard.DataAccess.ReportsDAO Exception in ExecuteNonQuery
+System.Data.SqlClient.SqlException: Table 'REPORTS' already has a primary key defined on it.
+Could not create constraint. See previous errors.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at Layton.AuditWizard.DataAccess.ReportsDAO.ExecuteNonQuery(String aCommandText) in C:\jasonl\development\layton_products\AuditWizard\working\source_code\AuditWizard_v8\Layton.AuditWizard.DataAccess\ReportsDAO.cs:line 367
+2010-07-16 12:19:23,138 [1] ERROR Layton.AuditWizard.DataAccess.ReportsDAO Exception in ExecuteNonQuery
+The specified table already exists. [ REPORTS ]
+2010-07-16 12:19:23,169 [1] ERROR Layton.AuditWizard.DataAccess.ReportsDAO Exception in ExecuteNonQuery
+The table already has a primary key.
+2010-07-19 11:48:12,247 [1] ERROR AuditWizardv8.LaytonCabApplication Exception occurred in Main().
+System.Data.SqlClient.SqlException: Column already has a DEFAULT bound to it.
+Could not create constraint. See previous errors.
+   at Layton.AuditWizard.Administration.FormChangeDBWizard.ExecuteDatabaseCreateScript(String filename, SqlConnection conn) in C:\jasonl\development\layton_products\AuditWizard\working\source_code\AuditWizard_v8\Layton.AuditWizard.Administration\FormChangeDBWizard.cs:line 642
+   at Layton.AuditWizard.Administration.FormChangeDBWizard.MigrateAndCreateDB() in C:\jasonl\development\layton_products\AuditWizard\working\source_code\AuditWizard_v8\Layton.AuditWizard.Administration\FormChangeDBWizard.cs:line 207
+   at Layton.AuditWizard.Administration.FormChangeDBWizard.FinishClicked(Object sender, EventArgs e) in C:\jasonl\development\layton_products\AuditWizard\working\source_code\AuditWizard_v8\Layton.AuditWizard.Administration\FormChangeDBWizard.cs:line 832
+   at WizardBase.WizardControl.OnFinishButtonClick(Object sender, EventArgs e)
+   at WizardBase.WizardControl.OnRealNextButtonClick(Object sender, EventArgs e)
+   at System.Windows.Forms.Control.OnClick(EventArgs e)
+   at System.Windows.Forms.Button.OnClick(EventArgs e)
+   at System.Windows.Forms.Button.OnMouseUp(MouseEventArgs mevent)
+   at System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   at System.Windows.Forms.Control.WndProc(Message& m)
+   at System.Windows.Forms.ButtonBase.WndProc(Message& m)
+   at System.Windows.Forms.Button.WndProc(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   at System.Windows.Forms.NativeWindow.DebuggableCallback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+   at System.Windows.Forms.UnsafeNativeMethods.DispatchMessageW(MSG& msg)
+   at System.Windows.Forms.Application.ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop(Int32 dwComponentID, Int32 reason, Int32 pvLoopData)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.RunDialog(Form form)
+   at System.Windows.Forms.Form.ShowDialog(IWin32Window owner)
+   at System.Windows.Forms.Form.ShowDialog()
+   at Layton.AuditWizard.Administration.DatabaseTabView.btnChangeDB_Click(Object sender, EventArgs e) in C:\jasonl\development\layton_products\AuditWizard\working\source_code\AuditWizard_v8\Layton.AuditWizard.Administration\DatabaseTabView.cs:line 329
+   at System.Windows.Forms.Control.OnClick(EventArgs e)
+   at System.Windows.Forms.Button.OnClick(EventArgs e)
+   at System.Windows.Forms.Button.OnMouseUp(MouseEventArgs mevent)
+   at System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   at System.Windows.Forms.Control.WndProc(Message& m)
+   at System.Windows.Forms.ButtonBase.WndProc(Message& m)
+   at System.Windows.Forms.Button.WndProc(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   at System.Windows.Forms.NativeWindow.DebuggableCallback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+   at System.Windows.Forms.UnsafeNativeMethods.DispatchMessageW(MSG& msg)
+   at System.Windows.Forms.Application.ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop(Int32 dwComponentID, Int32 reason, Int32 pvLoopData)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.Run(Form mainForm)
+   at Infragistics.Practices.CompositeUI.WinForms.IGFormShellApplication`2.Start()
+   at AuditWizardv8.LaytonCabApplication.Start() in C:\jasonl\development\layton_products\AuditWizard\working\source_code\AuditWizard_v8\Layton Framework\Cab\Shell\LaytonCabApplication.cs:line 106
+   at Microsoft.Practices.CompositeUI.CabApplication`1.Run()
+   at AuditWizardv8.LaytonCabApplication.Main() in C:\jasonl\development\layton_products\AuditWizard\working\source_code\AuditWizard_v8\Layton Framework\Cab\Shell\LaytonCabApplication.cs:line 34
+2010-07-19 11:48:16,419 [1] ERROR Layton.AuditWizard.Overview.NewsFeedWidget Object reference not set to an instance of an object.
+2010-07-19 12:11:51,882 [1] ERROR Layton.AuditWizard.DataAccess.AuditedItemsDAO Exception in PerformQuery
+System.Data.SqlClient.SqlException: Incorrect syntax near 'n'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   at Layton.AuditWizard.DataAccess.AuditedItemsDAO.PerformQuery(String aCommandText) in C:\jasonl\development\layton_products\AuditWizard\working\source_code\AuditWizard_v8\Layton.AuditWizard.DataAccess\AuditedItemsDAO.cs:line 480
+2010-07-19 12:11:51,929 [1] ERROR Layton.AuditWizard.DataAccess.AuditedItemsDAO Exception in PerformQuery
+System.Data.SqlClient.SqlException: Incorrect syntax near 'n'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   at Layton.AuditWizard.DataAccess.AuditedItemsDAO.PerformQuery(String aCommandText) in C:\jasonl\development\layton_products\AuditWizard\working\source_code\AuditWizard_v8\Layton.AuditWizard.DataAccess\AuditedItemsDAO.cs:line 480
+2010-07-19 12:11:51,960 [1] ERROR Layton.AuditWizard.DataAccess.AuditedItemsDAO Exception in PerformQuery
+System.Data.SqlClient.SqlException: Incorrect syntax near 'n'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   at Layton.AuditWizard.DataAccess.AuditedItemsDAO.PerformQuery(String aCommandText) in C:\jasonl\development\layton_products\AuditWizard\working\source_code\AuditWizard_v8\Layton.AuditWizard.DataAccess\AuditedItemsDAO.cs:line 480
+2010-07-19 12:11:51,976 [1] ERROR Layton.AuditWizard.DataAccess.AuditedItemsDAO Exception in PerformQuery
+System.Data.SqlClient.SqlException: Incorrect syntax near 'n'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   at Layton.AuditWizard.DataAccess.AuditedItemsDAO.PerformQuery(String aCommandText) in C:\jasonl\development\layton_products\AuditWizard\working\source_code\AuditWizard_v8\Layton.AuditWizard.DataAccess\AuditedItemsDAO.cs:line 480
+2010-07-19 12:14:14,246 [1] ERROR Layton.AuditWizard.DataAccess.AuditedItemsDAO Exception in PerformQuery
+System.Data.SqlClient.SqlException: Incorrect syntax near 'n'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   at Layton.AuditWizard.DataAccess.AuditedItemsDAO.PerformQuery(String aCommandText) in C:\jasonl\development\layton_products\AuditWizard\working\source_code\AuditWizard_v8\Layton.AuditWizard.DataAccess\AuditedItemsDAO.cs:line 480
+2010-07-19 12:14:14,278 [1] ERROR Layton.AuditWizard.DataAccess.AuditedItemsDAO Exception in PerformQuery
+System.Data.SqlClient.SqlException: Incorrect syntax near 'n'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   at Layton.AuditWizard.DataAccess.AuditedItemsDAO.PerformQuery(String aCommandText) in C:\jasonl\development\layton_products\AuditWizard\working\source_code\AuditWizard_v8\Layton.AuditWizard.DataAccess\AuditedItemsDAO.cs:line 480
+2010-07-19 12:14:14,293 [1] ERROR Layton.AuditWizard.DataAccess.AuditedItemsDAO Exception in PerformQuery
+System.Data.SqlClient.SqlException: Incorrect syntax near 'n'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   at Layton.AuditWizard.DataAccess.AuditedItemsDAO.PerformQuery(String aCommandText) in C:\jasonl\development\layton_products\AuditWizard\working\source_code\AuditWizard_v8\Layton.AuditWizard.DataAccess\AuditedItemsDAO.cs:line 480
+2010-07-19 12:14:14,309 [1] ERROR Layton.AuditWizard.DataAccess.AuditedItemsDAO Exception in PerformQuery
+System.Data.SqlClient.SqlException: Incorrect syntax near 'n'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   at Layton.AuditWizard.DataAccess.AuditedItemsDAO.PerformQuery(String aCommandText) in C:\jasonl\development\layton_products\AuditWizard\working\source_code\AuditWizard_v8\Layton.AuditWizard.DataAccess\AuditedItemsDAO.cs:line 480
+2010-07-19 12:28:42,453 [1] ERROR Layton.AuditWizard.DataAccess.AuditedItemsDAO Exception in PerformQuery
+System.Data.SqlClient.SqlException: Incorrect syntax near 'n'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   at Layton.AuditWizard.DataAccess.AuditedItemsDAO.PerformQuery(String aCommandText) in C:\jasonl\development\layton_products\AuditWizard\working\source_code\AuditWizard_v8\Layton.AuditWizard.DataAccess\AuditedItemsDAO.cs:line 480
+2010-07-19 12:28:42,484 [1] ERROR Layton.AuditWizard.DataAccess.AuditedItemsDAO Exception in PerformQuery
+System.Data.SqlClient.SqlException: Incorrect syntax near 'n'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   at Layton.AuditWizard.DataAccess.AuditedItemsDAO.PerformQuery(String aCommandText) in C:\jasonl\development\layton_products\AuditWizard\working\source_code\AuditWizard_v8\Layton.AuditWizard.DataAccess\AuditedItemsDAO.cs:line 480
+2010-07-19 12:28:42,500 [1] ERROR Layton.AuditWizard.DataAccess.AuditedItemsDAO Exception in PerformQuery
+System.Data.SqlClient.SqlException: Incorrect syntax near 'n'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   at Layton.AuditWizard.DataAccess.AuditedItemsDAO.PerformQuery(String aCommandText) in C:\jasonl\development\layton_products\AuditWizard\working\source_code\AuditWizard_v8\Layton.AuditWizard.DataAccess\AuditedItemsDAO.cs:line 480
+2010-07-19 12:28:42,516 [1] ERROR Layton.AuditWizard.DataAccess.AuditedItemsDAO Exception in PerformQuery
+System.Data.SqlClient.SqlException: Incorrect syntax near 'n'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   at Layton.AuditWizard.DataAccess.AuditedItemsDAO.PerformQuery(String aCommandText) in C:\jasonl\development\layton_products\AuditWizard\working\source_code\AuditWizard_v8\Layton.AuditWizard.DataAccess\AuditedItemsDAO.cs:line 480
+2010-07-19 17:40:04,574 [1] ERROR Layton.AuditWizard.DataAccess.AssetDAO Exception in PerformQuery2
+System.Data.SqlClient.SqlException: Timeout expired.  The timeout period elapsed prior to completion of the operation or the server is not responding.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ReadInternal(Boolean setTimeout)
+   at System.Data.SqlClient.SqlDataReader.Read()
+   at System.Data.Common.DataAdapter.FillLoadDataRow(SchemaMapping mapping)
+   at System.Data.Common.DataAdapter.FillFromReader(DataSet dataset, DataTable datatable, String srcTable, DataReaderContainer dataReader, Int32 startRecord, Int32 maxRecords, DataColumn parentChapterColumn, Object parentChapterValue)
+   at System.Data.Common.DataAdapter.Fill(DataTable[] dataTables, IDataReader dataReader, Int32 startRecord, Int32 maxRecords)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   at Layton.AuditWizard.DataAccess.AssetDAO.PerformQuery2(String aCommandText, SqlConnection conn) in C:\jasonl\development\layton_products\AuditWizard\working\source_code\AuditWizard_v8\Layton.AuditWizard.DataAccess\AssetDAO.cs:line 1756
+2010-07-19 17:40:44,696 [1] ERROR Layton.AuditWizard.DataAccess.AssetDAO Exception in PerformQuery2
+System.Data.SqlClient.SqlException: Timeout expired.  The timeout period elapsed prior to completion of the operation or the server is not responding.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ReadInternal(Boolean setTimeout)
+   at System.Data.SqlClient.SqlDataReader.Read()
+   at System.Data.Common.DataAdapter.FillLoadDataRow(SchemaMapping mapping)
+   at System.Data.Common.DataAdapter.FillFromReader(DataSet dataset, DataTable datatable, String srcTable, DataReaderContainer dataReader, Int32 startRecord, Int32 maxRecords, DataColumn parentChapterColumn, Object parentChapterValue)
+   at System.Data.Common.DataAdapter.Fill(DataTable[] dataTables, IDataReader dataReader, Int32 startRecord, Int32 maxRecords)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   at Layton.AuditWizard.DataAccess.AssetDAO.PerformQuery2(String aCommandText, SqlConnection conn) in C:\jasonl\development\layton_products\AuditWizard\working\source_code\AuditWizard_v8\Layton.AuditWizard.DataAccess\AssetDAO.cs:line 1756
+2010-07-20 08:44:09,916 [1] ERROR Layton.AuditWizard.DataAccess.AuditDataFile Root element is missing.
+2010-07-20 08:44:10,025 [1] ERROR Layton.AuditWizard.DataAccess.AuditDataFile There is no Unicode byte order mark. Cannot switch to Unicode.
+2010-07-20 08:44:10,041 [1] ERROR Layton.AuditWizard.DataAccess.AuditDataFile There is no Unicode byte order mark. Cannot switch to Unicode.
+2010-07-20 08:44:10,056 [1] ERROR Layton.AuditWizard.DataAccess.AuditDataFile There is no Unicode byte order mark. Cannot switch to Unicode.
+2010-07-20 08:44:10,088 [1] ERROR Layton.AuditWizard.DataAccess.AuditDataFile There is no Unicode byte order mark. Cannot switch to Unicode.
+2010-07-20 08:44:10,135 [1] ERROR Layton.AuditWizard.DataAccess.AuditDataFile There is no Unicode byte order mark. Cannot switch to Unicode.
+2010-07-20 08:44:10,150 [1] ERROR Layton.AuditWizard.DataAccess.AuditDataFile There is no Unicode byte order mark. Cannot switch to Unicode.
+2010-07-20 08:44:10,181 [1] ERROR Layton.AuditWizard.DataAccess.AuditDataFile There is no Unicode byte order mark. Cannot switch to Unicode.
+2010-07-20 08:44:10,197 [1] ERROR Layton.AuditWizard.DataAccess.AuditDataFile There is no Unicode byte order mark. Cannot switch to Unicode.
+2010-07-20 08:44:10,213 [1] ERROR Layton.AuditWizard.DataAccess.AuditDataFile There is no Unicode byte order mark. Cannot switch to Unicode.
+2010-07-20 08:44:10,244 [1] ERROR Layton.AuditWizard.DataAccess.AuditDataFile There is no Unicode byte order mark. Cannot switch to Unicode.
+2010-07-20 08:44:10,260 [1] ERROR Layton.AuditWizard.DataAccess.AuditDataFile There is no Unicode byte order mark. Cannot switch to Unicode.
+2010-07-20 08:44:10,275 [1] ERROR Layton.AuditWizard.DataAccess.AuditDataFile There is no Unicode byte order mark. Cannot switch to Unicode.
+2010-07-20 08:44:10,306 [1] ERROR Layton.AuditWizard.DataAccess.AuditDataFile There is no Unicode byte order mark. Cannot switch to Unicode.
+2010-07-20 08:44:10,322 [1] ERROR Layton.AuditWizard.DataAccess.AuditDataFile There is no Unicode byte order mark. Cannot switch to Unicode.
+2010-07-20 08:44:10,338 [1] ERROR Layton.AuditWizard.DataAccess.AuditDataFile There is no Unicode byte order mark. Cannot switch to Unicode.
+2010-07-20 08:44:10,369 [1] ERROR Layton.AuditWizard.DataAccess.AuditDataFile There is no Unicode byte order mark. Cannot switch to Unicode.
+2010-07-20 08:44:10,385 [1] ERROR Layton.AuditWizard.DataAccess.AuditDataFile There is no Unicode byte order mark. Cannot switch to Unicode.
+2010-07-20 08:44:10,400 [1] ERROR Layton.AuditWizard.DataAccess.AuditDataFile There is no Unicode byte order mark. Cannot switch to Unicode.
+2010-07-20 08:44:10,463 [1] ERROR Layton.AuditWizard.DataAccess.AuditDataFile There is no Unicode byte order mark. Cannot switch to Unicode.
+2010-07-20 08:44:10,494 [1] ERROR Layton.AuditWizard.DataAccess.AuditDataFile There is no Unicode byte order mark. Cannot switch to Unicode.
+2010-07-20 08:44:10,510 [1] ERROR Layton.AuditWizard.DataAccess.AuditDataFile There is no Unicode byte order mark. Cannot switch to Unicode.
+2010-07-20 08:44:10,525 [1] ERROR Layton.AuditWizard.DataAccess.AuditDataFile There is no Unicode byte order mark. Cannot switch to Unicode.
+2010-07-20 08:44:10,541 [1] ERROR Layton.AuditWizard.DataAccess.AuditDataFile There is no Unicode byte order mark. Cannot switch to Unicode.
+2010-07-20 08:44:10,572 [1] ERROR Layton.AuditWizard.DataAccess.AuditDataFile There is no Unicode byte order mark. Cannot switch to Unicode.
+2010-07-20 08:44:10,588 [1] ERROR Layton.AuditWizard.DataAccess.AuditDataFile There is no Unicode byte order mark. Cannot switch to Unicode.
+2010-07-20 08:44:10,603 [1] ERROR Layton.AuditWizard.DataAccess.AuditDataFile There is no Unicode byte order mark. Cannot switch to Unicode.
+2010-07-20 08:44:10,635 [1] ERROR Layton.AuditWizard.DataAccess.AuditDataFile There is no Unicode byte order mark. Cannot switch to Unicode.
+2010-07-20 08:44:10,650 [1] ERROR Layton.AuditWizard.DataAccess.AuditDataFile There is no Unicode byte order mark. Cannot switch to Unicode.
+2010-07-20 08:44:10,697 [1] ERROR Layton.AuditWizard.DataAccess.AuditDataFile There is no Unicode byte order mark. Cannot switch to Unicode.
+2010-07-20 08:44:10,728 [1] ERROR Layton.AuditWizard.DataAccess.AuditDataFile There is no Unicode byte order mark. Cannot switch to Unicode.
+2010-07-20 08:44:10,744 [1] ERROR Layton.AuditWizard.DataAccess.AuditDataFile There is no Unicode byte order mark. Cannot switch to Unicode.
+2010-07-20 08:44:10,775 [1] ERROR Layton.AuditWizard.DataAccess.AuditDataFile There is no Unicode byte order mark. Cannot switch to Unicode.
+2010-07-20 08:44:10,806 [1] ERROR Layton.AuditWizard.DataAccess.AuditDataFile There is no Unicode byte order mark. Cannot switch to Unicode.
+2010-07-20 08:44:10,822 [1] ERROR Layton.AuditWizard.DataAccess.AuditDataFile There is no Unicode byte order mark. Cannot switch to Unicode.
+2010-07-20 08:44:10,853 [1] ERROR Layton.AuditWizard.DataAccess.AuditDataFile There is no Unicode byte order mark. Cannot switch to Unicode.
+2010-07-20 08:44:10,885 [1] ERROR Layton.AuditWizard.DataAccess.AuditDataFile There is no Unicode byte order mark. Cannot switch to Unicode.
+2010-07-20 08:44:10,916 [1] ERROR Layton.AuditWizard.DataAccess.AuditDataFile There is no Unicode byte order mark. Cannot switch to Unicode.
+2010-07-20 08:44:10,931 [1] ERROR Layton.AuditWizard.DataAccess.AuditDataFile There is no Unicode byte order mark. Cannot switch to Unicode.
+2010-07-20 08:44:10,963 [1] ERROR Layton.AuditWizard.DataAccess.AuditDataFile There is no Unicode byte order mark. Cannot switch to Unicode.
+2010-07-20 08:44:10,978 [1] ERROR Layton.AuditWizard.DataAccess.AuditDataFile There is no Unicode byte order mark. Cannot switch to Unicode.
+2010-07-20 08:44:11,213 [1] ERROR Layton.AuditWizard.DataAccess.AuditDataFile There is no Unicode byte order mark. Cannot switch to Unicode.
+2010-07-20 08:44:11,244 [1] ERROR Layton.AuditWizard.DataAccess.AuditDataFile There is no Unicode byte order mark. Cannot switch to Unicode.
+2010-07-20 08:44:11,275 [1] ERROR Layton.AuditWizard.DataAccess.AuditDataFile There is no Unicode byte order mark. Cannot switch to Unicode.
+2010-07-20 08:44:11,291 [1] ERROR Layton.AuditWizard.DataAccess.AuditDataFile There is no Unicode byte order mark. Cannot switch to Unicode.
+2010-07-20 08:44:11,322 [1] ERROR Layton.AuditWizard.DataAccess.AuditDataFile There is no Unicode byte order mark. Cannot switch to Unicode.
+2010-07-20 08:44:11,338 [1] ERROR Layton.AuditWizard.DataAccess.AuditDataFile There is no Unicode byte order mark. Cannot switch to Unicode.
+2010-07-20 08:44:11,400 [1] ERROR Layton.AuditWizard.DataAccess.AuditDataFile There is no Unicode byte order mark. Cannot switch to Unicode.
+2010-07-20 08:44:11,416 [1] ERROR Layton.AuditWizard.DataAccess.AuditDataFile There is no Unicode byte order mark. Cannot switch to Unicode.
+2010-07-20 08:44:11,447 [1] ERROR Layton.AuditWizard.DataAccess.AuditDataFile There is no Unicode byte order mark. Cannot switch to Unicode.
+2010-07-20 08:44:11,463 [1] ERROR Layton.AuditWizard.DataAccess.AuditDataFile There is no Unicode byte order mark. Cannot switch to Unicode.
+2010-07-20 08:44:11,494 [1] ERROR Layton.AuditWizard.DataAccess.AuditDataFile There is no Unicode byte order mark. Cannot switch to Unicode.
+2010-07-20 08:44:11,525 [1] ERROR Layton.AuditWizard.DataAccess.AuditDataFile There is no Unicode byte order mark. Cannot switch to Unicode.
+2010-07-20 08:44:11,572 [1] ERROR Layton.AuditWizard.DataAccess.AuditDataFile There is no Unicode byte order mark. Cannot switch to Unicode.
+2010-07-20 08:44:11,603 [1] ERROR Layton.AuditWizard.DataAccess.AuditDataFile There is no Unicode byte order mark. Cannot switch to Unicode.
+2010-07-20 08:44:11,619 [1] ERROR Layton.AuditWizard.DataAccess.AuditDataFile There is no Unicode byte order mark. Cannot switch to Unicode.
+2010-07-20 08:58:34,755 [5] ERROR AuditWizardv8.LaytonCabApplication Exception occurred in Main().
+System.InvalidOperationException: Cross-thread operation not valid: Control 'lblProgress' accessed from a thread other than the thread it was created on.
+   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.set_WindowText(String value)
+   at System.Windows.Forms.Control.set_Text(String value)
+   at System.Windows.Forms.Label.set_Text(String value)
+   at Layton.AuditWizard.Network.FormUploadAudits.RefreshList() in C:\jasonl\development\layton_products\AuditWizard\working\source_code\AuditWizard_v8\Layton.AuditWizard.Network\FormUploadAudits.cs:line 98
+   at Layton.AuditWizard.Network.FormUploadAudits.watcher_Changed(Object source, FileSystemEventArgs e) in C:\jasonl\development\layton_products\AuditWizard\working\source_code\AuditWizard_v8\Layton.AuditWizard.Network\FormUploadAudits.cs:line 73
+   at System.IO.FileSystemWatcher.OnChanged(FileSystemEventArgs e)
+   at System.IO.FileSystemWatcher.NotifyFileSystemEventArgs(Int32 action, String name)
+   at System.IO.FileSystemWatcher.CompletionStatusChanged(UInt32 errorCode, UInt32 numBytes, NativeOverlapped* overlappedPointer)
+   at System.Threading._IOCompletionCallback.IOCompletionCallback_Context(Object state)
+   at System.Threading.ExecutionContext.runTryCode(Object userData)
+   at System.Runtime.CompilerServices.RuntimeHelpers.ExecuteCodeWithGuaranteedCleanup(TryCode code, CleanupCode backoutCode, Object userData)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading._IOCompletionCallback.PerformIOCompletionCallback(UInt32 errorCode, UInt32 numBytes, NativeOverlapped* pOVERLAP)
+2010-07-20 11:32:32,793 [9] ERROR AuditWizardv8.LaytonCabApplication Exception occurred in Main().
+System.InvalidOperationException: Cross-thread operation not valid: Control 'lblProgress' accessed from a thread other than the thread it was created on.
+   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.set_WindowText(String value)
+   at System.Windows.Forms.Control.set_Text(String value)
+   at System.Windows.Forms.Label.set_Text(String value)
+   at Layton.AuditWizard.Network.FormUploadAudits.RefreshList() in C:\jasonl\development\layton_products\AuditWizard\working\source_code\AuditWizard_v8\Layton.AuditWizard.Network\FormUploadAudits.cs:line 98
+   at Layton.AuditWizard.Network.FormUploadAudits.watcher_Changed(Object source, FileSystemEventArgs e) in C:\jasonl\development\layton_products\AuditWizard\working\source_code\AuditWizard_v8\Layton.AuditWizard.Network\FormUploadAudits.cs:line 73
+   at System.IO.FileSystemWatcher.OnChanged(FileSystemEventArgs e)
+   at System.IO.FileSystemWatcher.NotifyFileSystemEventArgs(Int32 action, String name)
+   at System.IO.FileSystemWatcher.CompletionStatusChanged(UInt32 errorCode, UInt32 numBytes, NativeOverlapped* overlappedPointer)
+   at System.Threading._IOCompletionCallback.IOCompletionCallback_Context(Object state)
+   at System.Threading.ExecutionContext.runTryCode(Object userData)
+   at System.Runtime.CompilerServices.RuntimeHelpers.ExecuteCodeWithGuaranteedCleanup(TryCode code, CleanupCode backoutCode, Object userData)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading._IOCompletionCallback.PerformIOCompletionCallback(UInt32 errorCode, UInt32 numBytes, NativeOverlapped* pOVERLAP)
+2010-07-21 11:25:40,477 [4] ERROR Layton.AuditWizard.Common.AuditUploader C:\jasonl\development\layton_products\AuditWizard\working\source_code\AuditWizard_v8\bin\data\LAY099.ADF has been created using an older version of the scanner (AuditScanner v8.1) and cannot be uploaded.Please deploy the new agent (v8.0.15.0) to the target machine and re-audit.
+2010-07-21 13:34:27,826 [1] ERROR Layton.AuditWizard.Overview.NewsFeedWidget The string was not recognized as a valid DateTime. There is a unknown word starting at index 19.
+2010-07-21 13:34:58,918 [1] ERROR Layton.AuditWizard.Overview.NewsFeedWidget The string was not recognized as a valid DateTime. There is a unknown word starting at index 19.
+2010-07-21 13:35:29,307 [1] ERROR Layton.AuditWizard.Overview.NewsFeedWidget The string was not recognized as a valid DateTime. There is a unknown word starting at index 19.
+2010-07-21 13:36:25,741 [1] ERROR Layton.AuditWizard.Overview.NewsFeedWidget The string was not recognized as a valid DateTime. There is a unknown word starting at index 19.
+2010-07-21 13:47:01,387 [1] ERROR Layton.AuditWizard.Overview.NewsFeedWidget The string was not recognized as a valid DateTime. There is a unknown word starting at index 19.
+2010-07-21 13:47:34,635 [1] ERROR Layton.AuditWizard.Overview.NewsFeedWidget The string was not recognized as a valid DateTime. There is a unknown word starting at index 19.
+2010-07-21 13:48:04,868 [1] ERROR Layton.AuditWizard.Overview.NewsFeedWidget The string was not recognized as a valid DateTime. There is a unknown word starting at index 19.
+2010-07-21 13:48:35,475 [1] ERROR Layton.AuditWizard.Overview.NewsFeedWidget The string was not recognized as a valid DateTime. There is a unknown word starting at index 19.
+2010-07-21 13:49:05,723 [1] ERROR Layton.AuditWizard.Overview.NewsFeedWidget The string was not recognized as a valid DateTime. There is a unknown word starting at index 19.
+2010-07-21 13:49:35,862 [1] ERROR Layton.AuditWizard.Overview.NewsFeedWidget The string was not recognized as a valid DateTime. There is a unknown word starting at index 19.
+2010-07-21 13:50:06,001 [1] ERROR Layton.AuditWizard.Overview.NewsFeedWidget The string was not recognized as a valid DateTime. There is a unknown word starting at index 19.
+2010-07-21 13:50:36,374 [1] ERROR Layton.AuditWizard.Overview.NewsFeedWidget The string was not recognized as a valid DateTime. There is a unknown word starting at index 19.
+2010-07-21 13:51:06,528 [1] ERROR Layton.AuditWizard.Overview.NewsFeedWidget The string was not recognized as a valid DateTime. There is a unknown word starting at index 19.
+2010-07-21 13:51:36,682 [1] ERROR Layton.AuditWizard.Overview.NewsFeedWidget The string was not recognized as a valid DateTime. There is a unknown word starting at index 19.
+2010-07-21 13:52:06,837 [1] ERROR Layton.AuditWizard.Overview.NewsFeedWidget The string was not recognized as a valid DateTime. There is a unknown word starting at index 19.
+2010-07-21 13:52:36,991 [1] ERROR Layton.AuditWizard.Overview.NewsFeedWidget The string was not recognized as a valid DateTime. There is a unknown word starting at index 19.
+2010-07-21 13:53:07,130 [1] ERROR Layton.AuditWizard.Overview.NewsFeedWidget The string was not recognized as a valid DateTime. There is a unknown word starting at index 19.
+2010-07-21 13:53:37,268 [1] ERROR Layton.AuditWizard.Overview.NewsFeedWidget The string was not recognized as a valid DateTime. There is a unknown word starting at index 19.
+2010-07-21 13:54:07,423 [1] ERROR Layton.AuditWizard.Overview.NewsFeedWidget The string was not recognized as a valid DateTime. There is a unknown word starting at index 19.
+2010-07-21 13:54:37,577 [1] ERROR Layton.AuditWizard.Overview.NewsFeedWidget The string was not recognized as a valid DateTime. There is a unknown word starting at index 19.
+2010-07-21 13:55:07,794 [1] ERROR Layton.AuditWizard.Overview.NewsFeedWidget The string was not recognized as a valid DateTime. There is a unknown word starting at index 19.
+2010-07-21 13:55:37,948 [1] ERROR Layton.AuditWizard.Overview.NewsFeedWidget The string was not recognized as a valid DateTime. There is a unknown word starting at index 19.
+2010-07-21 13:56:08,102 [1] ERROR Layton.AuditWizard.Overview.NewsFeedWidget The string was not recognized as a valid DateTime. There is a unknown word starting at index 19.
+2010-07-23 10:17:30,101 [4] ERROR Layton.AuditWizard.Common.AuditUploader C:\jml_share\data\LAY091.ADF has been created using an older version of the scanner (AuditAgent v8.0.15.0) and cannot be uploaded.Please deploy the new agent (v8.1) to the target machine and re-audit.
+2010-07-23 10:17:35,023 [4] ERROR Layton.AuditWizard.Common.AuditUploader C:\jml_share\data\LAY09.ADF has been created using an older version of the scanner (AuditAgent v8.0.15.0) and cannot be uploaded.Please deploy the new agent (v8.1) to the target machine and re-audit.
+2010-07-23 10:44:32,469 [1] ERROR Layton.AuditWizard.Administration.FormAlertMonitorWizard Error in wizardControl_FinishButtonClick
+System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\jasonl\development\layton_products\AuditWizard\working\source_code\AuditWizard_v8\bin\scanners\alertmonitors\test\ test.xml'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at System.IO.StreamWriter.CreateFile(String path, Boolean append)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize)
+   at System.IO.StreamWriter..ctor(String path)
+   at Layton.AuditWizard.Administration.FormAlertMonitorWizard.wizardControl_FinishButtonClick(Object sender, EventArgs e) in C:\jasonl\development\layton_products\AuditWizard\working\source_code\AuditWizard_v8\Layton.AuditWizard.Administration\FormAlertMonitorWizard.cs:line 377
+2010-07-23 10:45:03,777 [1] ERROR Layton.AuditWizard.Administration.FormAlertMonitorWizard Error in wizardControl_FinishButtonClick
+System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\jasonl\development\layton_products\AuditWizard\working\source_code\AuditWizard_v8\bin\scanners\alertmonitors\test\ tre.xml'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at System.IO.StreamWriter.CreateFile(String path, Boolean append)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize)
+   at System.IO.StreamWriter..ctor(String path)
+   at Layton.AuditWizard.Administration.FormAlertMonitorWizard.wizardControl_FinishButtonClick(Object sender, EventArgs e) in C:\jasonl\development\layton_products\AuditWizard\working\source_code\AuditWizard_v8\Layton.AuditWizard.Administration\FormAlertMonitorWizard.cs:line 377
+2010-07-23 12:31:40,828 [5] ERROR Layton.AuditWizard.Common.AuditUploader Error in EnumerateFiles()
+System.IO.IOException: The process cannot access the file 'C:\jml_share\data\data\LAYSQL01.ADF' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize)
+   at System.IO.StreamReader..ctor(String path)
+   at Layton.AuditWizard.Common.AuditUploader.EnumerateFiles(List`1 list) in C:\jasonl\development\layton_products\AuditWizard\working\source_code\AuditWizard_v8\Layton.AuditWizard.Common\AuditUploader.cs:line 200
+2010-07-27 09:00:40,110 [1] ERROR Layton.AuditWizard.DataAccess.StatisticsDAO Exception in PerformQuery
+The column name is not valid. [ Node name (if any) = a,Column name = _ASSETID ]
+2010-07-27 09:00:41,889 [1] ERROR Layton.AuditWizard.DataAccess.StatisticsDAO Exception in PerformQuery
+The column name is not valid. [ Node name (if any) = a,Column name = _ASSETID ]
+2010-07-27 09:02:24,688 [1] ERROR Layton.AuditWizard.DataAccess.StatisticsDAO Exception in PerformQuery
+The column name is not valid. [ Node name (if any) = a,Column name = _ASSETID ]
+2010-07-28 09:30:14,047 [1] ERROR Layton.AuditWizard.Network.FormUploadAudits The directory name C:\jml_share\data123 is invalid.
+2010-07-28 09:40:30,789 [1] ERROR Layton.AuditWizard.Network.FormUploadAudits The directory name C:\jml_share\data123 is invalid.
+2010-07-28 09:40:33,101 [1] ERROR Layton.AuditWizard.Network.FormUploadAudits The directory name C:\jml_share\data123 is invalid.
+2010-07-28 09:40:34,336 [1] ERROR Layton.AuditWizard.Network.FormUploadAudits The directory name C:\jml_share\data123 is invalid.
+2010-07-28 09:41:12,568 [4] ERROR Layton.AuditWizard.Common.AuditUploader C:\Documents and Settings\jlynn\Desktop\tmp\adfs_jp\testing\Different Serial, Same UUID\DiffSerialSameUUID02.ADF has been created using an older version of the scanner (AuditScanner v8.0.15.0) and cannot be uploaded.Please deploy the new agent (v8.1) to the target machine and re-audit.
+2010-07-28 11:07:39,947 [108] ERROR AuditWizardv8.LaytonCabApplication Exception occurred in Main().
+System.FormatException: String was not recognized as a valid Boolean.
+   at System.Boolean.Parse(String value)
+   at System.Convert.ToBoolean(String value)
+   at Layton.NetworkDiscovery.TcpipNetworkDiscovery.InsertComputer(String assetName, String groupName, String ipAddress, String macAddress) in C:\jasonl\development\layton_products\AuditWizard\working\source_code\AuditWizard_v8\Layton Framework\NetworkDiscovery\TcpipNetworkDiscovery.cs:line 244
+   at Layton.NetworkDiscovery.TcpipNetworkDiscovery.ExecuteTcpipDiscover(Object aIpAddress) in C:\jasonl\development\layton_products\AuditWizard\working\source_code\AuditWizard_v8\Layton Framework\NetworkDiscovery\TcpipNetworkDiscovery.cs:line 396
+   at System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   at System.Threading.ExecutionContext.runTryCode(Object userData)
+   at System.Runtime.CompilerServices.RuntimeHelpers.ExecuteCodeWithGuaranteedCleanup(TryCode code, CleanupCode backoutCode, Object userData)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.ThreadHelper.ThreadStart(Object obj)
+2010-07-28 11:07:40,040 [109] ERROR AuditWizardv8.LaytonCabApplication Exception occurred in Main().
+System.FormatException: String was not recognized as a valid Boolean.
+   at System.Boolean.Parse(String value)
+   at System.Convert.ToBoolean(String value)
+   at Layton.NetworkDiscovery.TcpipNetworkDiscovery.InsertComputer(String assetName, String groupName, String ipAddress, String macAddress) in C:\jasonl\development\layton_products\AuditWizard\working\source_code\AuditWizard_v8\Layton Framework\NetworkDiscovery\TcpipNetworkDiscovery.cs:line 244
+   at Layton.NetworkDiscovery.TcpipNetworkDiscovery.ExecuteTcpipDiscover(Object aIpAddress) in C:\jasonl\development\layton_products\AuditWizard\working\source_code\AuditWizard_v8\Layton Framework\NetworkDiscovery\TcpipNetworkDiscovery.cs:line 396
+   at System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   at System.Threading.ExecutionContext.runTryCode(Object userData)
+   at System.Runtime.CompilerServices.RuntimeHelpers.ExecuteCodeWithGuaranteedCleanup(TryCode code, CleanupCode backoutCode, Object userData)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.ThreadHelper.ThreadStart(Object obj)
+2010-07-28 11:07:42,556 [113] ERROR AuditWizardv8.LaytonCabApplication Exception occurred in Main().
+System.FormatException: String was not recognized as a valid Boolean.
+   at System.Boolean.Parse(String value)
+   at System.Convert.ToBoolean(String value)
+   at Layton.NetworkDiscovery.TcpipNetworkDiscovery.InsertComputer(String assetName, String groupName, String ipAddress, String macAddress) in C:\jasonl\development\layton_products\AuditWizard\working\source_code\AuditWizard_v8\Layton Framework\NetworkDiscovery\TcpipNetworkDiscovery.cs:line 244
+   at Layton.NetworkDiscovery.TcpipNetworkDiscovery.ExecuteTcpipDiscover(Object aIpAddress) in C:\jasonl\development\layton_products\AuditWizard\working\source_code\AuditWizard_v8\Layton Framework\NetworkDiscovery\TcpipNetworkDiscovery.cs:line 396
+   at System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   at System.Threading.ExecutionContext.runTryCode(Object userData)
+   at System.Runtime.CompilerServices.RuntimeHelpers.ExecuteCodeWithGuaranteedCleanup(TryCode code, CleanupCode backoutCode, Object userData)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.ThreadHelper.ThreadStart(Object obj)
+2010-07-28 11:09:18,081 [113] ERROR AuditWizardv8.LaytonCabApplication Exception occurred in Main().
+System.FormatException: String was not recognized as a valid Boolean.
+   at System.Boolean.Parse(String value)
+   at System.Convert.ToBoolean(String value)
+   at Layton.NetworkDiscovery.TcpipNetworkDiscovery.InsertComputer(String assetName, String groupName, String ipAddress, String macAddress) in C:\jasonl\development\layton_products\AuditWizard\working\source_code\AuditWizard_v8\Layton Framework\NetworkDiscovery\TcpipNetworkDiscovery.cs:line 244
+   at Layton.NetworkDiscovery.TcpipNetworkDiscovery.ExecuteTcpipDiscover(Object aIpAddress) in C:\jasonl\development\layton_products\AuditWizard\working\source_code\AuditWizard_v8\Layton Framework\NetworkDiscovery\TcpipNetworkDiscovery.cs:line 396
+   at System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   at System.Threading.ExecutionContext.runTryCode(Object userData)
+   at System.Runtime.CompilerServices.RuntimeHelpers.ExecuteCodeWithGuaranteedCleanup(TryCode code, CleanupCode backoutCode, Object userData)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.ThreadHelper.ThreadStart(Object obj)
+2010-07-28 11:09:18,300 [1] ERROR Layton.AuditWizard.Overview.NewsFeedWidget Object reference not set to an instance of an object.
+2010-07-28 14:03:43,708 [1] ERROR Layton.AuditWizard.DataAccess.ApplicationsDAO Exception in SelectIdByPublisherNameVersion
+There was an error parsing the query. [ Token line number = 1,Token line offset = 98,Token in error = s ]
+2010-07-28 14:03:47,114 [1] ERROR Layton.AuditWizard.DataAccess.ApplicationsDAO Exception in SelectIdByPublisherNameVersion
+There was an error parsing the query. [ Token line number = 1,Token line offset = 98,Token in error = s ]
+2010-07-28 14:03:56,098 [1] ERROR Layton.AuditWizard.DataAccess.ApplicationsDAO Exception in SelectIdByPublisherNameVersion
+There was an error parsing the query. [ Token line number = 1,Token line offset = 98,Token in error = s ]
+2010-07-28 14:04:16,034 [1] ERROR Layton.AuditWizard.DataAccess.ApplicationsDAO Exception in SelectIdByPublisherNameVersion
+There was an error parsing the query. [ Token line number = 1,Token line offset = 98,Token in error = s ]
+2010-07-28 14:04:26,033 [1] ERROR Layton.AuditWizard.DataAccess.ApplicationsDAO Exception in SelectIdByPublisherNameVersion
+There was an error parsing the query. [ Token line number = 1,Token line offset = 98,Token in error = s ]
+2010-07-28 14:13:07,516 [1] ERROR Layton.AuditWizard.DataAccess.ApplicationsDAO Exception in SelectIdByPublisherNameVersion
+There was an error parsing the query. [ Token line number = 1,Token line offset = 98,Token in error = s ]
+2010-07-28 15:19:47,557 [1] ERROR Layton.AuditWizard.Applications.ApplicationsExplorerViewPresenter There was an error parsing the query. [ Token line number = 1,Token line offset = 87,Token in error = WHERE ]

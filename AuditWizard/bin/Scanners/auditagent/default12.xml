@@ -1,0 +1,1684 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AuditScannerDefinition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ScannerName>default12</ScannerName>
+  <Description>a description of the scanner</Description>
+  <NeedsDeploying>true</NeedsDeploying>
+  <Shutdown>false</Shutdown>
+  <Filename>C:\jasonl\development\layton_products\AuditWizard\working\source_code\AuditWizard_v8\bin\scanners\auditagent\default12.xml</Filename>
+  <RegistryScan>false</RegistryScan>
+  <SoftwareScan>true</SoftwareScan>
+  <HardwareScan>true</HardwareScan>
+  <IEScan>false</IEScan>
+  <DeployPathSingle>true</DeployPathSingle>
+  <DeployPathRoot>\\lay09\jml_share</DeployPathRoot>
+  <DeployPathScanner>\\lay09\jml_share\scanner</DeployPathScanner>
+  <DeployPathData>\\lay09\jml_share\data</DeployPathData>
+  <AutoName>false</AutoName>
+  <ScannerMode>modeInteractive</ScannerMode>
+  <Hidden>true</Hidden>
+  <ReAuditInterval>5</ReAuditInterval>
+  <InteractiveAllowCancel>true</InteractiveAllowCancel>
+  <InteractiveDisplayAssetInformation>false</InteractiveDisplayAssetInformation>
+  <InteractiveEnableAssetCategory>true</InteractiveEnableAssetCategory>
+  <InteractiveEnableAssetSerial>true</InteractiveEnableAssetSerial>
+  <InteractiveEnableAssetMake>true</InteractiveEnableAssetMake>
+  <InteractiveEnableAssetModel>true</InteractiveEnableAssetModel>
+  <InteractiveDisplayLocations>false</InteractiveDisplayLocations>
+  <InteractiveEnableAddLocation>false</InteractiveEnableAddLocation>
+  <InteractiveDisplayAssetData>true</InteractiveDisplayAssetData>
+  <InteractiveCategories>PC;Server;Domain Controller;Laptop</InteractiveCategories>
+  <RootLocation>Layton Technology</RootLocation>
+  <InteractiveLocations>
+    <AssetGroup>
+      <GroupID>6</GroupID>
+      <GroupType>userlocation</GroupType>
+      <FullName>Layton Technology\Sydney</FullName>
+      <Name>Sydney</Name>
+      <ParentID>1</ParentID>
+      <StartIP />
+      <EndIP />
+      <Populated>true</Populated>
+      <Groups />
+      <Assets />
+    </AssetGroup>
+    <AssetGroup>
+      <GroupID>8</GroupID>
+      <GroupType>userlocation</GroupType>
+      <FullName>Layton Technology\Tampa</FullName>
+      <Name>Tampa</Name>
+      <ParentID>1</ParentID>
+      <StartIP />
+      <EndIP />
+      <Populated>true</Populated>
+      <Groups />
+      <Assets />
+    </AssetGroup>
+  </InteractiveLocations>
+  <InteractivePicklists>
+    <InteractivePickList>
+      <Name>Location</Name>
+      <PickListItems>
+        <PickItem>
+          <PickItemID>20</PickItemID>
+          <Name>Sydney</Name>
+          <ParentID>11</ParentID>
+        </PickItem>
+        <PickItem>
+          <PickItemID>21</PickItemID>
+          <Name>Melbourne</Name>
+          <ParentID>11</ParentID>
+        </PickItem>
+        <PickItem>
+          <PickItemID>22</PickItemID>
+          <Name>Western Australia State Name</Name>
+          <ParentID>11</ParentID>
+        </PickItem>
+        <PickItem>
+          <PickItemID>47</PickItemID>
+          <Name>tester</Name>
+          <ParentID>11</ParentID>
+        </PickItem>
+      </PickListItems>
+    </InteractivePickList>
+    <InteractivePickList>
+      <Name>Department</Name>
+      <PickListItems>
+        <PickItem>
+          <PickItemID>43</PickItemID>
+          <Name>Sales</Name>
+          <ParentID>42</ParentID>
+        </PickItem>
+        <PickItem>
+          <PickItemID>44</PickItemID>
+          <Name>Marketing</Name>
+          <ParentID>42</ParentID>
+        </PickItem>
+        <PickItem>
+          <PickItemID>45</PickItemID>
+          <Name>Other</Name>
+          <ParentID>42</ParentID>
+        </PickItem>
+        <PickItem>
+          <PickItemID>46</PickItemID>
+          <Name>Finance</Name>
+          <ParentID>42</ParentID>
+        </PickItem>
+      </PickListItems>
+    </InteractivePickList>
+    <InteractivePickList>
+      <Name>Boolean</Name>
+      <PickListItems>
+        <PickItem>
+          <PickItemID>49</PickItemID>
+          <Name>True</Name>
+          <ParentID>48</ParentID>
+        </PickItem>
+        <PickItem>
+          <PickItemID>50</PickItemID>
+          <Name>False</Name>
+          <ParentID>48</ParentID>
+        </PickItem>
+      </PickListItems>
+    </InteractivePickList>
+  </InteractivePicklists>
+  <InteractiveUserDataCategories>
+    <UserDataCategories>
+      <Name>Asset Management</Name>
+      <UserFields>
+        <UserDataField>
+          <FieldID>144</FieldID>
+          <Name>Assigned User</Name>
+          <ParentID>132</ParentID>
+          <IsMandatory>false</IsMandatory>
+          <Type>Text</Type>
+          <TabOrder>0</TabOrder>
+          <Length>0</Length>
+          <InputCase>Any</InputCase>
+          <UserDataInputCase>0</UserDataInputCase>
+          <MinimumValue>0</MinimumValue>
+          <MaximumValue>0</MaximumValue>
+          <Picklist />
+          <EnvironmentVariable>Any</EnvironmentVariable>
+          <RegistryKey />
+          <Value1 />
+          <Value2>Any</Value2>
+          <RegistryValue>Any</RegistryValue>
+          <ParentScope>NonInteractiveAsset</ParentScope>
+        </UserDataField>
+        <UserDataField>
+          <FieldID>138</FieldID>
+          <Name>PO Number</Name>
+          <ParentID>132</ParentID>
+          <IsMandatory>false</IsMandatory>
+          <Type>Text</Type>
+          <TabOrder>1</TabOrder>
+          <Length>0</Length>
+          <InputCase>Any</InputCase>
+          <UserDataInputCase>0</UserDataInputCase>
+          <MinimumValue>0</MinimumValue>
+          <MaximumValue>0</MaximumValue>
+          <Picklist />
+          <EnvironmentVariable>Any</EnvironmentVariable>
+          <RegistryKey />
+          <Value1 />
+          <Value2>Any</Value2>
+          <RegistryValue>Any</RegistryValue>
+          <ParentScope>NonInteractiveAsset</ParentScope>
+        </UserDataField>
+        <UserDataField>
+          <FieldID>139</FieldID>
+          <Name>Purchase Date</Name>
+          <ParentID>132</ParentID>
+          <IsMandatory>false</IsMandatory>
+          <Type>Date</Type>
+          <TabOrder>2</TabOrder>
+          <Length>0</Length>
+          <InputCase />
+          <UserDataInputCase>0</UserDataInputCase>
+          <MinimumValue>0</MinimumValue>
+          <MaximumValue>0</MaximumValue>
+          <Picklist />
+          <EnvironmentVariable />
+          <RegistryKey />
+          <Value1 />
+          <Value2 />
+          <RegistryValue />
+          <ParentScope>NonInteractiveAsset</ParentScope>
+        </UserDataField>
+        <UserDataField>
+          <FieldID>140</FieldID>
+          <Name>Invoice Number</Name>
+          <ParentID>132</ParentID>
+          <IsMandatory>false</IsMandatory>
+          <Type>Text</Type>
+          <TabOrder>3</TabOrder>
+          <Length>0</Length>
+          <InputCase>Any</InputCase>
+          <UserDataInputCase>0</UserDataInputCase>
+          <MinimumValue>0</MinimumValue>
+          <MaximumValue>0</MaximumValue>
+          <Picklist />
+          <EnvironmentVariable>Any</EnvironmentVariable>
+          <RegistryKey />
+          <Value1 />
+          <Value2>Any</Value2>
+          <RegistryValue>Any</RegistryValue>
+          <ParentScope>NonInteractiveAsset</ParentScope>
+        </UserDataField>
+        <UserDataField>
+          <FieldID>141</FieldID>
+          <Name>Invoice Date</Name>
+          <ParentID>132</ParentID>
+          <IsMandatory>false</IsMandatory>
+          <Type>Date</Type>
+          <TabOrder>4</TabOrder>
+          <Length>0</Length>
+          <InputCase />
+          <UserDataInputCase>0</UserDataInputCase>
+          <MinimumValue>0</MinimumValue>
+          <MaximumValue>0</MaximumValue>
+          <Picklist />
+          <EnvironmentVariable />
+          <RegistryKey />
+          <Value1 />
+          <Value2 />
+          <RegistryValue />
+          <ParentScope>NonInteractiveAsset</ParentScope>
+        </UserDataField>
+        <UserDataField>
+          <FieldID>145</FieldID>
+          <Name>Age</Name>
+          <ParentID>132</ParentID>
+          <IsMandatory>false</IsMandatory>
+          <Type>Number</Type>
+          <TabOrder>5</TabOrder>
+          <Length>0</Length>
+          <InputCase>999</InputCase>
+          <UserDataInputCase>999</UserDataInputCase>
+          <MinimumValue>0</MinimumValue>
+          <MaximumValue>999</MaximumValue>
+          <Picklist>0</Picklist>
+          <EnvironmentVariable>999</EnvironmentVariable>
+          <RegistryKey>0</RegistryKey>
+          <Value1>0</Value1>
+          <Value2>999</Value2>
+          <RegistryValue>999</RegistryValue>
+          <ParentScope>Asset</ParentScope>
+        </UserDataField>
+      </UserFields>
+    </UserDataCategories>
+    <UserDataCategories>
+      <Name>new cat</Name>
+      <UserFields>
+        <UserDataField>
+          <FieldID>148</FieldID>
+          <Name>new field</Name>
+          <ParentID>147</ParentID>
+          <IsMandatory>false</IsMandatory>
+          <Type>Environment</Type>
+          <TabOrder>0</TabOrder>
+          <Length>0</Length>
+          <InputCase>NUMBER_OF_PROCESSORS</InputCase>
+          <UserDataInputCase>0</UserDataInputCase>
+          <MinimumValue>0</MinimumValue>
+          <MaximumValue>0</MaximumValue>
+          <Picklist />
+          <EnvironmentVariable>NUMBER_OF_PROCESSORS</EnvironmentVariable>
+          <RegistryKey />
+          <Value1 />
+          <Value2>NUMBER_OF_PROCESSORS</Value2>
+          <RegistryValue>NUMBER_OF_PROCESSORS</RegistryValue>
+          <ParentScope>Asset</ParentScope>
+        </UserDataField>
+        <UserDataField>
+          <FieldID>149</FieldID>
+          <Name>some other</Name>
+          <ParentID>147</ParentID>
+          <IsMandatory>false</IsMandatory>
+          <Type>Environment</Type>
+          <TabOrder>1</TabOrder>
+          <Length>0</Length>
+          <InputCase>LOGONSERVER</InputCase>
+          <UserDataInputCase>0</UserDataInputCase>
+          <MinimumValue>0</MinimumValue>
+          <MaximumValue>0</MaximumValue>
+          <Picklist />
+          <EnvironmentVariable>LOGONSERVER</EnvironmentVariable>
+          <RegistryKey />
+          <Value1 />
+          <Value2>LOGONSERVER</Value2>
+          <RegistryValue>LOGONSERVER</RegistryValue>
+          <ParentScope>NonInteractiveAsset</ParentScope>
+        </UserDataField>
+        <UserDataField>
+          <FieldID>150</FieldID>
+          <Name>decision</Name>
+          <ParentID>147</ParentID>
+          <IsMandatory>false</IsMandatory>
+          <Type>Picklist</Type>
+          <TabOrder>2</TabOrder>
+          <Length>0</Length>
+          <InputCase />
+          <UserDataInputCase>0</UserDataInputCase>
+          <MinimumValue>0</MinimumValue>
+          <MaximumValue>0</MaximumValue>
+          <Picklist>Boolean</Picklist>
+          <EnvironmentVariable />
+          <RegistryKey>Boolean</RegistryKey>
+          <Value1>Boolean</Value1>
+          <Value2 />
+          <RegistryValue />
+          <ParentScope>Asset</ParentScope>
+        </UserDataField>
+      </UserFields>
+    </UserDataCategories>
+  </InteractiveUserDataCategories>
+  <ListRegistryKeys>
+    <string>HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon;DefaultUserName</string>
+  </ListRegistryKeys>
+  <HardwareSystem>false</HardwareSystem>
+  <HardwareNetworkDrives>true</HardwareNetworkDrives>
+  <HardwarePhysicalDisks>true</HardwarePhysicalDisks>
+  <HardwareSettings>true</HardwareSettings>
+  <HardwareSecurity>true</HardwareSecurity>
+  <HardwareActiveSystem>false</HardwareActiveSystem>
+  <SoftwareScanApplications>false</SoftwareScanApplications>
+  <SoftwareScanOs>true</SoftwareScanOs>
+  <ScanFolders>noFolders</ScanFolders>
+  <ListFolders>
+    <string>C:\Program Files\Windows Media Player</string>
+    <string>C:\test\tester</string>
+  </ListFolders>
+  <ScanFiles>specifiedFiles</ScanFiles>
+  <ListFiles>
+    <string>wmplayer.exe</string>
+  </ListFiles>
+  <CaptureFiles>false</CaptureFiles>
+  <ListCapture />
+  <FileSystemScan>false</FileSystemScan>
+  <ScanMDA>false</ScanMDA>
+  <ScanUSB>false</ScanUSB>
+  <ScanMobileFiles>noFiles</ScanMobileFiles>
+  <ListMobileFiles />
+  <ScanUSBFiles>allFiles</ScanUSBFiles>
+  <ListUSBFiles />
+  <IEHistory>true</IEHistory>
+  <IECookies>true</IECookies>
+  <IEDays>10</IEDays>
+  <IEDetails>false</IEDetails>
+  <UploadSetting>network</UploadSetting>
+  <AutoUpload>true</AutoUpload>
+  <FTPCopyToNetwork>false</FTPCopyToNetwork>
+  <FTPType>FTP</FTPType>
+  <FTPTypeBackup>FTP</FTPTypeBackup>
+  <FTPAnonymousBackup>false</FTPAnonymousBackup>
+  <FTPPortBackup>21</FTPPortBackup>
+  <FTPUserBackup>p_223</FTPUserBackup>
+  <FTPPasswordBackup>jmlpasswof</FTPPasswordBackup>
+  <FTPSiteBackup>layton.com</FTPSiteBackup>
+  <FTPDefDirBackup>nsdn</FTPDefDirBackup>
+  <FTPAnonymous>false</FTPAnonymous>
+  <FTPPort>21</FTPPort>
+  <FTPUser>LaytonAUS</FTPUser>
+  <FTPPassword>Sydney123</FTPPassword>
+  <FTPSite>216.122.104.56</FTPSite>
+  <FTPDefDir>Audit_SFTP_Test</FTPDefDir>
+  <EmailAddress />
+  <AlertMonitorEnabled>false</AlertMonitorEnabled>
+  <AlertMonitorDisplayTray>false</AlertMonitorDisplayTray>
+  <AlertMonitorSettingSecs>30</AlertMonitorSettingSecs>
+  <AlertMonitorAlertSecs>60</AlertMonitorAlertSecs>
+  <AlertMonitorDefinition>
+    <Name>Service Changes</Name>
+    <Description>Add an alert for changes in services</Description>
+    <DisplayAlert>false</DisplayAlert>
+    <EmailAlert>true</EmailAlert>
+    <Triggers>
+      <AlertTrigger>
+        <TriggerField>System|Services|SQL Server (MSSMLBIZ)|State</TriggerField>
+        <Condition>changed</Condition>
+        <Value />
+      </AlertTrigger>
+    </Triggers>
+    <MonitoredComputers>
+      <string>LAY09</string>
+    </MonitoredComputers>
+  </AlertMonitorDefinition>
+  <SerialNumberMappingsList>
+    <SerialNumberMapping>
+      <ApplicationName>Microsoft SQL Server 2005</ApplicationName>
+      <RegistryKeysList>
+        <SerialNumberMappingsRegistryKey>
+          <RegistryKeyName>Software\Microsoft\Microsoft SQL Server\MSSQL.1\MSSQLServer\CurrentVersion</RegistryKeyName>
+          <RegistryKeyValue>serialNumber</RegistryKeyValue>
+        </SerialNumberMappingsRegistryKey>
+      </RegistryKeysList>
+    </SerialNumberMapping>
+    <SerialNumberMapping>
+      <ApplicationName>Microsoft Project 98</ApplicationName>
+      <RegistryKeysList>
+        <SerialNumberMappingsRegistryKey>
+          <RegistryKeyName>Software\Microsoft\Microsoft Project 98\8.1</RegistryKeyName>
+          <RegistryKeyValue>ProductID</RegistryKeyValue>
+        </SerialNumberMappingsRegistryKey>
+        <SerialNumberMappingsRegistryKey>
+          <RegistryKeyName>Software\Microsoft\Microsoft Project 98\8.0.0.0407 (1033)\Registration</RegistryKeyName>
+          <RegistryKeyValue>ProductID</RegistryKeyValue>
+        </SerialNumberMappingsRegistryKey>
+      </RegistryKeysList>
+    </SerialNumberMapping>
+    <SerialNumberMapping>
+      <ApplicationName>Microsoft Project 2000</ApplicationName>
+      <RegistryKeysList>
+        <SerialNumberMappingsRegistryKey>
+          <RegistryKeyName>Software\Microsoft\Office\9.0\Registration</RegistryKeyName>
+          <RegistryKeyValue>ProductID</RegistryKeyValue>
+        </SerialNumberMappingsRegistryKey>
+      </RegistryKeysList>
+    </SerialNumberMapping>
+    <SerialNumberMapping>
+      <ApplicationName>Microsoft Project Professional 2002</ApplicationName>
+      <RegistryKeysList>
+        <SerialNumberMappingsRegistryKey>
+          <RegistryKeyName>Software\Microsoft\Office\10.0\Registration\{903B0409-6000-11D3-8CFE-0050048383C9}</RegistryKeyName>
+          <RegistryKeyValue>ProductID</RegistryKeyValue>
+        </SerialNumberMappingsRegistryKey>
+      </RegistryKeysList>
+    </SerialNumberMapping>
+    <SerialNumberMapping>
+      <ApplicationName>Microsoft Publisher 2002</ApplicationName>
+      <RegistryKeysList>
+        <SerialNumberMappingsRegistryKey>
+          <RegistryKeyName>Software\Microsoft\Office\10.0\Registration\{90190409-6000-11D3-8CFE-0050048383C9}</RegistryKeyName>
+          <RegistryKeyValue>ProductID</RegistryKeyValue>
+        </SerialNumberMappingsRegistryKey>
+      </RegistryKeysList>
+    </SerialNumberMapping>
+    <SerialNumberMapping>
+      <ApplicationName>Microsoft Works 4.5</ApplicationName>
+      <RegistryKeysList>
+        <SerialNumberMappingsRegistryKey>
+          <RegistryKeyName>Software\Microsoft\Microsoft Works 4.5\4.00.03.458 (1033)\Registration</RegistryKeyName>
+          <RegistryKeyValue>ProductID</RegistryKeyValue>
+        </SerialNumberMappingsRegistryKey>
+      </RegistryKeysList>
+    </SerialNumberMapping>
+    <SerialNumberMapping>
+      <ApplicationName>Microsoft Publisher 98</ApplicationName>
+      <RegistryKeysList>
+        <SerialNumberMappingsRegistryKey>
+          <RegistryKeyName>Software\Microsoft\Microsoft Publisher 98 CD\5.0.5.271 (1033)\Registration</RegistryKeyName>
+          <RegistryKeyValue>ProductID</RegistryKeyValue>
+        </SerialNumberMappingsRegistryKey>
+      </RegistryKeysList>
+    </SerialNumberMapping>
+    <SerialNumberMapping>
+      <ApplicationName>Microsoft IntelliPoint</ApplicationName>
+      <RegistryKeysList>
+        <SerialNumberMappingsRegistryKey>
+          <RegistryKeyName>Software\Microsoft\IntelliPoint\3.0\Registration</RegistryKeyName>
+          <RegistryKeyValue>ProductID</RegistryKeyValue>
+        </SerialNumberMappingsRegistryKey>
+      </RegistryKeysList>
+    </SerialNumberMapping>
+    <SerialNumberMapping>
+      <ApplicationName>Microsoft IntelliType Pro</ApplicationName>
+      <RegistryKeysList>
+        <SerialNumberMappingsRegistryKey>
+          <RegistryKeyName>Software\Microsoft\IntelliType Pro\1.00.000\Registration</RegistryKeyName>
+          <RegistryKeyValue>ProductID</RegistryKeyValue>
+        </SerialNumberMappingsRegistryKey>
+      </RegistryKeysList>
+    </SerialNumberMapping>
+    <SerialNumberMapping>
+      <ApplicationName>Microsoft Encarta 97 Encyclopedia World English Edition</ApplicationName>
+      <RegistryKeysList>
+        <SerialNumberMappingsRegistryKey>
+          <RegistryKeyName>Software\Microsoft\Microsoft Reference\Encarta Encyclopedia\97Z</RegistryKeyName>
+          <RegistryKeyValue>PID</RegistryKeyValue>
+        </SerialNumberMappingsRegistryKey>
+      </RegistryKeysList>
+    </SerialNumberMapping>
+    <SerialNumberMapping>
+      <ApplicationName>Microsoft Encarta Encyclopedia 99</ApplicationName>
+      <RegistryKeysList>
+        <SerialNumberMappingsRegistryKey>
+          <RegistryKeyName>Software\Microsoft\Microsoft Reference\Encarta Encyclopedia\99</RegistryKeyName>
+          <RegistryKeyValue>PID</RegistryKeyValue>
+        </SerialNumberMappingsRegistryKey>
+      </RegistryKeysList>
+    </SerialNumberMapping>
+    <SerialNumberMapping>
+      <ApplicationName>Mastering Visual Basic 5</ApplicationName>
+      <RegistryKeysList>
+        <SerialNumberMappingsRegistryKey>
+          <RegistryKeyName>Software\Microsoft\Mastering Visual Basic 5</RegistryKeyName>
+          <RegistryKeyValue>PID</RegistryKeyValue>
+        </SerialNumberMappingsRegistryKey>
+      </RegistryKeysList>
+    </SerialNumberMapping>
+    <SerialNumberMapping>
+      <ApplicationName>Windows Media Player 7.1</ApplicationName>
+      <RegistryKeysList>
+        <SerialNumberMappingsRegistryKey>
+          <RegistryKeyName>Software\Microsoft\MediaPlayer\7.0\Registration</RegistryKeyName>
+          <RegistryKeyValue>ProductID</RegistryKeyValue>
+        </SerialNumberMappingsRegistryKey>
+      </RegistryKeysList>
+    </SerialNumberMapping>
+    <SerialNumberMapping>
+      <ApplicationName>MSN Explorer</ApplicationName>
+      <RegistryKeysList>
+        <SerialNumberMappingsRegistryKey>
+          <RegistryKeyName>Software\Microsoft\MSN6\Registration</RegistryKeyName>
+          <RegistryKeyValue>ProductID</RegistryKeyValue>
+        </SerialNumberMappingsRegistryKey>
+      </RegistryKeysList>
+    </SerialNumberMapping>
+    <SerialNumberMapping>
+      <ApplicationName>Microsoft Liquid Motion</ApplicationName>
+      <RegistryKeysList>
+        <SerialNumberMappingsRegistryKey>
+          <RegistryKeyName>Software\Microsoft\Liquid Motion\1.00.0529.1</RegistryKeyName>
+          <RegistryKeyValue>ProductID</RegistryKeyValue>
+        </SerialNumberMappingsRegistryKey>
+      </RegistryKeysList>
+    </SerialNumberMapping>
+    <SerialNumberMapping>
+      <ApplicationName>Microsoft Combat Flight Simulator</ApplicationName>
+      <RegistryKeysList>
+        <SerialNumberMappingsRegistryKey>
+          <RegistryKeyName>Software\Microsoft\Microsoft Games\Combat Flight Simulator\1.00</RegistryKeyName>
+          <RegistryKeyValue>PID</RegistryKeyValue>
+        </SerialNumberMappingsRegistryKey>
+      </RegistryKeysList>
+    </SerialNumberMapping>
+    <SerialNumberMapping>
+      <ApplicationName>Microsoft Combat Flight Simulator 2</ApplicationName>
+      <RegistryKeysList>
+        <SerialNumberMappingsRegistryKey>
+          <RegistryKeyName>Software\Microsoft\Microsoft Games\Combat Flight Simulator\2.0</RegistryKeyName>
+          <RegistryKeyValue>PID</RegistryKeyValue>
+        </SerialNumberMappingsRegistryKey>
+      </RegistryKeysList>
+    </SerialNumberMapping>
+    <SerialNumberMapping>
+      <ApplicationName>Microsoft Exchange</ApplicationName>
+      <RegistryKeysList>
+        <SerialNumberMappingsRegistryKey>
+          <RegistryKeyName>SOFTWARE\Microsoft\Exchange\Setup</RegistryKeyName>
+          <RegistryKeyValue>ProductID</RegistryKeyValue>
+        </SerialNumberMappingsRegistryKey>
+      </RegistryKeysList>
+    </SerialNumberMapping>
+    <SerialNumberMapping>
+      <ApplicationName>Microsoft Exchange 2003</ApplicationName>
+      <RegistryKeysList>
+        <SerialNumberMappingsRegistryKey>
+          <RegistryKeyName>SOFTWARE\Microsoft\Exchange\Setup</RegistryKeyName>
+          <RegistryKeyValue>ProductID</RegistryKeyValue>
+        </SerialNumberMappingsRegistryKey>
+      </RegistryKeysList>
+    </SerialNumberMapping>
+    <SerialNumberMapping>
+      <ApplicationName>Microsoft Internet Explorer 6 SP1</ApplicationName>
+      <RegistryKeysList>
+        <SerialNumberMappingsRegistryKey>
+          <RegistryKeyName>Software\Microsoft\Internet Explorer\Registration</RegistryKeyName>
+          <RegistryKeyValue>ProductID</RegistryKeyValue>
+        </SerialNumberMappingsRegistryKey>
+      </RegistryKeysList>
+    </SerialNumberMapping>
+    <SerialNumberMapping>
+      <ApplicationName>Microsoft Internet Explorer 5.5 and Internet Tools</ApplicationName>
+      <RegistryKeysList>
+        <SerialNumberMappingsRegistryKey>
+          <RegistryKeyName>Software\Microsoft\Internet Explorer\Registration</RegistryKeyName>
+          <RegistryKeyValue>ProductID</RegistryKeyValue>
+        </SerialNumberMappingsRegistryKey>
+      </RegistryKeysList>
+    </SerialNumberMapping>
+    <SerialNumberMapping>
+      <ApplicationName>Microsoft Internet Explorer 6 and Internet Tools</ApplicationName>
+      <RegistryKeysList>
+        <SerialNumberMappingsRegistryKey>
+          <RegistryKeyName>Software\Microsoft\Internet Explorer\Registration</RegistryKeyName>
+          <RegistryKeyValue>ProductID</RegistryKeyValue>
+        </SerialNumberMappingsRegistryKey>
+      </RegistryKeysList>
+    </SerialNumberMapping>
+    <SerialNumberMapping>
+      <ApplicationName>Microsoft Internet Explorer 6 SP1 and Internet Tools</ApplicationName>
+      <RegistryKeysList>
+        <SerialNumberMappingsRegistryKey>
+          <RegistryKeyName>Software\Microsoft\Internet Explorer\Registration</RegistryKeyName>
+          <RegistryKeyValue>ProductID</RegistryKeyValue>
+        </SerialNumberMappingsRegistryKey>
+      </RegistryKeysList>
+    </SerialNumberMapping>
+    <SerialNumberMapping>
+      <ApplicationName>Microsoft Visio Professional 2002 SR-1 English</ApplicationName>
+      <RegistryKeysList>
+        <SerialNumberMappingsRegistryKey>
+          <RegistryKeyName>Software\Microsoft\Office\10.0\Registration\{90510409-6D54-11D4-BEE3-00C04F990354}</RegistryKeyName>
+          <RegistryKeyValue>ProductID</RegistryKeyValue>
+        </SerialNumberMappingsRegistryKey>
+      </RegistryKeysList>
+    </SerialNumberMapping>
+    <SerialNumberMapping>
+      <ApplicationName>Microsoft Visual FoxPro 7.0 Professional - English</ApplicationName>
+      <RegistryKeysList>
+        <SerialNumberMappingsRegistryKey>
+          <RegistryKeyName>Software\Microsoft\VisualFoxPro\7.0\Registration</RegistryKeyName>
+          <RegistryKeyValue>ProductID</RegistryKeyValue>
+        </SerialNumberMappingsRegistryKey>
+      </RegistryKeysList>
+    </SerialNumberMapping>
+    <SerialNumberMapping>
+      <ApplicationName>Microsoft SQL Server 2000</ApplicationName>
+      <RegistryKeysList>
+        <SerialNumberMappingsRegistryKey>
+          <RegistryKeyName>SOFTWARE\Microsoft\Microsoft SQL Server\80\Registration</RegistryKeyName>
+          <RegistryKeyValue>ProductID</RegistryKeyValue>
+        </SerialNumberMappingsRegistryKey>
+      </RegistryKeysList>
+    </SerialNumberMapping>
+    <SerialNumberMapping>
+      <ApplicationName>Microsoft Office 97, Professional Edition</ApplicationName>
+      <RegistryKeysList>
+        <SerialNumberMappingsRegistryKey>
+          <RegistryKeyName>Software\Microsoft\MS Office 97 Professional\97.1.0.0801(1033)\Registration</RegistryKeyName>
+          <RegistryKeyValue>ProductID</RegistryKeyValue>
+        </SerialNumberMappingsRegistryKey>
+        <SerialNumberMappingsRegistryKey>
+          <RegistryKeyName>Software\Microsoft\MS Office 97 Professional\97.0.0.1117(1033)\Registration</RegistryKeyName>
+          <RegistryKeyValue>ProductID</RegistryKeyValue>
+        </SerialNumberMappingsRegistryKey>
+        <SerialNumberMappingsRegistryKey>
+          <RegistryKeyName>Software\Microsoft\MS Office 97 Professional\97.2.0.0615(1033)\Registration</RegistryKeyName>
+          <RegistryKeyValue>ProductID</RegistryKeyValue>
+        </SerialNumberMappingsRegistryKey>
+      </RegistryKeysList>
+    </SerialNumberMapping>
+    <SerialNumberMapping>
+      <ApplicationName>Microsoft Office 2000</ApplicationName>
+      <RegistryKeysList>
+        <SerialNumberMappingsRegistryKey>
+          <RegistryKeyName>SOFTWARE\Microsoft\Office\9.0\Registration</RegistryKeyName>
+          <RegistryKeyValue>ProductID</RegistryKeyValue>
+        </SerialNumberMappingsRegistryKey>
+        <SerialNumberMappingsRegistryKey>
+          <RegistryKeyName>Software\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Products\904000001E872D116BF00006799C897E\InstallProperties</RegistryKeyName>
+          <RegistryKeyValue>ProductID</RegistryKeyValue>
+        </SerialNumberMappingsRegistryKey>
+      </RegistryKeysList>
+    </SerialNumberMapping>
+    <SerialNumberMapping>
+      <ApplicationName>Microsoft Office XP Professional</ApplicationName>
+      <RegistryKeysList>
+        <SerialNumberMappingsRegistryKey>
+          <RegistryKeyName>Software\Microsoft\Office Developer\10.0\Registration</RegistryKeyName>
+          <RegistryKeyValue>ProductID</RegistryKeyValue>
+        </SerialNumberMappingsRegistryKey>
+        <SerialNumberMappingsRegistryKey>
+          <RegistryKeyName>Software\Microsoft\Office\10.0\Registration\{91110409-6000-11D3-8CFE-0050048383C9}</RegistryKeyName>
+          <RegistryKeyValue>ProductID</RegistryKeyValue>
+        </SerialNumberMappingsRegistryKey>
+        <SerialNumberMappingsRegistryKey>
+          <RegistryKeyName>Software\Microsoft\Office\10.0\{90280409-6000-11D3-8CFE-0050048383C9}</RegistryKeyName>
+          <RegistryKeyValue>ProductID</RegistryKeyValue>
+        </SerialNumberMappingsRegistryKey>
+        <SerialNumberMappingsRegistryKey>
+          <RegistryKeyName>SOFTWARE\Microsoft\Office\10.0\Registration\{90110409-6000-11D3-8CFE-0050048383C9}</RegistryKeyName>
+          <RegistryKeyValue>ProductID</RegistryKeyValue>
+        </SerialNumberMappingsRegistryKey>
+        <SerialNumberMappingsRegistryKey>
+          <RegistryKeyName>SOFTWARE\Microsoft\Office\10.0\Registration\{90280409-6000-11D3-8CFE-0050048383C9}</RegistryKeyName>
+          <RegistryKeyValue>ProductID</RegistryKeyValue>
+        </SerialNumberMappingsRegistryKey>
+        <SerialNumberMappingsRegistryKey>
+          <RegistryKeyName>Software\Microsoft\Office\10.0\Registration\{91130409-6000-11D3-8CFE-0050048383C9}</RegistryKeyName>
+          <RegistryKeyValue>ProductID</RegistryKeyValue>
+        </SerialNumberMappingsRegistryKey>
+      </RegistryKeysList>
+    </SerialNumberMapping>
+    <SerialNumberMapping>
+      <ApplicationName>Microsoft Office XP Developer - English</ApplicationName>
+      <RegistryKeysList>
+        <SerialNumberMappingsRegistryKey>
+          <RegistryKeyName>Software\Microsoft\Office Developer\10.0\Registration</RegistryKeyName>
+          <RegistryKeyValue>ProductID</RegistryKeyValue>
+        </SerialNumberMappingsRegistryKey>
+        <SerialNumberMappingsRegistryKey>
+          <RegistryKeyName>Software\Microsoft\Office\10.0\Registration\{91110409-6000-11D3-8CFE-0050048383C9}</RegistryKeyName>
+          <RegistryKeyValue>ProductID</RegistryKeyValue>
+        </SerialNumberMappingsRegistryKey>
+        <SerialNumberMappingsRegistryKey>
+          <RegistryKeyName>Software\Microsoft\Office\10.0\{90280409-6000-11D3-8CFE-0050048383C9}</RegistryKeyName>
+          <RegistryKeyValue>ProductID</RegistryKeyValue>
+        </SerialNumberMappingsRegistryKey>
+        <SerialNumberMappingsRegistryKey>
+          <RegistryKeyName>SOFTWARE\Microsoft\Office\10.0\Registration\{90110409-6000-11D3-8CFE-0050048383C9}</RegistryKeyName>
+          <RegistryKeyValue>ProductID</RegistryKeyValue>
+        </SerialNumberMappingsRegistryKey>
+        <SerialNumberMappingsRegistryKey>
+          <RegistryKeyName>SOFTWARE\Microsoft\Office\10.0\Registration\{90280409-6000-11D3-8CFE-0050048383C9}</RegistryKeyName>
+          <RegistryKeyValue>ProductID</RegistryKeyValue>
+        </SerialNumberMappingsRegistryKey>
+        <SerialNumberMappingsRegistryKey>
+          <RegistryKeyName>Software\Microsoft\Office\10.0\Registration\{91130409-6000-11D3-8CFE-0050048383C9}</RegistryKeyName>
+          <RegistryKeyValue>ProductID</RegistryKeyValue>
+        </SerialNumberMappingsRegistryKey>
+      </RegistryKeysList>
+    </SerialNumberMapping>
+    <SerialNumberMapping>
+      <ApplicationName>Microsoft Office XP Small Business</ApplicationName>
+      <RegistryKeysList>
+        <SerialNumberMappingsRegistryKey>
+          <RegistryKeyName>SOFTWARE\Microsoft\Office\10.0\Registration\{91130409-6000-11D3-8CFE-0050048383C9}</RegistryKeyName>
+          <RegistryKeyValue>ProductID</RegistryKeyValue>
+        </SerialNumberMappingsRegistryKey>
+      </RegistryKeysList>
+    </SerialNumberMapping>
+    <SerialNumberMapping>
+      <ApplicationName>Microsoft Office Basic Edition 2003</ApplicationName>
+      <RegistryKeysList>
+        <SerialNumberMappingsRegistryKey>
+          <RegistryKeyName>SOFTWARE\Microsoft\Office\11.0\Registration\{91130409-6000-11D3-8CFE-0150048383C9}</RegistryKeyName>
+          <RegistryKeyValue>ProductID</RegistryKeyValue>
+        </SerialNumberMappingsRegistryKey>
+      </RegistryKeysList>
+    </SerialNumberMapping>
+    <SerialNumberMapping>
+      <ApplicationName>Microsoft Office Small Business Edition 2003</ApplicationName>
+      <RegistryKeysList>
+        <SerialNumberMappingsRegistryKey>
+          <RegistryKeyName>SOFTWARE\Microsoft\Office\11.0\Registration\{91CA0409-6000-11D3-8CFE-0150048383C9}</RegistryKeyName>
+          <RegistryKeyValue>ProductID</RegistryKeyValue>
+        </SerialNumberMappingsRegistryKey>
+      </RegistryKeysList>
+    </SerialNumberMapping>
+    <SerialNumberMapping>
+      <ApplicationName>Microsoft Office Professional Edition 2003</ApplicationName>
+      <RegistryKeysList>
+        <SerialNumberMappingsRegistryKey>
+          <RegistryKeyName>SOFTWARE\Microsoft\Office\11.0\Registration\{90110409-6000-11D3-8CFE-0150048383C9}</RegistryKeyName>
+          <RegistryKeyValue>ProductID</RegistryKeyValue>
+        </SerialNumberMappingsRegistryKey>
+      </RegistryKeysList>
+    </SerialNumberMapping>
+    <SerialNumberMapping>
+      <ApplicationName>Microsoft Office Standard Edition 2003</ApplicationName>
+      <RegistryKeysList>
+        <SerialNumberMappingsRegistryKey>
+          <RegistryKeyName>SOFTWARE\Microsoft\Office\11.0\Registration\{91170409-6000-11D3-8CFE-0150048383C9}</RegistryKeyName>
+          <RegistryKeyValue>ProductID</RegistryKeyValue>
+        </SerialNumberMappingsRegistryKey>
+        <SerialNumberMappingsRegistryKey>
+          <RegistryKeyName>Software\Microsoft\Office\11.0\Registration\{91120409-6000-11D3-8CFE-0150048383C9}</RegistryKeyName>
+          <RegistryKeyValue>ProductID</RegistryKeyValue>
+        </SerialNumberMappingsRegistryKey>
+      </RegistryKeysList>
+    </SerialNumberMapping>
+    <SerialNumberMapping>
+      <ApplicationName>Microsoft Outlook 2002</ApplicationName>
+      <RegistryKeysList>
+        <SerialNumberMappingsRegistryKey>
+          <RegistryKeyName>Software\Microsoft\Office\10.0\Registration\F911A0409-6000-11D3-8CFE-0050048383C9}</RegistryKeyName>
+          <RegistryKeyValue>ProductID</RegistryKeyValue>
+        </SerialNumberMappingsRegistryKey>
+        <SerialNumberMappingsRegistryKey>
+          <RegistryKeyName>SOFTWARE\Microsoft\Office\10.0\Registration\{90280409-6000-11D3-8CFE-0050048383C9}</RegistryKeyName>
+          <RegistryKeyValue>ProductID</RegistryKeyValue>
+        </SerialNumberMappingsRegistryKey>
+      </RegistryKeysList>
+    </SerialNumberMapping>
+    <SerialNumberMapping>
+      <ApplicationName>Microsoft Office Outlook 2003</ApplicationName>
+      <RegistryKeysList>
+        <SerialNumberMappingsRegistryKey>
+          <RegistryKeyName>Software\Microsoft\Office\11.0\Registration\{90E00409-6000-11D3-8CFE-0150048383C9}</RegistryKeyName>
+          <RegistryKeyValue>ProductID</RegistryKeyValue>
+        </SerialNumberMappingsRegistryKey>
+      </RegistryKeysList>
+    </SerialNumberMapping>
+    <SerialNumberMapping>
+      <ApplicationName>Microsoft Office Home and Student 2007</ApplicationName>
+      <RegistryKeysList>
+        <SerialNumberMappingsRegistryKey>
+          <RegistryKeyName>SOFTWARE\Microsoft\Office\12.0\Registration\{91120000-002F-0000-0000-0000000FF1CE}</RegistryKeyName>
+          <RegistryKeyValue>ProductID</RegistryKeyValue>
+        </SerialNumberMappingsRegistryKey>
+      </RegistryKeysList>
+    </SerialNumberMapping>
+    <SerialNumberMapping>
+      <ApplicationName>Microsoft Office Basic 2007</ApplicationName>
+      <RegistryKeysList>
+        <SerialNumberMappingsRegistryKey>
+          <RegistryKeyName>Software\Microsoft\Office\12.0\Registration\{91120000-0013-0000-0000-0000000FF1CE}</RegistryKeyName>
+          <RegistryKeyValue>ProductID</RegistryKeyValue>
+        </SerialNumberMappingsRegistryKey>
+      </RegistryKeysList>
+    </SerialNumberMapping>
+    <SerialNumberMapping>
+      <ApplicationName>Microsoft Office Small Business 2007</ApplicationName>
+      <RegistryKeysList>
+        <SerialNumberMappingsRegistryKey>
+          <RegistryKeyName>Software\Microsoft\Office\12.0\Registration\{91120000-00CA-0000-0000-0000000FF1CE}</RegistryKeyName>
+          <RegistryKeyValue>ProductID</RegistryKeyValue>
+        </SerialNumberMappingsRegistryKey>
+      </RegistryKeysList>
+    </SerialNumberMapping>
+    <SerialNumberMapping>
+      <ApplicationName>Microsoft Visual Studio 2005 Team Edition for Software Developers - ENU</ApplicationName>
+      <RegistryKeysList>
+        <SerialNumberMappingsRegistryKey>
+          <RegistryKeyName>SOFTWARE\Microsoft\VisualStudio\8.0\Registration</RegistryKeyName>
+          <RegistryKeyValue>ProductID</RegistryKeyValue>
+        </SerialNumberMappingsRegistryKey>
+      </RegistryKeysList>
+    </SerialNumberMapping>
+    <SerialNumberMapping>
+      <ApplicationName>Microsoft Visual Studio 2005 Professional Edition - ENU</ApplicationName>
+      <RegistryKeysList>
+        <SerialNumberMappingsRegistryKey>
+          <RegistryKeyName>SOFTWARE\Microsoft\VisualStudio\8.0\Registration</RegistryKeyName>
+          <RegistryKeyValue>ProductID</RegistryKeyValue>
+        </SerialNumberMappingsRegistryKey>
+      </RegistryKeysList>
+    </SerialNumberMapping>
+    <SerialNumberMapping>
+      <ApplicationName>Windows Internet Explorer 7</ApplicationName>
+      <RegistryKeysList>
+        <SerialNumberMappingsRegistryKey>
+          <RegistryKeyName>SOFTWARE\Microsoft\Internet Explorer\Registration</RegistryKeyName>
+          <RegistryKeyValue>ProductId</RegistryKeyValue>
+        </SerialNumberMappingsRegistryKey>
+      </RegistryKeysList>
+    </SerialNumberMapping>
+    <SerialNumberMapping>
+      <ApplicationName>ALS - Microsoft Windows 2000 Server eBook</ApplicationName>
+      <RegistryKeysList>
+        <SerialNumberMappingsRegistryKey>
+          <RegistryKeyName>Software\Microsoft\BooksOnline\ALS - Microsoft Windows 2000 Server eBook\Registration</RegistryKeyName>
+          <RegistryKeyValue>ProductID</RegistryKeyValue>
+        </SerialNumberMappingsRegistryKey>
+      </RegistryKeysList>
+    </SerialNumberMapping>
+    <SerialNumberMapping>
+      <ApplicationName>Windows 2000 Administration Tools</ApplicationName>
+      <RegistryKeysList>
+        <SerialNumberMappingsRegistryKey>
+          <RegistryKeyName>SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Products\0268927B6CAE1D11F878000680E26AE3\InstallProperties</RegistryKeyName>
+          <RegistryKeyValue>ProductID</RegistryKeyValue>
+        </SerialNumberMappingsRegistryKey>
+      </RegistryKeysList>
+    </SerialNumberMapping>
+    <SerialNumberMapping>
+      <ApplicationName>Microsoft Platform SDK (3790.1830)</ApplicationName>
+      <RegistryKeysList>
+        <SerialNumberMappingsRegistryKey>
+          <RegistryKeyName>Software\Microsoft\WINDDK\3790.1830\DDK\Registration</RegistryKeyName>
+          <RegistryKeyValue>ProductID</RegistryKeyValue>
+        </SerialNumberMappingsRegistryKey>
+      </RegistryKeysList>
+    </SerialNumberMapping>
+    <SerialNumberMapping>
+      <ApplicationName>MSDN Library for Visual Studio .NET 2003</ApplicationName>
+      <RegistryKeysList>
+        <SerialNumberMappingsRegistryKey>
+          <RegistryKeyName>Software\Microsoft\MSDN\7.0\Registration</RegistryKeyName>
+          <RegistryKeyValue>ProductID</RegistryKeyValue>
+        </SerialNumberMappingsRegistryKey>
+      </RegistryKeysList>
+    </SerialNumberMapping>
+    <SerialNumberMapping>
+      <ApplicationName>MSDN Library for Visual Studio 2005</ApplicationName>
+      <RegistryKeysList>
+        <SerialNumberMappingsRegistryKey>
+          <RegistryKeyName>SOFTWARE\Microsoft\MSDN\8.0\Help\0x0409\{E589AA14-E52E-4f7c-88CF-E4E3C1260EEE}\Registration</RegistryKeyName>
+          <RegistryKeyValue>RegisteredPID</RegistryKeyValue>
+        </SerialNumberMappingsRegistryKey>
+      </RegistryKeysList>
+    </SerialNumberMapping>
+    <SerialNumberMapping>
+      <ApplicationName>Microsoft Visio</ApplicationName>
+      <RegistryKeysList>
+        <SerialNumberMappingsRegistryKey>
+          <RegistryKeyName>SOFTWARE\Microsoft\Visio\6.0\Registration</RegistryKeyName>
+          <RegistryKeyValue>ProductID</RegistryKeyValue>
+        </SerialNumberMappingsRegistryKey>
+      </RegistryKeysList>
+    </SerialNumberMapping>
+    <SerialNumberMapping>
+      <ApplicationName>Microsoft Visual Studio 2005</ApplicationName>
+      <RegistryKeysList>
+        <SerialNumberMappingsRegistryKey>
+          <RegistryKeyName>Software\Microsoft\VisualStudio\8.0\Registration</RegistryKeyName>
+          <RegistryKeyValue>ProductiD</RegistryKeyValue>
+        </SerialNumberMappingsRegistryKey>
+      </RegistryKeysList>
+    </SerialNumberMapping>
+    <SerialNumberMapping>
+      <ApplicationName>Microsoft Visual SourceSafe 2005</ApplicationName>
+      <RegistryKeysList>
+        <SerialNumberMappingsRegistryKey>
+          <RegistryKeyName>Software\Microsoft\SourceSafe\8.0\Registration</RegistryKeyName>
+          <RegistryKeyValue>ProductID</RegistryKeyValue>
+        </SerialNumberMappingsRegistryKey>
+      </RegistryKeysList>
+    </SerialNumberMapping>
+    <SerialNumberMapping>
+      <ApplicationName>AutoCAD R14.0</ApplicationName>
+      <RegistryKeysList>
+        <SerialNumberMappingsRegistryKey>
+          <RegistryKeyName>Software\Autodesk\AutoCAD\R14.0\ACAD-2452754:61760864</RegistryKeyName>
+          <RegistryKeyValue>SerialNumber</RegistryKeyValue>
+        </SerialNumberMappingsRegistryKey>
+      </RegistryKeysList>
+    </SerialNumberMapping>
+    <SerialNumberMapping>
+      <ApplicationName>AutoCAD Mechanical 2000i</ApplicationName>
+      <RegistryKeysList>
+        <SerialNumberMappingsRegistryKey>
+          <RegistryKeyName>SOFTWARE\Autodesk\AutoCAD\R15.0\ACAD-7:409</RegistryKeyName>
+          <RegistryKeyValue>SerialNumber</RegistryKeyValue>
+        </SerialNumberMappingsRegistryKey>
+      </RegistryKeysList>
+    </SerialNumberMapping>
+    <SerialNumberMapping>
+      <ApplicationName>AutoCAD 2000</ApplicationName>
+      <RegistryKeysList>
+        <SerialNumberMappingsRegistryKey>
+          <RegistryKeyName>SOFTWARE\Autodesk\AutoCAD\R15.0\ACAD-1:409</RegistryKeyName>
+          <RegistryKeyValue>SerialNumber</RegistryKeyValue>
+        </SerialNumberMappingsRegistryKey>
+      </RegistryKeysList>
+    </SerialNumberMapping>
+    <SerialNumberMapping>
+      <ApplicationName>AutoCAD LT 98</ApplicationName>
+      <RegistryKeysList>
+        <SerialNumberMappingsRegistryKey>
+          <RegistryKeyName>SOFTWARE\Autodesk\AutoCAD LT\R5.0\ACLT-2452551:43869540</RegistryKeyName>
+          <RegistryKeyValue>SerialNumber</RegistryKeyValue>
+        </SerialNumberMappingsRegistryKey>
+      </RegistryKeysList>
+    </SerialNumberMapping>
+    <SerialNumberMapping>
+      <ApplicationName>AutoCAD LT 2000</ApplicationName>
+      <RegistryKeysList>
+        <SerialNumberMappingsRegistryKey>
+          <RegistryKeyName>SOFTWARE\Autodesk\AutoCAD LT\R2000\ACLT-1:409</RegistryKeyName>
+          <RegistryKeyValue>SerialNumber</RegistryKeyValue>
+        </SerialNumberMappingsRegistryKey>
+      </RegistryKeysList>
+    </SerialNumberMapping>
+    <SerialNumberMapping>
+      <ApplicationName>AutoCAD LT 2002</ApplicationName>
+      <RegistryKeysList>
+        <SerialNumberMappingsRegistryKey>
+          <RegistryKeyName>SOFTWARE\Autodesk\AutoCAD LT\R8\ACLT-1:409</RegistryKeyName>
+          <RegistryKeyValue>SerialNumber</RegistryKeyValue>
+        </SerialNumberMappingsRegistryKey>
+      </RegistryKeysList>
+    </SerialNumberMapping>
+    <SerialNumberMapping>
+      <ApplicationName>AutoCAD LT 2002i</ApplicationName>
+      <RegistryKeysList>
+        <SerialNumberMappingsRegistryKey>
+          <RegistryKeyName>SOFTWARE\Autodesk\AutoCAD LT\R7\ACLT-1:409</RegistryKeyName>
+          <RegistryKeyValue>SerialNumber</RegistryKeyValue>
+        </SerialNumberMappingsRegistryKey>
+      </RegistryKeysList>
+    </SerialNumberMapping>
+    <SerialNumberMapping>
+      <ApplicationName>AutoCAD LT 2004</ApplicationName>
+      <RegistryKeysList>
+        <SerialNumberMappingsRegistryKey>
+          <RegistryKeyName>SOFTWARE\Autodesk\AutoCAD LT\R9\ACLT-201:409</RegistryKeyName>
+          <RegistryKeyValue>SerialNumber</RegistryKeyValue>
+        </SerialNumberMappingsRegistryKey>
+      </RegistryKeysList>
+    </SerialNumberMapping>
+    <SerialNumberMapping>
+      <ApplicationName>AutoCAD LT 2005</ApplicationName>
+      <RegistryKeysList>
+        <SerialNumberMappingsRegistryKey>
+          <RegistryKeyName>SOFTWARE\Autodesk\AutoCAD LT\R10\ACLT-301:409</RegistryKeyName>
+          <RegistryKeyValue>SerialNumber</RegistryKeyValue>
+        </SerialNumberMappingsRegistryKey>
+      </RegistryKeysList>
+    </SerialNumberMapping>
+    <SerialNumberMapping>
+      <ApplicationName>AutoCAD 2004</ApplicationName>
+      <RegistryKeysList>
+        <SerialNumberMappingsRegistryKey>
+          <RegistryKeyName>SOFTWARE\Autodesk\AutoCAD\R16.0\ACAD-201:409</RegistryKeyName>
+          <RegistryKeyValue>SerialNumber</RegistryKeyValue>
+        </SerialNumberMappingsRegistryKey>
+      </RegistryKeysList>
+    </SerialNumberMapping>
+    <SerialNumberMapping>
+      <ApplicationName>AutoDesk AutoCadLT 2000</ApplicationName>
+      <RegistryKeysList>
+        <SerialNumberMappingsRegistryKey>
+          <RegistryKeyName>SOFTWARE\Autodesk\AutoCAD LT\R2000\ACLT-1:409</RegistryKeyName>
+          <RegistryKeyValue>SerialNumber</RegistryKeyValue>
+        </SerialNumberMappingsRegistryKey>
+      </RegistryKeysList>
+    </SerialNumberMapping>
+    <SerialNumberMapping>
+      <ApplicationName>AutoDesk AutoCad 2005</ApplicationName>
+      <RegistryKeysList>
+        <SerialNumberMappingsRegistryKey>
+          <RegistryKeyName>SOFTWARE\Autodesk\AutoCAD\R16.1\ACAD-301:409</RegistryKeyName>
+          <RegistryKeyValue>SerialNumber</RegistryKeyValue>
+        </SerialNumberMappingsRegistryKey>
+      </RegistryKeysList>
+    </SerialNumberMapping>
+    <SerialNumberMapping>
+      <ApplicationName>Adobe Acrobat 6.0 Professional</ApplicationName>
+      <RegistryKeysList>
+        <SerialNumberMappingsRegistryKey>
+          <RegistryKeyName>Software\Adobe\Acrobat Acrobat\6.0\Registration</RegistryKeyName>
+          <RegistryKeyValue>SERIAL</RegistryKeyValue>
+        </SerialNumberMappingsRegistryKey>
+      </RegistryKeysList>
+    </SerialNumberMapping>
+    <SerialNumberMapping>
+      <ApplicationName>Adobe Acrobat 6</ApplicationName>
+      <RegistryKeysList>
+        <SerialNumberMappingsRegistryKey>
+          <RegistryKeyName>SOFTWARE\Adobe\Adobe Acrobat\6.0\Registration</RegistryKeyName>
+          <RegistryKeyValue>SERIAL</RegistryKeyValue>
+        </SerialNumberMappingsRegistryKey>
+      </RegistryKeysList>
+    </SerialNumberMapping>
+    <SerialNumberMapping>
+      <ApplicationName>Adobe Acrobat 7</ApplicationName>
+      <RegistryKeysList>
+        <SerialNumberMappingsRegistryKey>
+          <RegistryKeyName>SOFTWARE\Adobe\Adobe Acrobat\7.0\Registration</RegistryKeyName>
+          <RegistryKeyValue>SERIAL</RegistryKeyValue>
+        </SerialNumberMappingsRegistryKey>
+      </RegistryKeysList>
+    </SerialNumberMapping>
+    <SerialNumberMapping>
+      <ApplicationName>Adobe Acrobat 8</ApplicationName>
+      <RegistryKeysList>
+        <SerialNumberMappingsRegistryKey>
+          <RegistryKeyName>SOFTWARE\Adobe\Adobe Acrobat\8.0\Registration</RegistryKeyName>
+          <RegistryKeyValue>SERIAL</RegistryKeyValue>
+        </SerialNumberMappingsRegistryKey>
+      </RegistryKeysList>
+    </SerialNumberMapping>
+    <SerialNumberMapping>
+      <ApplicationName>Adobe Photoshop 7</ApplicationName>
+      <RegistryKeysList>
+        <SerialNumberMappingsRegistryKey>
+          <RegistryKeyName>SOFTWARE\Adobe\Photoshop\7.0\Registration</RegistryKeyName>
+          <RegistryKeyValue>SERIAL</RegistryKeyValue>
+        </SerialNumberMappingsRegistryKey>
+      </RegistryKeysList>
+    </SerialNumberMapping>
+    <SerialNumberMapping>
+      <ApplicationName>Adobe inDesign CS</ApplicationName>
+      <RegistryKeysList>
+        <SerialNumberMappingsRegistryKey>
+          <RegistryKeyName>SOFTWARE\Adobe\InDesign\3.0\Registration</RegistryKeyName>
+          <RegistryKeyValue>SERIAL</RegistryKeyValue>
+        </SerialNumberMappingsRegistryKey>
+      </RegistryKeysList>
+    </SerialNumberMapping>
+    <SerialNumberMapping>
+      <ApplicationName>Adobe Photoshop Elements</ApplicationName>
+      <RegistryKeysList>
+        <SerialNumberMappingsRegistryKey>
+          <RegistryKeyName>Software\Adobe\Photoshop Elements\1.0\Registration</RegistryKeyName>
+          <RegistryKeyValue>Serial</RegistryKeyValue>
+        </SerialNumberMappingsRegistryKey>
+      </RegistryKeysList>
+    </SerialNumberMapping>
+    <SerialNumberMapping>
+      <ApplicationName>InstallShield 12</ApplicationName>
+      <RegistryKeysList>
+        <SerialNumberMappingsRegistryKey>
+          <RegistryKeyName>SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall</RegistryKeyName>
+          <RegistryKeyValue>ProductID</RegistryKeyValue>
+        </SerialNumberMappingsRegistryKey>
+      </RegistryKeysList>
+    </SerialNumberMapping>
+    <SerialNumberMapping>
+      <ApplicationName>InstallShield 12 SP2</ApplicationName>
+      <RegistryKeysList>
+        <SerialNumberMappingsRegistryKey>
+          <RegistryKeyName>SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall</RegistryKeyName>
+          <RegistryKeyValue>ProductID</RegistryKeyValue>
+        </SerialNumberMappingsRegistryKey>
+      </RegistryKeysList>
+    </SerialNumberMapping>
+    <SerialNumberMapping>
+      <ApplicationName>QuickBooks Premier 2002</ApplicationName>
+      <RegistryKeysList>
+        <SerialNumberMappingsRegistryKey>
+          <RegistryKeyName>Software\Intuit\QuickBooksRegistration\10.0</RegistryKeyName>
+          <RegistryKeyValue>RegistrationNumber</RegistryKeyValue>
+        </SerialNumberMappingsRegistryKey>
+      </RegistryKeysList>
+    </SerialNumberMapping>
+    <SerialNumberMapping>
+      <ApplicationName>Macromedia Flash 5.0</ApplicationName>
+      <RegistryKeysList />
+    </SerialNumberMapping>
+    <SerialNumberMapping>
+      <ApplicationName>Macromedia Flash MX 2004</ApplicationName>
+      <RegistryKeysList>
+        <SerialNumberMappingsRegistryKey>
+          <RegistryKeyName>Software\Macromedia\Flash\7\Registration</RegistryKeyName>
+          <RegistryKeyValue>SerialNumber</RegistryKeyValue>
+        </SerialNumberMappingsRegistryKey>
+      </RegistryKeysList>
+    </SerialNumberMapping>
+    <SerialNumberMapping>
+      <ApplicationName>Macromedia Dreamweaver 3</ApplicationName>
+      <RegistryKeysList>
+        <SerialNumberMappingsRegistryKey>
+          <RegistryKeyName>Software\Macromedia\Dreamweaver\3\Registration</RegistryKeyName>
+          <RegistryKeyValue>Serial Number</RegistryKeyValue>
+        </SerialNumberMappingsRegistryKey>
+      </RegistryKeysList>
+    </SerialNumberMapping>
+    <SerialNumberMapping>
+      <ApplicationName>Macromedia Dreamweaver 4</ApplicationName>
+      <RegistryKeysList>
+        <SerialNumberMappingsRegistryKey>
+          <RegistryKeyName>Software\Macromedia\Dreamweaver\4\Registration</RegistryKeyName>
+          <RegistryKeyValue>Serial Number</RegistryKeyValue>
+        </SerialNumberMappingsRegistryKey>
+      </RegistryKeysList>
+    </SerialNumberMapping>
+    <SerialNumberMapping>
+      <ApplicationName>Macromedia Dreamweaver MX 2004</ApplicationName>
+      <RegistryKeysList>
+        <SerialNumberMappingsRegistryKey>
+          <RegistryKeyName>Software\Macromedia\Dreamweaver\7\Registration</RegistryKeyName>
+          <RegistryKeyValue>SerialNumber</RegistryKeyValue>
+        </SerialNumberMappingsRegistryKey>
+      </RegistryKeysList>
+    </SerialNumberMapping>
+    <SerialNumberMapping>
+      <ApplicationName>Macromedia Fireworks 3</ApplicationName>
+      <RegistryKeysList>
+        <SerialNumberMappingsRegistryKey>
+          <RegistryKeyName>Software\Macromedia\Fireworks\3\Registration</RegistryKeyName>
+          <RegistryKeyValue>Serial Number</RegistryKeyValue>
+        </SerialNumberMappingsRegistryKey>
+      </RegistryKeysList>
+    </SerialNumberMapping>
+    <SerialNumberMapping>
+      <ApplicationName>PC-cillin 2000</ApplicationName>
+      <RegistryKeysList>
+        <SerialNumberMappingsRegistryKey>
+          <RegistryKeyName>Software\TrendMicro\PC-cillinNT\7.0</RegistryKeyName>
+          <RegistryKeyValue>register no.</RegistryKeyValue>
+        </SerialNumberMappingsRegistryKey>
+      </RegistryKeysList>
+    </SerialNumberMapping>
+    <SerialNumberMapping>
+      <ApplicationName>PC-cillin 2002</ApplicationName>
+      <RegistryKeysList>
+        <SerialNumberMappingsRegistryKey>
+          <RegistryKeyName>Software\TrendMicro\PC-cillin</RegistryKeyName>
+          <RegistryKeyValue>register no.</RegistryKeyValue>
+        </SerialNumberMappingsRegistryKey>
+      </RegistryKeysList>
+    </SerialNumberMapping>
+    <SerialNumberMapping>
+      <ApplicationName>Trend Micro PC-cillin Antivirus 11</ApplicationName>
+      <RegistryKeysList>
+        <SerialNumberMappingsRegistryKey>
+          <RegistryKeyName>SOFTWARE\TrendMicro\PC-cillin</RegistryKeyName>
+          <RegistryKeyValue>register no.</RegistryKeyValue>
+        </SerialNumberMappingsRegistryKey>
+      </RegistryKeysList>
+    </SerialNumberMapping>
+    <SerialNumberMapping>
+      <ApplicationName>Trend Micro PC-cillin Antivirus 2007</ApplicationName>
+      <RegistryKeysList>
+        <SerialNumberMappingsRegistryKey>
+          <RegistryKeyName>SOFTWARE\TrendMicro\AntiVirus\15</RegistryKeyName>
+          <RegistryKeyValue>SerialNo</RegistryKeyValue>
+        </SerialNumberMappingsRegistryKey>
+      </RegistryKeysList>
+    </SerialNumberMapping>
+    <SerialNumberMapping>
+      <ApplicationName>TuneUP 2006</ApplicationName>
+      <RegistryKeysList>
+        <SerialNumberMappingsRegistryKey>
+          <RegistryKeyName>SOFTWARE\TuneUp\Utilities\5.0</RegistryKeyName>
+          <RegistryKeyValue>RegCode</RegistryKeyValue>
+        </SerialNumberMappingsRegistryKey>
+      </RegistryKeysList>
+    </SerialNumberMapping>
+    <SerialNumberMapping>
+      <ApplicationName>Norton AntiVirus 2002</ApplicationName>
+      <RegistryKeysList>
+        <SerialNumberMappingsRegistryKey>
+          <RegistryKeyName>Software\INTEL\LANDesk\VirusProtect6\CurrentVersion</RegistryKeyName>
+          <RegistryKeyValue>LicenseNumber</RegistryKeyValue>
+        </SerialNumberMappingsRegistryKey>
+      </RegistryKeysList>
+    </SerialNumberMapping>
+    <SerialNumberMapping>
+      <ApplicationName>Norton PartitionMagic 8.0</ApplicationName>
+      <RegistryKeysList>
+        <SerialNumberMappingsRegistryKey>
+          <RegistryKeyName>HKEY_LOCAL_MACHINE\SOFTWARE\Symantec\Norton PartitionMagic\8.0\UserInfo</RegistryKeyName>
+          <RegistryKeyValue>SerialNumber</RegistryKeyValue>
+        </SerialNumberMappingsRegistryKey>
+      </RegistryKeysList>
+    </SerialNumberMapping>
+    <SerialNumberMapping>
+      <ApplicationName>Symantec AntiVirus Client</ApplicationName>
+      <RegistryKeysList>
+        <SerialNumberMappingsRegistryKey>
+          <RegistryKeyName>SOFTWARE\INTEL\LANDesk\VirusProtect6\CurrentVersion</RegistryKeyName>
+          <RegistryKeyValue>LicenseNumber</RegistryKeyValue>
+        </SerialNumberMappingsRegistryKey>
+      </RegistryKeysList>
+    </SerialNumberMapping>
+    <SerialNumberMapping>
+      <ApplicationName>Vet Anti-Virus</ApplicationName>
+      <RegistryKeysList>
+        <SerialNumberMappingsRegistryKey>
+          <RegistryKeyName>SOFTWARE\ComputerAssociates\Anti-Virus</RegistryKeyName>
+          <RegistryKeyValue>ProductID</RegistryKeyValue>
+        </SerialNumberMappingsRegistryKey>
+        <SerialNumberMappingsRegistryKey>
+          <RegistryKeyName>SOFTWARE\ComputerAssociates\Anti-Virus</RegistryKeyName>
+          <RegistryKeyValue>ProductID</RegistryKeyValue>
+        </SerialNumberMappingsRegistryKey>
+      </RegistryKeysList>
+    </SerialNumberMapping>
+    <SerialNumberMapping>
+      <ApplicationName>McAfee VirusScan Enterprise</ApplicationName>
+      <RegistryKeysList>
+        <SerialNumberMappingsRegistryKey>
+          <RegistryKeyName>SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Products\BB1D3FD5E498DCD4285751A99C28B934\InstallProperties</RegistryKeyName>
+          <RegistryKeyValue>ProductID</RegistryKeyValue>
+        </SerialNumberMappingsRegistryKey>
+      </RegistryKeysList>
+    </SerialNumberMapping>
+    <SerialNumberMapping>
+      <ApplicationName>Nero - Burning Rom</ApplicationName>
+      <RegistryKeysList>
+        <SerialNumberMappingsRegistryKey>
+          <RegistryKeyName>Software\ahead\Nero - Burning Rom\Info</RegistryKeyName>
+          <RegistryKeyValue>Serial5</RegistryKeyValue>
+        </SerialNumberMappingsRegistryKey>
+      </RegistryKeysList>
+    </SerialNumberMapping>
+    <SerialNumberMapping>
+      <ApplicationName>Nero Burning Rom 5</ApplicationName>
+      <RegistryKeysList>
+        <SerialNumberMappingsRegistryKey>
+          <RegistryKeyName>SOFTWARE\Ahead\Nero - Burning Rom\Info</RegistryKeyName>
+          <RegistryKeyValue>Serial5</RegistryKeyValue>
+        </SerialNumberMappingsRegistryKey>
+      </RegistryKeysList>
+    </SerialNumberMapping>
+    <SerialNumberMapping>
+      <ApplicationName>Nero Burning Rom 6</ApplicationName>
+      <RegistryKeysList>
+        <SerialNumberMappingsRegistryKey>
+          <RegistryKeyName>SOFTWARE\Ahead\Installation\Families\Nero 6\Info</RegistryKeyName>
+          <RegistryKeyValue>Serial6_*</RegistryKeyValue>
+        </SerialNumberMappingsRegistryKey>
+      </RegistryKeysList>
+    </SerialNumberMapping>
+    <SerialNumberMapping>
+      <ApplicationName>O&amp;O BlueCon 5</ApplicationName>
+      <RegistryKeysList>
+        <SerialNumberMappingsRegistryKey>
+          <RegistryKeyName>SYSTEM\ControlSet001\Services\OOBlueConPro</RegistryKeyName>
+          <RegistryKeyValue>SerialNo</RegistryKeyValue>
+        </SerialNumberMappingsRegistryKey>
+      </RegistryKeysList>
+    </SerialNumberMapping>
+    <SerialNumberMapping>
+      <ApplicationName>O&amp;O CleverCache 6</ApplicationName>
+      <RegistryKeysList>
+        <SerialNumberMappingsRegistryKey>
+          <RegistryKeyName>SOFTWARE\O&amp;O\O&amp;O CleverCache\6.0</RegistryKeyName>
+          <RegistryKeyValue>SerialNo</RegistryKeyValue>
+        </SerialNumberMappingsRegistryKey>
+      </RegistryKeysList>
+    </SerialNumberMapping>
+    <SerialNumberMapping>
+      <ApplicationName>O&amp;O DiskImage 1</ApplicationName>
+      <RegistryKeysList>
+        <SerialNumberMappingsRegistryKey>
+          <RegistryKeyName>SOFTWARE\O&amp;O\O&amp;O DiskImage\1.0\Pro\licenses</RegistryKeyName>
+          <RegistryKeyValue>SerialNo</RegistryKeyValue>
+        </SerialNumberMappingsRegistryKey>
+      </RegistryKeysList>
+    </SerialNumberMapping>
+    <SerialNumberMapping>
+      <ApplicationName>O&amp;O DiskRecovery 3</ApplicationName>
+      <RegistryKeysList>
+        <SerialNumberMappingsRegistryKey>
+          <RegistryKeyName>SOFTWARE\O&amp;O\O&amp;O DiskRecovery\3.0</RegistryKeyName>
+          <RegistryKeyValue>SerialNo</RegistryKeyValue>
+        </SerialNumberMappingsRegistryKey>
+      </RegistryKeysList>
+    </SerialNumberMapping>
+    <SerialNumberMapping>
+      <ApplicationName>O&amp;O DriveLED 2|</ApplicationName>
+      <RegistryKeysList>
+        <SerialNumberMappingsRegistryKey>
+          <RegistryKeyName>SOFTWARE\O&amp;O\O&amp;O DriveLED\2.0</RegistryKeyName>
+          <RegistryKeyValue>SerialNo</RegistryKeyValue>
+        </SerialNumberMappingsRegistryKey>
+      </RegistryKeysList>
+    </SerialNumberMapping>
+    <SerialNumberMapping>
+      <ApplicationName>O&amp;O SafeUnErase 2</ApplicationName>
+      <RegistryKeysList>
+        <SerialNumberMappingsRegistryKey>
+          <RegistryKeyName>SOFTWARE\O&amp;O\O&amp;O UnErase\2.0</RegistryKeyName>
+          <RegistryKeyValue>SerialNo</RegistryKeyValue>
+        </SerialNumberMappingsRegistryKey>
+      </RegistryKeysList>
+    </SerialNumberMapping>
+    <SerialNumberMapping>
+      <ApplicationName>O&amp;O SafeErase 2</ApplicationName>
+      <RegistryKeysList>
+        <SerialNumberMappingsRegistryKey>
+          <RegistryKeyName>SOFTWARE\O&amp;O\O&amp;O Safeerase\2.0</RegistryKeyName>
+          <RegistryKeyValue>SerialNo</RegistryKeyValue>
+        </SerialNumberMappingsRegistryKey>
+      </RegistryKeysList>
+    </SerialNumberMapping>
+    <SerialNumberMapping>
+      <ApplicationName>Padus DiscJuggler</ApplicationName>
+      <RegistryKeysList>
+        <SerialNumberMappingsRegistryKey>
+          <RegistryKeyName>SOFTWARE\Padus\DiscJuggler\Settings</RegistryKeyName>
+          <RegistryKeyValue>Registration</RegistryKeyValue>
+        </SerialNumberMappingsRegistryKey>
+      </RegistryKeysList>
+    </SerialNumberMapping>
+    <SerialNumberMapping>
+      <ApplicationName>Serif DrawPlus 5.0</ApplicationName>
+      <RegistryKeysList>
+        <SerialNumberMappingsRegistryKey>
+          <RegistryKeyName>Software\Serif\DrawPlus\5.0\Registration</RegistryKeyName>
+          <RegistryKeyValue>Registration Id</RegistryKeyValue>
+        </SerialNumberMappingsRegistryKey>
+      </RegistryKeysList>
+    </SerialNumberMapping>
+    <SerialNumberMapping>
+      <ApplicationName>Serif PagePlus 8.0</ApplicationName>
+      <RegistryKeysList>
+        <SerialNumberMappingsRegistryKey>
+          <RegistryKeyName>Software\Serif\PagePlus\8.0\Registration</RegistryKeyName>
+          <RegistryKeyValue>Registration Id</RegistryKeyValue>
+        </SerialNumberMappingsRegistryKey>
+      </RegistryKeysList>
+    </SerialNumberMapping>
+    <SerialNumberMapping>
+      <ApplicationName>Techsmith Camtasia Studio 3.0</ApplicationName>
+      <RegistryKeysList>
+        <SerialNumberMappingsRegistryKey>
+          <RegistryKeyName>SOFTWARE\TechSmith\Camtasia Studio\3.0</RegistryKeyName>
+          <RegistryKeyValue>RegistrationKey</RegistryKeyValue>
+        </SerialNumberMappingsRegistryKey>
+      </RegistryKeysList>
+    </SerialNumberMapping>
+    <SerialNumberMapping>
+      <ApplicationName>Techsmith Camtasia Studio 4.0</ApplicationName>
+      <RegistryKeysList>
+        <SerialNumberMappingsRegistryKey>
+          <RegistryKeyName>SOFTWARE\TechSmith\Camtasia Studio\4.0</RegistryKeyName>
+          <RegistryKeyValue>RegistrationKey</RegistryKeyValue>
+        </SerialNumberMappingsRegistryKey>
+      </RegistryKeysList>
+    </SerialNumberMapping>
+    <SerialNumberMapping>
+      <ApplicationName>Techsmith SnagIt 8.0</ApplicationName>
+      <RegistryKeysList>
+        <SerialNumberMappingsRegistryKey>
+          <RegistryKeyName>Software\TechSmith\SnagIt\8</RegistryKeyName>
+          <RegistryKeyValue>RegistrationKey</RegistryKeyValue>
+        </SerialNumberMappingsRegistryKey>
+      </RegistryKeysList>
+    </SerialNumberMapping>
+    <SerialNumberMapping>
+      <ApplicationName>Techsmith SnagIt 8.1</ApplicationName>
+      <RegistryKeysList>
+        <SerialNumberMappingsRegistryKey>
+          <RegistryKeyName>Software\TechSmith\SnagIt\8</RegistryKeyName>
+          <RegistryKeyValue>RegistrationKey</RegistryKeyValue>
+        </SerialNumberMappingsRegistryKey>
+      </RegistryKeysList>
+    </SerialNumberMapping>
+    <SerialNumberMapping>
+      <ApplicationName>Techsmith SnagIt 7</ApplicationName>
+      <RegistryKeysList>
+        <SerialNumberMappingsRegistryKey>
+          <RegistryKeyName>Software\TechSmith\SnagIt\7</RegistryKeyName>
+          <RegistryKeyValue>RegistrationKey</RegistryKeyValue>
+        </SerialNumberMappingsRegistryKey>
+      </RegistryKeysList>
+    </SerialNumberMapping>
+    <SerialNumberMapping>
+      <ApplicationName>VMware Server</ApplicationName>
+      <RegistryKeysList />
+    </SerialNumberMapping>
+    <SerialNumberMapping>
+      <ApplicationName>VMware Workstation 5.0</ApplicationName>
+      <RegistryKeysList />
+    </SerialNumberMapping>
+    <SerialNumberMapping>
+      <ApplicationName>After Effects 7</ApplicationName>
+      <RegistryKeysList>
+        <SerialNumberMappingsRegistryKey>
+          <RegistryKeyName>SOFTWARE\Adobe\After Effects\7.0\Registration</RegistryKeyName>
+          <RegistryKeyValue>Serial</RegistryKeyValue>
+        </SerialNumberMappingsRegistryKey>
+      </RegistryKeysList>
+    </SerialNumberMapping>
+    <SerialNumberMapping>
+      <ApplicationName>Registy Mechanic</ApplicationName>
+      <RegistryKeysList>
+        <SerialNumberMappingsRegistryKey>
+          <RegistryKeyName>SOFTWARE\PCTools\Registry Mechanic\Settings LicenseKey</RegistryKeyName>
+          <RegistryKeyValue>serial</RegistryKeyValue>
+        </SerialNumberMappingsRegistryKey>
+      </RegistryKeysList>
+    </SerialNumberMapping>
+    <SerialNumberMapping>
+      <ApplicationName>Roxio My DVD 8 Premier</ApplicationName>
+      <RegistryKeysList>
+        <SerialNumberMappingsRegistryKey>
+          <RegistryKeyName>SOFTWARE\roxio\Registration\RoxioCentral</RegistryKeyName>
+          <RegistryKeyValue>RoxioCentral_SN</RegistryKeyValue>
+        </SerialNumberMappingsRegistryKey>
+      </RegistryKeysList>
+    </SerialNumberMapping>
+    <SerialNumberMapping>
+      <ApplicationName>SecurDataStor v6</ApplicationName>
+      <RegistryKeysList>
+        <SerialNumberMappingsRegistryKey>
+          <RegistryKeyName>Software\encryptX\SecurDataStor v6\Registration</RegistryKeyName>
+          <RegistryKeyValue>License</RegistryKeyValue>
+        </SerialNumberMappingsRegistryKey>
+      </RegistryKeysList>
+    </SerialNumberMapping>
+    <SerialNumberMapping>
+      <ApplicationName>SecurDataStor v6 CD-Media</ApplicationName>
+      <RegistryKeysList>
+        <SerialNumberMappingsRegistryKey>
+          <RegistryKeyName>Software\encryptX\SecurDataStor v6\Registration</RegistryKeyName>
+          <RegistryKeyValue>m0</RegistryKeyValue>
+        </SerialNumberMappingsRegistryKey>
+      </RegistryKeysList>
+    </SerialNumberMapping>
+    <SerialNumberMapping>
+      <ApplicationName>SuperCleaner</ApplicationName>
+      <RegistryKeysList>
+        <SerialNumberMappingsRegistryKey>
+          <RegistryKeyName>Software\SuperCleaner\Registration</RegistryKeyName>
+          <RegistryKeyValue>Code</RegistryKeyValue>
+        </SerialNumberMappingsRegistryKey>
+      </RegistryKeysList>
+    </SerialNumberMapping>
+    <SerialNumberMapping>
+      <ApplicationName>Symantec Norton Internet Security 2007</ApplicationName>
+      <RegistryKeysList>
+        <SerialNumberMappingsRegistryKey>
+          <RegistryKeyName>SOFTWARE\Symantec\CCPD-LC\KStore\00000082\00000049\000000b9</RegistryKeyName>
+          <RegistryKeyValue>Key</RegistryKeyValue>
+        </SerialNumberMappingsRegistryKey>
+      </RegistryKeysList>
+    </SerialNumberMapping>
+    <SerialNumberMapping>
+      <ApplicationName>WebFldrs XP</ApplicationName>
+      <RegistryKeysList>
+        <SerialNumberMappingsRegistryKey>
+          <RegistryKeyName>Software\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Products\0B79C053C7D38EE4AB9A00CB3B5D2472\InstallProperties</RegistryKeyName>
+          <RegistryKeyValue>ProductID</RegistryKeyValue>
+        </SerialNumberMappingsRegistryKey>
+      </RegistryKeysList>
+    </SerialNumberMapping>
+    <SerialNumberMapping>
+      <ApplicationName>WinZip</ApplicationName>
+      <RegistryKeysList>
+        <SerialNumberMappingsRegistryKey>
+          <RegistryKeyName>Software\Nico Mak Computing\WinZip\WinIni</RegistryKeyName>
+          <RegistryKeyValue>SN</RegistryKeyValue>
+        </SerialNumberMappingsRegistryKey>
+      </RegistryKeysList>
+    </SerialNumberMapping>
+    <SerialNumberMapping>
+      <ApplicationName>Intervideo WinDVD</ApplicationName>
+      <RegistryKeysList>
+        <SerialNumberMappingsRegistryKey>
+          <RegistryKeyName>Software\InterVideo\WinDVD</RegistryKeyName>
+          <RegistryKeyValue>SERIALCODE</RegistryKeyValue>
+        </SerialNumberMappingsRegistryKey>
+      </RegistryKeysList>
+    </SerialNumberMapping>
+    <SerialNumberMapping>
+      <ApplicationName>ACT! for Windows</ApplicationName>
+      <RegistryKeysList>
+        <SerialNumberMappingsRegistryKey>
+          <RegistryKeyName>SOFTWARE\Ariad\Application Libraries Log</RegistryKeyName>
+          <RegistryKeyValue>Ariad Interface Components 1</RegistryKeyValue>
+        </SerialNumberMappingsRegistryKey>
+      </RegistryKeysList>
+    </SerialNumberMapping>
+    <SerialNumberMapping>
+      <ApplicationName>Maximizer 6.0</ApplicationName>
+      <RegistryKeysList>
+        <SerialNumberMappingsRegistryKey>
+          <RegistryKeyName>Software\Maximizer Technologies\Maximizer\CurrentVersion</RegistryKeyName>
+          <RegistryKeyValue>Product Serial Number</RegistryKeyValue>
+        </SerialNumberMappingsRegistryKey>
+      </RegistryKeysList>
+    </SerialNumberMapping>
+    <SerialNumberMapping>
+      <ApplicationName>Ulead PhotoImpact 5</ApplicationName>
+      <RegistryKeysList>
+        <SerialNumberMappingsRegistryKey>
+          <RegistryKeyName>Software\Ulead Systems\Ulead PhotoImpact\5.0\installer</RegistryKeyName>
+          <RegistryKeyValue>Serial Number</RegistryKeyValue>
+        </SerialNumberMappingsRegistryKey>
+      </RegistryKeysList>
+    </SerialNumberMapping>
+    <SerialNumberMapping>
+      <ApplicationName>Drive Image 4.0</ApplicationName>
+      <RegistryKeysList>
+        <SerialNumberMappingsRegistryKey>
+          <RegistryKeyName>Software\PowerQuest\Drive Image\4.0\UserInfo</RegistryKeyName>
+          <RegistryKeyValue>SerialNumber</RegistryKeyValue>
+        </SerialNumberMappingsRegistryKey>
+      </RegistryKeysList>
+    </SerialNumberMapping>
+    <SerialNumberMapping>
+      <ApplicationName>Seagate Crystal Reports Developer Edition</ApplicationName>
+      <RegistryKeysList>
+        <SerialNumberMappingsRegistryKey>
+          <RegistryKeyName>Software\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Products\6694770C12823D113BD2000A9CAD05E0\InstallProperties</RegistryKeyName>
+          <RegistryKeyValue>ProductID</RegistryKeyValue>
+        </SerialNumberMappingsRegistryKey>
+      </RegistryKeysList>
+    </SerialNumberMapping>
+    <SerialNumberMapping>
+      <ApplicationName>Ulead PhotoImpact 6</ApplicationName>
+      <RegistryKeysList>
+        <SerialNumberMappingsRegistryKey>
+          <RegistryKeyName>Software\Ulead Systems\Ulead PhotoImpact\6.0\installer</RegistryKeyName>
+          <RegistryKeyValue>Serial Number</RegistryKeyValue>
+        </SerialNumberMappingsRegistryKey>
+      </RegistryKeysList>
+    </SerialNumberMapping>
+    <SerialNumberMapping>
+      <ApplicationName>RoboHELP Office</ApplicationName>
+      <RegistryKeysList>
+        <SerialNumberMappingsRegistryKey>
+          <RegistryKeyName>Software\Blue Sky Software\RoboHELP\7.00</RegistryKeyName>
+          <RegistryKeyValue>Serial Number</RegistryKeyValue>
+        </SerialNumberMappingsRegistryKey>
+      </RegistryKeysList>
+    </SerialNumberMapping>
+    <SerialNumberMapping>
+      <ApplicationName>MGI PhotoSuite 8.06 (Remove Only)</ApplicationName>
+      <RegistryKeysList>
+        <SerialNumberMappingsRegistryKey>
+          <RegistryKeyName>Software\MGI\Registration\PhotoSuite</RegistryKeyName>
+          <RegistryKeyValue>OEM Number</RegistryKeyValue>
+        </SerialNumberMappingsRegistryKey>
+      </RegistryKeysList>
+    </SerialNumberMapping>
+    <SerialNumberMapping>
+      <ApplicationName>OpenMG Jukebox 1.1.00</ApplicationName>
+      <RegistryKeysList>
+        <SerialNumberMappingsRegistryKey>
+          <RegistryKeyName>Software\Sony Corporation\OpenMG</RegistryKeyName>
+          <RegistryKeyValue>CD-Key</RegistryKeyValue>
+        </SerialNumberMappingsRegistryKey>
+      </RegistryKeysList>
+    </SerialNumberMapping>
+    <SerialNumberMapping>
+      <ApplicationName>NetIQ ADcheck</ApplicationName>
+      <RegistryKeysList>
+        <SerialNumberMappingsRegistryKey>
+          <RegistryKeyName>SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Products\29112F28C13C7FF4E8ABBF2FF2ED1B1D\InstallProperties</RegistryKeyName>
+          <RegistryKeyValue>ProductID</RegistryKeyValue>
+        </SerialNumberMappingsRegistryKey>
+      </RegistryKeysList>
+    </SerialNumberMapping>
+    <SerialNumberMapping>
+      <ApplicationName>Alloy Network Inventory</ApplicationName>
+      <RegistryKeysList>
+        <SerialNumberMappingsRegistryKey>
+          <RegistryKeyName>SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Products\6B7D2DEE2E24EED44B3C78080565FA6D\InstallProperties</RegistryKeyName>
+          <RegistryKeyValue>ProductID</RegistryKeyValue>
+        </SerialNumberMappingsRegistryKey>
+      </RegistryKeysList>
+    </SerialNumberMapping>
+    <SerialNumberMapping>
+      <ApplicationName>DameWare NT Utilities</ApplicationName>
+      <RegistryKeysList>
+        <SerialNumberMappingsRegistryKey>
+          <RegistryKeyName>SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Products\EDDC8AB1D16848B4FB1FE7D04E57A7BC\InstallProperties</RegistryKeyName>
+          <RegistryKeyValue>ProductID</RegistryKeyValue>
+        </SerialNumberMappingsRegistryKey>
+      </RegistryKeysList>
+    </SerialNumberMapping>
+    <SerialNumberMapping>
+      <ApplicationName>WS FTP</ApplicationName>
+      <RegistryKeysList>
+        <SerialNumberMappingsRegistryKey>
+          <RegistryKeyName>SOFTWARE\Ipswitch\WS_FTP</RegistryKeyName>
+          <RegistryKeyValue>SerialNumber</RegistryKeyValue>
+        </SerialNumberMappingsRegistryKey>
+      </RegistryKeysList>
+    </SerialNumberMapping>
+    <SerialNumberMapping>
+      <ApplicationName>Belarc Advisor 7</ApplicationName>
+      <RegistryKeysList>
+        <SerialNumberMappingsRegistryKey>
+          <RegistryKeyName>Software\Belarc\Advisor\2.0</RegistryKeyName>
+          <RegistryKeyValue>Serial Number</RegistryKeyValue>
+        </SerialNumberMappingsRegistryKey>
+      </RegistryKeysList>
+    </SerialNumberMapping>
+    <SerialNumberMapping>
+      <ApplicationName>ATI Parental Control &amp; Encoder</ApplicationName>
+      <RegistryKeysList>
+        <SerialNumberMappingsRegistryKey>
+          <RegistryKeyName>Software\ATI Technologies\Install\ATIPCE</RegistryKeyName>
+          <RegistryKeyValue>ProductID</RegistryKeyValue>
+        </SerialNumberMappingsRegistryKey>
+      </RegistryKeysList>
+    </SerialNumberMapping>
+    <SerialNumberMapping>
+      <ApplicationName>Sonic MyDVD</ApplicationName>
+      <RegistryKeysList>
+        <SerialNumberMappingsRegistryKey>
+          <RegistryKeyName>Software\Sonic\MyDVD\Preference</RegistryKeyName>
+          <RegistryKeyValue>SerialNumber</RegistryKeyValue>
+        </SerialNumberMappingsRegistryKey>
+      </RegistryKeysList>
+    </SerialNumberMapping>
+    <SerialNumberMapping>
+      <ApplicationName>SnagIt 8</ApplicationName>
+      <RegistryKeysList>
+        <SerialNumberMappingsRegistryKey>
+          <RegistryKeyName>Software\TechSmith\SnagIt\8</RegistryKeyName>
+          <RegistryKeyValue>RegistrationKey</RegistryKeyValue>
+        </SerialNumberMappingsRegistryKey>
+      </RegistryKeysList>
+    </SerialNumberMapping>
+    <SerialNumberMapping>
+      <ApplicationName>Microsoft Visual Studio 2008</ApplicationName>
+      <RegistryKeysList>
+        <SerialNumberMappingsRegistryKey>
+          <RegistryKeyName>HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VisualStudio\9.0\Registration</RegistryKeyName>
+          <RegistryKeyValue>ProductID</RegistryKeyValue>
+        </SerialNumberMappingsRegistryKey>
+      </RegistryKeysList>
+    </SerialNumberMapping>
+    <SerialNumberMapping>
+      <ApplicationName>Microsoft Visual Studio 2008 Professional Edition - ENU</ApplicationName>
+      <RegistryKeysList>
+        <SerialNumberMappingsRegistryKey>
+          <RegistryKeyName>HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VisualStudio\9.0\Registration</RegistryKeyName>
+          <RegistryKeyValue>ProductID</RegistryKeyValue>
+        </SerialNumberMappingsRegistryKey>
+      </RegistryKeysList>
+    </SerialNumberMapping>
+  </SerialNumberMappingsList>
+</AuditScannerDefinition>

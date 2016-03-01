@@ -1,0 +1,2222 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<AuditDataFile>
+<general>
+<scannerversion>AuditScanner v8.0.14.4</scannerversion>
+<computername>LAY09</computername>
+<computerid>c034fe1f-6491-449c-9347-b31bb18109e8</computerid>
+<category>PC</category>
+<auditdate>2009-08-06 14:33:23</auditdate>
+<domain>LAYTON.COM.AU</domain>
+<make>Dell Inc.</make>
+<model>Vostro 420 Series</model>
+<serial>2HCB12S</serial>
+<macaddress>00:21:9B:2C:06:9D</macaddress>
+<ipaddress>192.168.0.100</ipaddress>
+<location/>
+</general>
+<userdata>
+<userdata_item category="Purchasing" name="Employee_ID_Field" value=""/>
+<userdata_item category="General" name="Employee_ID_Field" value=""/>
+<userdata_item category="General" name="Department" value=""/>
+</userdata>
+<auditeditems>
+<auditeditem class="Hardware|Adapters|Display"/>
+<auditeditem class="Hardware|Adapters|Display|Display Adapter (0)">
+<item name="Name" value="NVIDIA GeForce 9800 GT "/>
+<item name="Chipset" value="GeForce 9800 GT"/>
+<item name="Memory" value="512"/>
+</auditeditem>
+<auditeditem class="Hardware|Adapters|Network Adapters"/>
+<auditeditem class="Hardware|Adapters|Network Adapters|Network Adapter (0)">
+<item name="Name" value="Realtek RTL8168C(P)/8111C(P) PCI-E Gigabit Ethernet NIC"/>
+<item name="Manufacturer" value="Realtek Semiconductor Corp."/>
+<item name="MAC Address" value="00:21:9B:2C:06:9D"/>
+<item name="IP Address" value="192.168.0.100"/>
+</auditeditem>
+<auditeditem class="Hardware|Adapters|Network Adapters|Network Adapter (1)">
+<item name="Name" value="VMware Virtual Ethernet Adapter for VMnet1"/>
+<item name="Manufacturer" value="VMware, Inc."/>
+<item name="MAC Address" value="00:50:56:C0:00:01"/>
+<item name="IP Address" value="192.168.110.1"/>
+</auditeditem>
+<auditeditem class="Hardware|Adapters|Network Adapters|Network Adapter (2)">
+<item name="Name" value="VMware Virtual Ethernet Adapter for VMnet8"/>
+<item name="Manufacturer" value="VMware, Inc."/>
+<item name="MAC Address" value="00:50:56:C0:00:08"/>
+<item name="IP Address" value="192.168.245.1"/>
+</auditeditem>
+<auditeditem class="Hardware|Network">
+<item name="Computer Name" value="LAY09"/>
+<item name="Domain Name" value="LAYTON.COM.AU"/>
+<item name="Username" value="LAYTON\jlynn"/>
+<item name="IP Address" value="192.168.0.100"/>
+<item name="MAC Address" value="00:21:9B:2C:06:9D"/>
+</auditeditem>
+<auditeditem class="Hardware|BIOS">
+<item name="Internal System ID" value="c034fe1f-6491-449c-9347-b31bb18109e8"/>
+<item name="System Manufacturer" value="Dell Inc."/>
+<item name="System Model" value="Vostro 420 Series"/>
+<item name="System Serial Number" value="2HCB12S"/>
+<item name="Bios Manufacturer" value="Dell Inc."/>
+<item name="Bios Version" value="DELL   - 20081024"/>
+<item name="Bios Date" value="10/24/08" datatype="2"/>
+</auditeditem>
+<auditeditem class="Hardware|CPU">
+<item name="Name" value="Intel Core2 Quad Q8200"/>
+<item name="Speed" value="2300" displayunits="Mhz" datatype="1"/>
+<item name="Count" value="4" datatype="1"/>
+</auditeditem>
+<auditeditem class="Hardware|Memory Slots"/>
+<auditeditem class="Hardware|Memory Slots|DIMM1">
+<item name="Capacity" value="2048" datatype="1"/>
+<item name="Speed" value="800" datatype="1"/>
+<item name="Form Factor" value="DIMM"/>
+</auditeditem>
+<auditeditem class="Hardware|Memory Slots|DIMM3">
+<item name="Capacity" value="2048" datatype="1"/>
+<item name="Speed" value="800" datatype="1"/>
+<item name="Form Factor" value="DIMM"/>
+</auditeditem>
+<auditeditem class="Hardware|Memory">
+<item name="Total RAM" value="3071" displayunits="MB" datatype="1"/>
+<item name="Available RAM" value="1802" displayunits="MB" datatype="1" historied="false"/>
+<item name="Total Pagefile" value="4956" displayunits="MB" datatype="1" historied="false"/>
+<item name="Available Pagefile" value="3630" displayunits="MB" datatype="1" historied="false"/>
+<item name="Total Virtual" value="2048" displayunits="MB" datatype="1" historied="false"/>
+<item name="Available Virtual" value="1995" displayunits="MB" datatype="1" historied="false"/>
+</auditeditem>
+<auditeditem class="Hardware|Printers"/>
+<auditeditem class="Hardware|Printers|Printer (0)">
+<item name="Name" value="Microsoft XPS Document Writer"/>
+<item name="Driver" value="Microsoft XPS Document Writer"/>
+<item name="Port" value="XPSPort:"/>
+<item name="Default Printer" value="False"/>
+<item name="Last Detected Error State" value="Unknown"/>
+<item name="Status when Audited" value="Idle"/>
+</auditeditem>
+<auditeditem class="Hardware|Printers|Printer (1)">
+<item name="Name" value="Auto Fax on LAYSRV01"/>
+<item name="Driver" value="Microsoft Shared Fax Driver"/>
+<item name="Port" value="\\LAYSRV01\Fax"/>
+<item name="Default Printer" value="False"/>
+<item name="Last Detected Error State" value="Unknown"/>
+<item name="Status when Audited" value="Idle"/>
+</auditeditem>
+<auditeditem class="Hardware|Printers|Printer (2)">
+<item name="Name" value="\\laysrv01\HP LaserJet 4350dtn"/>
+<item name="Driver" value="HP LaserJet 4350 PCL 5e"/>
+<item name="Port" value="IP_192.168.0.120"/>
+<item name="Default Printer" value="True"/>
+<item name="Last Detected Error State" value="Unknown"/>
+<item name="Status when Audited" value="Unknown"/>
+</auditeditem>
+<auditeditem class="Hardware|Physical Disk"/>
+<auditeditem class="Hardware|Physical Disk|Physical Disk (0)">
+<item name="Model" value="ST3500620AS"/>
+<item name="Partitions" value="2" datatype="1"/>
+<item name="Size" value="476" displayunits="GB" datatype="1"/>
+<item name="Cylinders" value="60801" datatype="1"/>
+<item name="Tracks" value="255" datatype="1"/>
+<item name="Sectors" value="63" datatype="1"/>
+<item name="Heads" value="255" datatype="1"/>
+</auditeditem>
+<auditeditem class="Hardware|Physical Disk|Physical Disk (1)">
+<item name="Model" value="USB007 mini-USBTX USB Device"/>
+<item name="Partitions" value="1" datatype="1"/>
+<item name="Size" value="0" displayunits="GB" datatype="1"/>
+<item name="Cylinders" value="8" datatype="1"/>
+<item name="Tracks" value="255" datatype="1"/>
+<item name="Sectors" value="63" datatype="1"/>
+<item name="Heads" value="255" datatype="1"/>
+</auditeditem>
+<auditeditem class="System|Services"/>
+<auditeditem class="System|Services|Alerter" grouped="true">
+<item name="Name" value="Alerter"/>
+<item name="State" value="&lt;not specified&gt;"/>
+<item name="Startup" value="Disabled"/>
+</auditeditem>
+<auditeditem class="System|Services|Application Layer Gateway Service" grouped="true">
+<item name="Name" value="Application Layer Gateway Service"/>
+<item name="State" value="Running"/>
+<item name="Startup" value="Manual"/>
+</auditeditem>
+<auditeditem class="System|Services|Apache2.2" grouped="true">
+<item name="Name" value="Apache2.2"/>
+<item name="State" value="&lt;not specified&gt;"/>
+<item name="Startup" value="Manual"/>
+</auditeditem>
+<auditeditem class="System|Services|Application Management" grouped="true">
+<item name="Name" value="Application Management"/>
+<item name="State" value="Running"/>
+<item name="Startup" value="Manual"/>
+</auditeditem>
+<auditeditem class="System|Services|ASP.NET State Service" grouped="true">
+<item name="Name" value="ASP.NET State Service"/>
+<item name="State" value="&lt;not specified&gt;"/>
+<item name="Startup" value="Manual"/>
+</auditeditem>
+<auditeditem class="System|Services|Windows Audio" grouped="true">
+<item name="Name" value="Windows Audio"/>
+<item name="State" value="Running"/>
+<item name="Startup" value="Automatic"/>
+</auditeditem>
+<auditeditem class="System|Services|AuditWizardService" grouped="true">
+<item name="Name" value="AuditWizardService"/>
+<item name="State" value="&lt;not specified&gt;"/>
+<item name="Startup" value="Automatic"/>
+</auditeditem>
+<auditeditem class="System|Services|Business Contact Manager SQL Server Startup Service" grouped="true">
+<item name="Name" value="Business Contact Manager SQL Server Startup Service"/>
+<item name="State" value="Running"/>
+<item name="Startup" value="Automatic"/>
+</auditeditem>
+<auditeditem class="System|Services|Background Intelligent Transfer Service" grouped="true">
+<item name="Name" value="Background Intelligent Transfer Service"/>
+<item name="State" value="Running"/>
+<item name="Startup" value="Manual"/>
+</auditeditem>
+<auditeditem class="System|Services|Computer Browser" grouped="true">
+<item name="Name" value="Computer Browser"/>
+<item name="State" value="Running"/>
+<item name="Startup" value="Automatic"/>
+</auditeditem>
+<auditeditem class="System|Services|Indexing Service" grouped="true">
+<item name="Name" value="Indexing Service"/>
+<item name="State" value="&lt;not specified&gt;"/>
+<item name="Startup" value="Manual"/>
+</auditeditem>
+<auditeditem class="System|Services|ClipBook" grouped="true">
+<item name="Name" value="ClipBook"/>
+<item name="State" value="&lt;not specified&gt;"/>
+<item name="Startup" value="Disabled"/>
+</auditeditem>
+<auditeditem class="System|Services|.NET Runtime Optimization Service v2.0.50727_X86" grouped="true">
+<item name="Name" value=".NET Runtime Optimization Service v2.0.50727_X86"/>
+<item name="State" value="&lt;not specified&gt;"/>
+<item name="Startup" value="Manual"/>
+</auditeditem>
+<auditeditem class="System|Services|COM+ System Application" grouped="true">
+<item name="Name" value="COM+ System Application"/>
+<item name="State" value="Running"/>
+<item name="Startup" value="Manual"/>
+</auditeditem>
+<auditeditem class="System|Services|Cryptographic Services" grouped="true">
+<item name="Name" value="Cryptographic Services"/>
+<item name="State" value="Running"/>
+<item name="Startup" value="Automatic"/>
+</auditeditem>
+<auditeditem class="System|Services|DCOM Server Process Launcher" grouped="true">
+<item name="Name" value="DCOM Server Process Launcher"/>
+<item name="State" value="Running"/>
+<item name="Startup" value="Automatic"/>
+</auditeditem>
+<auditeditem class="System|Services|DeviceshieldSystemService" grouped="true">
+<item name="Name" value="DeviceshieldSystemService"/>
+<item name="State" value="Running"/>
+<item name="Startup" value="Automatic"/>
+</auditeditem>
+<auditeditem class="System|Services|DHCP Client" grouped="true">
+<item name="Name" value="DHCP Client"/>
+<item name="State" value="Running"/>
+<item name="Startup" value="Automatic"/>
+</auditeditem>
+<auditeditem class="System|Services|Logical Disk Manager Administrative Service" grouped="true">
+<item name="Name" value="Logical Disk Manager Administrative Service"/>
+<item name="State" value="&lt;not specified&gt;"/>
+<item name="Startup" value="Manual"/>
+</auditeditem>
+<auditeditem class="System|Services|Logical Disk Manager" grouped="true">
+<item name="Name" value="Logical Disk Manager"/>
+<item name="State" value="Running"/>
+<item name="Startup" value="Automatic"/>
+</auditeditem>
+<auditeditem class="System|Services|DNS Client" grouped="true">
+<item name="Name" value="DNS Client"/>
+<item name="State" value="Running"/>
+<item name="Startup" value="Automatic"/>
+</auditeditem>
+<auditeditem class="System|Services|Wired AutoConfig" grouped="true">
+<item name="Name" value="Wired AutoConfig"/>
+<item name="State" value="&lt;not specified&gt;"/>
+<item name="Startup" value="Manual"/>
+</auditeditem>
+<auditeditem class="System|Services|Extensible Authentication Protocol Service" grouped="true">
+<item name="Name" value="Extensible Authentication Protocol Service"/>
+<item name="State" value="&lt;not specified&gt;"/>
+<item name="Startup" value="Manual"/>
+</auditeditem>
+<auditeditem class="System|Services|Error Reporting Service" grouped="true">
+<item name="Name" value="Error Reporting Service"/>
+<item name="State" value="Running"/>
+<item name="Startup" value="Automatic"/>
+</auditeditem>
+<auditeditem class="System|Services|Event Log" grouped="true">
+<item name="Name" value="Event Log"/>
+<item name="State" value="Running"/>
+<item name="Startup" value="Automatic"/>
+</auditeditem>
+<auditeditem class="System|Services|COM+ Event System" grouped="true">
+<item name="Name" value="COM+ Event System"/>
+<item name="State" value="Running"/>
+<item name="Startup" value="Manual"/>
+</auditeditem>
+<auditeditem class="System|Services|Fast User Switching Compatibility" grouped="true">
+<item name="Name" value="Fast User Switching Compatibility"/>
+<item name="State" value="&lt;not specified&gt;"/>
+<item name="Startup" value="Manual"/>
+</auditeditem>
+<auditeditem class="System|Services|Fax" grouped="true">
+<item name="Name" value="Fax"/>
+<item name="State" value="&lt;not specified&gt;"/>
+<item name="Startup" value="Automatic"/>
+</auditeditem>
+<auditeditem class="System|Services|FLEXnet Licensing Service" grouped="true">
+<item name="Name" value="FLEXnet Licensing Service"/>
+<item name="State" value="&lt;not specified&gt;"/>
+<item name="Startup" value="Manual"/>
+</auditeditem>
+<auditeditem class="System|Services|Windows Presentation Foundation Font Cache 3.0.0.0" grouped="true">
+<item name="Name" value="Windows Presentation Foundation Font Cache 3.0.0.0"/>
+<item name="State" value="&lt;not specified&gt;"/>
+<item name="Startup" value="Manual"/>
+</auditeditem>
+<auditeditem class="System|Services|Help and Support" grouped="true">
+<item name="Name" value="Help and Support"/>
+<item name="State" value="Running"/>
+<item name="Startup" value="Automatic"/>
+</auditeditem>
+<auditeditem class="System|Services|HID Input Service" grouped="true">
+<item name="Name" value="HID Input Service"/>
+<item name="State" value="Running"/>
+<item name="Startup" value="Automatic"/>
+</auditeditem>
+<auditeditem class="System|Services|Health Key and Certificate Management Service" grouped="true">
+<item name="Name" value="Health Key and Certificate Management Service"/>
+<item name="State" value="&lt;not specified&gt;"/>
+<item name="Startup" value="Manual"/>
+</auditeditem>
+<auditeditem class="System|Services|HTTP SSL" grouped="true">
+<item name="Name" value="HTTP SSL"/>
+<item name="State" value="Running"/>
+<item name="Startup" value="Manual"/>
+</auditeditem>
+<auditeditem class="System|Services|Intel(R) Matrix Storage Event Monitor" grouped="true">
+<item name="Name" value="Intel(R) Matrix Storage Event Monitor"/>
+<item name="State" value="Running"/>
+<item name="Startup" value="Automatic"/>
+</auditeditem>
+<auditeditem class="System|Services|Windows CardSpace" grouped="true">
+<item name="Name" value="Windows CardSpace"/>
+<item name="State" value="&lt;not specified&gt;"/>
+<item name="Startup" value="Manual"/>
+</auditeditem>
+<auditeditem class="System|Services|IIS Admin" grouped="true">
+<item name="Name" value="IIS Admin"/>
+<item name="State" value="Running"/>
+<item name="Startup" value="Automatic"/>
+</auditeditem>
+<auditeditem class="System|Services|IMAPI CD-Burning COM Service" grouped="true">
+<item name="Name" value="IMAPI CD-Burning COM Service"/>
+<item name="State" value="&lt;not specified&gt;"/>
+<item name="Startup" value="Manual"/>
+</auditeditem>
+<auditeditem class="System|Services|InstallShield Licensing Service" grouped="true">
+<item name="Name" value="InstallShield Licensing Service"/>
+<item name="State" value="&lt;not specified&gt;"/>
+<item name="Startup" value="Manual"/>
+</auditeditem>
+<auditeditem class="System|Services|Java Quick Starter" grouped="true">
+<item name="Name" value="Java Quick Starter"/>
+<item name="State" value="Running"/>
+<item name="Startup" value="Automatic"/>
+</auditeditem>
+<auditeditem class="System|Services|Server" grouped="true">
+<item name="Name" value="Server"/>
+<item name="State" value="Running"/>
+<item name="Startup" value="Automatic"/>
+</auditeditem>
+<auditeditem class="System|Services|Workstation" grouped="true">
+<item name="Name" value="Workstation"/>
+<item name="State" value="Running"/>
+<item name="Startup" value="Automatic"/>
+</auditeditem>
+<auditeditem class="System|Services|TCP/IP NetBIOS Helper" grouped="true">
+<item name="Name" value="TCP/IP NetBIOS Helper"/>
+<item name="State" value="Running"/>
+<item name="Startup" value="Automatic"/>
+</auditeditem>
+<auditeditem class="System|Services|Lync USB Auditor Service" grouped="true">
+<item name="Name" value="Lync USB Auditor Service"/>
+<item name="State" value="Running"/>
+<item name="Startup" value="Automatic"/>
+</auditeditem>
+<auditeditem class="System|Services|McAfee Services" grouped="true">
+<item name="Name" value="McAfee Services"/>
+<item name="State" value="Running"/>
+<item name="Startup" value="Automatic"/>
+</auditeditem>
+<auditeditem class="System|Services|McAfee Network Agent" grouped="true">
+<item name="Name" value="McAfee Network Agent"/>
+<item name="State" value="Running"/>
+<item name="Startup" value="Automatic"/>
+</auditeditem>
+<auditeditem class="System|Services|McAfee Scanner" grouped="true">
+<item name="Name" value="McAfee Scanner"/>
+<item name="State" value="&lt;not specified&gt;"/>
+<item name="Startup" value="Manual"/>
+</auditeditem>
+<auditeditem class="System|Services|McAfee Proxy Service" grouped="true">
+<item name="Name" value="McAfee Proxy Service"/>
+<item name="State" value="Running"/>
+<item name="Startup" value="Automatic"/>
+</auditeditem>
+<auditeditem class="System|Services|McAfee Real-time Scanner" grouped="true">
+<item name="Name" value="McAfee Real-time Scanner"/>
+<item name="State" value="Running"/>
+<item name="Startup" value="Automatic"/>
+</auditeditem>
+<auditeditem class="System|Services|McAfee SystemGuards" grouped="true">
+<item name="Name" value="McAfee SystemGuards"/>
+<item name="State" value="Running"/>
+<item name="Startup" value="Manual"/>
+</auditeditem>
+<auditeditem class="System|Services|Messenger" grouped="true">
+<item name="Name" value="Messenger"/>
+<item name="State" value="&lt;not specified&gt;"/>
+<item name="Startup" value="Disabled"/>
+</auditeditem>
+<auditeditem class="System|Services|NetMeeting Remote Desktop Sharing" grouped="true">
+<item name="Name" value="NetMeeting Remote Desktop Sharing"/>
+<item name="State" value="&lt;not specified&gt;"/>
+<item name="Startup" value="Manual"/>
+</auditeditem>
+<auditeditem class="System|Services|McAfee Personal Firewall Service" grouped="true">
+<item name="Name" value="McAfee Personal Firewall Service"/>
+<item name="State" value="Running"/>
+<item name="Startup" value="Automatic"/>
+</auditeditem>
+<auditeditem class="System|Services|Distributed Transaction Coordinator" grouped="true">
+<item name="Name" value="Distributed Transaction Coordinator"/>
+<item name="State" value="Running"/>
+<item name="Startup" value="Manual"/>
+</auditeditem>
+<auditeditem class="System|Services|FTP Publishing" grouped="true">
+<item name="Name" value="FTP Publishing"/>
+<item name="State" value="Running"/>
+<item name="Startup" value="Automatic"/>
+</auditeditem>
+<auditeditem class="System|Services|Windows Installer" grouped="true">
+<item name="Name" value="Windows Installer"/>
+<item name="State" value="&lt;not specified&gt;"/>
+<item name="Startup" value="Manual"/>
+</auditeditem>
+<auditeditem class="System|Services|McAfee Anti-Spam Service" grouped="true">
+<item name="Name" value="McAfee Anti-Spam Service"/>
+<item name="State" value="Running"/>
+<item name="Startup" value="Automatic"/>
+</auditeditem>
+<auditeditem class="System|Services|SQL Server (MSSMLBIZ)" grouped="true">
+<item name="Name" value="SQL Server (MSSMLBIZ)"/>
+<item name="State" value="Running"/>
+<item name="Startup" value="Automatic"/>
+</auditeditem>
+<auditeditem class="System|Services|SQL Server Active Directory Helper" grouped="true">
+<item name="Name" value="SQL Server Active Directory Helper"/>
+<item name="State" value="&lt;not specified&gt;"/>
+<item name="Startup" value="Disabled"/>
+</auditeditem>
+<auditeditem class="System|Services|Visual Studio 2008 Remote Debugger" grouped="true">
+<item name="Name" value="Visual Studio 2008 Remote Debugger"/>
+<item name="State" value="&lt;not specified&gt;"/>
+<item name="Startup" value="Disabled"/>
+</auditeditem>
+<auditeditem class="System|Services|MySQL" grouped="true">
+<item name="Name" value="MySQL"/>
+<item name="State" value="&lt;not specified&gt;"/>
+<item name="Startup" value="Manual"/>
+</auditeditem>
+<auditeditem class="System|Services|Network Access Protection Agent" grouped="true">
+<item name="Name" value="Network Access Protection Agent"/>
+<item name="State" value="&lt;not specified&gt;"/>
+<item name="Startup" value="Manual"/>
+</auditeditem>
+<auditeditem class="System|Services|Network DDE" grouped="true">
+<item name="Name" value="Network DDE"/>
+<item name="State" value="&lt;not specified&gt;"/>
+<item name="Startup" value="Disabled"/>
+</auditeditem>
+<auditeditem class="System|Services|Network DDE DSDM" grouped="true">
+<item name="Name" value="Network DDE DSDM"/>
+<item name="State" value="&lt;not specified&gt;"/>
+<item name="Startup" value="Disabled"/>
+</auditeditem>
+<auditeditem class="System|Services|Net Logon" grouped="true">
+<item name="Name" value="Net Logon"/>
+<item name="State" value="Running"/>
+<item name="Startup" value="Automatic"/>
+</auditeditem>
+<auditeditem class="System|Services|Network Connections" grouped="true">
+<item name="Name" value="Network Connections"/>
+<item name="State" value="Running"/>
+<item name="Startup" value="Manual"/>
+</auditeditem>
+<auditeditem class="System|Services|Net.Tcp Port Sharing Service" grouped="true">
+<item name="Name" value="Net.Tcp Port Sharing Service"/>
+<item name="State" value="&lt;not specified&gt;"/>
+<item name="Startup" value="Disabled"/>
+</auditeditem>
+<auditeditem class="System|Services|Network Location Awareness (NLA)" grouped="true">
+<item name="Name" value="Network Location Awareness (NLA)"/>
+<item name="State" value="Running"/>
+<item name="Startup" value="Manual"/>
+</auditeditem>
+<auditeditem class="System|Services|NT LM Security Support Provider" grouped="true">
+<item name="Name" value="NT LM Security Support Provider"/>
+<item name="State" value="&lt;not specified&gt;"/>
+<item name="Startup" value="Manual"/>
+</auditeditem>
+<auditeditem class="System|Services|Removable Storage" grouped="true">
+<item name="Name" value="Removable Storage"/>
+<item name="State" value="&lt;not specified&gt;"/>
+<item name="Startup" value="Manual"/>
+</auditeditem>
+<auditeditem class="System|Services|NVIDIA Display Driver Service" grouped="true">
+<item name="Name" value="NVIDIA Display Driver Service"/>
+<item name="State" value="Running"/>
+<item name="Startup" value="Automatic"/>
+</auditeditem>
+<auditeditem class="System|Services|Microsoft Office Diagnostics Service" grouped="true">
+<item name="Name" value="Microsoft Office Diagnostics Service"/>
+<item name="State" value="&lt;not specified&gt;"/>
+<item name="Startup" value="Manual"/>
+</auditeditem>
+<auditeditem class="System|Services|Office Source Engine" grouped="true">
+<item name="Name" value="Office Source Engine"/>
+<item name="State" value="&lt;not specified&gt;"/>
+<item name="Startup" value="Manual"/>
+</auditeditem>
+<auditeditem class="System|Services|Plug and Play" grouped="true">
+<item name="Name" value="Plug and Play"/>
+<item name="State" value="Running"/>
+<item name="Startup" value="Automatic"/>
+</auditeditem>
+<auditeditem class="System|Services|Pml Driver HPZ12" grouped="true">
+<item name="Name" value="Pml Driver HPZ12"/>
+<item name="State" value="&lt;not specified&gt;"/>
+<item name="Startup" value="Manual"/>
+</auditeditem>
+<auditeditem class="System|Services|IPSEC Services" grouped="true">
+<item name="Name" value="IPSEC Services"/>
+<item name="State" value="Running"/>
+<item name="Startup" value="Automatic"/>
+</auditeditem>
+<auditeditem class="System|Services|Protected Storage" grouped="true">
+<item name="Name" value="Protected Storage"/>
+<item name="State" value="Running"/>
+<item name="Startup" value="Automatic"/>
+</auditeditem>
+<auditeditem class="System|Services|Remote Access Auto Connection Manager" grouped="true">
+<item name="Name" value="Remote Access Auto Connection Manager"/>
+<item name="State" value="&lt;not specified&gt;"/>
+<item name="Startup" value="Manual"/>
+</auditeditem>
+<auditeditem class="System|Services|Remote Access Connection Manager" grouped="true">
+<item name="Name" value="Remote Access Connection Manager"/>
+<item name="State" value="Running"/>
+<item name="Startup" value="Manual"/>
+</auditeditem>
+<auditeditem class="System|Services|Remote Desktop Help Session Manager" grouped="true">
+<item name="Name" value="Remote Desktop Help Session Manager"/>
+<item name="State" value="&lt;not specified&gt;"/>
+<item name="Startup" value="Manual"/>
+</auditeditem>
+<auditeditem class="System|Services|Routing and Remote Access" grouped="true">
+<item name="Name" value="Routing and Remote Access"/>
+<item name="State" value="&lt;not specified&gt;"/>
+<item name="Startup" value="Disabled"/>
+</auditeditem>
+<auditeditem class="System|Services|Remote Registry" grouped="true">
+<item name="Name" value="Remote Registry"/>
+<item name="State" value="Running"/>
+<item name="Startup" value="Automatic"/>
+</auditeditem>
+<auditeditem class="System|Services|Remote Procedure Call (RPC) Locator" grouped="true">
+<item name="Name" value="Remote Procedure Call (RPC) Locator"/>
+<item name="State" value="&lt;not specified&gt;"/>
+<item name="Startup" value="Manual"/>
+</auditeditem>
+<auditeditem class="System|Services|Remote Procedure Call (RPC)" grouped="true">
+<item name="Name" value="Remote Procedure Call (RPC)"/>
+<item name="State" value="Running"/>
+<item name="Startup" value="Automatic"/>
+</auditeditem>
+<auditeditem class="System|Services|QoS RSVP" grouped="true">
+<item name="Name" value="QoS RSVP"/>
+<item name="State" value="&lt;not specified&gt;"/>
+<item name="Startup" value="Manual"/>
+</auditeditem>
+<auditeditem class="System|Services|Security Accounts Manager" grouped="true">
+<item name="Name" value="Security Accounts Manager"/>
+<item name="State" value="Running"/>
+<item name="Startup" value="Automatic"/>
+</auditeditem>
+<auditeditem class="System|Services|Smart Card" grouped="true">
+<item name="Name" value="Smart Card"/>
+<item name="State" value="&lt;not specified&gt;"/>
+<item name="Startup" value="Manual"/>
+</auditeditem>
+<auditeditem class="System|Services|Task Scheduler" grouped="true">
+<item name="Name" value="Task Scheduler"/>
+<item name="State" value="Running"/>
+<item name="Startup" value="Automatic"/>
+</auditeditem>
+<auditeditem class="System|Services|SeaPort" grouped="true">
+<item name="Name" value="SeaPort"/>
+<item name="State" value="Running"/>
+<item name="Startup" value="Automatic"/>
+</auditeditem>
+<auditeditem class="System|Services|Secondary Logon" grouped="true">
+<item name="Name" value="Secondary Logon"/>
+<item name="State" value="Running"/>
+<item name="Startup" value="Automatic"/>
+</auditeditem>
+<auditeditem class="System|Services|System Event Notification" grouped="true">
+<item name="Name" value="System Event Notification"/>
+<item name="State" value="Running"/>
+<item name="Startup" value="Automatic"/>
+</auditeditem>
+<auditeditem class="System|Services|ShadowProtect Service" grouped="true">
+<item name="Name" value="ShadowProtect Service"/>
+<item name="State" value="Running"/>
+<item name="Startup" value="Automatic"/>
+</auditeditem>
+<auditeditem class="System|Services|Windows Firewall/Internet Connection Sharing (ICS)" grouped="true">
+<item name="Name" value="Windows Firewall/Internet Connection Sharing (ICS)"/>
+<item name="State" value="Running"/>
+<item name="Startup" value="Automatic"/>
+</auditeditem>
+<auditeditem class="System|Services|Shell Hardware Detection" grouped="true">
+<item name="Name" value="Shell Hardware Detection"/>
+<item name="State" value="Running"/>
+<item name="Startup" value="Automatic"/>
+</auditeditem>
+<auditeditem class="System|Services|Simple Mail Transfer Protocol (SMTP)" grouped="true">
+<item name="Name" value="Simple Mail Transfer Protocol (SMTP)"/>
+<item name="State" value="Running"/>
+<item name="Startup" value="Automatic"/>
+</auditeditem>
+<auditeditem class="System|Services|Print Spooler" grouped="true">
+<item name="Name" value="Print Spooler"/>
+<item name="State" value="Running"/>
+<item name="Startup" value="Automatic"/>
+</auditeditem>
+<auditeditem class="System|Services|SQL Server Browser" grouped="true">
+<item name="Name" value="SQL Server Browser"/>
+<item name="State" value="Running"/>
+<item name="Startup" value="Automatic"/>
+</auditeditem>
+<auditeditem class="System|Services|SQL Server VSS Writer" grouped="true">
+<item name="Name" value="SQL Server VSS Writer"/>
+<item name="State" value="Running"/>
+<item name="Startup" value="Automatic"/>
+</auditeditem>
+<auditeditem class="System|Services|System Restore Service" grouped="true">
+<item name="Name" value="System Restore Service"/>
+<item name="State" value="Running"/>
+<item name="Startup" value="Automatic"/>
+</auditeditem>
+<auditeditem class="System|Services|SSDP Discovery Service" grouped="true">
+<item name="Name" value="SSDP Discovery Service"/>
+<item name="State" value="Running"/>
+<item name="Startup" value="Manual"/>
+</auditeditem>
+<auditeditem class="System|Services|Windows Image Acquisition (WIA)" grouped="true">
+<item name="Name" value="Windows Image Acquisition (WIA)"/>
+<item name="State" value="&lt;not specified&gt;"/>
+<item name="Startup" value="Manual"/>
+</auditeditem>
+<auditeditem class="System|Services|stllssvr" grouped="true">
+<item name="Name" value="stllssvr"/>
+<item name="State" value="&lt;not specified&gt;"/>
+<item name="Startup" value="Manual"/>
+</auditeditem>
+<auditeditem class="System|Services|Subversion Server" grouped="true">
+<item name="Name" value="Subversion Server"/>
+<item name="State" value="Running"/>
+<item name="Startup" value="Automatic"/>
+</auditeditem>
+<auditeditem class="System|Services|MS Software Shadow Copy Provider" grouped="true">
+<item name="Name" value="MS Software Shadow Copy Provider"/>
+<item name="State" value="&lt;not specified&gt;"/>
+<item name="Startup" value="Manual"/>
+</auditeditem>
+<auditeditem class="System|Services|Performance Logs and Alerts" grouped="true">
+<item name="Name" value="Performance Logs and Alerts"/>
+<item name="State" value="&lt;not specified&gt;"/>
+<item name="Startup" value="Manual"/>
+</auditeditem>
+<auditeditem class="System|Services|Telephony" grouped="true">
+<item name="Name" value="Telephony"/>
+<item name="State" value="Running"/>
+<item name="Startup" value="Manual"/>
+</auditeditem>
+<auditeditem class="System|Services|Terminal Services" grouped="true">
+<item name="Name" value="Terminal Services"/>
+<item name="State" value="Running"/>
+<item name="Startup" value="Manual"/>
+</auditeditem>
+<auditeditem class="System|Services|Themes" grouped="true">
+<item name="Name" value="Themes"/>
+<item name="State" value="Running"/>
+<item name="Startup" value="Automatic"/>
+</auditeditem>
+<auditeditem class="System|Services|Telnet" grouped="true">
+<item name="Name" value="Telnet"/>
+<item name="State" value="&lt;not specified&gt;"/>
+<item name="Startup" value="Disabled"/>
+</auditeditem>
+<auditeditem class="System|Services|Distributed Link Tracking Client" grouped="true">
+<item name="Name" value="Distributed Link Tracking Client"/>
+<item name="State" value="Running"/>
+<item name="Startup" value="Automatic"/>
+</auditeditem>
+<auditeditem class="System|Services|VMware Agent Service" grouped="true">
+<item name="Name" value="VMware Agent Service"/>
+<item name="State" value="&lt;not specified&gt;"/>
+<item name="Startup" value="Manual"/>
+</auditeditem>
+<auditeditem class="System|Services|Universal Plug and Play Device Host" grouped="true">
+<item name="Name" value="Universal Plug and Play Device Host"/>
+<item name="State" value="&lt;not specified&gt;"/>
+<item name="Startup" value="Manual"/>
+</auditeditem>
+<auditeditem class="System|Services|Uninterruptible Power Supply" grouped="true">
+<item name="Name" value="Uninterruptible Power Supply"/>
+<item name="State" value="&lt;not specified&gt;"/>
+<item name="Startup" value="Manual"/>
+</auditeditem>
+<auditeditem class="System|Services|VMware Authorization Service" grouped="true">
+<item name="Name" value="VMware Authorization Service"/>
+<item name="State" value="Running"/>
+<item name="Startup" value="Automatic"/>
+</auditeditem>
+<auditeditem class="System|Services|VMware DHCP Service" grouped="true">
+<item name="Name" value="VMware DHCP Service"/>
+<item name="State" value="Running"/>
+<item name="Startup" value="Automatic"/>
+</auditeditem>
+<auditeditem class="System|Services|VMware NAT Service" grouped="true">
+<item name="Name" value="VMware NAT Service"/>
+<item name="State" value="Running"/>
+<item name="Startup" value="Automatic"/>
+</auditeditem>
+<auditeditem class="System|Services|StorageCraft Shadow Copy Provider" grouped="true">
+<item name="Name" value="StorageCraft Shadow Copy Provider"/>
+<item name="State" value="Running"/>
+<item name="Startup" value="Automatic"/>
+</auditeditem>
+<auditeditem class="System|Services|Volume Shadow Copy" grouped="true">
+<item name="Name" value="Volume Shadow Copy"/>
+<item name="State" value="Running"/>
+<item name="Startup" value="Manual"/>
+</auditeditem>
+<auditeditem class="System|Services|Windows Time" grouped="true">
+<item name="Name" value="Windows Time"/>
+<item name="State" value="Running"/>
+<item name="Startup" value="Automatic"/>
+</auditeditem>
+<auditeditem class="System|Services|World Wide Web Publishing" grouped="true">
+<item name="Name" value="World Wide Web Publishing"/>
+<item name="State" value="Running"/>
+<item name="Startup" value="Automatic"/>
+</auditeditem>
+<auditeditem class="System|Services|WebClient" grouped="true">
+<item name="Name" value="WebClient"/>
+<item name="State" value="Running"/>
+<item name="Startup" value="Automatic"/>
+</auditeditem>
+<auditeditem class="System|Services|Windows Management Instrumentation" grouped="true">
+<item name="Name" value="Windows Management Instrumentation"/>
+<item name="State" value="Running"/>
+<item name="Startup" value="Automatic"/>
+</auditeditem>
+<auditeditem class="System|Services|Portable Media Serial Number Service" grouped="true">
+<item name="Name" value="Portable Media Serial Number Service"/>
+<item name="State" value="&lt;not specified&gt;"/>
+<item name="Startup" value="Manual"/>
+</auditeditem>
+<auditeditem class="System|Services|Windows Management Instrumentation Driver Extensions" grouped="true">
+<item name="Name" value="Windows Management Instrumentation Driver Extensions"/>
+<item name="State" value="&lt;not specified&gt;"/>
+<item name="Startup" value="Manual"/>
+</auditeditem>
+<auditeditem class="System|Services|WMI Performance Adapter" grouped="true">
+<item name="Name" value="WMI Performance Adapter"/>
+<item name="State" value="&lt;not specified&gt;"/>
+<item name="Startup" value="Manual"/>
+</auditeditem>
+<auditeditem class="System|Services|Security Center" grouped="true">
+<item name="Name" value="Security Center"/>
+<item name="State" value="&lt;not specified&gt;"/>
+<item name="Startup" value="Automatic"/>
+</auditeditem>
+<auditeditem class="System|Services|Windows Search" grouped="true">
+<item name="Name" value="Windows Search"/>
+<item name="State" value="Running"/>
+<item name="Startup" value="Automatic"/>
+</auditeditem>
+<auditeditem class="System|Services|Automatic Updates" grouped="true">
+<item name="Name" value="Automatic Updates"/>
+<item name="State" value="Running"/>
+<item name="Startup" value="Automatic"/>
+</auditeditem>
+<auditeditem class="System|Services|Wireless Zero Configuration" grouped="true">
+<item name="Name" value="Wireless Zero Configuration"/>
+<item name="State" value="Running"/>
+<item name="Startup" value="Automatic"/>
+</auditeditem>
+<auditeditem class="System|Services|Network Provisioning Service" grouped="true">
+<item name="Name" value="Network Provisioning Service"/>
+<item name="State" value="&lt;not specified&gt;"/>
+<item name="Startup" value="Manual"/>
+</auditeditem>
+<auditeditem class="System|Environment Variables"/>
+<auditeditem class="System|Environment Variables" historied="false">
+<item name="ComSpec" value="%SystemRoot%\system32\cmd.exe"/>
+<item name="Path" value="C:\Program Files\CollabNet Subversion Server;C:\Perl\site\bin;C:\Perl\bin;%SystemRoot%\system32;%SystemRoot%;%SystemRoot%\System32\Wbem;C:\Program Files\Common Files\Roxio Shared\DLLShared\;C:\Program Files\Common Files\Roxio Shared\9.0\DLLShared\;c:\Program Files\Microsoft SQL Server\90\Tools\binn\;C:\Program Files\MySQL\MySQL Server 4.1\bin;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Microsoft SQL Server\90\DTS\Binn\"/>
+<item name="windir" value="%SystemRoot%"/>
+<item name="FP_NO_HOST_CHECK" value="NO"/>
+<item name="OS" value="Windows_NT"/>
+<item name="PROCESSOR_ARCHITECTURE" value="x86"/>
+<item name="PROCESSOR_LEVEL" value="6"/>
+<item name="PROCESSOR_IDENTIFIER" value="x86 Family 6 Model 23 Stepping 7, GenuineIntel"/>
+<item name="PROCESSOR_REVISION" value="1707"/>
+<item name="NUMBER_OF_PROCESSORS" value="4"/>
+<item name="PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH"/>
+<item name="TEMP" value="%SystemRoot%\TEMP"/>
+<item name="TMP" value="%SystemRoot%\TEMP"/>
+<item name="RoxioCentral" value="C:\Program Files\Common Files\Roxio Shared\9.0\Roxio Central33\"/>
+<item name="SVN_ASP_DOT_NET_HACK" value="*"/>
+<item name="APR_ICONV1_PATH" value="C:\Program Files\CollabNet Subversion Server\httpd\bin\iconv"/>
+<item name="VS90COMNTOOLS" value="c:\Program Files\Microsoft Visual Studio 9.0\Common7\Tools\"/>
+</auditeditem>
+<auditeditem class="System|Locale">
+<item name="Codepage" value="1252" datatype="1"/>
+<item name="Calendar Type" value="Gregorian - Localized"/>
+<item name="Country" value="Australia"/>
+<item name="Country Code" value="61" datatype="1"/>
+<item name="Currency" value="$"/>
+<item name="Date Format" value="dddd, d MMMM yyyy"/>
+<item name="Language" value="English"/>
+<item name="Local Language" value="English (Australia)"/>
+<item name="OEM Codepage" value="850" datatype="1"/>
+<item name="Time Format" value="h:mm:ss tt"/>
+<item name="Time Format Specifier" value="AM / PM 12-hour format"/>
+<item name="Time Zone" value="AUS Eastern Standard Time"/>
+</auditeditem>
+<auditeditem class="System|Objects">
+<item name="MDAC" value="2.81.1132.0"/>
+</auditeditem>
+<auditeditem class="System|Local User Accounts|Administrator" grouped="true">
+<item name="Account Disabled" value="False"/>
+<item name="Description" value="Built-in account for administering the computer/domain"/>
+<item name="Last Login" value="26/05/2009 11:30"/>
+<item name="Logon Count" value="6" datatype="1"/>
+</auditeditem>
+<auditeditem class="System|Local User Accounts|Guest" grouped="true">
+<item name="Account Disabled" value="True"/>
+<item name="Description" value="Built-in account for guest access to the computer/domain"/>
+<item name="Last Login" value=""/>
+<item name="Logon Count" value="0" datatype="1"/>
+</auditeditem>
+<auditeditem class="System|Local User Accounts|HelpAssistant" grouped="true">
+<item name="Account Disabled" value="True"/>
+<item name="Description" value="Account for Providing Remote Assistance"/>
+<item name="Last Login" value=""/>
+<item name="Logon Count" value="0" datatype="1"/>
+</auditeditem>
+<auditeditem class="System|Local User Accounts|IUSR_LAY09" grouped="true">
+<item name="Account Disabled" value="False"/>
+<item name="Description" value="Built-in account for anonymous access to Internet Information Services"/>
+<item name="Last Login" value="06/08/2009 09:11"/>
+<item name="Logon Count" value="0" datatype="1"/>
+</auditeditem>
+<auditeditem class="System|Local User Accounts|IWAM_LAY09" grouped="true">
+<item name="Account Disabled" value="False"/>
+<item name="Description" value="Built-in account for Internet Information Services to start out of process applications"/>
+<item name="Last Login" value="06/08/2009 09:11"/>
+<item name="Logon Count" value="36" datatype="1"/>
+</auditeditem>
+<auditeditem class="System|Local User Accounts|Jason" grouped="true">
+<item name="Account Disabled" value="False"/>
+<item name="Description" value=""/>
+<item name="Last Login" value="21/04/2009 15:27"/>
+<item name="Logon Count" value="10" datatype="1"/>
+</auditeditem>
+<auditeditem class="System|Local User Accounts|SUPPORT_388945a0" grouped="true">
+<item name="Account Disabled" value="True"/>
+<item name="Description" value="This is a vendor&apos;s account for the Help and Support Service"/>
+<item name="Last Login" value=""/>
+<item name="Logon Count" value="0" datatype="1"/>
+</auditeditem>
+<auditeditem class="System|Local User Accounts|__vmware_user__" grouped="true">
+<item name="Account Disabled" value="False"/>
+<item name="Description" value="VMware User"/>
+<item name="Last Login" value="06/08/2009 08:39"/>
+<item name="Logon Count" value="27" datatype="1"/>
+</auditeditem>
+<auditeditem class="System|Windows Security|Windows Update">
+<item name="Status" value="Notify of download and installation"/>
+<item name="Next Detection Time" value="2009-08-06 06:42:27"/>
+</auditeditem>
+<auditeditem class="System|Windows Security|Windows Firewall|Domain Profile">
+<item name="Enabled" value="No"/>
+<item name="Exceptions Permitted" value="No"/>
+</auditeditem>
+<auditeditem class="System|Windows Security|Windows Firewall|Standard Profile"/>
+<auditeditem class="System|Registry">
+<item name="HKEY_LOCAL_MACHINE\SOFTWARE\Layton Technology, Inc.\AuditWizard_v8\UniqueID" value="c034fe1f-6491-449c-9347-b31bb18109e8"/>
+</auditeditem>
+<auditeditem class="System|Patches|.NETFramework|1.1" grouped="true">
+<item name="servicepack" value=""/>
+<item name="description" value=""/>
+<item name="installdate" value=""/>
+<item name="installedby" value=""/>
+</auditeditem>
+<auditeditem class="System|Patches|Microsoft Visual C# 2008 Express Edition - ENU|KB945282" grouped="true">
+<item name="servicepack" value=""/>
+<item name="description" value=""/>
+<item name="installdate" value="22/04/2009"/>
+<item name="installedby" value="jlynn"/>
+</auditeditem>
+<auditeditem class="System|Patches|Microsoft Visual C# 2008 Express Edition - ENU|KB946040" grouped="true">
+<item name="servicepack" value=""/>
+<item name="description" value=""/>
+<item name="installdate" value="22/04/2009"/>
+<item name="installedby" value="jlynn"/>
+</auditeditem>
+<auditeditem class="System|Patches|Microsoft Visual C# 2008 Express Edition - ENU|KB946308" grouped="true">
+<item name="servicepack" value=""/>
+<item name="description" value=""/>
+<item name="installdate" value="22/04/2009"/>
+<item name="installedby" value="jlynn"/>
+</auditeditem>
+<auditeditem class="System|Patches|Microsoft Visual C# 2008 Express Edition - ENU|KB947540" grouped="true">
+<item name="servicepack" value=""/>
+<item name="description" value=""/>
+<item name="installdate" value="22/04/2009"/>
+<item name="installedby" value="jlynn"/>
+</auditeditem>
+<auditeditem class="System|Patches|Microsoft Visual C# 2008 Express Edition - ENU|KB947789" grouped="true">
+<item name="servicepack" value=""/>
+<item name="description" value=""/>
+<item name="installdate" value="22/04/2009"/>
+<item name="installedby" value="jlynn"/>
+</auditeditem>
+<auditeditem class="System|Patches|Microsoft Visual Studio 2008 Professional Edition - ENU|KB944899" grouped="true">
+<item name="servicepack" value=""/>
+<item name="description" value=""/>
+<item name="installdate" value="31/07/2009"/>
+<item name="installedby" value="jlynn"/>
+</auditeditem>
+<auditeditem class="System|Patches|Microsoft Visual Studio 2008 Professional Edition - ENU|KB945282" grouped="true">
+<item name="servicepack" value=""/>
+<item name="description" value=""/>
+<item name="installdate" value="31/07/2009"/>
+<item name="installedby" value="jlynn"/>
+</auditeditem>
+<auditeditem class="System|Patches|Microsoft Visual Studio 2008 Professional Edition - ENU|KB946040" grouped="true">
+<item name="servicepack" value=""/>
+<item name="description" value=""/>
+<item name="installdate" value="31/07/2009"/>
+<item name="installedby" value="jlynn"/>
+</auditeditem>
+<auditeditem class="System|Patches|Microsoft Visual Studio 2008 Professional Edition - ENU|KB946308" grouped="true">
+<item name="servicepack" value=""/>
+<item name="description" value=""/>
+<item name="installdate" value="31/07/2009"/>
+<item name="installedby" value="jlynn"/>
+</auditeditem>
+<auditeditem class="System|Patches|Microsoft Visual Studio 2008 Professional Edition - ENU|KB946344" grouped="true">
+<item name="servicepack" value=""/>
+<item name="description" value=""/>
+<item name="installdate" value="31/07/2009"/>
+<item name="installedby" value="jlynn"/>
+</auditeditem>
+<auditeditem class="System|Patches|Microsoft Visual Studio 2008 Professional Edition - ENU|KB946581" grouped="true">
+<item name="servicepack" value=""/>
+<item name="description" value=""/>
+<item name="installdate" value="31/07/2009"/>
+<item name="installedby" value="jlynn"/>
+</auditeditem>
+<auditeditem class="System|Patches|Microsoft Visual Studio 2008 Professional Edition - ENU|KB947171" grouped="true">
+<item name="servicepack" value=""/>
+<item name="description" value=""/>
+<item name="installdate" value="31/07/2009"/>
+<item name="installedby" value="jlynn"/>
+</auditeditem>
+<auditeditem class="System|Patches|Microsoft Visual Studio 2008 Professional Edition - ENU|KB947173" grouped="true">
+<item name="servicepack" value=""/>
+<item name="description" value=""/>
+<item name="installdate" value="31/07/2009"/>
+<item name="installedby" value="jlynn"/>
+</auditeditem>
+<auditeditem class="System|Patches|Microsoft Visual Studio 2008 Professional Edition - ENU|KB947180" grouped="true">
+<item name="servicepack" value=""/>
+<item name="description" value=""/>
+<item name="installdate" value="31/07/2009"/>
+<item name="installedby" value="jlynn"/>
+</auditeditem>
+<auditeditem class="System|Patches|Microsoft Visual Studio 2008 Professional Edition - ENU|KB947540" grouped="true">
+<item name="servicepack" value=""/>
+<item name="description" value=""/>
+<item name="installdate" value="31/07/2009"/>
+<item name="installedby" value="jlynn"/>
+</auditeditem>
+<auditeditem class="System|Patches|Microsoft Visual Studio 2008 Professional Edition - ENU|KB947789" grouped="true">
+<item name="servicepack" value=""/>
+<item name="description" value=""/>
+<item name="installdate" value="31/07/2009"/>
+<item name="installedby" value="jlynn"/>
+</auditeditem>
+<auditeditem class="System|Patches|Microsoft Visual Studio 2008 Professional Edition - ENU|KB948127" grouped="true">
+<item name="servicepack" value=""/>
+<item name="description" value=""/>
+<item name="installdate" value="31/07/2009"/>
+<item name="installedby" value="jlynn"/>
+</auditeditem>
+<auditeditem class="System|Patches|Microsoft Visual Studio 2008 Professional Edition - ENU|KB952241" grouped="true">
+<item name="servicepack" value=""/>
+<item name="description" value=""/>
+<item name="installdate" value="31/07/2009"/>
+<item name="installedby" value="jlynn"/>
+</auditeditem>
+<auditeditem class="System|Patches|Microsoft Visual Studio 2008 Professional Edition - ENU|KB953256" grouped="true">
+<item name="servicepack" value=""/>
+<item name="description" value=""/>
+<item name="installdate" value="31/07/2009"/>
+<item name="installedby" value="jlynn"/>
+</auditeditem>
+<auditeditem class="System|Patches|Microsoft Visual Studio 2008 Professional Edition - ENU|KB971091" grouped="true">
+<item name="servicepack" value=""/>
+<item name="description" value=""/>
+<item name="installdate" value="31/07/2009"/>
+<item name="installedby" value="jlynn"/>
+</auditeditem>
+<auditeditem class="System|Patches|MSXML4SP2|Q954430" grouped="true">
+<item name="servicepack" value=""/>
+<item name="description" value="Security update for MSXML4 SP2 (KB954430)"/>
+<item name="installdate" value="11/05/2009"/>
+<item name="installedby" value="Jason"/>
+</auditeditem>
+<auditeditem class="System|Patches|Windows Media Player|KB952069_WM9" grouped="true">
+<item name="servicepack" value="SP0"/>
+<item name="description" value="Security Update for Windows Media Player (KB952069)"/>
+<item name="installdate" value=""/>
+<item name="installedby" value=""/>
+</auditeditem>
+<auditeditem class="System|Patches|Windows XP|KB898461" grouped="true">
+<item name="servicepack" value="SP3"/>
+<item name="description" value="Update for Windows XP (KB898461)"/>
+<item name="installdate" value="4/21/2009"/>
+<item name="installedby" value="SYSTEM"/>
+</auditeditem>
+<auditeditem class="System|Patches|Windows XP|KB940157" grouped="true">
+<item name="servicepack" value="SP3"/>
+<item name="description" value=""/>
+<item name="installdate" value="4/8/2009"/>
+<item name="installedby" value="Administrator"/>
+</auditeditem>
+<auditeditem class="System|Patches|Windows XP|KB963093" grouped="true">
+<item name="servicepack" value="SP3"/>
+<item name="description" value=""/>
+<item name="installdate" value="6/11/2009"/>
+<item name="installedby" value="SYSTEM"/>
+</auditeditem>
+<auditeditem class="System|Patches|Windows XP|KB915800-v4" grouped="true">
+<item name="servicepack" value="SP4"/>
+<item name="description" value="Hotfix for Windows XP (KB915800-v4)"/>
+<item name="installdate" value="4/8/2009"/>
+<item name="installedby" value="Administrator"/>
+</auditeditem>
+<auditeditem class="System|Patches|Windows XP|KB923561" grouped="true">
+<item name="servicepack" value="SP4"/>
+<item name="description" value="Security Update for Windows XP (KB923561)"/>
+<item name="installdate" value="4/22/2009"/>
+<item name="installedby" value="SYSTEM"/>
+</auditeditem>
+<auditeditem class="System|Patches|Windows XP|KB938464" grouped="true">
+<item name="servicepack" value="SP4"/>
+<item name="description" value="Security Update for Windows XP (KB938464)"/>
+<item name="installdate" value="4/8/2009"/>
+<item name="installedby" value="Administrator"/>
+</auditeditem>
+<auditeditem class="System|Patches|Windows XP|KB946648" grouped="true">
+<item name="servicepack" value="SP4"/>
+<item name="description" value="Security Update for Windows XP (KB946648)"/>
+<item name="installdate" value="4/8/2009"/>
+<item name="installedby" value="Administrator"/>
+</auditeditem>
+<auditeditem class="System|Patches|Windows XP|KB950762" grouped="true">
+<item name="servicepack" value="SP4"/>
+<item name="description" value="Security Update for Windows XP (KB950762)"/>
+<item name="installdate" value="4/8/2009"/>
+<item name="installedby" value="Administrator"/>
+</auditeditem>
+<auditeditem class="System|Patches|Windows XP|KB950974" grouped="true">
+<item name="servicepack" value="SP4"/>
+<item name="description" value="Security Update for Windows XP (KB950974)"/>
+<item name="installdate" value="4/8/2009"/>
+<item name="installedby" value="Administrator"/>
+</auditeditem>
+<auditeditem class="System|Patches|Windows XP|KB951066" grouped="true">
+<item name="servicepack" value="SP4"/>
+<item name="description" value="Security Update for Windows XP (KB951066)"/>
+<item name="installdate" value="4/8/2009"/>
+<item name="installedby" value="Administrator"/>
+</auditeditem>
+<auditeditem class="System|Patches|Windows XP|KB951376-v2" grouped="true">
+<item name="servicepack" value="SP4"/>
+<item name="description" value="Security Update for Windows XP (KB951376-v2)"/>
+<item name="installdate" value="4/8/2009"/>
+<item name="installedby" value="Administrator"/>
+</auditeditem>
+<auditeditem class="System|Patches|Windows XP|KB951618-v2" grouped="true">
+<item name="servicepack" value="SP4"/>
+<item name="description" value="Update for Windows XP (KB951618-v2)"/>
+<item name="installdate" value="4/8/2009"/>
+<item name="installedby" value="Administrator"/>
+</auditeditem>
+<auditeditem class="System|Patches|Windows XP|KB951698" grouped="true">
+<item name="servicepack" value="SP4"/>
+<item name="description" value="Security Update for Windows XP (KB951698)"/>
+<item name="installdate" value="4/8/2009"/>
+<item name="installedby" value="Administrator"/>
+</auditeditem>
+<auditeditem class="System|Patches|Windows XP|KB951748" grouped="true">
+<item name="servicepack" value="SP4"/>
+<item name="description" value="Security Update for Windows XP (KB951748)"/>
+<item name="installdate" value="4/22/2009"/>
+<item name="installedby" value="SYSTEM"/>
+</auditeditem>
+<auditeditem class="System|Patches|Windows XP|KB951978" grouped="true">
+<item name="servicepack" value="SP4"/>
+<item name="description" value="Update for Windows XP (KB951978)"/>
+<item name="installdate" value="4/8/2009"/>
+<item name="installedby" value="Administrator"/>
+</auditeditem>
+<auditeditem class="System|Patches|Windows XP|KB952004" grouped="true">
+<item name="servicepack" value="SP4"/>
+<item name="description" value="Security Update for Windows XP (KB952004)"/>
+<item name="installdate" value="4/22/2009"/>
+<item name="installedby" value="SYSTEM"/>
+</auditeditem>
+<auditeditem class="System|Patches|Windows XP|KB952287" grouped="true">
+<item name="servicepack" value="SP4"/>
+<item name="description" value="Hotfix for Windows XP (KB952287)"/>
+<item name="installdate" value="4/8/2009"/>
+<item name="installedby" value="Administrator"/>
+</auditeditem>
+<auditeditem class="System|Patches|Windows XP|KB952954" grouped="true">
+<item name="servicepack" value="SP4"/>
+<item name="description" value="Security Update for Windows XP (KB952954)"/>
+<item name="installdate" value="4/8/2009"/>
+<item name="installedby" value="Administrator"/>
+</auditeditem>
+<auditeditem class="System|Patches|Windows XP|KB953155" grouped="true">
+<item name="servicepack" value="SP4"/>
+<item name="description" value="Security Update for Windows XP (KB953155)"/>
+<item name="installdate" value="5/4/2009"/>
+<item name="installedby" value="jlynn"/>
+</auditeditem>
+<auditeditem class="System|Patches|Windows XP|KB953955" grouped="true">
+<item name="servicepack" value="SP4"/>
+<item name="description" value="Hotfix for Windows XP (KB953955)"/>
+<item name="installdate" value="4/8/2009"/>
+<item name="installedby" value="Administrator"/>
+</auditeditem>
+<auditeditem class="System|Patches|Windows XP|KB954211" grouped="true">
+<item name="servicepack" value="SP4"/>
+<item name="description" value="Security Update for Windows XP (KB954211)"/>
+<item name="installdate" value="4/8/2009"/>
+<item name="installedby" value="Administrator"/>
+</auditeditem>
+<auditeditem class="System|Patches|Windows XP|KB954434" grouped="true">
+<item name="servicepack" value="SP4"/>
+<item name="description" value="Hotfix for Windows XP (KB954434)"/>
+<item name="installdate" value="4/8/2009"/>
+<item name="installedby" value="Administrator"/>
+</auditeditem>
+<auditeditem class="System|Patches|Windows XP|KB954459" grouped="true">
+<item name="servicepack" value="SP4"/>
+<item name="description" value="Security Update for Windows XP (KB954459)"/>
+<item name="installdate" value="4/8/2009"/>
+<item name="installedby" value="Administrator"/>
+</auditeditem>
+<auditeditem class="System|Patches|Windows XP|KB954550-v5" grouped="true">
+<item name="servicepack" value="SP4"/>
+<item name="description" value="Hotfix for Windows XP (KB954550-v5)"/>
+<item name="installdate" value="4/22/2009"/>
+<item name="installedby" value="jlynn"/>
+</auditeditem>
+<auditeditem class="System|Patches|Windows XP|KB954600" grouped="true">
+<item name="servicepack" value="SP4"/>
+<item name="description" value="Security Update for Windows XP (KB954600)"/>
+<item name="installdate" value="4/8/2009"/>
+<item name="installedby" value="Administrator"/>
+</auditeditem>
+<auditeditem class="System|Patches|Windows XP|KB954708" grouped="true">
+<item name="servicepack" value="SP4"/>
+<item name="description" value="Hotfix for Windows XP (KB954708)"/>
+<item name="installdate" value="4/8/2009"/>
+<item name="installedby" value="Administrator"/>
+</auditeditem>
+<auditeditem class="System|Patches|Windows XP|KB955069" grouped="true">
+<item name="servicepack" value="SP4"/>
+<item name="description" value="Security Update for Windows XP (KB955069)"/>
+<item name="installdate" value="4/8/2009"/>
+<item name="installedby" value="Administrator"/>
+</auditeditem>
+<auditeditem class="System|Patches|Windows XP|KB955839" grouped="true">
+<item name="servicepack" value="SP4"/>
+<item name="description" value="Update for Windows XP (KB955839)"/>
+<item name="installdate" value="4/8/2009"/>
+<item name="installedby" value="Administrator"/>
+</auditeditem>
+<auditeditem class="System|Patches|Windows XP|KB956391" grouped="true">
+<item name="servicepack" value="SP4"/>
+<item name="description" value="Security Update for Windows XP (KB956391)"/>
+<item name="installdate" value="4/8/2009"/>
+<item name="installedby" value="Administrator"/>
+</auditeditem>
+<auditeditem class="System|Patches|Windows XP|KB956572" grouped="true">
+<item name="servicepack" value="SP4"/>
+<item name="description" value="Security Update for Windows XP (KB956572)"/>
+<item name="installdate" value="4/22/2009"/>
+<item name="installedby" value="SYSTEM"/>
+</auditeditem>
+<auditeditem class="System|Patches|Windows XP|KB956802" grouped="true">
+<item name="servicepack" value="SP4"/>
+<item name="description" value="Security Update for Windows XP (KB956802)"/>
+<item name="installdate" value="4/8/2009"/>
+<item name="installedby" value="Administrator"/>
+</auditeditem>
+<auditeditem class="System|Patches|Windows XP|KB956803" grouped="true">
+<item name="servicepack" value="SP4"/>
+<item name="description" value="Security Update for Windows XP (KB956803)"/>
+<item name="installdate" value="4/8/2009"/>
+<item name="installedby" value="Administrator"/>
+</auditeditem>
+<auditeditem class="System|Patches|Windows XP|KB956841" grouped="true">
+<item name="servicepack" value="SP4"/>
+<item name="description" value="Security Update for Windows XP (KB956841)"/>
+<item name="installdate" value="4/8/2009"/>
+<item name="installedby" value="Administrator"/>
+</auditeditem>
+<auditeditem class="System|Patches|Windows XP|KB957095" grouped="true">
+<item name="servicepack" value="SP4"/>
+<item name="description" value="Security Update for Windows XP (KB957095)"/>
+<item name="installdate" value="4/8/2009"/>
+<item name="installedby" value="Administrator"/>
+</auditeditem>
+<auditeditem class="System|Patches|Windows XP|KB957097" grouped="true">
+<item name="servicepack" value="SP4"/>
+<item name="description" value="Security Update for Windows XP (KB957097)"/>
+<item name="installdate" value="4/8/2009"/>
+<item name="installedby" value="Administrator"/>
+</auditeditem>
+<auditeditem class="System|Patches|Windows XP|KB958215" grouped="true">
+<item name="servicepack" value="SP4"/>
+<item name="description" value="Security Update for Windows XP (KB958215)"/>
+<item name="installdate" value="4/8/2009"/>
+<item name="installedby" value="Administrator"/>
+</auditeditem>
+<auditeditem class="System|Patches|Windows XP|KB958347" grouped="true">
+<item name="servicepack" value="SP4"/>
+<item name="description" value="Hotfix for Windows XP (KB958347)"/>
+<item name="installdate" value="4/8/2009"/>
+<item name="installedby" value="Administrator"/>
+</auditeditem>
+<auditeditem class="System|Patches|Windows XP|KB958644" grouped="true">
+<item name="servicepack" value="SP4"/>
+<item name="description" value="Security Update for Windows XP (KB958644)"/>
+<item name="installdate" value="4/8/2009"/>
+<item name="installedby" value="Administrator"/>
+</auditeditem>
+<auditeditem class="System|Patches|Windows XP|KB958687" grouped="true">
+<item name="servicepack" value="SP4"/>
+<item name="description" value="Security Update for Windows XP (KB958687)"/>
+<item name="installdate" value="4/22/2009"/>
+<item name="installedby" value="SYSTEM"/>
+</auditeditem>
+<auditeditem class="System|Patches|Windows XP|KB958690" grouped="true">
+<item name="servicepack" value="SP4"/>
+<item name="description" value="Security Update for Windows XP (KB958690)"/>
+<item name="installdate" value="4/22/2009"/>
+<item name="installedby" value="SYSTEM"/>
+</auditeditem>
+<auditeditem class="System|Patches|Windows XP|KB959252" grouped="true">
+<item name="servicepack" value="SP4"/>
+<item name="description" value="Hotfix for Windows XP (KB959252)"/>
+<item name="installdate" value="4/8/2009"/>
+<item name="installedby" value="Administrator"/>
+</auditeditem>
+<auditeditem class="System|Patches|Windows XP|KB959426" grouped="true">
+<item name="servicepack" value="SP4"/>
+<item name="description" value="Security Update for Windows XP (KB959426)"/>
+<item name="installdate" value="4/22/2009"/>
+<item name="installedby" value="SYSTEM"/>
+</auditeditem>
+<auditeditem class="System|Patches|Windows XP|KB960225" grouped="true">
+<item name="servicepack" value="SP4"/>
+<item name="description" value="Security Update for Windows XP (KB960225)"/>
+<item name="installdate" value="4/22/2009"/>
+<item name="installedby" value="SYSTEM"/>
+</auditeditem>
+<auditeditem class="System|Patches|Windows XP|KB960714" grouped="true">
+<item name="servicepack" value="SP4"/>
+<item name="description" value="Security Update for Windows XP (KB960714)"/>
+<item name="installdate" value="4/8/2009"/>
+<item name="installedby" value="Administrator"/>
+</auditeditem>
+<auditeditem class="System|Patches|Windows XP|KB960715" grouped="true">
+<item name="servicepack" value="SP4"/>
+<item name="description" value="Security Update for Windows XP (KB960715)"/>
+<item name="installdate" value="4/22/2009"/>
+<item name="installedby" value="SYSTEM"/>
+</auditeditem>
+<auditeditem class="System|Patches|Windows XP|KB960803" grouped="true">
+<item name="servicepack" value="SP4"/>
+<item name="description" value="Security Update for Windows XP (KB960803)"/>
+<item name="installdate" value="4/22/2009"/>
+<item name="installedby" value="SYSTEM"/>
+</auditeditem>
+<auditeditem class="System|Patches|Windows XP|KB961118" grouped="true">
+<item name="servicepack" value="SP4"/>
+<item name="description" value="Hotfix for Windows XP (KB961118)"/>
+<item name="installdate" value="4/23/2009"/>
+<item name="installedby" value="jlynn"/>
+</auditeditem>
+<auditeditem class="System|Patches|Windows XP|KB961371" grouped="true">
+<item name="servicepack" value="SP4"/>
+<item name="description" value="Security Update for Windows XP (KB961371)"/>
+<item name="installdate" value="7/21/2009"/>
+<item name="installedby" value="SYSTEM"/>
+</auditeditem>
+<auditeditem class="System|Patches|Windows XP|KB961373" grouped="true">
+<item name="servicepack" value="SP4"/>
+<item name="description" value="Security Update for Windows XP (KB961373)"/>
+<item name="installdate" value="4/22/2009"/>
+<item name="installedby" value="SYSTEM"/>
+</auditeditem>
+<auditeditem class="System|Patches|Windows XP|KB961501" grouped="true">
+<item name="servicepack" value="SP4"/>
+<item name="description" value="Security Update for Windows XP (KB961501)"/>
+<item name="installdate" value="6/11/2009"/>
+<item name="installedby" value="SYSTEM"/>
+</auditeditem>
+<auditeditem class="System|Patches|Windows XP|KB961503" grouped="true">
+<item name="servicepack" value="SP4"/>
+<item name="description" value="Update for Windows XP (KB961503)"/>
+<item name="installdate" value="5/4/2009"/>
+<item name="installedby" value="jlynn"/>
+</auditeditem>
+<auditeditem class="System|Patches|Windows XP|KB963027" grouped="true">
+<item name="servicepack" value="SP4"/>
+<item name="description" value="Security Update for Windows XP (KB963027)"/>
+<item name="installdate" value="4/22/2009"/>
+<item name="installedby" value="SYSTEM"/>
+</auditeditem>
+<auditeditem class="System|Patches|Windows XP|KB967715" grouped="true">
+<item name="servicepack" value="SP4"/>
+<item name="description" value="Update for Windows XP (KB967715)"/>
+<item name="installdate" value="4/22/2009"/>
+<item name="installedby" value="SYSTEM"/>
+</auditeditem>
+<auditeditem class="System|Patches|Windows XP|KB968537" grouped="true">
+<item name="servicepack" value="SP4"/>
+<item name="description" value="Security Update for Windows XP (KB968537)"/>
+<item name="installdate" value="6/11/2009"/>
+<item name="installedby" value="SYSTEM"/>
+</auditeditem>
+<auditeditem class="System|Patches|Windows XP|KB969897" grouped="true">
+<item name="servicepack" value="SP4"/>
+<item name="description" value="Security Update for Windows XP (KB969897)"/>
+<item name="installdate" value="6/11/2009"/>
+<item name="installedby" value="SYSTEM"/>
+</auditeditem>
+<auditeditem class="System|Patches|Windows XP|KB969898" grouped="true">
+<item name="servicepack" value="SP4"/>
+<item name="description" value="Security Update for Windows XP (KB969898)"/>
+<item name="installdate" value="6/11/2009"/>
+<item name="installedby" value="SYSTEM"/>
+</auditeditem>
+<auditeditem class="System|Patches|Windows XP|KB970238" grouped="true">
+<item name="servicepack" value="SP4"/>
+<item name="description" value="Security Update for Windows XP (KB970238)"/>
+<item name="installdate" value="6/11/2009"/>
+<item name="installedby" value="SYSTEM"/>
+</auditeditem>
+<auditeditem class="System|Patches|Windows XP|KB970483" grouped="true">
+<item name="servicepack" value="SP4"/>
+<item name="description" value="Security Update for Windows XP (KB970483)"/>
+<item name="installdate" value="6/11/2009"/>
+<item name="installedby" value="SYSTEM"/>
+</auditeditem>
+<auditeditem class="System|Patches|Windows XP|KB971633" grouped="true">
+<item name="servicepack" value="SP4"/>
+<item name="description" value="Security Update for Windows XP (KB971633)"/>
+<item name="installdate" value="7/21/2009"/>
+<item name="installedby" value="SYSTEM"/>
+</auditeditem>
+<auditeditem class="System|Patches|Windows XP|KB973346" grouped="true">
+<item name="servicepack" value="SP4"/>
+<item name="description" value="Security Update for Windows XP (KB973346)"/>
+<item name="installdate" value="7/21/2009"/>
+<item name="installedby" value="SYSTEM"/>
+</auditeditem>
+<auditeditem class="System|Patches|XML Paper Specification Shared Components Pack 1.0|XpsEPSC" grouped="true">
+<item name="servicepack" value="SP0"/>
+<item name="description" value=""/>
+<item name="installdate" value="4/25/2008"/>
+<item name="installedby" value="Administrator"/>
+</auditeditem>
+</auditeditems>
+<internet-items>
+<internet-item class="Internet|History|06/08/2009|rad.msn.com" historied="false" grouped="true">
+<item name="Number of Pages" value="1"/>
+</internet-item>
+<internet-item class="Internet|History|05/08/2009|www.laytontechnology.com.au" historied="false" grouped="true">
+<item name="Number of Pages" value="1"/>
+</internet-item>
+<internet-item class="Internet|History|06/08/2009|www.primeworks-mobile.com" historied="false" grouped="true">
+<item name="Number of Pages" value="1"/>
+</internet-item>
+<internet-item class="Internet|History|05/08/2009|www.google.com.au" historied="false" grouped="true">
+<item name="Number of Pages" value="1"/>
+</internet-item>
+<internet-item class="Internet|History|03/08/2009|www.gowindowslive.com" historied="false" grouped="true">
+<item name="Number of Pages" value="1"/>
+</internet-item>
+<internet-item class="Internet|History|05/08/2009|toolbar.live.com" historied="false" grouped="true">
+<item name="Number of Pages" value="1"/>
+</internet-item>
+<internet-item class="Internet|Cookie|windowsmarketplace.com/" historied="false" grouped="true">
+<item name="Date" value="06/08/2009 08:40"/>
+</internet-item>
+<internet-item class="Internet|Cookie|c.msn.com/" historied="false" grouped="true">
+<item name="Date" value="06/08/2009 08:40"/>
+</internet-item>
+<internet-item class="Internet|Cookie|live.com/" historied="false" grouped="true">
+<item name="Date" value="06/08/2009 08:40"/>
+</internet-item>
+<internet-item class="Internet|Cookie|c.live.com/" historied="false" grouped="true">
+<item name="Date" value="06/08/2009 08:40"/>
+</internet-item>
+<internet-item class="Internet|Cookie|doubleclick.net/" historied="false" grouped="true">
+<item name="Date" value="03/08/2009 11:02"/>
+</internet-item>
+<internet-item class="Internet|Cookie|www.smh.com.au/" historied="false" grouped="true">
+<item name="Date" value="03/08/2009 11:02"/>
+</internet-item>
+<internet-item class="Internet|Cookie|microsoft.com/" historied="false" grouped="true">
+<item name="Date" value="05/08/2009 13:57"/>
+</internet-item>
+<internet-item class="Internet|Cookie|laytontechnology.com.au/" historied="false" grouped="true">
+<item name="Date" value="05/08/2009 10:28"/>
+</internet-item>
+<internet-item class="Internet|Cookie|rad.msn.com/" historied="false" grouped="true">
+<item name="Date" value="06/08/2009 10:21"/>
+</internet-item>
+<internet-item class="Internet|Cookie|primeworks-mobile.com/" historied="false" grouped="true">
+<item name="Date" value="06/08/2009 11:11"/>
+</internet-item>
+<internet-item class="Internet|Cookie|www.laytontechnology.com.au/" historied="false" grouped="true">
+<item name="Date" value="05/08/2009 10:27"/>
+</internet-item>
+<internet-item class="Internet|Cookie|statcounter.com/" historied="false" grouped="true">
+<item name="Date" value="05/08/2009 10:28"/>
+</internet-item>
+<internet-item class="Internet|Cookie|msn.com/" historied="false" grouped="true">
+<item name="Date" value="06/08/2009 10:21"/>
+</internet-item>
+<internet-item class="Internet|Cookie|serving-sys.com/" historied="false" grouped="true">
+<item name="Date" value="03/08/2009 11:02"/>
+</internet-item>
+<internet-item class="Internet|Cookie|atdmt.com/" historied="false" grouped="true">
+<item name="Date" value="06/08/2009 08:40"/>
+</internet-item>
+<internet-item class="Internet|Cookie|imrworldwide.com/cgi-bin" historied="false" grouped="true">
+<item name="Date" value="03/08/2009 11:02"/>
+</internet-item>
+<internet-item class="Internet|Cookie|bs.serving-sys.com/" historied="false" grouped="true">
+<item name="Date" value="03/08/2009 11:02"/>
+</internet-item>
+<internet-item class="Internet|Cookie|messenger.msn.com/" historied="false" grouped="true">
+<item name="Date" value="06/08/2009 08:40"/>
+</internet-item>
+<internet-item class="Internet|Cookie|adsfac.net/" historied="false" grouped="true">
+<item name="Date" value="06/08/2009 09:32"/>
+</internet-item>
+<internet-item class="Internet|Cookie|112.2o7.net/" historied="false" grouped="true">
+<item name="Date" value="03/08/2009 11:02"/>
+</internet-item>
+<internet-item class="Internet|Cookie|google.com.au/" historied="false" grouped="true">
+<item name="Date" value="05/08/2009 10:27"/>
+</internet-item>
+<internet-item class="Internet|Cookie|zune.net/" historied="false" grouped="true">
+<item name="Date" value="06/08/2009 08:40"/>
+</internet-item>
+<internet-item class="Internet|Cookie|bing.com/" historied="false" grouped="true">
+<item name="Date" value="06/08/2009 08:40"/>
+</internet-item>
+<internet-item class="Internet|Cookie|direct.fairfax.com.au/" historied="false" grouped="true">
+<item name="Date" value="03/08/2009 11:02"/>
+</internet-item>
+</internet-items>
+<applications>
+<applicationinstance>
+<name>Adobe AIR</name>
+<publisher>Adobe Systems Inc.</publisher>
+<version>1.0.4990</version>
+<productid/>
+<cdkey/>
+</applicationinstance>
+<applicationinstance>
+<name>Adobe Flash Player 10 ActiveX</name>
+<publisher>Adobe Systems Incorporated</publisher>
+<version>10.0.12.36</version>
+<productid/>
+<cdkey/>
+</applicationinstance>
+<applicationinstance>
+<name>Adobe Flash Player 10 Plugin</name>
+<publisher>Adobe Systems Incorporated</publisher>
+<version>10.0.22.87</version>
+<productid/>
+<cdkey/>
+</applicationinstance>
+<applicationinstance>
+<name>Business Contact Manager for Outlook 2007 SP1</name>
+<publisher>Microsoft Corporation</publisher>
+<version>3.0.7311.0</version>
+<productid/>
+<cdkey/>
+</applicationinstance>
+<applicationinstance>
+<name>CollabNet Subversion Server 1.6.1</name>
+<publisher>CollabNet</publisher>
+<version>1.6.1</version>
+<productid/>
+<cdkey/>
+</applicationinstance>
+<applicationinstance>
+<name>Acrobat.com</name>
+<publisher>Adobe Systems Incorporated</publisher>
+<version>1.1.377</version>
+<productid/>
+<cdkey/>
+</applicationinstance>
+<applicationinstance>
+<name>hp LaserJet 4250/4350/4240</name>
+<publisher/>
+<version/>
+<productid/>
+<cdkey/>
+</applicationinstance>
+<applicationinstance>
+<name>DeviceShield 3.0</name>
+<publisher>Layton Technology, Inc.</publisher>
+<version>3.2.2</version>
+<productid/>
+<cdkey/>
+</applicationinstance>
+<applicationinstance>
+<name>Windows Search 4.0</name>
+<publisher>Microsoft Corporation</publisher>
+<version>04.00.6001.503</version>
+<productid/>
+<cdkey/>
+</applicationinstance>
+<applicationinstance>
+<name>Microsoft .NET Framework 1.1</name>
+<publisher/>
+<version/>
+<productid/>
+<cdkey/>
+</applicationinstance>
+<applicationinstance>
+<name>Microsoft .NET Framework 3.5</name>
+<publisher>Microsoft Corporation</publisher>
+<version/>
+<productid/>
+<cdkey/>
+</applicationinstance>
+<applicationinstance>
+<name>Microsoft Document Explorer 2008</name>
+<publisher>Microsoft Corporation</publisher>
+<version/>
+<productid/>
+<cdkey/>
+</applicationinstance>
+<applicationinstance>
+<name>Microsoft SQL Server 2005</name>
+<publisher>Microsoft Corporation</publisher>
+<version/>
+<productid/>
+<cdkey/>
+</applicationinstance>
+<applicationinstance>
+<name>Microsoft Visual C# 2008 Express Edition with SP1 - ENU</name>
+<publisher>Microsoft Corporation</publisher>
+<version/>
+<productid/>
+<cdkey/>
+</applicationinstance>
+<applicationinstance>
+<name>Microsoft Visual J# 2.0 Redistributable Package</name>
+<publisher>Microsoft Corporation</publisher>
+<version/>
+<productid/>
+<cdkey/>
+</applicationinstance>
+<applicationinstance>
+<name>Visual Studio 2005 Tools for Office Second Edition Runtime</name>
+<publisher>Microsoft Corporation</publisher>
+<version/>
+<productid/>
+<cdkey/>
+</applicationinstance>
+<applicationinstance>
+<name>Microsoft Visual Studio 2008 Professional Edition - ENU</name>
+<publisher>Microsoft Corporation</publisher>
+<version/>
+<productid/>
+<cdkey/>
+</applicationinstance>
+<applicationinstance>
+<name>Mozilla Firefox (3.0.13)</name>
+<publisher>Mozilla</publisher>
+<version>3.0.13 (en-GB)</version>
+<productid/>
+<cdkey/>
+</applicationinstance>
+<applicationinstance>
+<name>McAfee SecurityCenter</name>
+<publisher>McAfee, Inc.</publisher>
+<version/>
+<productid/>
+<cdkey/>
+</applicationinstance>
+<applicationinstance>
+<name>NVIDIA Drivers</name>
+<publisher/>
+<version/>
+<productid/>
+<cdkey/>
+</applicationinstance>
+<applicationinstance>
+<name>Microsoft Office Small Business 2007</name>
+<publisher>Microsoft Corporation</publisher>
+<version>12.0.4518.1014</version>
+<productid>81606-OEM-6473087-22949</productid>
+<cdkey>TPVHY-8RQJK-FVVG6-R394V-CY6KT</cdkey>
+</applicationinstance>
+<applicationinstance>
+<name>Visual Studio Tools for the Office system 3.0 Runtime</name>
+<publisher>Microsoft Corporation</publisher>
+<version/>
+<productid/>
+<cdkey/>
+</applicationinstance>
+<applicationinstance>
+<name>Microsoft Visual Studio Web Authoring Component</name>
+<publisher>Microsoft Corporation</publisher>
+<version>12.0.4518.1066</version>
+<productid/>
+<cdkey/>
+</applicationinstance>
+<applicationinstance>
+<name>Windows Live Essentials</name>
+<publisher>Microsoft Corporation</publisher>
+<version>14.0.8064.0206</version>
+<productid/>
+<cdkey/>
+</applicationinstance>
+<applicationinstance>
+<name>NUnit 2.4.8</name>
+<publisher>nunit.org</publisher>
+<version>2.4.8</version>
+<productid/>
+<cdkey/>
+</applicationinstance>
+<applicationinstance>
+<name>Roxio Creator Tools</name>
+<publisher>Roxio</publisher>
+<version>3.5.0</version>
+<productid/>
+<cdkey/>
+</applicationinstance>
+<applicationinstance>
+<name>Microsoft Windows SDK for Visual Studio 2008 .NET Framework Tools</name>
+<publisher>Microsoft</publisher>
+<version>3.5.21022</version>
+<productid/>
+<cdkey/>
+</applicationinstance>
+<applicationinstance>
+<name>Roxio Activation Module</name>
+<publisher>Roxio</publisher>
+<version>1.0</version>
+<productid/>
+<cdkey/>
+</applicationinstance>
+<applicationinstance>
+<name>Windows Installer 4.5 SDK</name>
+<publisher>Microsoft Corporation</publisher>
+<version>4.5.6001.0</version>
+<productid/>
+<cdkey/>
+</applicationinstance>
+<applicationinstance>
+<name>Roxio Creator Data</name>
+<publisher>Roxio</publisher>
+<version>3.5.0</version>
+<productid/>
+<cdkey/>
+</applicationinstance>
+<applicationinstance>
+<name>Infragistics NetAdvantage for Windows Forms 2008 Vol. 1 CLR 2.0</name>
+<publisher>Infragistics, Inc.</publisher>
+<version>8.1</version>
+<productid/>
+<cdkey/>
+</applicationinstance>
+<applicationinstance>
+<name>InstallShield 2009</name>
+<publisher>Acresso Software Inc.</publisher>
+<version>15.02.0000</version>
+<productid/>
+<cdkey/>
+</applicationinstance>
+<applicationinstance>
+<name>Infragistics NetAdvantage for Windows Forms 2007 Vol. 1 CLR 2.0</name>
+<publisher>Infragistics, Inc.</publisher>
+<version>7.1</version>
+<productid/>
+<cdkey/>
+</applicationinstance>
+<applicationinstance>
+<name>Windows Live Upload Tool</name>
+<publisher>Microsoft Corporation</publisher>
+<version>14.0.8014.1029</version>
+<productid/>
+<cdkey/>
+</applicationinstance>
+<applicationinstance>
+<name>Microsoft SQL Server Management Studio Express</name>
+<publisher>Microsoft Corporation</publisher>
+<version>9.00.3042.00</version>
+<productid/>
+<cdkey/>
+</applicationinstance>
+<applicationinstance>
+<name>Microsoft SQL Server Compact 3.5 for Devices ENU</name>
+<publisher>Microsoft Corporation</publisher>
+<version>3.5.5386.0</version>
+<productid/>
+<cdkey/>
+</applicationinstance>
+<applicationinstance>
+<name>Skype 4.0</name>
+<publisher>Skype Technologies S.A.</publisher>
+<version>4.0.224</version>
+<productid/>
+<cdkey/>
+</applicationinstance>
+<applicationinstance>
+<name>WMI Tools</name>
+<publisher>Microsoft Corporation</publisher>
+<version>1.50.1131.0001</version>
+<productid/>
+<cdkey/>
+</applicationinstance>
+<applicationinstance>
+<name>Java(TM) 6 Update 13</name>
+<publisher>Sun Microsystems, Inc.</publisher>
+<version>6.0.130</version>
+<productid/>
+<cdkey/>
+</applicationinstance>
+<applicationinstance>
+<name>Microsoft .NET Compact Framework 3.5</name>
+<publisher>Microsoft Corporation</publisher>
+<version>3.5.7283</version>
+<productid/>
+<cdkey/>
+</applicationinstance>
+<applicationinstance>
+<name>Microsoft SQL Server Compact 3.5 Design Tools ENU</name>
+<publisher>Microsoft Corporation</publisher>
+<version>3.5.5386.0</version>
+<productid/>
+<cdkey/>
+</applicationinstance>
+<applicationinstance>
+<name>Roxio Drag-to-Disc</name>
+<publisher>Roxio</publisher>
+<version>9.1</version>
+<productid/>
+<cdkey/>
+</applicationinstance>
+<applicationinstance>
+<name>Roxio Update Manager</name>
+<publisher>Roxio</publisher>
+<version>6.0.0</version>
+<productid/>
+<cdkey/>
+</applicationinstance>
+<applicationinstance>
+<name>SQL Server System CLR Types</name>
+<publisher>Microsoft Corporation</publisher>
+<version>10.0.1600.22</version>
+<productid/>
+<cdkey/>
+</applicationinstance>
+<applicationinstance>
+<name>Data Port Wizard 2.1</name>
+<publisher>Primeworks</publisher>
+<version>2.1.305</version>
+<productid/>
+<cdkey/>
+</applicationinstance>
+<applicationinstance>
+<name>Microsoft Visual C++ 2008 Redistributable - x86 9.0.30729</name>
+<publisher>Microsoft Corporation</publisher>
+<version>9.0.30729</version>
+<productid/>
+<cdkey/>
+</applicationinstance>
+<applicationinstance>
+<name>Infragistics NetAdvantage 2007 Vol. 1 CLR 2.0 HotFix - Build 1071</name>
+<publisher>Infragistics, Inc.</publisher>
+<version>7.1</version>
+<productid/>
+<cdkey/>
+</applicationinstance>
+<applicationinstance>
+<name>Windows Live Sign-in Assistant</name>
+<publisher>Microsoft Corporation</publisher>
+<version>5.000.818.5</version>
+<productid/>
+<cdkey/>
+</applicationinstance>
+<applicationinstance>
+<name>TortoiseSVN 1.6.1.16129 (32 bit)</name>
+<publisher>TortoiseSVN</publisher>
+<version>1.6.16129</version>
+<productid/>
+<cdkey/>
+</applicationinstance>
+<applicationinstance>
+<name>Orca</name>
+<publisher>Microsoft Corporation</publisher>
+<version>4.0.6001.0000</version>
+<productid/>
+<cdkey/>
+</applicationinstance>
+<applicationinstance>
+<name>Microsoft Office 2007 Primary Interop Assemblies</name>
+<publisher>Microsoft Corporation</publisher>
+<version>12.0.4518.1014</version>
+<productid/>
+<cdkey/>
+</applicationinstance>
+<applicationinstance>
+<name>Microsoft SQL Server Setup Support Files (English)</name>
+<publisher>Microsoft Corporation</publisher>
+<version>9.00.4035.00</version>
+<productid/>
+<cdkey/>
+</applicationinstance>
+<applicationinstance>
+<name>Microsoft SQL Server VSS Writer</name>
+<publisher>Microsoft Corporation</publisher>
+<version>9.00.4035.00</version>
+<productid/>
+<cdkey/>
+</applicationinstance>
+<applicationinstance>
+<name>Microsoft Windows SDK for Visual Studio 2008 SP1 Express Tools for .NET Framework - enu</name>
+<publisher>Microsoft Corporation</publisher>
+<version>3.5.30729</version>
+<productid/>
+<cdkey/>
+</applicationinstance>
+<applicationinstance>
+<name>Microsoft SQL Server 2005 Compact Edition Books Online ENU</name>
+<publisher>Microsoft Corporation</publisher>
+<version>3.1.0000</version>
+<productid/>
+<cdkey/>
+</applicationinstance>
+<applicationinstance>
+<name>Roxio Creator Copy</name>
+<publisher>Roxio</publisher>
+<version>3.5.0</version>
+<productid/>
+<cdkey/>
+</applicationinstance>
+<applicationinstance>
+<name>Microsoft Windows SDK for Visual Studio 2008 SDK Reference Assemblies and IntelliSense</name>
+<publisher>Microsoft Corporation</publisher>
+<version>6.1.5288.17011</version>
+<productid/>
+<cdkey/>
+</applicationinstance>
+<applicationinstance>
+<name>Roxio Express Labeler 3</name>
+<publisher>Roxio</publisher>
+<version>3.2.1</version>
+<productid/>
+<cdkey/>
+</applicationinstance>
+<applicationinstance>
+<name>PowerDVD</name>
+<publisher>Dell</publisher>
+<version>8.1</version>
+<productid/>
+<cdkey/>
+</applicationinstance>
+<applicationinstance>
+<name>SQLCE Viewer</name>
+<publisher>XLAG</publisher>
+<version>1.0.0</version>
+<productid/>
+<cdkey/>
+</applicationinstance>
+<applicationinstance>
+<name>DeviceShield Client Service</name>
+<publisher>Layton Technology, Inc.</publisher>
+<version>3.2.1</version>
+<productid/>
+<cdkey/>
+</applicationinstance>
+<applicationinstance>
+<name>Windows Mobile 5.0 SDK R2 for Pocket PC</name>
+<publisher>Microsoft Corporation</publisher>
+<version>5.00.1700.5.14343.06</version>
+<productid/>
+<cdkey/>
+</applicationinstance>
+<applicationinstance>
+<name>TestDriven.NET 2.14 Personal</name>
+<publisher>Mutant Design</publisher>
+<version>2.14.2190</version>
+<productid/>
+<cdkey/>
+</applicationinstance>
+<applicationinstance>
+<name>Roxio Creator Audio</name>
+<publisher>Roxio</publisher>
+<version>3.5.0</version>
+<productid/>
+<cdkey/>
+</applicationinstance>
+<applicationinstance>
+<name>Microsoft Windows SDK for Visual Studio 2008 Headers and Libraries</name>
+<publisher>Microsoft Corporation</publisher>
+<version>6.1.5288.17011</version>
+<productid/>
+<cdkey/>
+</applicationinstance>
+<applicationinstance>
+<name>Apache HTTP Server 2.2.11</name>
+<publisher>Apache Software Foundation</publisher>
+<version>2.2.11</version>
+<productid/>
+<cdkey/>
+</applicationinstance>
+<applicationinstance>
+<name>MSXML 4.0 SP2 (KB954430)</name>
+<publisher>Microsoft Corporation</publisher>
+<version>4.20.9870.0</version>
+<productid/>
+<cdkey/>
+</applicationinstance>
+<applicationinstance>
+<name>Roxio Creator BDAV Plugin</name>
+<publisher>Roxio</publisher>
+<version>3.5.0</version>
+<productid/>
+<cdkey/>
+</applicationinstance>
+<applicationinstance>
+<name>Diagnostics Utility</name>
+<publisher>Realtek</publisher>
+<version>1.00.0000</version>
+<productid/>
+<cdkey/>
+</applicationinstance>
+<applicationinstance>
+<name>Microsoft SQL Server Management Objects Collection</name>
+<publisher>Microsoft Corporation</publisher>
+<version>9.00.3042.00</version>
+<productid/>
+<cdkey/>
+</applicationinstance>
+<applicationinstance>
+<name>ShadowProtect Desktop</name>
+<publisher>StorageCraft</publisher>
+<version>3.4.3001</version>
+<productid/>
+<cdkey/>
+</applicationinstance>
+<applicationinstance>
+<name>Microsoft Silverlight</name>
+<publisher>Microsoft Corporation</publisher>
+<version>3.0.40723.0</version>
+<productid/>
+<cdkey/>
+</applicationinstance>
+<applicationinstance>
+<name>Microsoft Sync Framework Runtime Native v1.0 (x86)</name>
+<publisher>Microsoft Corporation</publisher>
+<version>1.0.1215.0</version>
+<productid/>
+<cdkey/>
+</applicationinstance>
+<applicationinstance>
+<name>Sonic CinePlayer Decoder Pack</name>
+<publisher>Sonic Solutions</publisher>
+<version>4.2.0</version>
+<productid/>
+<cdkey/>
+</applicationinstance>
+<applicationinstance>
+<name>Intel® Matrix Storage Manager</name>
+<publisher>Intel Corporation</publisher>
+<version/>
+<productid/>
+<cdkey/>
+</applicationinstance>
+<applicationinstance>
+<name>Microsoft Office 2003 Web Components</name>
+<publisher>Microsoft Corporation</publisher>
+<version>11.0.8003.0</version>
+<productid/>
+<cdkey/>
+</applicationinstance>
+<applicationinstance>
+<name>CuteFTP 8 Professional</name>
+<publisher>GlobalSCAPE</publisher>
+<version>8.2.0</version>
+<productid/>
+<cdkey/>
+</applicationinstance>
+<applicationinstance>
+<name>ActivePerl 5.8.9 Build 825</name>
+<publisher>ActiveState</publisher>
+<version>5.8.825</version>
+<productid/>
+<cdkey/>
+</applicationinstance>
+<applicationinstance>
+<name>Windows Mobile 5.0 SDK R2 for Smartphone</name>
+<publisher>Microsoft Corporation</publisher>
+<version>5.00.1700.5.14343.06</version>
+<productid/>
+<cdkey/>
+</applicationinstance>
+<applicationinstance>
+<name>InstallShield 12</name>
+<publisher>Macrovision Corporation</publisher>
+<version>12.00.0000</version>
+<productid>C02B7QT-D0B-4043C3EF6N</productid>
+<cdkey/>
+</applicationinstance>
+<applicationinstance>
+<name>Microsoft SQL Server Database Publishing Wizard 1.2</name>
+<publisher>Microsoft Corporation</publisher>
+<version>1.2.0.0</version>
+<productid/>
+<cdkey/>
+</applicationinstance>
+<applicationinstance>
+<name>AuditWizard v8</name>
+<publisher>Layton Technology, Inc</publisher>
+<version>8.0.22</version>
+<productid/>
+<cdkey/>
+</applicationinstance>
+<applicationinstance>
+<name>Windows Live Sync</name>
+<publisher>Microsoft Corporation</publisher>
+<version>14.0.8064.206</version>
+<productid/>
+<cdkey/>
+</applicationinstance>
+<applicationinstance>
+<name>Microsoft .NET Framework 3.0 Service Pack 2</name>
+<publisher>Microsoft Corporation</publisher>
+<version>3.2.30729</version>
+<productid/>
+<cdkey/>
+</applicationinstance>
+<applicationinstance>
+<name>VMware Workstation</name>
+<publisher>VMware, Inc.</publisher>
+<version>6.5.2.7026</version>
+<productid/>
+<cdkey/>
+</applicationinstance>
+<applicationinstance>
+<name>MSXML 6.0 Parser</name>
+<publisher>Microsoft Corporation</publisher>
+<version>6.10.1129.0</version>
+<productid/>
+<cdkey/>
+</applicationinstance>
+<applicationinstance>
+<name>Microsoft Office Small Business Connectivity Components</name>
+<publisher>Microsoft Corporation</publisher>
+<version>2.0.7024.0</version>
+<productid/>
+<cdkey/>
+</applicationinstance>
+<applicationinstance>
+<name>Crystal Reports Basic for Visual Studio 2008</name>
+<publisher>Business Objects</publisher>
+<version>10.5.0.0</version>
+<productid/>
+<cdkey/>
+</applicationinstance>
+<applicationinstance>
+<name>Adobe Reader 9.1</name>
+<publisher>Adobe Systems Incorporated</publisher>
+<version>9.1.0</version>
+<productid/>
+<cdkey/>
+</applicationinstance>
+<applicationinstance>
+<name>Microsoft Windows SDK for Visual Studio 2008 Win32 Tools</name>
+<publisher>Microsoft Corporation</publisher>
+<version>6.1.5288.17011</version>
+<productid/>
+<cdkey/>
+</applicationinstance>
+<applicationinstance>
+<name>Microsoft Device Emulator version 3.0 - ENU</name>
+<publisher>Microsoft Corporation</publisher>
+<version>9.0.21022</version>
+<productid/>
+<cdkey/>
+</applicationinstance>
+<applicationinstance>
+<name>Microsoft SQL Server Compact 3.5 ENU</name>
+<publisher>Microsoft Corporation</publisher>
+<version>3.5.5386.0</version>
+<productid/>
+<cdkey/>
+</applicationinstance>
+<applicationinstance>
+<name>Microsoft Sync Framework Services Native v1.0 (x86)</name>
+<publisher>Microsoft Corporation</publisher>
+<version>1.0.1215.0</version>
+<productid/>
+<cdkey/>
+</applicationinstance>
+<applicationinstance>
+<name>Microsoft SQL Server Native Client</name>
+<publisher>Microsoft Corporation</publisher>
+<version>9.00.4035.00</version>
+<productid/>
+<cdkey/>
+</applicationinstance>
+<applicationinstance>
+<name>Microsoft .NET Framework 2.0 Service Pack 2</name>
+<publisher>Microsoft Corporation</publisher>
+<version>2.2.30729</version>
+<productid/>
+<cdkey/>
+</applicationinstance>
+<applicationinstance>
+<name>Roxio Creator DE</name>
+<publisher>Roxio</publisher>
+<version>3.5.0</version>
+<productid/>
+<cdkey/>
+</applicationinstance>
+<applicationinstance>
+<name>Microsoft Windows SDK for Visual Studio 2008 Tools</name>
+<publisher>Microsoft Corporation</publisher>
+<version>6.1.5288.17011</version>
+<productid/>
+<cdkey/>
+</applicationinstance>
+<applicationinstance>
+<name>WinZip 12.0</name>
+<publisher>WinZip Computing, S.L. </publisher>
+<version>12.0.8252</version>
+<productid/>
+<cdkey/>
+</applicationinstance>
+<applicationinstance>
+<name>HP Printer Access Tool</name>
+<publisher>Hewlett-Packard</publisher>
+<version>1.0.0.3</version>
+<productid/>
+<cdkey/>
+</applicationinstance>
+<applicationinstance>
+<name>Dell Support Center</name>
+<publisher>Dell</publisher>
+<version>2.1.08060</version>
+<productid/>
+<cdkey/>
+</applicationinstance>
+<applicationinstance>
+<name>Microsoft .NET Compact Framework 2.0 SP2</name>
+<publisher>Microsoft Corporation</publisher>
+<version>2.0.7045</version>
+<productid/>
+<cdkey/>
+</applicationinstance>
+<applicationinstance>
+<name>Microsoft SQL Server 2005 Compact Edition ENU</name>
+<publisher>Microsoft Corporation</publisher>
+<version>3.1.0000</version>
+<productid/>
+<cdkey/>
+</applicationinstance>
+<applicationinstance>
+<name>Realtek High Definition Audio Driver</name>
+<publisher>Realtek Semiconductor Corp.</publisher>
+<version/>
+<productid/>
+<cdkey/>
+</applicationinstance>
+<applicationinstance>
+<name>Microsoft SQL Server 2008 Management Objects</name>
+<publisher>Microsoft Corporation</publisher>
+<version>10.0.1600.22</version>
+<productid/>
+<cdkey/>
+</applicationinstance>
+<applicationinstance>
+<name>MySQL Server 4.1</name>
+<publisher>MySQL AB</publisher>
+<version>4.1.22</version>
+<productid/>
+<cdkey/>
+</applicationinstance>
+<operatingsystem>
+<family>Microsoft Windows XP Professional</family>
+<version>5.1 Service Pack 3 (build 2600)</version>
+<serial>76487-OEM-0011903-00102</serial>
+<cdkey>XJM6Q-BQ8HW-T6DFB-Y934T-YD4YT</cdkey>
+<ieversion>Internet Explorer 6.0</ieversion>
+</operatingsystem>
+</applications>
+<filesystem/>
+</AuditDataFile>

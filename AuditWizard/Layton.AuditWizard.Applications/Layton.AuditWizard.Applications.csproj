@@ -1,0 +1,602 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Release</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{D9FDDCE5-F067-435C-B0AF-EE3C2763D8E0}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Layton.AuditWizard.Applications</RootNamespace>
+    <AssemblyName>Layton.AuditWizard.Applications</AssemblyName>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\bin\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;_AUDITWIZARD_</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\Output\</OutputPath>
+    <DefineConstants>TRACE;_AUDITWIZARD_</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>C:\Program Files %28x86%29\AuditWizard v8\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;_AUDITWIZARD_</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <OutputPath>..\Output\</OutputPath>
+    <DefineConstants>TRACE;_AUDITWIZARD_</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>false</SignAssembly>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Infragistics.Practices.CompositeUI.WinForms, Version=1.0.20111.2090, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Layton Framework\Infragistics.CompositeUI.WinForms\bin\Release\Infragistics.Practices.CompositeUI.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics2.Documents.Core.v11.1, Version=11.1.20111.2090, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\bin\Infragistics 11.1.20111.2090\Infragistics2.Documents.Core.v11.1.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics2.Documents.Excel.v11.1, Version=11.1.20111.2090, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\bin\Infragistics 11.1.20111.2090\Infragistics2.Documents.Excel.v11.1.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics2.Documents.IO.v11.1, Version=11.1.20111.2090, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\bin\Infragistics 11.1.20111.2090\Infragistics2.Documents.IO.v11.1.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics2.Documents.Reports.v11.1, Version=11.1.20111.2090, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\bin\Infragistics 11.1.20111.2090\Infragistics2.Documents.Reports.v11.1.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics2.Shared.v11.1, Version=11.1.20111.2090, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\bin\Infragistics 11.1.20111.2090\Infragistics2.Shared.v11.1.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics2.Win.Misc.v11.1, Version=11.1.20111.2090, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\bin\Infragistics 11.1.20111.2090\Infragistics2.Win.Misc.v11.1.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics2.Win.UltraWinDataSource.v11.1, Version=11.1.20111.2090, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\bin\Infragistics 11.1.20111.2090\Infragistics2.Win.UltraWinDataSource.v11.1.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics2.Win.UltraWinEditors.v11.1, Version=11.1.20111.2090, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\bin\Infragistics 11.1.20111.2090\Infragistics2.Win.UltraWinEditors.v11.1.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics2.Win.UltraWinExplorerBar.v11.1, Version=11.1.20111.2090, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\bin\Infragistics 11.1.20111.2090\Infragistics2.Win.UltraWinExplorerBar.v11.1.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics2.Win.UltraWinGauge.v11.1, Version=11.1.20111.2090, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\bin\Infragistics 11.1.20111.2090\Infragistics2.Win.UltraWinGauge.v11.1.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics2.Win.UltraWinGrid.DocumentExport.v11.1, Version=11.1.20111.2090, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\bin\Infragistics 11.1.20111.2090\Infragistics2.Win.UltraWinGrid.DocumentExport.v11.1.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics2.Win.UltraWinGrid.ExcelExport.v11.1, Version=11.1.20111.2090, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\bin\Infragistics 11.1.20111.2090\Infragistics2.Win.UltraWinGrid.ExcelExport.v11.1.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics2.Win.UltraWinGrid.v11.1, Version=11.1.20111.2090, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\bin\Infragistics 11.1.20111.2090\Infragistics2.Win.UltraWinGrid.v11.1.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics2.Win.UltraWinListView.v11.1, Version=11.1.20111.2090, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\bin\Infragistics 11.1.20111.2090\Infragistics2.Win.UltraWinListView.v11.1.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics2.Win.UltraWinSchedule.v11.1, Version=11.1.20111.2090, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\bin\Infragistics 11.1.20111.2090\Infragistics2.Win.UltraWinSchedule.v11.1.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics2.Win.UltraWinTabControl.v11.1, Version=11.1.20111.2090, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\bin\Infragistics 11.1.20111.2090\Infragistics2.Win.UltraWinTabControl.v11.1.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics2.Win.UltraWinToolbars.v11.1, Version=11.1.20111.2090, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\bin\Infragistics 11.1.20111.2090\Infragistics2.Win.UltraWinToolbars.v11.1.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics2.Win.UltraWinTree.v11.1, Version=11.1.20111.2090, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\bin\Infragistics 11.1.20111.2090\Infragistics2.Win.UltraWinTree.v11.1.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics2.Win.v11.1, Version=11.1.20111.2090, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\bin\Infragistics 11.1.20111.2090\Infragistics2.Win.v11.1.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Layton Framework\Cab\Shell\lib\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.CompositeUI, Version=1.0.51205.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Layton Framework\Assemblies\Microsoft.Practices.CompositeUI.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.CompositeUI.WinForms, Version=1.0.51205.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Layton Framework\Assemblies\Microsoft.Practices.CompositeUI.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.ObjectBuilder, Version=1.0.51205.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Layton Framework\Assemblies\Microsoft.Practices.ObjectBuilder.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Runtime.Serialization.Formatters.Soap" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ApplicationsExplorerView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ApplicationsExplorerView.Designer.cs">
+      <DependentUpon>ApplicationsExplorerView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ApplicationsModuleInit.cs" />
+    <Compile Include="ApplicationsTabView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ApplicationsTabView.Designer.cs">
+      <DependentUpon>ApplicationsTabView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ApplicationsToolbarsController.cs" />
+    <Compile Include="ApplicationsWorkItem.cs" />
+    <Compile Include="ApplicationsWorkItemController.cs" />
+    <Compile Include="ApplicationsTabViewPresenter.cs" />
+    <Compile Include="ApplicationStrings.cs" />
+    <Compile Include="ApplicationEventArgs.cs" />
+    <Compile Include="ApplicationsExplorerViewPresenter.cs" />
+    <Compile Include="AlertsTabView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="AlertsTabView.Designer.cs">
+      <DependentUpon>AlertsTabView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AlertsTabViewPresenter.cs" />
+    <Compile Include="FormAddApplication.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAddApplication.Designer.cs">
+      <DependentUpon>FormAddApplication.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormAlertDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAlertDetails.Designer.cs">
+      <DependentUpon>FormAlertDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormActionDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormActionDetails.Designer.cs">
+      <DependentUpon>FormActionDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormApplicationProperties.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormApplicationProperties.Designer.cs">
+      <DependentUpon>FormApplicationProperties.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormEditPublisherName.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormEditPublisherName.Designer.cs">
+      <DependentUpon>FormEditPublisherName.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormLicenseProperties.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormLicenseProperties.Designer.cs">
+      <DependentUpon>FormLicenseProperties.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OSTabViewPresenter.cs" />
+    <Compile Include="OSTabView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="OSTabView.Designer.cs">
+      <DependentUpon>OSTabView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LicensesTabView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="LicensesTabView.Designer.cs">
+      <DependentUpon>LicensesTabView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InstancesTabViewPresenter.cs" />
+    <Compile Include="InstancesTabView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="InstancesTabView.Designer.cs">
+      <DependentUpon>InstancesTabView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LicensesTabViewPresenter.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="ReportProgress.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReportProgress.Designer.cs">
+      <DependentUpon>ReportProgress.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="SecurityKey.pfx" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="ApplicationsExplorerView.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ApplicationsExplorerView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ApplicationsTabView.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ApplicationsTabView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AlertsTabView.resx">
+      <DependentUpon>AlertsTabView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormAddApplication.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FormAddApplication.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormAlertDetails.resx">
+      <DependentUpon>FormAlertDetails.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormActionDetails.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FormActionDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormApplicationProperties.resx">
+      <DependentUpon>FormApplicationProperties.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormEditPublisherName.resx">
+      <DependentUpon>FormEditPublisherName.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormLicenseProperties.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FormLicenseProperties.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OSTabView.resx">
+      <DependentUpon>OSTabView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LicensesTabView.resx">
+      <DependentUpon>LicensesTabView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InstancesTabView.resx">
+      <DependentUpon>InstancesTabView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <SubType>Designer</SubType>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportProgress.resx">
+      <DependentUpon>ReportProgress.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\application_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\computer16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\application_instance_72.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\application_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\application_72.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\view_16.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\application_view_16.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\approved_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\not_approved_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\export_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\os_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\application_serial_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\application_serial_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\os_96.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Layton Framework\Cab\Interface\Layton.Cab.Interface.csproj">
+      <Project>{CA632E36-6514-40A6-B43B-925B89DE7A81}</Project>
+      <Name>Layton.Cab.Interface</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Layton.AuditWizard.Common\Layton.AuditWizard.Common.csproj">
+      <Project>{2E7C0E1A-E76B-4940-B9F4-2AC30F8E30D4}</Project>
+      <Name>Layton.AuditWizard.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Layton.AuditWizard.DataAccess\Layton.AuditWizard.DataAccess.csproj">
+      <Project>{AA9AF8D0-E825-4BDD-9291-624858D076CA}</Project>
+      <Name>Layton.AuditWizard.DataAccess</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Layton.Common.Controls\Layton.Common.Controls.csproj">
+      <Project>{8CD552D1-01D2-4420-B5F8-4E57B84CB39B}</Project>
+      <Name>Layton.Common.Controls</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\application_license_96.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\application_properties_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\application_properties_72.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\application_properties_96.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\application_publisher_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\application_publisher_72.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\application_license_add_corner.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\application_license_edit_corner.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\license_edit_32.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\license_add_16.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\license_add_32.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\license_delete_16.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\license_delete_32.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\license_edit_16.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\application_license_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\application_license_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\application_license_72.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\application_properties_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hide_all_applications_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hide Computer_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hide Computer_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\show_application_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\show_application_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\show_all_applications_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hide_application_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hide_application_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\manage_license_types_corner.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\select_application_corner.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\xps_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pdf_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\excel_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\xps_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\excel_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pdf.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\filter_publishers_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\application_view_ghosted_96.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\supplier_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\support_contract_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\usersandsecurity_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\action_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\action_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\action_72.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\edit_action_corner.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Alert_72.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Alert_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Alert_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Alert_dismissed_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Alert_active_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Alert_details_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Alert_delete_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\alert_details_corner.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\edit_action_corner1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\notes_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Documents_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\application_publisher_add_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\application_add_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\application_add_corner.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\application_hidden_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\application_instance_properties_corner.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\application_global_properties_corner.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\application_alias_72.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\application_alias_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\alias_application_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\alias_publisher_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cross.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tick.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\application_del_16.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

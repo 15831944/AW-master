@@ -1,0 +1,69 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="743BC7DC-B7E3-47B8-BB02-34E5FA6208B2/f:AuditDataFile.cpp/l:..?AuditScannerCommon?AuditDataFile.cpp" caret="12502" fromTop="23" />
+      <File id="743BC7DC-B7E3-47B8-BB02-34E5FA6208B2/f:GraphicsAdaptersScanner.cpp/l:..?AuditScannerCommon?GraphicsAdaptersScanner.cpp" caret="3955" fromTop="8" />
+      <File id="743BC7DC-B7E3-47B8-BB02-34E5FA6208B2/f:SystemProcessorScanner.cpp/l:..?AuditScannerCommon?SystemProcessorScanner.cpp" caret="805" fromTop="0" />
+      <File id="743BC7DC-B7E3-47B8-BB02-34E5FA6208B2/f:SoftwareScanner.cpp/l:..?AuditScannerCommon?SoftwareScanner.cpp" caret="557" fromTop="29" />
+      <File id="743BC7DC-B7E3-47B8-BB02-34E5FA6208B2/f:ApplicationInstance.h/l:..?AuditScannerCommon?ApplicationInstance.h" caret="1665" fromTop="17" />
+      <File id="743BC7DC-B7E3-47B8-BB02-34E5FA6208B2/f:ScanApp.cpp" caret="29118" fromTop="27" />
+      <File id="743BC7DC-B7E3-47B8-BB02-34E5FA6208B2/f:ApplicationInstance.cpp/l:..?AuditScannerCommon?ApplicationInstance.cpp" caret="10023" fromTop="18" />
+      <File id="743BC7DC-B7E3-47B8-BB02-34E5FA6208B2/f:AuditScannerConfiguration.cpp/l:..?AuditScannerCommon?AuditScannerConfiguration.cpp" caret="11539" fromTop="17" />
+      <File id="743BC7DC-B7E3-47B8-BB02-34E5FA6208B2/f:ServiceApp.cpp" caret="7632" fromTop="8" />
+      <File id="743BC7DC-B7E3-47B8-BB02-34E5FA6208B2/f:IEVersion.cpp/l:..?AuditScannerCommon?IEVersion.cpp" caret="0" fromTop="0" />
+      <File id="743BC7DC-B7E3-47B8-BB02-34E5FA6208B2/f:HardwareScanner.cpp/l:..?AuditScannerCommon?HardwareScanner.cpp" caret="0" fromTop="0" />
+      <File id="743BC7DC-B7E3-47B8-BB02-34E5FA6208B2/f:LocaleScanner.h/l:..?AuditScannerCommon?LocaleScanner.h" caret="474" fromTop="15" />
+      <File id="743BC7DC-B7E3-47B8-BB02-34E5FA6208B2/f:LocaleScanner.cpp/l:..?AuditScannerCommon?LocaleScanner.cpp" caret="3652" fromTop="8" />
+      <File id="743BC7DC-B7E3-47B8-BB02-34E5FA6208B2/f:ApplicationSerial.cpp/l:..?AuditScannerCommon?ApplicationSerial.cpp" caret="12214" fromTop="14" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="743BC7DC-B7E3-47B8-BB02-34E5FA6208B2/f:ApplicationSerial.cpp/l:..?AuditScannerCommon?ApplicationSerial.cpp" caret="22728" fromTop="13" />
+      <File id="743BC7DC-B7E3-47B8-BB02-34E5FA6208B2/f:ApplicationInstance.cpp/l:..?AuditScannerCommon?ApplicationInstance.cpp" caret="11022" fromTop="33" />
+      <File id="743BC7DC-B7E3-47B8-BB02-34E5FA6208B2/f:ApplicationInstance.cpp/l:..?AuditScannerCommon?ApplicationInstance.cpp" caret="10112" fromTop="8" />
+      <File id="743BC7DC-B7E3-47B8-BB02-34E5FA6208B2/f:ApplicationInstance.cpp/l:..?AuditScannerCommon?ApplicationInstance.cpp" caret="12913" fromTop="20" />
+      <File id="743BC7DC-B7E3-47B8-BB02-34E5FA6208B2/f:ApplicationInstance.cpp/l:..?AuditScannerCommon?ApplicationInstance.cpp" caret="12225" fromTop="6" />
+      <File id="743BC7DC-B7E3-47B8-BB02-34E5FA6208B2/f:ApplicationInstance.cpp/l:..?AuditScannerCommon?ApplicationInstance.cpp" caret="11789" fromTop="5" />
+      <File id="743BC7DC-B7E3-47B8-BB02-34E5FA6208B2/f:ApplicationInstance.cpp/l:..?AuditScannerCommon?ApplicationInstance.cpp" caret="1972" fromTop="10" />
+      <File id="743BC7DC-B7E3-47B8-BB02-34E5FA6208B2/f:ApplicationInstance.cpp/l:..?AuditScannerCommon?ApplicationInstance.cpp" caret="7455" fromTop="15" />
+      <File id="743BC7DC-B7E3-47B8-BB02-34E5FA6208B2/f:ApplicationInstance.cpp/l:..?AuditScannerCommon?ApplicationInstance.cpp" caret="6062" fromTop="24" />
+      <File id="743BC7DC-B7E3-47B8-BB02-34E5FA6208B2/f:ApplicationInstance.cpp/l:..?AuditScannerCommon?ApplicationInstance.cpp" caret="3183" fromTop="17" />
+      <File id="743BC7DC-B7E3-47B8-BB02-34E5FA6208B2/f:ApplicationInstance.cpp/l:..?AuditScannerCommon?ApplicationInstance.cpp" caret="3766" fromTop="34" />
+      <File id="743BC7DC-B7E3-47B8-BB02-34E5FA6208B2/f:ApplicationSerial.cpp/l:..?AuditScannerCommon?ApplicationSerial.cpp" caret="16580" fromTop="11" />
+      <File id="743BC7DC-B7E3-47B8-BB02-34E5FA6208B2/f:ApplicationSerial.cpp/l:..?AuditScannerCommon?ApplicationSerial.cpp" caret="16953" fromTop="20" />
+      <File id="743BC7DC-B7E3-47B8-BB02-34E5FA6208B2/f:ApplicationSerial.cpp/l:..?AuditScannerCommon?ApplicationSerial.cpp" caret="17195" fromTop="34" />
+      <File id="743BC7DC-B7E3-47B8-BB02-34E5FA6208B2/f:ApplicationSerial.cpp/l:..?AuditScannerCommon?ApplicationSerial.cpp" caret="17056" fromTop="28" />
+      <File id="743BC7DC-B7E3-47B8-BB02-34E5FA6208B2/f:ScanApp.cpp" caret="3400" fromTop="14" />
+      <File id="743BC7DC-B7E3-47B8-BB02-34E5FA6208B2/f:ScanApp.cpp" caret="29063" fromTop="40" />
+      <File id="743BC7DC-B7E3-47B8-BB02-34E5FA6208B2/f:ApplicationInstance.cpp/l:..?AuditScannerCommon?ApplicationInstance.cpp" caret="10629" fromTop="31" />
+      <File id="743BC7DC-B7E3-47B8-BB02-34E5FA6208B2/f:LocaleScanner.cpp/l:..?AuditScannerCommon?LocaleScanner.cpp" caret="4367" fromTop="34" />
+      <File id="743BC7DC-B7E3-47B8-BB02-34E5FA6208B2/f:LocaleScanner.cpp/l:..?AuditScannerCommon?LocaleScanner.cpp" caret="8136" fromTop="26" />
+      <File id="743BC7DC-B7E3-47B8-BB02-34E5FA6208B2/f:LocaleScanner.cpp/l:..?AuditScannerCommon?LocaleScanner.cpp" caret="10718" fromTop="36" />
+      <File id="743BC7DC-B7E3-47B8-BB02-34E5FA6208B2/f:LocaleScanner.cpp/l:..?AuditScannerCommon?LocaleScanner.cpp" caret="8256" fromTop="19" />
+      <File id="743BC7DC-B7E3-47B8-BB02-34E5FA6208B2/f:LocaleScanner.h/l:..?AuditScannerCommon?LocaleScanner.h" caret="474" fromTop="15" />
+      <File id="743BC7DC-B7E3-47B8-BB02-34E5FA6208B2/f:LocaleScanner.cpp/l:..?AuditScannerCommon?LocaleScanner.cpp" caret="4089" fromTop="24" />
+      <File id="743BC7DC-B7E3-47B8-BB02-34E5FA6208B2/f:ApplicationSerial.cpp/l:..?AuditScannerCommon?ApplicationSerial.cpp" caret="16968" fromTop="20" />
+      <File id="743BC7DC-B7E3-47B8-BB02-34E5FA6208B2/f:ApplicationSerial.cpp/l:..?AuditScannerCommon?ApplicationSerial.cpp" caret="16726" fromTop="11" />
+      <File id="743BC7DC-B7E3-47B8-BB02-34E5FA6208B2/f:ApplicationSerial.cpp/l:..?AuditScannerCommon?ApplicationSerial.cpp" caret="15947" fromTop="17" />
+      <File id="743BC7DC-B7E3-47B8-BB02-34E5FA6208B2/f:ApplicationSerial.cpp/l:..?AuditScannerCommon?ApplicationSerial.cpp" caret="14888" fromTop="8" />
+      <File id="743BC7DC-B7E3-47B8-BB02-34E5FA6208B2/f:ApplicationSerial.cpp/l:..?AuditScannerCommon?ApplicationSerial.cpp" caret="14257" fromTop="9" />
+      <File id="743BC7DC-B7E3-47B8-BB02-34E5FA6208B2/f:ApplicationSerial.cpp/l:..?AuditScannerCommon?ApplicationSerial.cpp" caret="12993" fromTop="16" />
+    </RecentEdits>
+  </RecentFiles>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir>C:\Program Files\NUnit 2.4.8\bin\net-2.0\</NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+</Configuration>

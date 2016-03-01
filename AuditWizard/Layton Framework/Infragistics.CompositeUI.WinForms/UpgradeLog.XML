@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="Infragistics.CompositeUI.WinForms">
+</Property><Property Name="Solution File" Value="C:\jasonl\development\source_code_store\final_v8_chris\AuditWizard_v8\Layton Framework\Infragistics.CompositeUI.WinForms\Infragistics.CompositeUI.WinForms.sln">
+</Property><Property Name="Date" Value="Tuesday, 26 May 2009">
+</Property><Property Name="Time" Value="9:26 AM">
+</Property></Properties><Event ErrorLevel="0" Project="Infragistics.CompositeUI.WinForms" Source="Infragistics.CompositeUI.WinForms.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="Infragistics.CompositeUI.WinForms" Source="Infragistics.CompositeUI.WinForms.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="Infragistics.CompositeUI.WinForms.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="Infragistics.CompositeUI.WinForms.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="Infragistics.CompositeUI.WinForms" Source="Infragistics.CompositeUI.WinForms.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

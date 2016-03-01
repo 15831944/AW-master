@@ -1,0 +1,9 @@
+2009-08-11 12:16:46,057 [1] ERROR AuditWizardv8.LaytonCabApplication Exception occurred in Main().
+Microsoft.Practices.CompositeUI.Services.ModuleLoadException: Assembly file C:\jasonl\development\layton_products\AuditWizard\working\source_code\AuditWizard_v8\Layton Framework\Assemblies\Layton.AuditWizard.Administration.dll was not found.
+   at Microsoft.Practices.CompositeUI.Services.ModuleLoaderService.GuardLegalAssemblyFile(IModuleInfo modInfo)
+   at Microsoft.Practices.CompositeUI.Services.ModuleLoaderService.LoadAssemblies(IModuleInfo[] modules)
+   at Microsoft.Practices.CompositeUI.Services.ModuleLoaderService.InnerLoad(WorkItem workItem, IModuleInfo[] modules)
+   at Microsoft.Practices.CompositeUI.Services.ModuleLoaderService.Load(WorkItem workItem, IModuleInfo[] modules)
+   at Microsoft.Practices.CompositeUI.CabApplication`1.LoadModules()
+   at Microsoft.Practices.CompositeUI.CabApplication`1.Run()
+   at AuditWizardv8.LaytonCabApplication.Main() in C:\jasonl\development\layton_products\AuditWizard\working\source_code\AuditWizard_v8\Layton Framework\Cab\Shell\LaytonCabApplication.cs:line 34

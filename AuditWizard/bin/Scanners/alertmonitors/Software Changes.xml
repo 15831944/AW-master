@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AlertDefinition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>Software Changes</Name>
+  <Description>Add or Remove Application alert</Description>
+  <DisplayAlert>false</DisplayAlert>
+  <EmailAlert>true</EmailAlert>
+  <Triggers>
+    <AlertTrigger>
+      <TriggerField>Applications</TriggerField>
+      <Condition>changed</Condition>
+      <Value />
+    </AlertTrigger>
+  </Triggers>
+  <MonitoredComputers>
+    <string>LAY09</string>
+  </MonitoredComputers>
+</AlertDefinition>

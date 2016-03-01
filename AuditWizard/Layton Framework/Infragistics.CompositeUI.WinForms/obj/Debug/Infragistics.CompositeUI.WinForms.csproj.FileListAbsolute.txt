@@ -1,0 +1,12 @@
+D:\LaytonProducts\AuditWizard\Layton Framework\Infragistics.CompositeUI.WinForms\bin\Debug\Infragistics.Practices.CompositeUI.WinForms.dll
+D:\LaytonProducts\AuditWizard\Layton Framework\Infragistics.CompositeUI.WinForms\bin\Debug\Infragistics.Practices.CompositeUI.WinForms.pdb
+D:\LaytonProducts\AuditWizard\Layton Framework\Infragistics.CompositeUI.WinForms\bin\Debug\Microsoft.Practices.CompositeUI.dll
+D:\LaytonProducts\AuditWizard\Layton Framework\Infragistics.CompositeUI.WinForms\bin\Debug\Microsoft.Practices.CompositeUI.WinForms.dll
+D:\LaytonProducts\AuditWizard\Layton Framework\Infragistics.CompositeUI.WinForms\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+D:\LaytonProducts\AuditWizard\Layton Framework\Infragistics.CompositeUI.WinForms\obj\Debug\ResolveAssemblyReference.cache
+D:\LaytonProducts\AuditWizard\Layton Framework\Infragistics.CompositeUI.WinForms\obj\Debug\Infragistics.Practices.CompositeUI.WinForms.Properties.Resources.resources
+D:\LaytonProducts\AuditWizard\Layton Framework\Infragistics.CompositeUI.WinForms\obj\Debug\ResGen.read.1.tlog
+D:\LaytonProducts\AuditWizard\Layton Framework\Infragistics.CompositeUI.WinForms\obj\Debug\ResGen.write.1.tlog
+D:\LaytonProducts\AuditWizard\Layton Framework\Infragistics.CompositeUI.WinForms\obj\Debug\Infragistics.Practices.CompositeUI.WinForms.dll.licenses
+D:\LaytonProducts\AuditWizard\Layton Framework\Infragistics.CompositeUI.WinForms\obj\Debug\Infragistics.Practices.CompositeUI.WinForms.dll
+D:\LaytonProducts\AuditWizard\Layton Framework\Infragistics.CompositeUI.WinForms\obj\Debug\Infragistics.Practices.CompositeUI.WinForms.pdb

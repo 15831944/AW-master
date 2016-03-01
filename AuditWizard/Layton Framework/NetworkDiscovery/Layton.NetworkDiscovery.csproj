@@ -1,0 +1,388 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{8362B063-98B7-47F1-A59D-5CE6EC5F34FE}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Layton.NetworkDiscovery</RootNamespace>
+    <AssemblyName>Layton.NetworkDiscovery</AssemblyName>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\..\bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\Assemblies\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <OutputPath>..\..\Output\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AWSNMP, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Assemblies\AWSNMP.dll</HintPath>
+    </Reference>
+    <Reference Include="ChilkatDotNet2">
+      <HintPath>..\..\bin\ChilkatDotNet2.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics.Practices.CompositeUI.WinForms, Version=1.0.20111.2090, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Infragistics.CompositeUI.WinForms\bin\Release\Infragistics.Practices.CompositeUI.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics2.Shared.v11.1, Version=11.1.20111.2090, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\bin\Infragistics 11.1.20111.2090\Infragistics2.Shared.v11.1.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics2.Win.Misc.v11.1, Version=11.1.20111.2090, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\bin\Infragistics 11.1.20111.2090\Infragistics2.Win.Misc.v11.1.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics2.Win.UltraWinChart.v11.1, Version=11.1.20111.2090, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\bin\Infragistics 11.1.20111.2090\Infragistics2.Win.UltraWinChart.v11.1.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics2.Win.UltraWinEditors.v11.1, Version=11.1.20111.2090, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\bin\Infragistics 11.1.20111.2090\Infragistics2.Win.UltraWinEditors.v11.1.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics2.Win.UltraWinExplorerBar.v11.1, Version=11.1.20111.2090, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\bin\Infragistics 11.1.20111.2090\Infragistics2.Win.UltraWinExplorerBar.v11.1.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics2.Win.UltraWinGauge.v11.1, Version=11.1.20111.2090, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\bin\Infragistics 11.1.20111.2090\Infragistics2.Win.UltraWinGauge.v11.1.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics2.Win.UltraWinListView.v11.1, Version=11.1.20111.2090, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\bin\Infragistics 11.1.20111.2090\Infragistics2.Win.UltraWinListView.v11.1.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics2.Win.UltraWinTabControl.v11.1, Version=11.1.20111.2090, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\bin\Infragistics 11.1.20111.2090\Infragistics2.Win.UltraWinTabControl.v11.1.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics2.Win.UltraWinToolbars.v11.1, Version=11.1.20111.2090, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\bin\Infragistics 11.1.20111.2090\Infragistics2.Win.UltraWinToolbars.v11.1.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics2.Win.UltraWinTree.v11.1, Version=11.1.20111.2090, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\bin\Infragistics 11.1.20111.2090\Infragistics2.Win.UltraWinTree.v11.1.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics2.Win.v11.1, Version=11.1.20111.2090, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\bin\Infragistics 11.1.20111.2090\Infragistics2.Win.v11.1.dll</HintPath>
+    </Reference>
+    <Reference Include="IPAddressControlLib, Version=1.0.2733.28992, Culture=neutral, PublicKeyToken=0c70f2ee404bdebd, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Assemblies\IPAddressControlLib.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Cab\Shell\lib\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.CompositeUI, Version=1.0.51205.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Assemblies\Microsoft.Practices.CompositeUI.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.CompositeUI.WinForms, Version=1.0.51205.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Assemblies\Microsoft.Practices.CompositeUI.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.ObjectBuilder, Version=1.0.51205.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Assemblies\Microsoft.Practices.ObjectBuilder.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="PickerSample, Version=1.0.0.1000, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\Assemblies\PickerSample.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Runtime.Serialization.Formatters.Soap" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DiscoveryCompleteEventArgs.cs" />
+    <Compile Include="FormADSettings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormADSettings.Designer.cs">
+      <DependentUpon>FormADSettings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormAutoScan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAutoScan.Designer.cs">
+      <DependentUpon>FormAutoScan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormSNMPSettings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormSNMPSettings.Designer.cs">
+      <DependentUpon>FormSNMPSettings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormTCPIPSettings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormTCPIPSettings.Designer.cs">
+      <DependentUpon>FormTCPIPSettings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NetworkDiscoveryExplorerViewPresenter.cs" />
+    <Compile Include="NetworkDiscoveryExplorerView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="NetworkDiscoveryExplorerView.Designer.cs">
+      <DependentUpon>NetworkDiscoveryExplorerView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DiscoveryConfigurationManager.cs" />
+    <Compile Include="DiscoveryEventArgs.cs" />
+    <Compile Include="IpAddressRangeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IpAddressRangeForm.Designer.cs">
+      <DependentUpon>IpAddressRangeForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LdapNetworkDiscovery.cs" />
+    <Compile Include="NetbiosNetworkDiscovery.cs" />
+    <Compile Include="NetworkDiscovery.cs" />
+    <Compile Include="NetworkDiscoveryModuleInit.cs" />
+    <Compile Include="NetworkDiscoveryToolbarsController.cs">
+    </Compile>
+    <Compile Include="NetworkDiscoverySplashTabView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="NetworkDiscoverySplashTabView.Designer.cs">
+      <DependentUpon>NetworkDiscoverySplashTabView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NetworkDiscoveryStrings.cs" />
+    <Compile Include="NetworkDiscoveryTabView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="NetworkDiscoveryTabView.Designer.cs">
+      <DependentUpon>NetworkDiscoveryTabView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NetworkDiscoveryTabViewPresenter.cs" />
+    <Compile Include="NetworkDiscoveryWorkItem.cs" />
+    <Compile Include="NetworkDiscoveryWorkItemController.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="SNMPDiscovery.cs" />
+    <Compile Include="TcpipNetworkDiscovery.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="FormADSettings.resx">
+      <DependentUpon>FormADSettings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormAutoScan.resx">
+      <DependentUpon>FormAutoScan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormSNMPSettings.resx">
+      <DependentUpon>FormSNMPSettings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormTCPIPSettings.resx">
+      <DependentUpon>FormTCPIPSettings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NetworkDiscoveryExplorerView.resx">
+      <DependentUpon>NetworkDiscoveryExplorerView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IpAddressRangeForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>IpAddressRangeForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NetworkDiscoverySplashTabView.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>NetworkDiscoverySplashTabView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NetworkDiscoveryTabView.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>NetworkDiscoveryTabView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <SubType>Designer</SubType>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\progress_animated.gif" />
+    <None Include="SecurityKey.pfx" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ipaddressrange96.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ipaddressrange32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\netdisc_complete16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ipaddressrange16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\network_discovery16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\activedirectory_netdisc16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\netbios_netdisc16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tcp-ip_netdisc16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\network_discovery96.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\network_discovery32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\activedirectory_netdisc96.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\activedirectory_netdisc32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\netbios_netdisc96.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\netbios_netdisc32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tcp-ip_netdisc96.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tcp-ip_netdisc32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\netdisc_complete96.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\netdisc_complete32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\settings32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\settings96.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\settings16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add_ip_address_range_corner.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\perform_net_discovery_frame.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\net_disc_complete_frame.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Progress Swirl.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\top_frame.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\left_end_frame.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\completed_frame.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bottom_frame.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\swirl_animation.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ghosted_network_discovery.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vertical_blue_gradient.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Layton.AuditWizard.Common\Layton.AuditWizard.Common.csproj">
+      <Project>{2E7C0E1A-E76B-4940-B9F4-2AC30F8E30D4}</Project>
+      <Name>Layton.AuditWizard.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Layton.AuditWizard.DataAccess\Layton.AuditWizard.DataAccess.csproj">
+      <Project>{AA9AF8D0-E825-4BDD-9291-624858D076CA}</Project>
+      <Name>Layton.AuditWizard.DataAccess</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Cab\Interface\Layton.Cab.Interface.csproj">
+      <Project>{CA632E36-6514-40A6-B43B-925B89DE7A81}</Project>
+      <Name>Layton.Cab.Interface</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
