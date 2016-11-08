@@ -51,6 +51,7 @@ namespace Layton.AuditWizard.DataAccess
 		public const string MailUserName = "MailUserName";
 		public const string MailPassword = "MailPassword";
 		public const string MailFrequency = "MailFrequency";
+        public const string MailSSLEnabled = "MailSSLEnabled"; // Added for ID 66125/66652
 	}
 
 	public class DatabaseSettingsKeys

@@ -46,5 +46,14 @@ namespace Layton.AuditWizard.Common
             get { return passTextBox.Text; }
             set { passTextBox.Text = value; }
         }
+
+        /// <summary>
+        /// Added for ID 66125/66652
+        /// </summary>
+        public bool EnabledSSL
+        {
+            get { return sSLCheckBox.Checked; }
+            set { sSLCheckBox.Checked = value; }
+        }
     }
 }

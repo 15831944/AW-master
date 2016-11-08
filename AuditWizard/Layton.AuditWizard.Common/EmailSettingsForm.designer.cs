@@ -38,13 +38,14 @@ namespace Layton.AuditWizard.Common
             this.passTextBox = new System.Windows.Forms.TextBox();
             this.portTextBox = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
+            this.sSLCheckBox = new System.Windows.Forms.CheckBox();
             ((System.ComponentModel.ISupportInitialize)(this.footerPictureBox)).BeginInit();
             this.SuspendLayout();
             // 
             // footerPictureBox
             // 
             this.footerPictureBox.Image = global::Layton.AuditWizard.Common.Properties.Resources.email_settings_footer;
-            this.footerPictureBox.Location = new System.Drawing.Point(51, 196);
+            this.footerPictureBox.Location = new System.Drawing.Point(51, 232);
             this.footerPictureBox.Size = new System.Drawing.Size(312, 94);
             // 
             // okButton
@@ -52,7 +53,7 @@ namespace Layton.AuditWizard.Common
             this.okButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.okButton.BackColor = System.Drawing.Color.Transparent;
             this.okButton.DialogResult = System.Windows.Forms.DialogResult.OK;
-            this.okButton.Location = new System.Drawing.Point(168, 161);
+            this.okButton.Location = new System.Drawing.Point(168, 197);
             this.okButton.Name = "okButton";
             this.okButton.Size = new System.Drawing.Size(87, 23);
             this.okButton.TabIndex = 5;
@@ -64,7 +65,7 @@ namespace Layton.AuditWizard.Common
             this.cancelButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.cancelButton.BackColor = System.Drawing.Color.Transparent;
             this.cancelButton.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            this.cancelButton.Location = new System.Drawing.Point(262, 161);
+            this.cancelButton.Location = new System.Drawing.Point(262, 197);
             this.cancelButton.Name = "cancelButton";
             this.cancelButton.Size = new System.Drawing.Size(87, 23);
             this.cancelButton.TabIndex = 6;
@@ -75,7 +76,7 @@ namespace Layton.AuditWizard.Common
             // 
             this.authCheckBox.AutoSize = true;
             this.authCheckBox.BackColor = System.Drawing.Color.Transparent;
-            this.authCheckBox.Location = new System.Drawing.Point(28, 76);
+            this.authCheckBox.Location = new System.Drawing.Point(28, 113);
             this.authCheckBox.Name = "authCheckBox";
             this.authCheckBox.Size = new System.Drawing.Size(306, 17);
             this.authCheckBox.TabIndex = 2;
@@ -98,7 +99,7 @@ namespace Layton.AuditWizard.Common
             // 
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.Transparent;
-            this.label2.Location = new System.Drawing.Point(48, 105);
+            this.label2.Location = new System.Drawing.Point(48, 142);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(75, 13);
             this.label2.TabIndex = 11;
@@ -108,7 +109,7 @@ namespace Layton.AuditWizard.Common
             // 
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.Color.Transparent;
-            this.label3.Location = new System.Drawing.Point(48, 127);
+            this.label3.Location = new System.Drawing.Point(48, 164);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(66, 13);
             this.label3.TabIndex = 12;
@@ -117,7 +118,7 @@ namespace Layton.AuditWizard.Common
             // userTextBox
             // 
             this.userTextBox.Enabled = false;
-            this.userTextBox.Location = new System.Drawing.Point(132, 102);
+            this.userTextBox.Location = new System.Drawing.Point(132, 139);
             this.userTextBox.Name = "userTextBox";
             this.userTextBox.Size = new System.Drawing.Size(217, 21);
             this.userTextBox.TabIndex = 3;
@@ -125,7 +126,7 @@ namespace Layton.AuditWizard.Common
             // passTextBox
             // 
             this.passTextBox.Enabled = false;
-            this.passTextBox.Location = new System.Drawing.Point(132, 124);
+            this.passTextBox.Location = new System.Drawing.Point(132, 161);
             this.passTextBox.Name = "passTextBox";
             this.passTextBox.Size = new System.Drawing.Size(217, 21);
             this.passTextBox.TabIndex = 4;
@@ -149,12 +150,23 @@ namespace Layton.AuditWizard.Common
             this.label4.TabIndex = 17;
             this.label4.Text = "Outgoing SMTP Server Port:";
             // 
+            // sSLCheckBox
+            // 
+            this.sSLCheckBox.AutoSize = true;
+            this.sSLCheckBox.Location = new System.Drawing.Point(28, 78);
+            this.sSLCheckBox.Name = "sSLCheckBox";
+            this.sSLCheckBox.Size = new System.Drawing.Size(124, 17);
+            this.sSLCheckBox.TabIndex = 18;
+            this.sSLCheckBox.Text = "Enable SSL / TSL";
+            this.sSLCheckBox.UseVisualStyleBackColor = true;
+            // 
             // EmailSettingsForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(363, 289);
+            this.ClientSize = new System.Drawing.Size(363, 325);
+            this.Controls.Add(this.sSLCheckBox);
             this.Controls.Add(this.portTextBox);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.passTextBox);
@@ -165,10 +177,7 @@ namespace Layton.AuditWizard.Common
             this.Controls.Add(this.authCheckBox);
             this.Controls.Add(this.cancelButton);
             this.Controls.Add(this.okButton);
-            this.Font = new System.Drawing.Font("Verdana", 8.25F);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.Name = "EmailSettingsForm";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Email Settings";
             this.Controls.SetChildIndex(this.okButton, 0);
             this.Controls.SetChildIndex(this.cancelButton, 0);
@@ -181,6 +190,7 @@ namespace Layton.AuditWizard.Common
             this.Controls.SetChildIndex(this.label4, 0);
             this.Controls.SetChildIndex(this.footerPictureBox, 0);
             this.Controls.SetChildIndex(this.portTextBox, 0);
+            this.Controls.SetChildIndex(this.sSLCheckBox, 0);
             ((System.ComponentModel.ISupportInitialize)(this.footerPictureBox)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -199,5 +209,6 @@ namespace Layton.AuditWizard.Common
         private System.Windows.Forms.TextBox passTextBox;
         private System.Windows.Forms.TextBox portTextBox;
         private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.CheckBox sSLCheckBox;
     }
 }

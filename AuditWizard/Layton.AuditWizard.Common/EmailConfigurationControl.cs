@@ -97,6 +97,8 @@ namespace Layton.AuditWizard.Common
 					lSettingsDao.SetSetting(MailSettingsKeys.MailUserName, emailForm.Username, false);
 					lSettingsDao.SetSetting(MailSettingsKeys.MailPassword, emailForm.Password, true);
 				}
+
+                lSettingsDao.SetSetting(MailSettingsKeys.MailSSLEnabled, emailForm.EnabledSSL.ToString(), false); // Added for ID 66125/66652
 			}
 
 			// Save general email settings
