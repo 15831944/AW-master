@@ -19,6 +19,7 @@ namespace Layton.AuditWizard.Common
 		private bool _requiresAuthentication;
 		private string _userName;
 		private string _password;
+        private bool _sSLEnabled; // Added for ID 66125/66652
 
 		#endregion Data
 
@@ -71,6 +72,15 @@ namespace Layton.AuditWizard.Common
 			set { _password = value; }
 		}
 
+        /// <summary>
+        /// Added for ID 66125/66652
+        /// </summary>
+        public bool SSLEnabled
+        {
+            get { return _sSLEnabled; }
+            set { _sSLEnabled = value; }
+        }
+
 		#endregion Properties
 
 		#region Constructor
@@ -105,12 +115,13 @@ namespace Layton.AuditWizard.Common
 			}
 			catch (Exception)
 			{
-				Port = 23;
+				Port = 25;
 			}
 			Server = lwDataAccess.GetSetting(MailSettingsKeys.MailServer, false);
 			RequiresAuthentication = lwDataAccess.GetSettingAsBoolean(MailSettingsKeys.MailRequiresAuthentication, false);
 			UserName = lwDataAccess.GetSetting(MailSettingsKeys.MailUserName, false);
 			Password = lwDataAccess.GetSetting(MailSettingsKeys.MailPassword, true);
+            SSLEnabled = lwDataAccess.GetSettingAsBoolean(MailSettingsKeys.MailSSLEnabled, false); //Added for ID 66125/66652
 		}
 
 		#endregion Constructor
@@ -164,6 +175,7 @@ namespace Layton.AuditWizard.Common
 
 			// Create the SmtpClient object
 			SmtpClient emailClient = new SmtpClient(_server, _port);
+            emailClient.EnableSsl = SSLEnabled; // Added for ID 66125/66652
 			if (_requiresAuthentication)
 			{
 				NetworkCredential credentials = new NetworkCredential(_userName ,_password);
@@ -198,6 +210,7 @@ namespace Layton.AuditWizard.Common
 
             // Create the SmtpClient object
             SmtpClient emailClient = new SmtpClient(_server, _port);
+            emailClient.EnableSsl = SSLEnabled; // Added for ID 66125/66652
             if (_requiresAuthentication)
             {
                 NetworkCredential credentials = new NetworkCredential(_userName, _password);
