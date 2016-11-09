@@ -80,7 +80,6 @@ namespace Layton.AuditWizard.Common
             get { return _sSLEnabled; }
             set { _sSLEnabled = value; }
         }
-
 		#endregion Properties
 
 		#region Constructor
@@ -115,7 +114,7 @@ namespace Layton.AuditWizard.Common
 			}
 			catch (Exception)
 			{
-				Port = 25;
+				Port = 23;
 			}
 			Server = lwDataAccess.GetSetting(MailSettingsKeys.MailServer, false);
 			RequiresAuthentication = lwDataAccess.GetSettingAsBoolean(MailSettingsKeys.MailRequiresAuthentication, false);

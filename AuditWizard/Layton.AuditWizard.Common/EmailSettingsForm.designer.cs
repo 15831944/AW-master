@@ -157,7 +157,7 @@ namespace Layton.AuditWizard.Common
             this.sSLCheckBox.Name = "sSLCheckBox";
             this.sSLCheckBox.Size = new System.Drawing.Size(124, 17);
             this.sSLCheckBox.TabIndex = 18;
-            this.sSLCheckBox.Text = "Enable SSL / TSL";
+            this.sSLCheckBox.Text = "SSL / TSL";
             this.sSLCheckBox.UseVisualStyleBackColor = true;
             // 
             // EmailSettingsForm
@@ -177,7 +177,10 @@ namespace Layton.AuditWizard.Common
             this.Controls.Add(this.authCheckBox);
             this.Controls.Add(this.cancelButton);
             this.Controls.Add(this.okButton);
+            this.Font = new System.Drawing.Font("Verdana", 8.25F);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.Name = "EmailSettingsForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Email Settings";
             this.Controls.SetChildIndex(this.okButton, 0);
             this.Controls.SetChildIndex(this.cancelButton, 0);

@@ -51,6 +51,8 @@ namespace Layton.AuditWizard.Common
                 emailForm.Password = lSettingsDao.GetSetting(MailSettingsKeys.MailPassword, true);
 			}
 
+            emailForm.EnabledSSL = lSettingsDao.GetSettingAsBoolean(MailSettingsKeys.MailSSLEnabled, false);// Added for ID 66125/66652
+
 			// Set the mail frequency
             string mailFrequency = lSettingsDao.GetSetting(MailSettingsKeys.MailFrequency, false);
 			
