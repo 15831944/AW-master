@@ -7,8 +7,8 @@ LANGUAGE 0x0,0x0
 //
 
 VS_VERSION_INFO VERSIONINFO
- FILEVERSION 8,4,4,0
- PRODUCTVERSION 8,4,4,0
+ FILEVERSION 8,4,4,6
+ PRODUCTVERSION 8,4,4,6
  FILEFLAGSMASK 0x3fL
 #ifdef _DEBUG
  FILEFLAGS 0x1L
@@ -26,14 +26,14 @@ BEGIN
             VALUE "Comments", "AuditWizard AuditAgent Service\0"
             VALUE "CompanyName", "Layton Technology, Inc.\0"
             VALUE "FileDescription", "AuditAgent Service\0"
-            VALUE "FileVersion", "8.4.4.0\4"
+            VALUE "FileVersion", "8.4.4.6\4"
             VALUE "InternalName", "AuditAgent\0"
             VALUE "LegalCopyright", "Copyright (C) Layton Technology, Inc. 2000 - 2014\0"
             VALUE "LegalTrademarks", "\0"
             VALUE "OriginalFilename", "AuditAgent.exe\0"
             VALUE "PrivateBuild", "\0"
             VALUE "ProductName", "AuditWizard\0"
-            VALUE "ProductVersion", "8.4.4.0/4\4"
+            VALUE "ProductVersion", "8.4.4.6/4\4"
             VALUE "SpecialBuild", "\0"
         END
     END

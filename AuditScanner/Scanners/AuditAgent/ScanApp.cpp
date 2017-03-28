@@ -41,7 +41,7 @@ const char* gszErrorMsgTable[] =
 static char THIS_FILE[] = __FILE__;
 #endif
 
-#define SCANNER_VERSION	"8.4.4.0"
+#define SCANNER_VERSION	"8.4.4.6"
 
 #define DEPLOY_MANUAL	0
 #define DEPLOY_NETWORK	1
@@ -123,7 +123,7 @@ int CScanApp::Initialise ()
 	CLogFile log;
 	int nReturn = 0;
 
-	log.Format("Version 8.4.4.0 \n");
+	log.Format("Version 8.4.4.6 \n");
 	log.Format ("Performing initialisation of AuditAgent...\n");
 
 	m_pWmiScanner->Connect();
