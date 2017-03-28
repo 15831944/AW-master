@@ -62,8 +62,8 @@ END
 //
 
 VS_VERSION_INFO VERSIONINFO
- FILEVERSION 8,4,4,3
- PRODUCTVERSION 8,4,4,0
+ FILEVERSION 8,4,4,6
+ PRODUCTVERSION 8,4,4,6
  FILEFLAGSMASK 0x3fL
 #ifdef _DEBUG
  FILEFLAGS 0x1L
@@ -81,12 +81,12 @@ BEGIN
             VALUE "Comments", "AuditWizard Scanner"
             VALUE "CompanyName", "Layton Technology, Inc."
             VALUE "FileDescription", "AuditScanner"
-            VALUE "FileVersion", "8.4.4.3"
+            VALUE "FileVersion", "8.4.4.6"
             VALUE "InternalName", "AuditScanner"
             VALUE "LegalCopyright", "Copyright (C) Layton Technology, Inc. 2000 - 2015"
             VALUE "OriginalFilename", "AuditScanner.exe"
             VALUE "ProductName", "AuditScanner"
-            VALUE "ProductVersion", "8.4.4.0"
+            VALUE "ProductVersion", "8.4.4.6"
         END
     END
     BLOCK "VarFileInfo"

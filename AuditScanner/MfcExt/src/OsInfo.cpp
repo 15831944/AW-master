@@ -256,9 +256,13 @@ BOOL COsInfo::Detect()
 
 	// Check if he windows versio is windows 10 or not
 	CString versiondetails = CReg::GetItemString (HKEY_LOCAL_MACHINE, RK_NT_VERSION,RI_OS_NAME);
-	if (versiondetails.Find("Windows 10") >= 0)
+	if (versiondetails.Find("Windows 10") >= 0 || versiondetails.Find("2016") >= 0)
 	{
 		osvi.dwMajorVersion = 10;
+	}
+	else if(versiondetails.Find("Windows 8.1") >= 0 || versiondetails.Find("2012 R2") >= 0)
+	{
+		osvi.dwMinorVersion = 3;
 	}
 	// If the platform type is WINDOWS then we are dealing with very early versions indeed
 	if (osvi.dwPlatformId == VER_PLATFORM_WIN32_WINDOWS)
@@ -323,8 +327,7 @@ BOOL COsInfo::Detect()
 
 			// Now get the varient
 			pGPI = (PGPI) GetProcAddress(GetModuleHandle(TEXT("kernel32.dll")), "GetProductInfo");
-			pGPI( 6, 0, 0, 0, &dwType);
-
+			pGPI( osvi.dwMajorVersion, osvi.dwMinorVersion, 0, 0, &dwType);
 			switch (dwType)
 			{
 				case PRODUCT_ULTIMATE:
@@ -475,7 +478,7 @@ BOOL COsInfo::Detect()
 
 			// Now get the varient
 			pGPI = (PGPI) GetProcAddress(GetModuleHandle(TEXT("kernel32.dll")), "GetProductInfo");
-			pGPI( 6, 0, 0, 0, &dwType);
+			pGPI( osvi.dwMajorVersion, osvi.dwMinorVersion, 0, 0, &dwType);
 
 			switch (dwType)
 			{
