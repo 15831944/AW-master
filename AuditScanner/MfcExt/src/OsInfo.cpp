@@ -254,8 +254,9 @@ BOOL COsInfo::Detect()
 	else 
 		GetSystemInfo(&si);
 
+	
 	// Check if he windows versio is windows 10 or not
-	CString versiondetails = CReg::GetItemString (HKEY_LOCAL_MACHINE, RK_NT_VERSION,RI_OS_NAME);
+	CString versiondetails = CReg::GetItemString (HKEY_LOCAL_MACHINE, RK_NT_VERSION,RI_OS_NAME);	
 	if (versiondetails.Find("Windows 10") >= 0 || versiondetails.Find("2016") >= 0)
 	{
 		osvi.dwMajorVersion = 10;
@@ -720,7 +721,18 @@ BOOL COsInfo::Detect()
 		}
 		
 		// exact version
-		m_strVersion.Format ("%d.%d %s (build %d)", osvi.dwMajorVersion, osvi.dwMinorVersion, osvi.szCSDVersion, osvi.dwBuildNumber);
+		if(osvi.dwMajorVersion == 6 || osvi.dwMajorVersion == 10)
+		{
+			CString Buildno = CReg::GetItemString (HKEY_LOCAL_MACHINE, RK_NT_VERSION,"CurrentBuild");
+			CString VersionNo = CReg::GetItemString (HKEY_LOCAL_MACHINE, RK_NT_VERSION,"CurrentVersion");
+		    m_strVersion = VersionNo+"  (build "+Buildno+")";
+		}
+		else
+		{
+			m_strVersion.Format ("%d.%d %s (build %d)", osvi.dwMajorVersion, osvi.dwMinorVersion, osvi.szCSDVersion, osvi.dwBuildNumber);
+		}
+
+		
 	}
 
 	else
@@ -1017,6 +1029,7 @@ CString COsInfo::GetAdvancedProductInfo()
 		lpfnGetProductInfo pGetProductInfo = (lpfnGetProductInfo) GetProcAddress(hKernel32, "GetProductInfo"); 
 		if (pGetProductInfo)
 			pGetProductInfo(6, 0, 0, 0, &dwProductType);
+			//pGPI( osvi.dwMajorVersion, osvi.dwMinorVersion, 0, 0, &dwProductType);
 	}  
   
 	switch (dwProductType)
