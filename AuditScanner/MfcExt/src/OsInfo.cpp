@@ -724,8 +724,10 @@ BOOL COsInfo::Detect()
 		if(osvi.dwMajorVersion == 6 || osvi.dwMajorVersion == 10)
 		{
 			CString Buildno = CReg::GetItemString (HKEY_LOCAL_MACHINE, RK_NT_VERSION,"CurrentBuild");
-			CString VersionNo = CReg::GetItemString (HKEY_LOCAL_MACHINE, RK_NT_VERSION,"CurrentVersion");
-		    m_strVersion = VersionNo+"  (build "+Buildno+")";
+			if(!osvi.dwMajorVersion == 10)
+				m_strVersion.Format ("%d.%d %s (build %s)", osvi.dwMajorVersion, osvi.dwMinorVersion, osvi.szCSDVersion, Buildno);
+			else
+				m_strVersion.Format ("%d.%d %s (build %s)", osvi.dwMajorVersion, 0, osvi.szCSDVersion , Buildno);
 		}
 		else
 		{
