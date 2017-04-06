@@ -30,7 +30,7 @@ namespace AuditWizardv8
             {
                 // Use existing default images
             }
-            this.versionLabel.Text = "8.4.4";
+            this.versionLabel.Text = "8.4.5";
             UpdateLicensing();
             AddModules();
         }

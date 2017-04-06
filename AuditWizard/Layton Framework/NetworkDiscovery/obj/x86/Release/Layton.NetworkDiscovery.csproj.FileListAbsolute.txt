@@ -165,3 +165,20 @@ D:\LaytonTechnology\AW\AuditWizard\Layton Framework\NetworkDiscovery\obj\x86\Rel
 D:\LaytonTechnology\AW\AuditWizard\Layton Framework\NetworkDiscovery\obj\x86\Release\Layton.NetworkDiscovery.dll.licenses
 D:\LaytonTechnology\AW\AuditWizard\Layton Framework\NetworkDiscovery\obj\x86\Release\Layton.NetworkDiscovery.dll
 D:\LaytonTechnology\AW\AuditWizard\Layton Framework\NetworkDiscovery\obj\x86\Release\Layton.NetworkDiscovery.pdb
+D:\WorkArea-Layton\AW-master\AuditWizard\Output\Layton.NetworkDiscovery.dll.config
+D:\WorkArea-Layton\AW-master\AuditWizard\Output\Layton.NetworkDiscovery.dll
+D:\WorkArea-Layton\AW-master\AuditWizard\Output\Layton.NetworkDiscovery.pdb
+D:\WorkArea-Layton\AW-master\AuditWizard\Layton Framework\NetworkDiscovery\obj\x86\Release\Layton.NetworkDiscovery.csprojResolveAssemblyReference.cache
+D:\WorkArea-Layton\AW-master\AuditWizard\Layton Framework\NetworkDiscovery\obj\x86\Release\Layton.NetworkDiscovery.FormADSettings.resources
+D:\WorkArea-Layton\AW-master\AuditWizard\Layton Framework\NetworkDiscovery\obj\x86\Release\Layton.NetworkDiscovery.FormAutoScan.resources
+D:\WorkArea-Layton\AW-master\AuditWizard\Layton Framework\NetworkDiscovery\obj\x86\Release\Layton.NetworkDiscovery.FormSNMPSettings.resources
+D:\WorkArea-Layton\AW-master\AuditWizard\Layton Framework\NetworkDiscovery\obj\x86\Release\Layton.NetworkDiscovery.FormTcpipSettings.resources
+D:\WorkArea-Layton\AW-master\AuditWizard\Layton Framework\NetworkDiscovery\obj\x86\Release\Layton.NetworkDiscovery.NetworkDiscoveryExplorerView.resources
+D:\WorkArea-Layton\AW-master\AuditWizard\Layton Framework\NetworkDiscovery\obj\x86\Release\Layton.NetworkDiscovery.IpAddressRangeForm.resources
+D:\WorkArea-Layton\AW-master\AuditWizard\Layton Framework\NetworkDiscovery\obj\x86\Release\Layton.NetworkDiscovery.NetworkDiscoverySplashTabView.resources
+D:\WorkArea-Layton\AW-master\AuditWizard\Layton Framework\NetworkDiscovery\obj\x86\Release\Layton.NetworkDiscovery.NetworkDiscoveryTabView.resources
+D:\WorkArea-Layton\AW-master\AuditWizard\Layton Framework\NetworkDiscovery\obj\x86\Release\Layton.NetworkDiscovery.Properties.Resources.resources
+D:\WorkArea-Layton\AW-master\AuditWizard\Layton Framework\NetworkDiscovery\obj\x86\Release\Layton.NetworkDiscovery.csproj.GenerateResource.Cache
+D:\WorkArea-Layton\AW-master\AuditWizard\Layton Framework\NetworkDiscovery\obj\x86\Release\Layton.NetworkDiscovery.dll.licenses
+D:\WorkArea-Layton\AW-master\AuditWizard\Layton Framework\NetworkDiscovery\obj\x86\Release\Layton.NetworkDiscovery.dll
+D:\WorkArea-Layton\AW-master\AuditWizard\Layton Framework\NetworkDiscovery\obj\x86\Release\Layton.NetworkDiscovery.pdb

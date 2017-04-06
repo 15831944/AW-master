@@ -42,3 +42,14 @@ D:\LaytonTechnology\AW\AuditWizard\Layton Framework\Cab\Shell\obj\x86\Debug\Audi
 D:\LaytonTechnology\AW\AuditWizard\Layton Framework\Cab\Shell\obj\x86\Debug\AuditWizardv8.SplashForm.resources
 D:\LaytonTechnology\AW\AuditWizard\Layton Framework\Cab\Shell\obj\x86\Debug\Layton.Cab.Shell.csproj.GenerateResource.Cache
 D:\LaytonTechnology\AW\AuditWizard\Layton Framework\Cab\Shell\obj\x86\Debug\AuditWizardv8.exe.licenses
+D:\WorkArea-Layton\AW-master\AuditWizard\Layton Framework\Cab\Shell\obj\x86\Debug\Layton.Cab.Shell.csprojResolveAssemblyReference.cache
+D:\WorkArea-Layton\AW-master\AuditWizard\Layton Framework\Cab\Shell\obj\x86\Debug\AuditWizardv8.FormSupportExpiry.resources
+D:\WorkArea-Layton\AW-master\AuditWizard\Layton Framework\Cab\Shell\obj\x86\Debug\AuditWizardv8.FormUserGuide.resources
+D:\WorkArea-Layton\AW-master\AuditWizard\Layton Framework\Cab\Shell\obj\x86\Debug\AuditWizardv8.LaytonRegistrationForm.resources
+D:\WorkArea-Layton\AW-master\AuditWizard\Layton Framework\Cab\Shell\obj\x86\Debug\AuditWizardv8.LaytonAboutForm.resources
+D:\WorkArea-Layton\AW-master\AuditWizard\Layton Framework\Cab\Shell\obj\x86\Debug\AuditWizardv8.LaytonFormShell.resources
+D:\WorkArea-Layton\AW-master\AuditWizard\Layton Framework\Cab\Shell\obj\x86\Debug\AuditWizardv8.Properties.Resources.resources
+D:\WorkArea-Layton\AW-master\AuditWizard\Layton Framework\Cab\Shell\obj\x86\Debug\AuditWizardv8.LaytonSettingsFormShell.resources
+D:\WorkArea-Layton\AW-master\AuditWizard\Layton Framework\Cab\Shell\obj\x86\Debug\AuditWizardv8.SplashForm.resources
+D:\WorkArea-Layton\AW-master\AuditWizard\Layton Framework\Cab\Shell\obj\x86\Debug\Layton.Cab.Shell.csproj.GenerateResource.Cache
+D:\WorkArea-Layton\AW-master\AuditWizard\Layton Framework\Cab\Shell\obj\x86\Debug\AuditWizardv8.exe.licenses

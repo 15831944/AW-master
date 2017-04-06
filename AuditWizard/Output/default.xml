@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AlertDefinition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>default</Name>
+  <Description>Default Alert Monitor Definition file</Description>
+  <DisplayAlert>false</DisplayAlert>
+  <EmailAlert>true</EmailAlert>
+  <Triggers>
+    <AlertTrigger>
+      <TriggerField>System|Services|SQL Server Analysis Services (MSSQLSERVER)|State</TriggerField>
+      <Condition>changed</Condition>
+      <Value />
+    </AlertTrigger>
+    <AlertTrigger>
+      <TriggerField>System|Services|SQL Server Reporting Services (MSSQLSERVER)|State</TriggerField>
+      <Condition>changed</Condition>
+      <Value />
+    </AlertTrigger>
+  </Triggers>
+  <MonitoredComputers>
+    <string>LAY09</string>
+  </MonitoredComputers>
+</AlertDefinition>

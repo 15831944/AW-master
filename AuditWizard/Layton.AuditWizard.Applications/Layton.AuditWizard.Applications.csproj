@@ -36,7 +36,7 @@
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
     <DebugSymbols>true</DebugSymbols>
-    <OutputPath>C:\Program Files %28x86%29\AuditWizard v8\</OutputPath>
+    <OutputPath>..\Output\</OutputPath>
     <DefineConstants>TRACE;DEBUG;_AUDITWIZARD_</DefineConstants>
     <DebugType>full</DebugType>
     <PlatformTarget>x86</PlatformTarget>

@@ -43,3 +43,11 @@ D:\LaytonTechnology\AW\AuditWizard\DataBridge\bin\x86\Debug\Layton.AuditWizard.D
 D:\LaytonTechnology\AW\AuditWizard\DataBridge\obj\x86\Debug\DataBridge.csprojResolveAssemblyReference.cache
 D:\LaytonTechnology\AW\AuditWizard\DataBridge\obj\x86\Debug\AuditWizardDataBridge.dll
 D:\LaytonTechnology\AW\AuditWizard\DataBridge\obj\x86\Debug\AuditWizardDataBridge.pdb
+D:\WorkArea-Layton\AW-master\AuditWizard\DataBridge\bin\x86\Debug\AuditWizardDataBridge.dll
+D:\WorkArea-Layton\AW-master\AuditWizard\DataBridge\bin\x86\Debug\AuditWizardDataBridge.pdb
+D:\WorkArea-Layton\AW-master\AuditWizard\DataBridge\bin\x86\Debug\AuditWizardDataBridge.tlb
+D:\WorkArea-Layton\AW-master\AuditWizard\DataBridge\bin\x86\Debug\Layton.AuditWizard.DataAccess.dll
+D:\WorkArea-Layton\AW-master\AuditWizard\DataBridge\bin\x86\Debug\log4net.dll
+D:\WorkArea-Layton\AW-master\AuditWizard\DataBridge\obj\x86\Debug\DataBridge.csprojResolveAssemblyReference.cache
+D:\WorkArea-Layton\AW-master\AuditWizard\DataBridge\obj\x86\Debug\AuditWizardDataBridge.dll
+D:\WorkArea-Layton\AW-master\AuditWizard\DataBridge\obj\x86\Debug\AuditWizardDataBridge.pdb

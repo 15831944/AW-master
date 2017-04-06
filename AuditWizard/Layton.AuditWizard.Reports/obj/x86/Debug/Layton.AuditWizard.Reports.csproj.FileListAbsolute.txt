@@ -351,3 +351,17 @@ D:\LaytonTechnology\AW\AuditWizard\Layton.AuditWizard.Reports\obj\x86\Debug\Layt
 D:\LaytonTechnology\AW\AuditWizard\Layton.AuditWizard.Reports\obj\x86\Debug\Layton.AuditWizard.Reports.pdb
 D:\LaytonTechnology\AW\AuditWizard\Layton.AuditWizard.Reports\bin\x86\Debug\Layton.AuditWizard.Applications.dll
 D:\LaytonTechnology\AW\AuditWizard\Layton.AuditWizard.Reports\bin\x86\Debug\Layton.AuditWizard.Applications.pdb
+D:\WorkArea-Layton\AW-master\AuditWizard\Layton.AuditWizard.Reports\obj\x86\Debug\Layton.AuditWizard.Reports.csprojResolveAssemblyReference.cache
+D:\WorkArea-Layton\AW-master\AuditWizard\Layton.AuditWizard.Reports\obj\x86\Debug\Layton.AuditWizard.Reports.FormAppByLocation.resources
+D:\WorkArea-Layton\AW-master\AuditWizard\Layton.AuditWizard.Reports\obj\x86\Debug\Layton.AuditWizard.Reports.FormComplianceReport.resources
+D:\WorkArea-Layton\AW-master\AuditWizard\Layton.AuditWizard.Reports\obj\x86\Debug\Layton.AuditWizard.Reports.FormCustomReport.resources
+D:\WorkArea-Layton\AW-master\AuditWizard\Layton.AuditWizard.Reports\obj\x86\Debug\Layton.AuditWizard.Reports.FormProgress.resources
+D:\WorkArea-Layton\AW-master\AuditWizard\Layton.AuditWizard.Reports\obj\x86\Debug\Layton.AuditWizard.Reports.FormSaveCustomReportName.resources
+D:\WorkArea-Layton\AW-master\AuditWizard\Layton.AuditWizard.Reports\obj\x86\Debug\Layton.AuditWizard.Reports.FormScheduleReport.resources
+D:\WorkArea-Layton\AW-master\AuditWizard\Layton.AuditWizard.Reports\obj\x86\Debug\Layton.AuditWizard.Reports.FormSQLReport.resources
+D:\WorkArea-Layton\AW-master\AuditWizard\Layton.AuditWizard.Reports\obj\x86\Debug\Layton.AuditWizard.Reports.FormViewSchedules.resources
+D:\WorkArea-Layton\AW-master\AuditWizard\Layton.AuditWizard.Reports\obj\x86\Debug\Layton.AuditWizard.Reports.Properties.Resources.resources
+D:\WorkArea-Layton\AW-master\AuditWizard\Layton.AuditWizard.Reports\obj\x86\Debug\Layton.AuditWizard.Reports.ReportsExplorerView.resources
+D:\WorkArea-Layton\AW-master\AuditWizard\Layton.AuditWizard.Reports\obj\x86\Debug\Layton.AuditWizard.Reports.ReportsTabView.resources
+D:\WorkArea-Layton\AW-master\AuditWizard\Layton.AuditWizard.Reports\obj\x86\Debug\Layton.AuditWizard.Reports.csproj.GenerateResource.Cache
+D:\WorkArea-Layton\AW-master\AuditWizard\Layton.AuditWizard.Reports\obj\x86\Debug\Layton.AuditWizard.Reports.dll.licenses

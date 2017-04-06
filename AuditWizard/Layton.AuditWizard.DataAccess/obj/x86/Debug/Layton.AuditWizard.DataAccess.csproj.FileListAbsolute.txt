@@ -29,3 +29,10 @@ D:\LaytonTechnology\AW\AuditWizard\Layton.AuditWizard.DataAccess\obj\x86\Debug\L
 D:\LaytonTechnology\AW\AuditWizard\Layton.AuditWizard.DataAccess\obj\x86\Debug\Layton.AuditWizard.DataAccess.dll
 D:\LaytonTechnology\AW\AuditWizard\Layton.AuditWizard.DataAccess\obj\x86\Debug\Layton.AuditWizard.DataAccess.pdb
 D:\LaytonTechnology\AW\AuditWizard\Layton.AuditWizard.DataAccess\obj\x86\Debug\Layton.AuditWizard.DataAccess.csprojResolveAssemblyReference.cache
+D:\WorkArea-Layton\AW-master\AuditWizard\Output\Layton.AuditWizard.DataAccess.dll
+D:\WorkArea-Layton\AW-master\AuditWizard\Output\Layton.AuditWizard.DataAccess.dll.config
+D:\WorkArea-Layton\AW-master\AuditWizard\Layton.AuditWizard.DataAccess\obj\x86\Debug\Layton.AuditWizard.DataAccess.csprojResolveAssemblyReference.cache
+D:\WorkArea-Layton\AW-master\AuditWizard\Layton.AuditWizard.DataAccess\obj\x86\Debug\Layton.AuditWizard.DataAccess.Properties.Resources.resources
+D:\WorkArea-Layton\AW-master\AuditWizard\Layton.AuditWizard.DataAccess\obj\x86\Debug\Layton.AuditWizard.DataAccess.csproj.GenerateResource.Cache
+D:\WorkArea-Layton\AW-master\AuditWizard\Layton.AuditWizard.DataAccess\obj\x86\Debug\Layton.AuditWizard.DataAccess.dll
+D:\WorkArea-Layton\AW-master\AuditWizard\Layton.AuditWizard.DataAccess\obj\x86\Debug\Layton.AuditWizard.DataAccess.pdb

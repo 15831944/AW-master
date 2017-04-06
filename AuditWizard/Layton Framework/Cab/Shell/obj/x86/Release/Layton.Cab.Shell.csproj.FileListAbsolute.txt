@@ -56,3 +56,22 @@ D:\LaytonTechnology\AW\AuditWizard\Layton Framework\Cab\Shell\obj\x86\Release\Au
 D:\LaytonTechnology\AW\AuditWizard\Layton Framework\Cab\Shell\obj\x86\Release\AuditWizardv8.SplashForm.resources
 D:\LaytonTechnology\AW\AuditWizard\Layton Framework\Cab\Shell\obj\x86\Release\Layton.Cab.Shell.csproj.GenerateResource.Cache
 D:\LaytonTechnology\AW\AuditWizard\Layton Framework\Cab\Shell\obj\x86\Release\AuditWizardv8.exe.licenses
+D:\WorkArea-Layton\AW-master\AuditWizard\Output\ProfileCatalog.xml
+D:\WorkArea-Layton\AW-master\AuditWizard\Output\AuditWizardv8.exe.config
+D:\WorkArea-Layton\AW-master\AuditWizard\Output\AuditWizardv8.exe
+D:\WorkArea-Layton\AW-master\AuditWizard\Output\AuditWizardv8.XmlSerializers.dll
+D:\WorkArea-Layton\AW-master\AuditWizard\Output\AuditWizardv8.pdb
+D:\WorkArea-Layton\AW-master\AuditWizard\Layton Framework\Cab\Shell\obj\x86\Release\Layton.Cab.Shell.csprojResolveAssemblyReference.cache
+D:\WorkArea-Layton\AW-master\AuditWizard\Layton Framework\Cab\Shell\obj\x86\Release\AuditWizardv8.FormSupportExpiry.resources
+D:\WorkArea-Layton\AW-master\AuditWizard\Layton Framework\Cab\Shell\obj\x86\Release\AuditWizardv8.FormUserGuide.resources
+D:\WorkArea-Layton\AW-master\AuditWizard\Layton Framework\Cab\Shell\obj\x86\Release\AuditWizardv8.LaytonRegistrationForm.resources
+D:\WorkArea-Layton\AW-master\AuditWizard\Layton Framework\Cab\Shell\obj\x86\Release\AuditWizardv8.LaytonAboutForm.resources
+D:\WorkArea-Layton\AW-master\AuditWizard\Layton Framework\Cab\Shell\obj\x86\Release\AuditWizardv8.LaytonFormShell.resources
+D:\WorkArea-Layton\AW-master\AuditWizard\Layton Framework\Cab\Shell\obj\x86\Release\AuditWizardv8.Properties.Resources.resources
+D:\WorkArea-Layton\AW-master\AuditWizard\Layton Framework\Cab\Shell\obj\x86\Release\AuditWizardv8.LaytonSettingsFormShell.resources
+D:\WorkArea-Layton\AW-master\AuditWizard\Layton Framework\Cab\Shell\obj\x86\Release\AuditWizardv8.SplashForm.resources
+D:\WorkArea-Layton\AW-master\AuditWizard\Layton Framework\Cab\Shell\obj\x86\Release\Layton.Cab.Shell.csproj.GenerateResource.Cache
+D:\WorkArea-Layton\AW-master\AuditWizard\Layton Framework\Cab\Shell\obj\x86\Release\AuditWizardv8.exe.licenses
+D:\WorkArea-Layton\AW-master\AuditWizard\Layton Framework\Cab\Shell\obj\x86\Release\AuditWizardv8.exe
+D:\WorkArea-Layton\AW-master\AuditWizard\Layton Framework\Cab\Shell\obj\x86\Release\AuditWizardv8.pdb
+D:\WorkArea-Layton\AW-master\AuditWizard\Layton Framework\Cab\Shell\obj\x86\Release\AuditWizardv8.XmlSerializers.dll

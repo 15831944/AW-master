@@ -629,7 +629,7 @@ namespace Layton.AuditWizard.Administration
                 FileInfo file = new FileInfo(filename);
                 string scriptText = file.OpenText().ReadToEnd();
 
-                string[] splitter = new string[] { "\r\nGO\r\n" };
+                string[] splitter = new string[] { "\nGO\n" };
                 string[] commandTexts = scriptText.Split(splitter, StringSplitOptions.RemoveEmptyEntries);
                 foreach (string commandText in commandTexts)
                 {

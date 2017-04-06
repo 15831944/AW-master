@@ -26,3 +26,12 @@ D:\LaytonTechnology\AW\AuditWizard\Layton Framework\Cab\Interface\obj\x86\Releas
 D:\LaytonTechnology\AW\AuditWizard\Layton Framework\Cab\Interface\obj\x86\Release\Layton.Cab.Interface.dll.licenses
 D:\LaytonTechnology\AW\AuditWizard\Layton Framework\Cab\Interface\obj\x86\Release\Layton.Cab.Interface.dll
 D:\LaytonTechnology\AW\AuditWizard\Layton Framework\Cab\Interface\obj\x86\Release\Layton.Cab.Interface.pdb
+D:\WorkArea-Layton\AW-master\AuditWizard\Output\Layton.Cab.Interface.dll
+D:\WorkArea-Layton\AW-master\AuditWizard\Output\Layton.Cab.Interface.pdb
+D:\WorkArea-Layton\AW-master\AuditWizard\Layton Framework\Cab\Interface\obj\x86\Release\Layton.Cab.Interface.csprojResolveAssemblyReference.cache
+D:\WorkArea-Layton\AW-master\AuditWizard\Layton Framework\Cab\Interface\obj\x86\Release\Layton.Cab.Interface.ConcreteCompleoView.resources
+D:\WorkArea-Layton\AW-master\AuditWizard\Layton Framework\Cab\Interface\obj\x86\Release\Layton.Cab.Interface.Properties.Resources.resources
+D:\WorkArea-Layton\AW-master\AuditWizard\Layton Framework\Cab\Interface\obj\x86\Release\Layton.Cab.Interface.csproj.GenerateResource.Cache
+D:\WorkArea-Layton\AW-master\AuditWizard\Layton Framework\Cab\Interface\obj\x86\Release\Layton.Cab.Interface.dll.licenses
+D:\WorkArea-Layton\AW-master\AuditWizard\Layton Framework\Cab\Interface\obj\x86\Release\Layton.Cab.Interface.dll
+D:\WorkArea-Layton\AW-master\AuditWizard\Layton Framework\Cab\Interface\obj\x86\Release\Layton.Cab.Interface.pdb

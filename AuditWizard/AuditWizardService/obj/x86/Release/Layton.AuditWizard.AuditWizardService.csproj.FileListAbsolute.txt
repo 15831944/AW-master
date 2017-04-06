@@ -122,3 +122,12 @@ D:\LaytonTechnology\AW\AuditWizard\AuditWizardService\obj\x86\Release\Layton.Aud
 D:\LaytonTechnology\AW\AuditWizard\AuditWizardService\obj\x86\Release\AuditWizardService.exe.licenses
 D:\LaytonTechnology\AW\AuditWizard\AuditWizardService\obj\x86\Release\AuditWizardService.exe
 D:\LaytonTechnology\AW\AuditWizard\AuditWizardService\obj\x86\Release\AuditWizardService.pdb
+D:\WorkArea-Layton\AW-master\AuditWizard\Output\AuditWizardService.exe
+D:\WorkArea-Layton\AW-master\AuditWizard\Output\AuditWizardService.pdb
+D:\WorkArea-Layton\AW-master\AuditWizard\AuditWizardService\obj\x86\Release\Layton.AuditWizard.AuditWizardService.csprojResolveAssemblyReference.cache
+D:\WorkArea-Layton\AW-master\AuditWizard\AuditWizardService\obj\x86\Release\Layton.AuditWizard.AuditWizardService.AuditWizardService.resources
+D:\WorkArea-Layton\AW-master\AuditWizard\AuditWizardService\obj\x86\Release\Layton.AuditWizard.AuditWizardService.ProjectInstaller.resources
+D:\WorkArea-Layton\AW-master\AuditWizard\AuditWizardService\obj\x86\Release\Layton.AuditWizard.AuditWizardService.csproj.GenerateResource.Cache
+D:\WorkArea-Layton\AW-master\AuditWizard\AuditWizardService\obj\x86\Release\AuditWizardService.exe.licenses
+D:\WorkArea-Layton\AW-master\AuditWizard\AuditWizardService\obj\x86\Release\AuditWizardService.exe
+D:\WorkArea-Layton\AW-master\AuditWizard\AuditWizardService\obj\x86\Release\AuditWizardService.pdb

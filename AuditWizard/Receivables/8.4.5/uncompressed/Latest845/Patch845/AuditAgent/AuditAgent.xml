@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AuditScannerDefinition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ScannerName></ScannerName>
+  <Description></Description>
+  <NeedsDeploying>true</NeedsDeploying>
+  <Shutdown>false</Shutdown>
+  <Filename></Filename>
+  <RegistryScan>false</RegistryScan>
+  <SoftwareScan>true</SoftwareScan>
+  <HardwareScan>true</HardwareScan>
+  <IEScan>false</IEScan>
+  <DeployPathSingle>true</DeployPathSingle>
+  <DeployPathRoot />
+  <DeployPathScanner />
+  <DeployPathData></DeployPathData>
+  <AutoName>false</AutoName>
+  <ScannerMode>modeNonInteractive</ScannerMode>
+  <Hidden>true</Hidden>
+  <ReAuditInterval>0</ReAuditInterval>
+  <InteractiveAllowCancel>false</InteractiveAllowCancel>
+  <InteractiveDisplayAssetInformation>false</InteractiveDisplayAssetInformation>
+  <InteractiveEnableAssetCategory>false</InteractiveEnableAssetCategory>
+  <InteractiveEnableAssetMake>false</InteractiveEnableAssetMake>
+  <InteractiveEnableAssetModel>false</InteractiveEnableAssetModel>
+  <InteractiveDisplayLocations>false</InteractiveDisplayLocations>
+  <InteractiveEnableAddLocation>false</InteractiveEnableAddLocation>
+  <InteractiveDisplayAssetData>false</InteractiveDisplayAssetData>
+  <ListRegistryKeys />
+  <HardwareSystem>true</HardwareSystem>
+  <HardwareNetworkDrives>true</HardwareNetworkDrives>
+  <HardwarePhysicalDisks>true</HardwarePhysicalDisks>
+  <HardwareSettings>true</HardwareSettings>
+  <HardwareSecurity>true</HardwareSecurity>
+  <HardwareActiveSystem>true</HardwareActiveSystem>
+  <SoftwareScanApplications>false</SoftwareScanApplications>
+  <SoftwareScanOs>true</SoftwareScanOs>
+  <ScanFolders>noFolders</ScanFolders>
+  <ListFolders />
+  <ScanFiles>noFiles</ScanFiles>
+  <ListFiles />
+  <CaptureFiles>false</CaptureFiles>
+  <ListCapture />
+  <FileSystemScan>false</FileSystemScan>
+  <ScanMDA>false</ScanMDA>
+  <ScanUSB>false</ScanUSB>
+  <ScanMobileFiles>noFiles</ScanMobileFiles>
+  <ListMobileFiles />
+  <ScanUSBFiles>noFiles</ScanUSBFiles>
+  <ListUSBFiles />
+  <IEHistory>false</IEHistory>
+  <IECookies>false</IECookies>
+  <IEDays>0</IEDays>
+  <IEDetails>false</IEDetails>
+  <UploadSetting>network</UploadSetting>
+  <AutoUpload>true</AutoUpload>
+  <FTPCopyToNetwork>false</FTPCopyToNetwork>
+  <FTPAnonymous>false</FTPAnonymous>
+  <FTPPort>0</FTPPort>
+  <EmailAddress />
+  <AlertMonitorEnabled>false</AlertMonitorEnabled>
+  <AlertMonitorDisplayTray>false</AlertMonitorDisplayTray>
+  <AlertMonitorSettingSecs>0</AlertMonitorSettingSecs>
+  <AlertMonitorAlertSecs>0</AlertMonitorAlertSecs>
+  <AlertMonitorDefinition>
+    <DisplayAlert>false</DisplayAlert>
+    <EmailAlert>false</EmailAlert>
+    <Triggers />
+    <MonitoredComputers />
+  </AlertMonitorDefinition>
+  <PublisherMappings />
+</AuditScannerDefinition>
