@@ -813,7 +813,7 @@ namespace AuditWizardDataBridge
 		/// <param name="hasChildren"></param>
 		/// <param name="hintValue"></param>
 		/// <returns></returns>
-		protected string Pack (string item ,ICONS icon ,bool hasChildren ,int hintValue)
+		protected string Pack (string item ,ICONS icon ,bool hasChildren ,Int64 hintValue)
 		{
 			return string.Format("{0}|{1}|{2}|{3}" ,item ,(int)icon ,(hasChildren) ? 1 : 0 ,hintValue);
 		}
