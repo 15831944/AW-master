@@ -19,7 +19,7 @@ namespace Layton.AuditWizard.DataAccess
 #endregion enumerations
 
 #region Data
-		private Int32			_itemID;
+		private Int64		_itemID;
 		private int			_assetID;
 		private string		_category;
 		private string		_name;
@@ -37,7 +37,7 @@ namespace Layton.AuditWizard.DataAccess
 #region Properties
 
 		/// <summary>This is the database index of the audited item</summary>
-		public Int32 ItemID
+        public Int64 ItemID
 		{
 		  get { return _itemID; }
 		  set { _itemID = value; }
@@ -149,7 +149,7 @@ namespace Layton.AuditWizard.DataAccess
 				// We may be creating a category or an item so should determine which here
 				if (dataRow.Table.Columns.Contains("_AUDITEDITEMID"))
 				{
-					this.ItemID = Convert.ToInt32(dataRow["_AUDITEDITEMID"]);
+					this.ItemID = Convert.ToInt64(dataRow["_AUDITEDITEMID"]);
 					this.AssetID = (int)dataRow["_ASSETID"];
 					this.Category = (string)dataRow["_CATEGORY"];
 					this.Name = (string)dataRow["_NAME"];
