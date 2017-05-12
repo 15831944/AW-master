@@ -157,7 +157,7 @@ namespace Layton.AuditWizard.Common
             this.sSLCheckBox.Name = "sSLCheckBox";
             this.sSLCheckBox.Size = new System.Drawing.Size(124, 17);
             this.sSLCheckBox.TabIndex = 18;
-            this.sSLCheckBox.Text = "SSL / TSL";
+            this.sSLCheckBox.Text = "SSL/TLS";
             this.sSLCheckBox.UseVisualStyleBackColor = true;
             // 
             // EmailSettingsForm

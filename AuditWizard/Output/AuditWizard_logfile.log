@@ -1,0 +1,658 @@
+2017-05-09 15:55:58,064 [9] ERROR Layton.AuditWizard.DataAccess.StatisticsDAO Exception in SupportStatisticsAsset
+The specified table does not exist. [ ASSET_SUPPORTCONTRACT ]
+2017-05-09 15:56:15,847 [9] ERROR AuditWizardv8.LaytonCabApplication Exception occurred in Main().
+Microsoft.Practices.CompositeUI.Services.ModuleLoadException: Failed to load module from assembly Layton.AuditWizard.Overview, Version=8.4.5.28674, Culture=neutral, PublicKeyToken=null. Error was:
+Failed to load module from assembly Layton.AuditWizard.Overview, Version=8.4.5.28674, Culture=neutral, PublicKeyToken=null. Error was:
+Error loading Required CAB Module objects for Assembly: Layton.AuditWizard.Overview.dll
+Exception has been thrown by the target of an invocation. ---> System.Exception: Error loading Required CAB Module objects for Assembly: Layton.AuditWizard.Overview.dll
+Exception has been thrown by the target of an invocation. ---> System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.IndexOutOfRangeException: There is no row at position 0.
+   at System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   at System.Data.RBTree`1.get_Item(Int32 index)
+   at System.Data.DataRowCollection.get_Item(Int32 index)
+   at Layton.AuditWizard.Overview.OverviewExplorerView.UpdateSupportStatistics() in D:\Layton_GitSource\AW-master\AuditWizard\Layton.AuditWizard.Overview\OverviewExplorerView.cs:line 183
+   at Layton.AuditWizard.Overview.OverviewExplorerView.RefreshView() in D:\Layton_GitSource\AW-master\AuditWizard\Layton.AuditWizard.Overview\OverviewExplorerView.cs:line 79
+   at Layton.AuditWizard.Overview.OverviewExplorerView..ctor(WorkItem workItem) in D:\Layton_GitSource\AW-master\AuditWizard\Layton.AuditWizard.Overview\OverviewExplorerView.cs:line 36
+   --- End of inner exception stack trace ---
+   at System.RuntimeMethodHandle._InvokeMethodFast(Object target, Object[] arguments, SignatureStruct& sig, MethodAttributes methodAttributes, RuntimeTypeHandle typeOwner)
+   at System.RuntimeMethodHandle.InvokeMethodFast(Object target, Object[] arguments, Signature sig, MethodAttributes methodAttributes, RuntimeTypeHandle typeOwner)
+   at System.Reflection.RuntimeConstructorInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.MethodBase.Invoke(Object obj, Object[] parameters)
+   at Microsoft.Practices.ObjectBuilder.CreationStrategy.InitializeObject(IBuilderContext context, Object existing, String id, ICreationPolicy policy)
+   at Microsoft.Practices.ObjectBuilder.CreationStrategy.BuildUpNewObject(IBuilderContext context, Type typeToBuild, Object existing, String idToBuild)
+   at Microsoft.Practices.ObjectBuilder.CreationStrategy.BuildUp(IBuilderContext context, Type typeToBuild, Object existing, String idToBuild)
+   at Microsoft.Practices.ObjectBuilder.BuilderStrategy.BuildUp(IBuilderContext context, Type typeToBuild, Object existing, String idToBuild)
+   at Microsoft.Practices.ObjectBuilder.ReflectionStrategy`1.BuildUp(IBuilderContext context, Type typeToBuild, Object existing, String idToBuild)
+   at Microsoft.Practices.ObjectBuilder.BuilderStrategy.BuildUp(IBuilderContext context, Type typeToBuild, Object existing, String idToBuild)
+   at Microsoft.Practices.ObjectBuilder.ReflectionStrategy`1.BuildUp(IBuilderContext context, Type typeToBuild, Object existing, String idToBuild)
+   at Microsoft.Practices.ObjectBuilder.BuilderStrategy.BuildUp(IBuilderContext context, Type typeToBuild, Object existing, String idToBuild)
+   at Microsoft.Practices.ObjectBuilder.ReflectionStrategy`1.BuildUp(IBuilderContext context, Type typeToBuild, Object existing, String idToBuild)
+   at Microsoft.Practices.ObjectBuilder.BuilderStrategy.BuildUp(IBuilderContext context, Type typeToBuild, Object existing, String idToBuild)
+   at Microsoft.Practices.ObjectBuilder.SingletonStrategy.BuildUp(IBuilderContext context, Type typeToBuild, Object existing, String idToBuild)
+   at Microsoft.Practices.ObjectBuilder.BuilderStrategy.BuildUp(IBuilderContext context, Type typeToBuild, Object existing, String idToBuild)
+   at Microsoft.Practices.ObjectBuilder.TypeMappingStrategy.BuildUp(IBuilderContext context, Type t, Object existing, String id)
+   at Microsoft.Practices.ObjectBuilder.BuilderBase`1.DoBuildUp(IReadWriteLocator locator, Type typeToBuild, String idToBuild, Object existing, PolicyList[] transientPolicies)
+   at Microsoft.Practices.ObjectBuilder.BuilderBase`1.BuildUp(IReadWriteLocator locator, Type typeToBuild, String idToBuild, Object existing, PolicyList[] transientPolicies)
+   at Microsoft.Practices.CompositeUI.Collections.ManagedObjectCollection`1.BuildFirstTimeItem(Type typeToBuild, String idToBuild, Object item)
+   at Microsoft.Practices.CompositeUI.Collections.ManagedObjectCollection`1.Build(Type typeToBuild, String idToBuild, Object item)
+   at Microsoft.Practices.CompositeUI.Collections.ManagedObjectCollection`1.AddNew(Type typeToBuild, String id)
+   at Layton.Cab.Interface.LaytonModuleInit.LoadRequiredObjects(KeyValueConfigurationCollection moduleSettings) in D:\Layton_GitSource\AW-master\AuditWizard\Layton Framework\Cab\Interface\LaytonModuleInit.cs:line 85
+   --- End of inner exception stack trace ---
+   at Layton.Cab.Interface.LaytonModuleInit.LoadRequiredObjects(KeyValueConfigurationCollection moduleSettings) in D:\Layton_GitSource\AW-master\AuditWizard\Layton Framework\Cab\Interface\LaytonModuleInit.cs:line 100
+   at Layton.Cab.Interface.LaytonModuleInit.Load() in D:\Layton_GitSource\AW-master\AuditWizard\Layton Framework\Cab\Interface\LaytonModuleInit.cs:line 36
+   at Microsoft.Practices.CompositeUI.Services.ModuleLoaderService.ModuleMetadata.InitializeModuleClasses(WorkItem workItem)
+   --- End of inner exception stack trace ---
+   at Microsoft.Practices.CompositeUI.Services.ModuleLoaderService.ModuleMetadata.ThrowModuleLoadException(Exception innerException)
+   at Microsoft.Practices.CompositeUI.Services.ModuleLoaderService.ModuleMetadata.InitializeModuleClasses(WorkItem workItem)
+   at Microsoft.Practices.CompositeUI.Services.ModuleLoaderService.InnerLoad(WorkItem workItem, IModuleInfo[] modules)
+   at Microsoft.Practices.CompositeUI.Services.ModuleLoaderService.Load(WorkItem workItem, IModuleInfo[] modules)
+   at Microsoft.Practices.CompositeUI.CabApplication`1.LoadModules()
+   at Microsoft.Practices.CompositeUI.CabApplication`1.Run()
+   at AuditWizardv8.LaytonCabApplication.Main() in D:\LaytonTechnology\AW\AuditWizard\Layton Framework\Cab\Shell\LaytonCabApplication.cs:line 25
+2017-05-09 15:58:35,402 [10] ERROR Layton.AuditWizard.DataAccess.StatisticsDAO Exception in SupportStatisticsAsset
+The specified table does not exist. [ ASSET_SUPPORTCONTRACT ]
+2017-05-09 15:59:26,006 [9] ERROR Layton.AuditWizard.DataAccess.StatisticsDAO Exception in SupportStatisticsAsset
+The specified table does not exist. [ ASSET_SUPPORTCONTRACT ]
+2017-05-09 15:59:58,741 [9] ERROR Layton.AuditWizard.DataAccess.StatisticsDAO Exception in SupportStatisticsAsset
+The specified table does not exist. [ ASSET_SUPPORTCONTRACT ]
+2017-05-09 16:00:05,258 [9] ERROR AuditWizardv8.LaytonCabApplication Exception occurred in Main().
+Microsoft.Practices.CompositeUI.Services.ModuleLoadException: Failed to load module from assembly Layton.AuditWizard.Overview, Version=8.4.5.28674, Culture=neutral, PublicKeyToken=null. Error was:
+Failed to load module from assembly Layton.AuditWizard.Overview, Version=8.4.5.28674, Culture=neutral, PublicKeyToken=null. Error was:
+Error loading Required CAB Module objects for Assembly: Layton.AuditWizard.Overview.dll
+Exception has been thrown by the target of an invocation. ---> System.Exception: Error loading Required CAB Module objects for Assembly: Layton.AuditWizard.Overview.dll
+Exception has been thrown by the target of an invocation. ---> System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.IndexOutOfRangeException: There is no row at position 0.
+   at System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   at System.Data.RBTree`1.get_Item(Int32 index)
+   at System.Data.DataRowCollection.get_Item(Int32 index)
+   at Layton.AuditWizard.Overview.OverviewExplorerView.UpdateSupportStatistics() in D:\Layton_GitSource\AW-master\AuditWizard\Layton.AuditWizard.Overview\OverviewExplorerView.cs:line 183
+   at Layton.AuditWizard.Overview.OverviewExplorerView.RefreshView() in D:\Layton_GitSource\AW-master\AuditWizard\Layton.AuditWizard.Overview\OverviewExplorerView.cs:line 79
+   at Layton.AuditWizard.Overview.OverviewExplorerView..ctor(WorkItem workItem) in D:\Layton_GitSource\AW-master\AuditWizard\Layton.AuditWizard.Overview\OverviewExplorerView.cs:line 36
+   --- End of inner exception stack trace ---
+   at System.RuntimeMethodHandle._InvokeMethodFast(Object target, Object[] arguments, SignatureStruct& sig, MethodAttributes methodAttributes, RuntimeTypeHandle typeOwner)
+   at System.RuntimeMethodHandle.InvokeMethodFast(Object target, Object[] arguments, Signature sig, MethodAttributes methodAttributes, RuntimeTypeHandle typeOwner)
+   at System.Reflection.RuntimeConstructorInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.MethodBase.Invoke(Object obj, Object[] parameters)
+   at Microsoft.Practices.ObjectBuilder.CreationStrategy.InitializeObject(IBuilderContext context, Object existing, String id, ICreationPolicy policy)
+   at Microsoft.Practices.ObjectBuilder.CreationStrategy.BuildUpNewObject(IBuilderContext context, Type typeToBuild, Object existing, String idToBuild)
+   at Microsoft.Practices.ObjectBuilder.CreationStrategy.BuildUp(IBuilderContext context, Type typeToBuild, Object existing, String idToBuild)
+   at Microsoft.Practices.ObjectBuilder.BuilderStrategy.BuildUp(IBuilderContext context, Type typeToBuild, Object existing, String idToBuild)
+   at Microsoft.Practices.ObjectBuilder.ReflectionStrategy`1.BuildUp(IBuilderContext context, Type typeToBuild, Object existing, String idToBuild)
+   at Microsoft.Practices.ObjectBuilder.BuilderStrategy.BuildUp(IBuilderContext context, Type typeToBuild, Object existing, String idToBuild)
+   at Microsoft.Practices.ObjectBuilder.ReflectionStrategy`1.BuildUp(IBuilderContext context, Type typeToBuild, Object existing, String idToBuild)
+   at Microsoft.Practices.ObjectBuilder.BuilderStrategy.BuildUp(IBuilderContext context, Type typeToBuild, Object existing, String idToBuild)
+   at Microsoft.Practices.ObjectBuilder.ReflectionStrategy`1.BuildUp(IBuilderContext context, Type typeToBuild, Object existing, String idToBuild)
+   at Microsoft.Practices.ObjectBuilder.BuilderStrategy.BuildUp(IBuilderContext context, Type typeToBuild, Object existing, String idToBuild)
+   at Microsoft.Practices.ObjectBuilder.SingletonStrategy.BuildUp(IBuilderContext context, Type typeToBuild, Object existing, String idToBuild)
+   at Microsoft.Practices.ObjectBuilder.BuilderStrategy.BuildUp(IBuilderContext context, Type typeToBuild, Object existing, String idToBuild)
+   at Microsoft.Practices.ObjectBuilder.TypeMappingStrategy.BuildUp(IBuilderContext context, Type t, Object existing, String id)
+   at Microsoft.Practices.ObjectBuilder.BuilderBase`1.DoBuildUp(IReadWriteLocator locator, Type typeToBuild, String idToBuild, Object existing, PolicyList[] transientPolicies)
+   at Microsoft.Practices.ObjectBuilder.BuilderBase`1.BuildUp(IReadWriteLocator locator, Type typeToBuild, String idToBuild, Object existing, PolicyList[] transientPolicies)
+   at Microsoft.Practices.CompositeUI.Collections.ManagedObjectCollection`1.BuildFirstTimeItem(Type typeToBuild, String idToBuild, Object item)
+   at Microsoft.Practices.CompositeUI.Collections.ManagedObjectCollection`1.Build(Type typeToBuild, String idToBuild, Object item)
+   at Microsoft.Practices.CompositeUI.Collections.ManagedObjectCollection`1.AddNew(Type typeToBuild, String id)
+   at Layton.Cab.Interface.LaytonModuleInit.LoadRequiredObjects(KeyValueConfigurationCollection moduleSettings) in D:\Layton_GitSource\AW-master\AuditWizard\Layton Framework\Cab\Interface\LaytonModuleInit.cs:line 85
+   --- End of inner exception stack trace ---
+   at Layton.Cab.Interface.LaytonModuleInit.LoadRequiredObjects(KeyValueConfigurationCollection moduleSettings) in D:\Layton_GitSource\AW-master\AuditWizard\Layton Framework\Cab\Interface\LaytonModuleInit.cs:line 100
+   at Layton.Cab.Interface.LaytonModuleInit.Load() in D:\Layton_GitSource\AW-master\AuditWizard\Layton Framework\Cab\Interface\LaytonModuleInit.cs:line 36
+   at Microsoft.Practices.CompositeUI.Services.ModuleLoaderService.ModuleMetadata.InitializeModuleClasses(WorkItem workItem)
+   --- End of inner exception stack trace ---
+   at Microsoft.Practices.CompositeUI.Services.ModuleLoaderService.ModuleMetadata.ThrowModuleLoadException(Exception innerException)
+   at Microsoft.Practices.CompositeUI.Services.ModuleLoaderService.ModuleMetadata.InitializeModuleClasses(WorkItem workItem)
+   at Microsoft.Practices.CompositeUI.Services.ModuleLoaderService.InnerLoad(WorkItem workItem, IModuleInfo[] modules)
+   at Microsoft.Practices.CompositeUI.Services.ModuleLoaderService.Load(WorkItem workItem, IModuleInfo[] modules)
+   at Microsoft.Practices.CompositeUI.CabApplication`1.LoadModules()
+   at Microsoft.Practices.CompositeUI.CabApplication`1.Run()
+   at AuditWizardv8.LaytonCabApplication.Main() in D:\Layton_GitSource\AW-master\AuditWizard\Layton Framework\Cab\Shell\LaytonCabApplication.cs:line 25
+2017-05-11 10:30:03,766 [1] ERROR Layton.AuditWizard.DataAccess.VersionDAO Exception in CheckHBStoredProcs
+System.Data.SqlClient.SqlException: Incorrect syntax near 'GO'.
+Incorrect syntax near 'GO'.
+Incorrect syntax near 'GO'.
+'CREATE/ALTER PROCEDURE' must be the first statement in a query batch.
+Incorrect syntax near the keyword 'SET'.
+Incorrect syntax near 'GO'.
+Incorrect syntax near 'GO'.
+Incorrect syntax near 'GO'.
+'CREATE/ALTER PROCEDURE' must be the first statement in a query batch.
+The variable name '@cSql' has already been declared. Variable names must be unique within a query batch or stored procedure.
+Incorrect syntax near 'GO'.
+Incorrect syntax near 'GO'.
+Incorrect syntax near 'GO'.
+Incorrect syntax near 'GO'.
+The variable name '@cSql' has already been declared. Variable names must be unique within a query batch or stored procedure.
+The variable name '@cWhere' has already been declared. Variable names must be unique within a query batch or stored procedure.
+Incorrect syntax near 'GO'.
+Incorrect syntax near 'GO'.
+Incorrect syntax near 'GO'.
+Incorrect syntax near 'GO'.
+The variable name '@cSql' has already been declared. Variable names must be unique within a query batch or stored procedure.
+The variable name '@cWhere' has already been declared. Variable names must be unique within a query batch or stored procedure.
+Must declare the scalar variable "@ipaddr".
+Incorrect syntax near 'GO'.
+Incorrect syntax near 'GO'.
+Incorrect syntax near 'GO'.
+Incorrect syntax near 'GO'.
+The variable name '@cSql' has already been declared. Variable names must be unique within a query batch or stored procedure.
+The variable name '@cWhere' has already been declared. Variable names must be unique within a query batch or stored procedure.
+Must declare the scalar variable "@assetName".
+Incorrect syntax near 'GO'.
+Incorrect syntax near 'GO'.
+Incorrect syntax near 'GO'.
+Incorrect syntax near 'GO'.
+The variable name '@cSql' has already been declared. Variable names must be unique within a query batch or stored procedure.
+The variable name '@cWhere' has already been declared. Variable names must be unique within a query batch or stored procedure.
+Must declare the scalar variable "@site".
+Incorrect syntax near 'GO'.
+Incorrect syntax near 'GO'.
+Incorrect syntax near 'GO'.
+Incorrect syntax near 'GO'.
+The variable name '@cSql' has already been declared. Variable names must be unique within a query batch or stored procedure.
+The variable name '@cWhere' has already been declared. Variable names must be unique within a query batch or stored procedure.
+Must declare the scalar variable "@assettagName".
+Incorrect syntax near 'GO'.
+Incorrect syntax near 'GO'.
+Incorrect syntax near 'GO'.
+Incorrect syntax near 'GO'.
+The variable name '@cSql' has already been declared. Variable names must be unique within a query batch or stored procedure.
+The variable name '@cWhere' has already been declared. Variable names must be unique within a query batch or stored procedure.
+Must declare the scalar variable "@user".
+Incorrect syntax near 'GO'.
+Incorrect syntax near 'GO'.
+Incorrect syntax near 'GO'.
+Incorrect syntax near 'GO'.
+The variable name '@cSql' has already been declared. Variable names must be unique within a query batch or stored procedure.
+The variable name '@cWhere' has already been declared. Variable names must be unique within a query batch or stored procedure.
+Must declare the scalar variable "@assetName".
+Incorrect syntax near 'GO'.
+Incorrect syntax near 'GO'.
+Incorrect syntax near 'GO'.
+Incorrect syntax near 'GO'.
+Incorrect syntax near 'GO'.
+Incorrect syntax near 'GO'.
+Incorrect syntax near 'GO'.
+Incorrect syntax near 'GO'.
+Incorrect syntax near 'GO'.
+Incorrect syntax near 'GO'.
+Incorrect syntax near 'GO'.
+Incorrect syntax near 'GO'.
+The variable name '@cSql' has already been declared. Variable names must be unique within a query batch or stored procedure.
+The variable name '@cWhere' has already been declared. Variable names must be unique within a query batch or stored procedure.
+Must declare the scalar variable "@parentCategory".
+Must declare the scalar variable "@parentCategory".
+Must declare the scalar variable "@parentCategory".
+Must declare the scalar variable "@bAllChildren".
+Must declare the scalar variable "@parentCategory".
+Incorrect syntax near 'GO'.
+Incorrect syntax near 'GO'.
+Incorrect syntax near 'GO'.
+Incorrect syntax near 'GO'.
+The variable name '@cSQL' has already been declared. Variable names must be unique within a query batch or stored procedure.
+Must declare the scalar variable "@dtStartDate".
+Must declare the scalar variable "@dtStartDate".
+Must declare the scalar variable "@dtEndDate".
+Must declare the scalar variable "@nAssetID".
+Incorrect syntax near the keyword 'ELSE'.
+Must declare the scalar variable "@nAssetID".
+Must declare the scalar variable "@dtStartDate".
+Incorrect syntax near 'GO'.
+Incorrect syntax near 'GO'.
+Incorrect syntax near 'GO'.
+Incorrect syntax near 'GO'.
+Must declare the scalar variable "@nAssetID".
+Incorrect syntax near 'GO'.
+Incorrect syntax near 'GO'.
+Incorrect syntax near 'GO'.
+Incorrect syntax near 'GO'.
+Must declare the scalar variable "@nAssetID".
+Incorrect syntax near 'GO'.
+Incorrect syntax near 'GO'.
+Incorrect syntax near 'GO'.
+Incorrect syntax near 'GO'.
+Must declare the scalar variable "@nFolderId".
+Incorrect syntax near 'GO'.
+Incorrect syntax near 'GO'.
+Incorrect syntax near 'GO'.
+Incorrect syntax near 'GO'.
+Must declare the scalar variable "@nAssetID".
+Incorrect syntax near 'GO'.
+Incorrect syntax near 'GO'.
+Incorrect syntax near 'GO'.
+Incorrect syntax near 'GO'.
+The variable name '@cSql' has already been declared. Variable names must be unique within a query batch or stored procedure.
+The variable name '@cWhere' has already been declared. Variable names must be unique within a query batch or stored procedure.
+Must declare the scalar variable "@nParentID".
+Must declare the scalar variable "@nParentID".
+Must declare the scalar variable "@nParentID".
+Must declare the scalar variable "@bShowAll".
+Incorrect syntax near 'GO'.
+Incorrect syntax near 'GO'.
+Incorrect syntax near 'GO'.
+Incorrect syntax near 'GO'.
+Must declare the scalar variable "@nScope".
+Incorrect syntax near the keyword 'ELSE'.
+Must declare the scalar variable "@nScope".
+Incorrect syntax near 'GO'.
+Incorrect syntax near 'GO'.
+Incorrect syntax near 'GO'.
+Incorrect syntax near 'GO'.
+The variable name '@cSQL' has already been declared. Variable names must be unique within a query batch or stored procedure.
+Must declare the scalar variable "@nParentType".
+Must declare the scalar variable "@nCategoryID".
+Incorrect syntax near 'GO'.
+Incorrect syntax near 'GO'.
+The variable name '@cSql' has already been declared. Variable names must be unique within a query batch or stored procedure.
+The variable name '@cWhere' has already been declared. Variable names must be unique within a query batch or stored procedure.
+Must declare the scalar variable "@assetSN".
+Incorrect syntax near 'GO'.
+Incorrect syntax near 'GO'.
+The variable name '@cSql' has already been declared. Variable names must be unique within a query batch or stored procedure.
+The variable name '@cWhere' has already been declared. Variable names must be unique within a query batch or stored procedure.
+Must declare the scalar variable "@macaddr".
+Incorrect syntax near 'GO'.
+Incorrect syntax near 'GO'.
+The variable name '@cSql' has already been declared. Variable names must be unique within a query batch or stored procedure.
+The variable name '@cWhere' has already been declared. Variable names must be unique within a query batch or stored procedure.
+Must declare the scalar variable "@assetMake".
+Incorrect syntax near 'GO'.
+Incorrect syntax near 'GO'.
+The variable name '@cSql' has already been declared. Variable names must be unique within a query batch or stored procedure.
+The variable name '@cWhere' has already been declared. Variable names must be unique within a query batch or stored procedure.
+Must declare the scalar variable "@assetModel".
+Incorrect syntax near 'GO'.
+Incorrect syntax near 'GO'.
+The variable name '@cSql' has already been declared. Variable names must be unique within a query batch or stored procedure.
+The variable name '@cWhere' has already been declared. Variable names must be unique within a query batch or stored procedure.
+Must declare the scalar variable "@assetUserData".
+Incorrect syntax near 'GO'.
+Incorrect syntax near 'GO'.
+The variable name '@cSql' has already been declared. Variable names must be unique within a query batch or stored procedure.
+The variable name '@cWhere' has already been declared. Variable names must be unique within a query batch or stored procedure.
+Must declare the scalar variable "@assetHardware".
+Incorrect syntax near 'GO'.
+Incorrect syntax near 'GO'.
+The variable name '@cSql' has already been declared. Variable names must be unique within a query batch or stored procedure.
+The variable name '@cWhere' has already been declared. Variable names must be unique within a query batch or stored procedure.
+Must declare the scalar variable "@assetFile".
+Incorrect syntax near 'GO'.
+Incorrect syntax near 'GO'.
+The variable name '@cSql' has already been declared. Variable names must be unique within a query batch or stored procedure.
+The variable name '@cWhere' has already been declared. Variable names must be unique within a query batch or stored procedure.
+Must declare the scalar variable "@assetInet".
+Incorrect syntax near 'GO'.
+Incorrect syntax near 'GO'.
+The variable name '@cSql' has already been declared. Variable names must be unique within a query batch or stored procedure.
+The variable name '@cWhere' has already been declared. Variable names must be unique within a query batch or stored procedure.
+Must declare the scalar variable "@assetAppName".
+Incorrect syntax near 'GO'.
+   at Layton.AuditWizard.DataAccess.VersionDAO.ExecuteDatabaseCreateScript(String filename, SqlConnection conn) in D:\Layton_GitSource\AW-master\AuditWizard\Layton.AuditWizard.DataAccess\VersionDAO.cs:line 142
+   at Layton.AuditWizard.DataAccess.VersionDAO.CheckHBStoredProcs() in D:\Layton_GitSource\AW-master\AuditWizard\Layton.AuditWizard.DataAccess\VersionDAO.cs:line 102
+2017-05-12 12:43:25,264 [10] ERROR Layton.AuditWizard.Administration.FormChangeDBWizard Exception in UpdateExistingDatabase
+System.InvalidOperationException: The given ColumnMapping does not match up with any column in the source or destination.
+   at Layton.AuditWizard.Administration.FormChangeDBWizard.InsertCompactData(SqlConnection conn) in D:\Layton_GitSource\AW-master\AuditWizard\Layton.AuditWizard.Administration\FormChangeDBWizard.cs:line 524
+   at Layton.AuditWizard.Administration.FormChangeDBWizard.UpdateExistingDatabase(Boolean aNewDatabase) in D:\Layton_GitSource\AW-master\AuditWizard\Layton.AuditWizard.Administration\FormChangeDBWizard.cs:line 409
+2017-05-12 12:44:02,435 [10] ERROR Layton.AuditWizard.Administration.FormChangeDBWizard Exception in UpdateExistingDatabase
+System.InvalidOperationException: The given ColumnMapping does not match up with any column in the source or destination.
+   at Layton.AuditWizard.Administration.FormChangeDBWizard.InsertCompactData(SqlConnection conn) in D:\Layton_GitSource\AW-master\AuditWizard\Layton.AuditWizard.Administration\FormChangeDBWizard.cs:line 524
+   at Layton.AuditWizard.Administration.FormChangeDBWizard.UpdateExistingDatabase(Boolean aNewDatabase) in D:\Layton_GitSource\AW-master\AuditWizard\Layton.AuditWizard.Administration\FormChangeDBWizard.cs:line 409
+2017-05-12 12:50:26,178 [1] ERROR Layton.AuditWizard.DataAccess.VersionDAO Exception in CheckHBStoredProcs
+System.Data.SqlClient.SqlException: Incorrect syntax near 'GO'.
+Incorrect syntax near 'GO'.
+Incorrect syntax near 'GO'.
+'CREATE/ALTER PROCEDURE' must be the first statement in a query batch.
+Incorrect syntax near the keyword 'SET'.
+Incorrect syntax near 'GO'.
+Incorrect syntax near 'GO'.
+Incorrect syntax near 'GO'.
+'CREATE/ALTER PROCEDURE' must be the first statement in a query batch.
+The variable name '@cSql' has already been declared. Variable names must be unique within a query batch or stored procedure.
+Incorrect syntax near 'GO'.
+Incorrect syntax near 'GO'.
+Incorrect syntax near 'GO'.
+Incorrect syntax near 'GO'.
+The variable name '@cSql' has already been declared. Variable names must be unique within a query batch or stored procedure.
+The variable name '@cWhere' has already been declared. Variable names must be unique within a query batch or stored procedure.
+Incorrect syntax near 'GO'.
+Incorrect syntax near 'GO'.
+Incorrect syntax near 'GO'.
+Incorrect syntax near 'GO'.
+The variable name '@cSql' has already been declared. Variable names must be unique within a query batch or stored procedure.
+The variable name '@cWhere' has already been declared. Variable names must be unique within a query batch or stored procedure.
+Must declare the scalar variable "@ipaddr".
+Incorrect syntax near 'GO'.
+Incorrect syntax near 'GO'.
+Incorrect syntax near 'GO'.
+Incorrect syntax near 'GO'.
+The variable name '@cSql' has already been declared. Variable names must be unique within a query batch or stored procedure.
+The variable name '@cWhere' has already been declared. Variable names must be unique within a query batch or stored procedure.
+Must declare the scalar variable "@assetName".
+Incorrect syntax near 'GO'.
+Incorrect syntax near 'GO'.
+Incorrect syntax near 'GO'.
+Incorrect syntax near 'GO'.
+The variable name '@cSql' has already been declared. Variable names must be unique within a query batch or stored procedure.
+The variable name '@cWhere' has already been declared. Variable names must be unique within a query batch or stored procedure.
+Must declare the scalar variable "@site".
+Incorrect syntax near 'GO'.
+Incorrect syntax near 'GO'.
+Incorrect syntax near 'GO'.
+Incorrect syntax near 'GO'.
+The variable name '@cSql' has already been declared. Variable names must be unique within a query batch or stored procedure.
+The variable name '@cWhere' has already been declared. Variable names must be unique within a query batch or stored procedure.
+Must declare the scalar variable "@assettagName".
+Incorrect syntax near 'GO'.
+Incorrect syntax near 'GO'.
+Incorrect syntax near 'GO'.
+Incorrect syntax near 'GO'.
+The variable name '@cSql' has already been declared. Variable names must be unique within a query batch or stored procedure.
+The variable name '@cWhere' has already been declared. Variable names must be unique within a query batch or stored procedure.
+Must declare the scalar variable "@user".
+Incorrect syntax near 'GO'.
+Incorrect syntax near 'GO'.
+Incorrect syntax near 'GO'.
+Incorrect syntax near 'GO'.
+The variable name '@cSql' has already been declared. Variable names must be unique within a query batch or stored procedure.
+The variable name '@cWhere' has already been declared. Variable names must be unique within a query batch or stored procedure.
+Must declare the scalar variable "@assetName".
+Incorrect syntax near 'GO'.
+Incorrect syntax near 'GO'.
+Incorrect syntax near 'GO'.
+Incorrect syntax near 'GO'.
+Incorrect syntax near 'GO'.
+Incorrect syntax near 'GO'.
+Incorrect syntax near 'GO'.
+Incorrect syntax near 'GO'.
+Incorrect syntax near 'GO'.
+Incorrect syntax near 'GO'.
+Incorrect syntax near 'GO'.
+Incorrect syntax near 'GO'.
+The variable name '@cSql' has already been declared. Variable names must be unique within a query batch or stored procedure.
+The variable name '@cWhere' has already been declared. Variable names must be unique within a query batch or stored procedure.
+Must declare the scalar variable "@parentCategory".
+Must declare the scalar variable "@parentCategory".
+Must declare the scalar variable "@parentCategory".
+Must declare the scalar variable "@bAllChildren".
+Must declare the scalar variable "@parentCategory".
+Incorrect syntax near 'GO'.
+Incorrect syntax near 'GO'.
+Incorrect syntax near 'GO'.
+Incorrect syntax near 'GO'.
+The variable name '@cSQL' has already been declared. Variable names must be unique within a query batch or stored procedure.
+Must declare the scalar variable "@dtStartDate".
+Must declare the scalar variable "@dtStartDate".
+Must declare the scalar variable "@dtEndDate".
+Must declare the scalar variable "@nAssetID".
+Incorrect syntax near the keyword 'ELSE'.
+Must declare the scalar variable "@nAssetID".
+Must declare the scalar variable "@dtStartDate".
+Incorrect syntax near 'GO'.
+Incorrect syntax near 'GO'.
+Incorrect syntax near 'GO'.
+Incorrect syntax near 'GO'.
+Must declare the scalar variable "@nAssetID".
+Incorrect syntax near 'GO'.
+Incorrect syntax near 'GO'.
+Incorrect syntax near 'GO'.
+Incorrect syntax near 'GO'.
+Must declare the scalar variable "@nAssetID".
+Incorrect syntax near 'GO'.
+Incorrect syntax near 'GO'.
+Incorrect syntax near 'GO'.
+Incorrect syntax near 'GO'.
+Must declare the scalar variable "@nFolderId".
+Incorrect syntax near 'GO'.
+Incorrect syntax near 'GO'.
+Incorrect syntax near 'GO'.
+Incorrect syntax near 'GO'.
+Must declare the scalar variable "@nAssetID".
+Incorrect syntax near 'GO'.
+Incorrect syntax near 'GO'.
+Incorrect syntax near 'GO'.
+Incorrect syntax near 'GO'.
+The variable name '@cSql' has already been declared. Variable names must be unique within a query batch or stored procedure.
+The variable name '@cWhere' has already been declared. Variable names must be unique within a query batch or stored procedure.
+Must declare the scalar variable "@nParentID".
+Must declare the scalar variable "@nParentID".
+Must declare the scalar variable "@nParentID".
+Must declare the scalar variable "@bShowAll".
+Incorrect syntax near 'GO'.
+Incorrect syntax near 'GO'.
+Incorrect syntax near 'GO'.
+Incorrect syntax near 'GO'.
+Must declare the scalar variable "@nScope".
+Incorrect syntax near the keyword 'ELSE'.
+Must declare the scalar variable "@nScope".
+Incorrect syntax near 'GO'.
+Incorrect syntax near 'GO'.
+Incorrect syntax near 'GO'.
+Incorrect syntax near 'GO'.
+The variable name '@cSQL' has already been declared. Variable names must be unique within a query batch or stored procedure.
+Must declare the scalar variable "@nParentType".
+Must declare the scalar variable "@nCategoryID".
+Incorrect syntax near 'GO'.
+Incorrect syntax near 'GO'.
+The variable name '@cSql' has already been declared. Variable names must be unique within a query batch or stored procedure.
+The variable name '@cWhere' has already been declared. Variable names must be unique within a query batch or stored procedure.
+Must declare the scalar variable "@assetSN".
+Incorrect syntax near 'GO'.
+Incorrect syntax near 'GO'.
+The variable name '@cSql' has already been declared. Variable names must be unique within a query batch or stored procedure.
+The variable name '@cWhere' has already been declared. Variable names must be unique within a query batch or stored procedure.
+Must declare the scalar variable "@macaddr".
+Incorrect syntax near 'GO'.
+Incorrect syntax near 'GO'.
+The variable name '@cSql' has already been declared. Variable names must be unique within a query batch or stored procedure.
+The variable name '@cWhere' has already been declared. Variable names must be unique within a query batch or stored procedure.
+Must declare the scalar variable "@assetMake".
+Incorrect syntax near 'GO'.
+Incorrect syntax near 'GO'.
+The variable name '@cSql' has already been declared. Variable names must be unique within a query batch or stored procedure.
+The variable name '@cWhere' has already been declared. Variable names must be unique within a query batch or stored procedure.
+Must declare the scalar variable "@assetModel".
+Incorrect syntax near 'GO'.
+Incorrect syntax near 'GO'.
+The variable name '@cSql' has already been declared. Variable names must be unique within a query batch or stored procedure.
+The variable name '@cWhere' has already been declared. Variable names must be unique within a query batch or stored procedure.
+Must declare the scalar variable "@assetUserData".
+Incorrect syntax near 'GO'.
+Incorrect syntax near 'GO'.
+The variable name '@cSql' has already been declared. Variable names must be unique within a query batch or stored procedure.
+The variable name '@cWhere' has already been declared. Variable names must be unique within a query batch or stored procedure.
+Must declare the scalar variable "@assetHardware".
+Incorrect syntax near 'GO'.
+Incorrect syntax near 'GO'.
+The variable name '@cSql' has already been declared. Variable names must be unique within a query batch or stored procedure.
+The variable name '@cWhere' has already been declared. Variable names must be unique within a query batch or stored procedure.
+Must declare the scalar variable "@assetFile".
+Incorrect syntax near 'GO'.
+Incorrect syntax near 'GO'.
+The variable name '@cSql' has already been declared. Variable names must be unique within a query batch or stored procedure.
+The variable name '@cWhere' has already been declared. Variable names must be unique within a query batch or stored procedure.
+Must declare the scalar variable "@assetInet".
+Incorrect syntax near 'GO'.
+Incorrect syntax near 'GO'.
+The variable name '@cSql' has already been declared. Variable names must be unique within a query batch or stored procedure.
+The variable name '@cWhere' has already been declared. Variable names must be unique within a query batch or stored procedure.
+Must declare the scalar variable "@assetAppName".
+Incorrect syntax near 'GO'.
+   at Layton.AuditWizard.DataAccess.VersionDAO.ExecuteDatabaseCreateScript(String filename, SqlConnection conn) in D:\Layton_GitSource\AW-master\AuditWizard\Layton.AuditWizard.DataAccess\VersionDAO.cs:line 142
+   at Layton.AuditWizard.DataAccess.VersionDAO.CheckHBStoredProcs() in D:\Layton_GitSource\AW-master\AuditWizard\Layton.AuditWizard.DataAccess\VersionDAO.cs:line 102
+2017-05-12 12:51:50,132 [9] ERROR Layton.AuditWizard.DataAccess.VersionDAO Exception in CheckHBStoredProcs
+System.Data.SqlClient.SqlException: Incorrect syntax near 'GO'.
+Incorrect syntax near 'GO'.
+Incorrect syntax near 'GO'.
+'CREATE/ALTER PROCEDURE' must be the first statement in a query batch.
+Incorrect syntax near the keyword 'SET'.
+Incorrect syntax near 'GO'.
+Incorrect syntax near 'GO'.
+Incorrect syntax near 'GO'.
+'CREATE/ALTER PROCEDURE' must be the first statement in a query batch.
+The variable name '@cSql' has already been declared. Variable names must be unique within a query batch or stored procedure.
+Incorrect syntax near 'GO'.
+Incorrect syntax near 'GO'.
+Incorrect syntax near 'GO'.
+Incorrect syntax near 'GO'.
+The variable name '@cSql' has already been declared. Variable names must be unique within a query batch or stored procedure.
+The variable name '@cWhere' has already been declared. Variable names must be unique within a query batch or stored procedure.
+Incorrect syntax near 'GO'.
+Incorrect syntax near 'GO'.
+Incorrect syntax near 'GO'.
+Incorrect syntax near 'GO'.
+The variable name '@cSql' has already been declared. Variable names must be unique within a query batch or stored procedure.
+The variable name '@cWhere' has already been declared. Variable names must be unique within a query batch or stored procedure.
+Must declare the scalar variable "@ipaddr".
+Incorrect syntax near 'GO'.
+Incorrect syntax near 'GO'.
+Incorrect syntax near 'GO'.
+Incorrect syntax near 'GO'.
+The variable name '@cSql' has already been declared. Variable names must be unique within a query batch or stored procedure.
+The variable name '@cWhere' has already been declared. Variable names must be unique within a query batch or stored procedure.
+Must declare the scalar variable "@assetName".
+Incorrect syntax near 'GO'.
+Incorrect syntax near 'GO'.
+Incorrect syntax near 'GO'.
+Incorrect syntax near 'GO'.
+The variable name '@cSql' has already been declared. Variable names must be unique within a query batch or stored procedure.
+The variable name '@cWhere' has already been declared. Variable names must be unique within a query batch or stored procedure.
+Must declare the scalar variable "@site".
+Incorrect syntax near 'GO'.
+Incorrect syntax near 'GO'.
+Incorrect syntax near 'GO'.
+Incorrect syntax near 'GO'.
+The variable name '@cSql' has already been declared. Variable names must be unique within a query batch or stored procedure.
+The variable name '@cWhere' has already been declared. Variable names must be unique within a query batch or stored procedure.
+Must declare the scalar variable "@assettagName".
+Incorrect syntax near 'GO'.
+Incorrect syntax near 'GO'.
+Incorrect syntax near 'GO'.
+Incorrect syntax near 'GO'.
+The variable name '@cSql' has already been declared. Variable names must be unique within a query batch or stored procedure.
+The variable name '@cWhere' has already been declared. Variable names must be unique within a query batch or stored procedure.
+Must declare the scalar variable "@user".
+Incorrect syntax near 'GO'.
+Incorrect syntax near 'GO'.
+Incorrect syntax near 'GO'.
+Incorrect syntax near 'GO'.
+The variable name '@cSql' has already been declared. Variable names must be unique within a query batch or stored procedure.
+The variable name '@cWhere' has already been declared. Variable names must be unique within a query batch or stored procedure.
+Must declare the scalar variable "@assetName".
+Incorrect syntax near 'GO'.
+Incorrect syntax near 'GO'.
+Incorrect syntax near 'GO'.
+Incorrect syntax near 'GO'.
+Incorrect syntax near 'GO'.
+Incorrect syntax near 'GO'.
+Incorrect syntax near 'GO'.
+Incorrect syntax near 'GO'.
+Incorrect syntax near 'GO'.
+Incorrect syntax near 'GO'.
+Incorrect syntax near 'GO'.
+Incorrect syntax near 'GO'.
+The variable name '@cSql' has already been declared. Variable names must be unique within a query batch or stored procedure.
+The variable name '@cWhere' has already been declared. Variable names must be unique within a query batch or stored procedure.
+Must declare the scalar variable "@parentCategory".
+Must declare the scalar variable "@parentCategory".
+Must declare the scalar variable "@parentCategory".
+Must declare the scalar variable "@bAllChildren".
+Must declare the scalar variable "@parentCategory".
+Incorrect syntax near 'GO'.
+Incorrect syntax near 'GO'.
+Incorrect syntax near 'GO'.
+Incorrect syntax near 'GO'.
+The variable name '@cSQL' has already been declared. Variable names must be unique within a query batch or stored procedure.
+Must declare the scalar variable "@dtStartDate".
+Must declare the scalar variable "@dtStartDate".
+Must declare the scalar variable "@dtEndDate".
+Must declare the scalar variable "@nAssetID".
+Incorrect syntax near the keyword 'ELSE'.
+Must declare the scalar variable "@nAssetID".
+Must declare the scalar variable "@dtStartDate".
+Incorrect syntax near 'GO'.
+Incorrect syntax near 'GO'.
+Incorrect syntax near 'GO'.
+Incorrect syntax near 'GO'.
+Must declare the scalar variable "@nAssetID".
+Incorrect syntax near 'GO'.
+Incorrect syntax near 'GO'.
+Incorrect syntax near 'GO'.
+Incorrect syntax near 'GO'.
+Must declare the scalar variable "@nAssetID".
+Incorrect syntax near 'GO'.
+Incorrect syntax near 'GO'.
+Incorrect syntax near 'GO'.
+Incorrect syntax near 'GO'.
+Must declare the scalar variable "@nFolderId".
+Incorrect syntax near 'GO'.
+Incorrect syntax near 'GO'.
+Incorrect syntax near 'GO'.
+Incorrect syntax near 'GO'.
+Must declare the scalar variable "@nAssetID".
+Incorrect syntax near 'GO'.
+Incorrect syntax near 'GO'.
+Incorrect syntax near 'GO'.
+Incorrect syntax near 'GO'.
+The variable name '@cSql' has already been declared. Variable names must be unique within a query batch or stored procedure.
+The variable name '@cWhere' has already been declared. Variable names must be unique within a query batch or stored procedure.
+Must declare the scalar variable "@nParentID".
+Must declare the scalar variable "@nParentID".
+Must declare the scalar variable "@nParentID".
+Must declare the scalar variable "@bShowAll".
+Incorrect syntax near 'GO'.
+Incorrect syntax near 'GO'.
+Incorrect syntax near 'GO'.
+Incorrect syntax near 'GO'.
+Must declare the scalar variable "@nScope".
+Incorrect syntax near the keyword 'ELSE'.
+Must declare the scalar variable "@nScope".
+Incorrect syntax near 'GO'.
+Incorrect syntax near 'GO'.
+Incorrect syntax near 'GO'.
+Incorrect syntax near 'GO'.
+The variable name '@cSQL' has already been declared. Variable names must be unique within a query batch or stored procedure.
+Must declare the scalar variable "@nParentType".
+Must declare the scalar variable "@nCategoryID".
+Incorrect syntax near 'GO'.
+Incorrect syntax near 'GO'.
+The variable name '@cSql' has already been declared. Variable names must be unique within a query batch or stored procedure.
+The variable name '@cWhere' has already been declared. Variable names must be unique within a query batch or stored procedure.
+Must declare the scalar variable "@assetSN".
+Incorrect syntax near 'GO'.
+Incorrect syntax near 'GO'.
+The variable name '@cSql' has already been declared. Variable names must be unique within a query batch or stored procedure.
+The variable name '@cWhere' has already been declared. Variable names must be unique within a query batch or stored procedure.
+Must declare the scalar variable "@macaddr".
+Incorrect syntax near 'GO'.
+Incorrect syntax near 'GO'.
+The variable name '@cSql' has already been declared. Variable names must be unique within a query batch or stored procedure.
+The variable name '@cWhere' has already been declared. Variable names must be unique within a query batch or stored procedure.
+Must declare the scalar variable "@assetMake".
+Incorrect syntax near 'GO'.
+Incorrect syntax near 'GO'.
+The variable name '@cSql' has already been declared. Variable names must be unique within a query batch or stored procedure.
+The variable name '@cWhere' has already been declared. Variable names must be unique within a query batch or stored procedure.
+Must declare the scalar variable "@assetModel".
+Incorrect syntax near 'GO'.
+Incorrect syntax near 'GO'.
+The variable name '@cSql' has already been declared. Variable names must be unique within a query batch or stored procedure.
+The variable name '@cWhere' has already been declared. Variable names must be unique within a query batch or stored procedure.
+Must declare the scalar variable "@assetUserData".
+Incorrect syntax near 'GO'.
+Incorrect syntax near 'GO'.
+The variable name '@cSql' has already been declared. Variable names must be unique within a query batch or stored procedure.
+The variable name '@cWhere' has already been declared. Variable names must be unique within a query batch or stored procedure.
+Must declare the scalar variable "@assetHardware".
+Incorrect syntax near 'GO'.
+Incorrect syntax near 'GO'.
+The variable name '@cSql' has already been declared. Variable names must be unique within a query batch or stored procedure.
+The variable name '@cWhere' has already been declared. Variable names must be unique within a query batch or stored procedure.
+Must declare the scalar variable "@assetFile".
+Incorrect syntax near 'GO'.
+Incorrect syntax near 'GO'.
+The variable name '@cSql' has already been declared. Variable names must be unique within a query batch or stored procedure.
+The variable name '@cWhere' has already been declared. Variable names must be unique within a query batch or stored procedure.
+Must declare the scalar variable "@assetInet".
+Incorrect syntax near 'GO'.
+Incorrect syntax near 'GO'.
+The variable name '@cSql' has already been declared. Variable names must be unique within a query batch or stored procedure.
+The variable name '@cWhere' has already been declared. Variable names must be unique within a query batch or stored procedure.
+Must declare the scalar variable "@assetAppName".
+Incorrect syntax near 'GO'.
+   at Layton.AuditWizard.DataAccess.VersionDAO.ExecuteDatabaseCreateScript(String filename, SqlConnection conn) in D:\Layton_GitSource\AW-master\AuditWizard\Layton.AuditWizard.DataAccess\VersionDAO.cs:line 142
+   at Layton.AuditWizard.DataAccess.VersionDAO.CheckHBStoredProcs() in D:\Layton_GitSource\AW-master\AuditWizard\Layton.AuditWizard.DataAccess\VersionDAO.cs:line 102

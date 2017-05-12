@@ -31,7 +31,7 @@ static char THIS_FILE[] = __FILE__;
 #define TIMER_HIDE	1
 
 #pragma message ("***** SCANNER VERSION EXPLICITELY SET HERE ***")
-#define SCAN32_VERSION	"8.4.4.0"
+#define SCAN32_VERSION	"8.4.4.6"
 
 /////////////////////////////////////////////////////////////////////////////
 // CShtScan

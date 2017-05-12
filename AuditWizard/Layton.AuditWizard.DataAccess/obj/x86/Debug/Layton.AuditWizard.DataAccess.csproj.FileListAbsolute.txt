@@ -10,9 +10,6 @@ D:\LaytonProducts\AW\AuditWizard\Layton.AuditWizard.DataAccess\obj\x86\Debug\Res
 D:\LaytonProducts\AW\AuditWizard\Layton.AuditWizard.DataAccess\obj\x86\Debug\ResGen.write.1.tlog
 D:\LaytonProducts\AW\AuditWizard\Layton.AuditWizard.DataAccess\obj\x86\Debug\Layton.AuditWizard.DataAccess.dll
 D:\LaytonProducts\AW\AuditWizard\Layton.AuditWizard.DataAccess\obj\x86\Debug\Layton.AuditWizard.DataAccess.pdb
-C:\Program Files (x86)\AuditWizard v8\Layton.AuditWizard.DataAccess.dll.config
-C:\Program Files (x86)\AuditWizard v8\Layton.AuditWizard.DataAccess.dll
-C:\Program Files (x86)\AuditWizard v8\Layton.AuditWizard.DataAccess.pdb
 D:\LaytonProducts\AuditWizard\AuditWizard\Layton.AuditWizard.DataAccess\obj\x86\Debug\ResolveAssemblyReference.cache
 D:\LaytonProducts\AuditWizard\AuditWizard\Layton.AuditWizard.DataAccess\obj\x86\Debug\Layton.AuditWizard.DataAccess.Properties.Resources.resources
 D:\LaytonProducts\AuditWizard\AuditWizard\Layton.AuditWizard.DataAccess\obj\x86\Debug\ResGen.read.1.tlog
@@ -29,3 +26,10 @@ D:\LaytonTechnology\AW\AuditWizard\Layton.AuditWizard.DataAccess\obj\x86\Debug\L
 D:\LaytonTechnology\AW\AuditWizard\Layton.AuditWizard.DataAccess\obj\x86\Debug\Layton.AuditWizard.DataAccess.dll
 D:\LaytonTechnology\AW\AuditWizard\Layton.AuditWizard.DataAccess\obj\x86\Debug\Layton.AuditWizard.DataAccess.pdb
 D:\LaytonTechnology\AW\AuditWizard\Layton.AuditWizard.DataAccess\obj\x86\Debug\Layton.AuditWizard.DataAccess.csprojResolveAssemblyReference.cache
+C:\Program Files (x86)\AuditWizard v8\Layton.AuditWizard.DataAccess.dll.config
+C:\Program Files (x86)\AuditWizard v8\Layton.AuditWizard.DataAccess.dll
+C:\Program Files (x86)\AuditWizard v8\Layton.AuditWizard.DataAccess.pdb
+D:\Layton_GitSource\AW-master\AuditWizard\Layton.AuditWizard.DataAccess\obj\x86\Debug\Layton.AuditWizard.DataAccess.Properties.Resources.resources
+D:\Layton_GitSource\AW-master\AuditWizard\Layton.AuditWizard.DataAccess\obj\x86\Debug\Layton.AuditWizard.DataAccess.csproj.GenerateResource.Cache
+D:\Layton_GitSource\AW-master\AuditWizard\Layton.AuditWizard.DataAccess\obj\x86\Debug\Layton.AuditWizard.DataAccess.dll
+D:\Layton_GitSource\AW-master\AuditWizard\Layton.AuditWizard.DataAccess\obj\x86\Debug\Layton.AuditWizard.DataAccess.pdb

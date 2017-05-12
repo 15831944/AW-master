@@ -1,44 +1,53 @@
-LANGUAGE 0x0,0x0
-1 11 MSG00000.bin
+#define VER_FILEVERSION             8,4,4,6
+#define VER_FILEVERSION_STR         "8.4.4.6\0"
 
-/////////////////////////////////////////////////////////////////////////////
-//
-// Version
-//
+#define VER_PRODUCTVERSION          8,4,4,6
+#define VER_PRODUCTVERSION_STR      "8.4.4.6\0"
+
+#define VER_COMPANYNAME_STR			"Layton Technology, Inc."
+#define VER_FILEDESCRIPTION_STR		"AuditAgent Service"
+#define VER_INTERNALNAME_STR		"AuditAgent"
+#define VER_LEGALCOPYRIGHT_STR		"Copyright (C) Layton Technology, Inc. 2000 - 2015"
+#define VER_ORIGINALFILENAME_STR	"AuditAgent.exe"
+#define VER_PRODUCTNAME_STR     	"AuditWizard"
+
+#ifndef DEBUG
+#define VER_DEBUG                   0
+#else
+#define VER_DEBUG                   VS_FF_DEBUG
+#endif
+#include <windows.h>
+
 
 VS_VERSION_INFO VERSIONINFO
- FILEVERSION 8,4,4,0
- PRODUCTVERSION 8,4,4,0
- FILEFLAGSMASK 0x3fL
-#ifdef _DEBUG
- FILEFLAGS 0x1L
-#else
- FILEFLAGS 0x0L
-#endif
- FILEOS 0x4L
- FILETYPE 0x1L
- FILESUBTYPE 0x0L
+FILEVERSION    	VER_FILEVERSION
+PRODUCTVERSION 	VER_PRODUCTVERSION
 BEGIN
     BLOCK "StringFileInfo"
     BEGIN
-        BLOCK "040904b0"
+        BLOCK "040904E4"
         BEGIN
-            VALUE "Comments", "AuditWizard AuditAgent Service\0"
-            VALUE "CompanyName", "Layton Technology, Inc.\0"
-            VALUE "FileDescription", "AuditAgent Service\0"
-            VALUE "FileVersion", "8.4.4.0\4"
-            VALUE "InternalName", "AuditAgent\0"
-            VALUE "LegalCopyright", "Copyright (C) Layton Technology, Inc. 2000 - 2014\0"
-            VALUE "LegalTrademarks", "\0"
-            VALUE "OriginalFilename", "AuditAgent.exe\0"
-            VALUE "PrivateBuild", "\0"
-            VALUE "ProductName", "AuditWizard\0"
-            VALUE "ProductVersion", "8.4.4.0/4\4"
-            VALUE "SpecialBuild", "\0"
+            VALUE "CompanyName",      VER_COMPANYNAME_STR
+            VALUE "FileDescription",  VER_FILEDESCRIPTION_STR
+            VALUE "FileVersion",      VER_FILEVERSION_STR
+            VALUE "InternalName",     VER_INTERNALNAME_STR
+            VALUE "LegalCopyright",   VER_LEGALCOPYRIGHT_STR
+            VALUE "OriginalFilename", VER_ORIGINALFILENAME_STR
+            VALUE "ProductName",      VER_PRODUCTNAME_STR
+            VALUE "ProductVersion",   VER_PRODUCTVERSION_STR
         END
     END
+
     BLOCK "VarFileInfo"
     BEGIN
-        VALUE "Translation", 0x409, 1200
+        /* The following line should only be modified for localized versions.     */
+        /* It consists of any number of WORD,WORD pairs, with each pair           */
+        /* describing a language,codepage combination supported by the file.      */
+        /*                                                                        */
+        /* For example, a file might have values "0x409,1252" indicating that it  */
+        /* supports English language (0x409) in the Windows ANSI codepage (1252). */
+
+        VALUE "Translation", 0x409, 1252
+
     END
 END

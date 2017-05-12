@@ -1,10 +1,6 @@
 D:\LaytonProducts\AuditWizard\AuditWizard\Layton Framework\Cab\Shell\obj\x86\Debug\ResolveAssemblyReference.cache
 D:\LaytonProducts\AuditWizard\AuditWizard\Layton Framework\Cab\Shell\obj\x86\Debug\ResGen.read.1.tlog
 D:\LaytonProducts\AuditWizard\AuditWizard\Layton Framework\Cab\Shell\obj\x86\Debug\ResGen.write.1.tlog
-C:\Program Files (x86)\AuditWizard v8\ProfileCatalog.xml
-C:\Program Files (x86)\AuditWizard v8\AuditWizardv8.exe.config
-C:\Program Files (x86)\AuditWizard v8\AuditWizardv8.exe
-C:\Program Files (x86)\AuditWizard v8\AuditWizardv8.pdb
 D:\LaytonProducts\AuditWizard\AuditWizard\Layton Framework\Cab\Shell\obj\x86\Debug\AuditWizardv8.FormSupportExpiry.resources
 D:\LaytonProducts\AuditWizard\AuditWizard\Layton Framework\Cab\Shell\obj\x86\Debug\AuditWizardv8.FormUserGuide.resources
 D:\LaytonProducts\AuditWizard\AuditWizard\Layton Framework\Cab\Shell\obj\x86\Debug\AuditWizardv8.LaytonRegistrationForm.resources
@@ -42,3 +38,20 @@ D:\LaytonTechnology\AW\AuditWizard\Layton Framework\Cab\Shell\obj\x86\Debug\Audi
 D:\LaytonTechnology\AW\AuditWizard\Layton Framework\Cab\Shell\obj\x86\Debug\AuditWizardv8.SplashForm.resources
 D:\LaytonTechnology\AW\AuditWizard\Layton Framework\Cab\Shell\obj\x86\Debug\Layton.Cab.Shell.csproj.GenerateResource.Cache
 D:\LaytonTechnology\AW\AuditWizard\Layton Framework\Cab\Shell\obj\x86\Debug\AuditWizardv8.exe.licenses
+C:\Program Files (x86)\AuditWizard v8\AuditWizardv8.exe.config
+C:\Program Files (x86)\AuditWizard v8\ProfileCatalog.xml
+C:\Program Files (x86)\AuditWizard v8\AuditWizardv8.exe
+C:\Program Files (x86)\AuditWizard v8\AuditWizardv8.pdb
+D:\Layton_GitSource\AW-master\AuditWizard\Layton Framework\Cab\Shell\obj\x86\Debug\Layton.Cab.Shell.csprojResolveAssemblyReference.cache
+D:\Layton_GitSource\AW-master\AuditWizard\Layton Framework\Cab\Shell\obj\x86\Debug\AuditWizardv8.FormSupportExpiry.resources
+D:\Layton_GitSource\AW-master\AuditWizard\Layton Framework\Cab\Shell\obj\x86\Debug\AuditWizardv8.FormUserGuide.resources
+D:\Layton_GitSource\AW-master\AuditWizard\Layton Framework\Cab\Shell\obj\x86\Debug\AuditWizardv8.LaytonRegistrationForm.resources
+D:\Layton_GitSource\AW-master\AuditWizard\Layton Framework\Cab\Shell\obj\x86\Debug\AuditWizardv8.LaytonAboutForm.resources
+D:\Layton_GitSource\AW-master\AuditWizard\Layton Framework\Cab\Shell\obj\x86\Debug\AuditWizardv8.LaytonFormShell.resources
+D:\Layton_GitSource\AW-master\AuditWizard\Layton Framework\Cab\Shell\obj\x86\Debug\AuditWizardv8.Properties.Resources.resources
+D:\Layton_GitSource\AW-master\AuditWizard\Layton Framework\Cab\Shell\obj\x86\Debug\AuditWizardv8.LaytonSettingsFormShell.resources
+D:\Layton_GitSource\AW-master\AuditWizard\Layton Framework\Cab\Shell\obj\x86\Debug\AuditWizardv8.SplashForm.resources
+D:\Layton_GitSource\AW-master\AuditWizard\Layton Framework\Cab\Shell\obj\x86\Debug\Layton.Cab.Shell.csproj.GenerateResource.Cache
+D:\Layton_GitSource\AW-master\AuditWizard\Layton Framework\Cab\Shell\obj\x86\Debug\AuditWizardv8.exe.licenses
+D:\Layton_GitSource\AW-master\AuditWizard\Layton Framework\Cab\Shell\obj\x86\Debug\AuditWizardv8.exe
+D:\Layton_GitSource\AW-master\AuditWizard\Layton Framework\Cab\Shell\obj\x86\Debug\AuditWizardv8.pdb

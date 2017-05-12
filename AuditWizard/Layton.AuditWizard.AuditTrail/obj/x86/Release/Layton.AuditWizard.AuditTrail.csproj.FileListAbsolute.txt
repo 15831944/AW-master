@@ -147,3 +147,17 @@ D:\LaytonTechnology\AW\AuditWizard\Layton.AuditWizard.AuditTrail\obj\x86\Release
 D:\LaytonTechnology\AW\AuditWizard\Layton.AuditWizard.AuditTrail\obj\x86\Release\Layton.AuditWizard.AuditTrail.dll.licenses
 D:\LaytonTechnology\AW\AuditWizard\Layton.AuditWizard.AuditTrail\obj\x86\Release\Layton.AuditWizard.AuditTrail.dll
 D:\LaytonTechnology\AW\AuditWizard\Layton.AuditWizard.AuditTrail\obj\x86\Release\Layton.AuditWizard.AuditTrail.pdb
+D:\Layton_GitSource\AW-master\AuditWizard\Output\Layton.AuditWizard.AuditTrail.dll.config
+D:\Layton_GitSource\AW-master\AuditWizard\Output\Layton.AuditWizard.AuditTrail.dll
+D:\Layton_GitSource\AW-master\AuditWizard\Output\Layton.AuditWizard.AuditTrail.pdb
+D:\Layton_GitSource\AW-master\AuditWizard\Layton.AuditWizard.AuditTrail\obj\x86\Release\Layton.AuditWizard.AuditTrail.csprojResolveAssemblyReference.cache
+D:\Layton_GitSource\AW-master\AuditWizard\Layton.AuditWizard.AuditTrail\obj\x86\Release\Layton.AuditWizard.AuditTrail.AuditTrailExplorerView.resources
+D:\Layton_GitSource\AW-master\AuditWizard\Layton.AuditWizard.AuditTrail\obj\x86\Release\Layton.AuditWizard.AuditTrail.AuditTrailFilterControl.resources
+D:\Layton_GitSource\AW-master\AuditWizard\Layton.AuditWizard.AuditTrail\obj\x86\Release\Layton.AuditWizard.AuditTrail.AuditTrailTabView.resources
+D:\Layton_GitSource\AW-master\AuditWizard\Layton.AuditWizard.AuditTrail\obj\x86\Release\Layton.AuditWizard.AuditTrail.AuditTrailPurgeControl.resources
+D:\Layton_GitSource\AW-master\AuditWizard\Layton.AuditWizard.AuditTrail\obj\x86\Release\Layton.AuditWizard.AuditTrail.Properties.Resources.resources
+D:\Layton_GitSource\AW-master\AuditWizard\Layton.AuditWizard.AuditTrail\obj\x86\Release\Layton.AuditWizard.AuditTrail.RibbonDateRangeControl.resources
+D:\Layton_GitSource\AW-master\AuditWizard\Layton.AuditWizard.AuditTrail\obj\x86\Release\Layton.AuditWizard.AuditTrail.csproj.GenerateResource.Cache
+D:\Layton_GitSource\AW-master\AuditWizard\Layton.AuditWizard.AuditTrail\obj\x86\Release\Layton.AuditWizard.AuditTrail.dll.licenses
+D:\Layton_GitSource\AW-master\AuditWizard\Layton.AuditWizard.AuditTrail\obj\x86\Release\Layton.AuditWizard.AuditTrail.dll
+D:\Layton_GitSource\AW-master\AuditWizard\Layton.AuditWizard.AuditTrail\obj\x86\Release\Layton.AuditWizard.AuditTrail.pdb

@@ -72,8 +72,6 @@ D:\LaytonProducts\AW\AuditWizard\Layton.Common.Controls\obj\x86\Debug\ResGen.wri
 D:\LaytonProducts\AW\AuditWizard\Layton.Common.Controls\obj\x86\Debug\Layton.Common.Controls.dll.licenses
 D:\LaytonProducts\AW\AuditWizard\Layton.Common.Controls\obj\x86\Debug\Layton.Common.Controls.dll
 D:\LaytonProducts\AW\AuditWizard\Layton.Common.Controls\obj\x86\Debug\Layton.Common.Controls.pdb
-C:\Program Files (x86)\AuditWizard v8\Layton.Common.Controls.dll
-C:\Program Files (x86)\AuditWizard v8\Layton.Common.Controls.pdb
 D:\LaytonProducts\AuditWizard\AuditWizard\Layton.Common.Controls\obj\x86\Debug\ResolveAssemblyReference.cache
 D:\LaytonProducts\AuditWizard\AuditWizard\Layton.Common.Controls\obj\x86\Debug\Layton.Common.Controls.AWForm.resources
 D:\LaytonProducts\AuditWizard\AuditWizard\Layton.Common.Controls\obj\x86\Debug\Layton.Common.Controls.DateRangeControl.resources
@@ -180,3 +178,39 @@ D:\LaytonTechnology\AW\AuditWizard\Layton.Common.Controls\obj\x86\Debug\Layton.C
 D:\LaytonTechnology\AW\AuditWizard\Layton.Common.Controls\obj\x86\Debug\Layton.Common.Controls.dll
 D:\LaytonTechnology\AW\AuditWizard\Layton.Common.Controls\obj\x86\Debug\Layton.Common.Controls.pdb
 D:\LaytonTechnology\AW\AuditWizard\Layton.Common.Controls\obj\x86\Debug\Layton.Common.Controls.csprojResolveAssemblyReference.cache
+C:\Program Files (x86)\AuditWizard v8\Layton.Common.Controls.dll
+C:\Program Files (x86)\AuditWizard v8\Layton.Common.Controls.pdb
+D:\Layton_GitSource\AW-master\AuditWizard\Layton.Common.Controls\obj\x86\Debug\Layton.Common.Controls.AWForm.resources
+D:\Layton_GitSource\AW-master\AuditWizard\Layton.Common.Controls\obj\x86\Debug\Layton.Common.Controls.DateRangeControl.resources
+D:\Layton_GitSource\AW-master\AuditWizard\Layton.Common.Controls\obj\x86\Debug\Layton.Common.Controls.ExteriorImageWizardPage.resources
+D:\Layton_GitSource\AW-master\AuditWizard\Layton.Common.Controls\obj\x86\Debug\Layton.Common.Controls.DropShadowForm.resources
+D:\Layton_GitSource\AW-master\AuditWizard\Layton.Common.Controls\obj\x86\Debug\Layton.Common.Controls.ExteriorWizardPage.resources
+D:\Layton_GitSource\AW-master\AuditWizard\Layton.Common.Controls\obj\x86\Debug\Layton.Common.Controls.FormAskInput1.resources
+D:\Layton_GitSource\AW-master\AuditWizard\Layton.Common.Controls\obj\x86\Debug\Layton.Common.Controls.FormAskInput2.resources
+D:\Layton_GitSource\AW-master\AuditWizard\Layton.Common.Controls\obj\x86\Debug\Layton.Common.Controls.FormRegistryBrowser.resources
+D:\Layton_GitSource\AW-master\AuditWizard\Layton.Common.Controls\obj\x86\Debug\Layton.Common.Controls.FormSetPassword.resources
+D:\Layton_GitSource\AW-master\AuditWizard\Layton.Common.Controls\obj\x86\Debug\Layton.Common.Controls.FormShadedAskInput2.resources
+D:\Layton_GitSource\AW-master\AuditWizard\Layton.Common.Controls\obj\x86\Debug\Layton.Common.Controls.BorderStrip.resources
+D:\Layton_GitSource\AW-master\AuditWizard\Layton.Common.Controls\obj\x86\Debug\Layton.Common.Controls.GlacialList.resources
+D:\Layton_GitSource\AW-master\AuditWizard\Layton.Common.Controls\obj\x86\Debug\Layton.Common.Controls.GLComboBox.resources
+D:\Layton_GitSource\AW-master\AuditWizard\Layton.Common.Controls\obj\x86\Debug\Layton.Common.Controls.GLDateTimePicker.resources
+D:\Layton_GitSource\AW-master\AuditWizard\Layton.Common.Controls\obj\x86\Debug\Layton.Common.Controls.GLTextBox.resources
+D:\Layton_GitSource\AW-master\AuditWizard\Layton.Common.Controls\obj\x86\Debug\Layton.Common.Controls.ManagedHScrollBar.resources
+D:\Layton_GitSource\AW-master\AuditWizard\Layton.Common.Controls\obj\x86\Debug\Layton.Common.Controls.GlacialList.ManagedVScrollBar.resources
+D:\Layton_GitSource\AW-master\AuditWizard\Layton.Common.Controls\obj\x86\Debug\Layton.Common.Controls.ImageListBox.resources
+D:\Layton_GitSource\AW-master\AuditWizard\Layton.Common.Controls\obj\x86\Debug\Layton.Common.Controls.ImageListBoxItem.resources
+D:\Layton_GitSource\AW-master\AuditWizard\Layton.Common.Controls\obj\x86\Debug\Layton.Common.Controls.InteriorWizardPage.resources
+D:\Layton_GitSource\AW-master\AuditWizard\Layton.Common.Controls\obj\x86\Debug\Layton.Common.Controls.LaytonAboutForm.resources
+D:\Layton_GitSource\AW-master\AuditWizard\Layton.Common.Controls\obj\x86\Debug\Layton.Common.Controls.LaytonRegistrationForm.resources
+D:\Layton_GitSource\AW-master\AuditWizard\Layton.Common.Controls\obj\x86\Debug\Layton.Common.Controls.MessageBoxEx.resources
+D:\Layton_GitSource\AW-master\AuditWizard\Layton.Common.Controls\obj\x86\Debug\Layton.Common.Controls.ProgressForm.resources
+D:\Layton_GitSource\AW-master\AuditWizard\Layton.Common.Controls\obj\x86\Debug\Layton.Common.Controls.Properties.Resources.resources
+D:\Layton_GitSource\AW-master\AuditWizard\Layton.Common.Controls\obj\x86\Debug\Layton.Common.Controls.ShadedImageForm.resources
+D:\Layton_GitSource\AW-master\AuditWizard\Layton.Common.Controls\obj\x86\Debug\Layton.Common.Controls.SplashScreen.resources
+D:\Layton_GitSource\AW-master\AuditWizard\Layton.Common.Controls\obj\x86\Debug\Layton.Common.Controls.TaskbarNotifier.resources
+D:\Layton_GitSource\AW-master\AuditWizard\Layton.Common.Controls\obj\x86\Debug\Layton.Common.Controls.WizardForm.resources
+D:\Layton_GitSource\AW-master\AuditWizard\Layton.Common.Controls\obj\x86\Debug\Layton.Common.Controls.WizardPage.resources
+D:\Layton_GitSource\AW-master\AuditWizard\Layton.Common.Controls\obj\x86\Debug\Layton.Common.Controls.csproj.GenerateResource.Cache
+D:\Layton_GitSource\AW-master\AuditWizard\Layton.Common.Controls\obj\x86\Debug\Layton.Common.Controls.dll.licenses
+D:\Layton_GitSource\AW-master\AuditWizard\Layton.Common.Controls\obj\x86\Debug\Layton.Common.Controls.dll
+D:\Layton_GitSource\AW-master\AuditWizard\Layton.Common.Controls\obj\x86\Debug\Layton.Common.Controls.pdb

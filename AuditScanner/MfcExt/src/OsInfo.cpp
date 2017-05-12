@@ -31,6 +31,7 @@ typedef BOOL (WINAPI *PGPI)(DWORD, DWORD, DWORD, DWORD, PDWORD);
 #define RK_95_VERSION	"SOFTWARE\\Microsoft\\Windows\\CurrentVersion"
 #define RK_NT_VERSION	"SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion"
 #define RI_OS_SERIAL	"ProductId"
+#define RI_OS_NAME      "ProductName"
 
 /*
 ** initialise static variables
@@ -240,7 +241,7 @@ BOOL COsInfo::Detect()
 	ZeroMemory(&si, sizeof(SYSTEM_INFO));
 	ZeroMemory(&osvi, sizeof(OSVERSIONINFOEX));
 	m_strName = "";
-
+	CString version ="12312";
 	osvi.dwOSVersionInfoSize = sizeof(OSVERSIONINFOEX);
 
 	if (!(bOsVersionInfoEx = GetVersionEx ((OSVERSIONINFO *) &osvi)))
@@ -253,6 +254,17 @@ BOOL COsInfo::Detect()
 	else 
 		GetSystemInfo(&si);
 
+	
+	// Check if he windows versio is windows 10 or not
+	CString versiondetails = CReg::GetItemString (HKEY_LOCAL_MACHINE, RK_NT_VERSION,RI_OS_NAME);	
+	if (versiondetails.Find("Windows 10") >= 0 || versiondetails.Find("2016") >= 0)
+	{
+		osvi.dwMajorVersion = 10;
+	}
+	else if(versiondetails.Find("Windows 8.1") >= 0 || versiondetails.Find("2012 R2") >= 0)
+	{
+		osvi.dwMinorVersion = 3;
+	}
 	// If the platform type is WINDOWS then we are dealing with very early versions indeed
 	if (osvi.dwPlatformId == VER_PLATFORM_WIN32_WINDOWS)
 	{
@@ -306,11 +318,17 @@ BOOL COsInfo::Detect()
 				else
 					m_strName += "Windows Server 2012 ";
 			}
+			else if (osvi.dwMinorVersion == 3)
+			{
+				if (osvi.wProductType == VER_NT_WORKSTATION )
+					m_strName += "Windows 8.1 ";
+				else
+					m_strName += "Windows Server 2012 R2 ";
+			}
 
 			// Now get the varient
 			pGPI = (PGPI) GetProcAddress(GetModuleHandle(TEXT("kernel32.dll")), "GetProductInfo");
-			pGPI( 6, 0, 0, 0, &dwType);
-
+			pGPI( osvi.dwMajorVersion, osvi.dwMinorVersion, 0, 0, &dwType);
 			switch (dwType)
 			{
 				case PRODUCT_ULTIMATE:
@@ -452,6 +470,159 @@ BOOL COsInfo::Detect()
 			else if (si.wProcessorArchitecture == PROCESSOR_ARCHITECTURE_INTEL )
 				m_strName += ", 32-bit";
 		}
+		else if(osvi.dwMajorVersion == 10)
+		{							
+			if (osvi.wProductType == VER_NT_WORKSTATION )
+				m_strName += "Windows 10 ";
+			else
+				m_strName += "Windows Server 2016 ";
+
+			// Now get the varient
+			pGPI = (PGPI) GetProcAddress(GetModuleHandle(TEXT("kernel32.dll")), "GetProductInfo");
+			pGPI( osvi.dwMajorVersion, osvi.dwMinorVersion, 0, 0, &dwType);
+
+			switch (dwType)
+			{
+				case PRODUCT_ULTIMATE:
+					m_strName += "Ultimate Edition";
+					break;
+				case PRODUCT_HOME_PREMIUM:
+					m_strName += "Home Premium Edition";
+					break;
+				case PRODUCT_HOME_BASIC:
+					m_strName += "Home Basic Edition";
+					break;
+				case PRODUCT_ENTERPRISE:
+					m_strName += "Enterprise Edition";
+					break;
+				case PRODUCT_BUSINESS:
+					m_strName += "Business Edition";
+					break;
+				case PRODUCT_STARTER:
+					m_strName += "Starter Edition";
+					break;
+				case PRODUCT_CLUSTER_SERVER:
+					m_strName += "Cluster Server Edition";
+					break;
+				case PRODUCT_DATACENTER_SERVER:
+					m_strName += "Datacenter Edition";
+					break;
+				case PRODUCT_DATACENTER_SERVER_CORE:
+					m_strName += "Datacenter Edition (core installation)";
+					break;
+				case PRODUCT_ENTERPRISE_SERVER:
+					m_strName += "Enterprise Edition";
+					break;
+				case PRODUCT_ENTERPRISE_SERVER_CORE:
+					m_strName += "Enterprise Edition (core installation)";
+					break;
+				case PRODUCT_ENTERPRISE_SERVER_IA64:
+					m_strName += "Enterprise Edition for Itanium-based Systems";
+					break;
+				case PRODUCT_SMALLBUSINESS_SERVER:
+					m_strName += "Small Business Server";
+					break;
+				case PRODUCT_SMALLBUSINESS_SERVER_PREMIUM:
+					m_strName += "Small Business Server Premium Edition";
+					break;
+				case PRODUCT_STANDARD_SERVER:
+					m_strName += "Standard Edition";
+					break;
+				case PRODUCT_STANDARD_SERVER_CORE:
+					m_strName += "Standard Edition (core installation)";
+					break;
+				case PRODUCT_WEB_SERVER:
+					m_strName += "Web Server Edition";
+					break;
+				case PRODUCT_MEDIUMBUSINESS_SERVER_MANAGEMENT:
+					m_strName += "Windows Essential Business Server Management Server";
+					break;
+				case PRODUCT_MEDIUMBUSINESS_SERVER_SECURITY:
+					m_strName += "Windows Essential Business Server Security Server";
+					break;
+				case PRODUCT_MEDIUMBUSINESS_SERVER_MESSAGING:
+					m_strName += "Windows Essential Business Server Messaging Server";
+					break;
+				case PRODUCT_SERVER_FOUNDATION:
+					m_strName += "Server Foundation";
+					break;
+				case PRODUCT_SERVER_FOR_SMALLBUSINESS_V:
+					m_strName += "Windows Server 2008 without Hyper-V for Windows Essential Server Solutions";
+					break;
+				case PRODUCT_STANDARD_SERVER_V:
+					m_strName += "Server Standard without Hyper-V";
+					break;
+				case PRODUCT_STORAGE_EXPRESS_SERVER_CORE:
+					m_strName += "Server Standard without Hyper-V (core installation)";
+					break;
+				case PRODUCT_STANDARD_SERVER_CORE_V:
+					m_strName += "Storage Server Express (core installation)";
+					break;
+				case PRODUCT_STORAGE_STANDARD_SERVER_CORE:
+					m_strName += "Storage Server Standard (core installation)";
+					break;
+				case PRODUCT_STORAGE_WORKGROUP_SERVER_CORE:
+					m_strName += "Storage Server Workgroup (core installation)";
+					break;
+				case PRODUCT_STORAGE_ENTERPRISE_SERVER_CORE:
+					m_strName += "Storage Server Enterprise (core installation)";
+					break;
+				case PRODUCT_STARTER_N:
+					m_strName += "Starter N";
+					break;
+				case PRODUCT_PROFESSIONAL:
+					m_strName += "Professional";
+					break;
+				case PRODUCT_PROFESSIONAL_N:
+					m_strName += "Professional N";
+					break;
+				case PRODUCT_SB_SOLUTION_SERVER:
+					m_strName += "Windows Small Business Server 2011 Essentials";
+					break;
+				case PRODUCT_SERVER_FOR_SB_SOLUTIONS:
+					m_strName += "Server For SB Solutions";
+					break;
+				case PRODUCT_STANDARD_SERVER_SOLUTIONS:
+					m_strName += "Server Solutions Premium";
+					break;
+				case PRODUCT_STANDARD_SERVER_SOLUTIONS_CORE:
+					m_strName += "Server Solutions Premium (core installation)";
+					break;
+				case PRODUCT_SB_SOLUTION_SERVER_EM:
+					m_strName += "Server For SB Solutions EM";
+					break;
+				case PRODUCT_SERVER_FOR_SB_SOLUTIONS_EM:
+					m_strName += "Server For SB Solutions EM";
+					break;
+				case PRODUCT_SOLUTION_EMBEDDEDSERVER:
+					m_strName += "Windows MultiPoint Server";
+					break;
+				case PRODUCT_SMALLBUSINESS_SERVER_PREMIUM_CORE:
+					m_strName += "Small Business Server Premium (core installation)";
+					break;
+				case PRODUCT_PROFESSIONAL_WMC:
+					m_strName += "Professional with Media Center";
+					break;
+				case PRODUCT_MULTIPOINT_STANDARD_SERVER:
+					m_strName += "Web Server Edition";
+					break;
+				case PRODUCT_MULTIPOINT_PREMIUM_SERVER:
+					m_strName += "Windows MultiPoint Server Standard (full installation)";
+					break;
+				case PRODUCT_STORAGE_WORKGROUP_EVALUATION_SERVER:
+					m_strName += "Storage Server Workgroup (evaluation installation)";
+					break;
+				case PRODUCT_STORAGE_STANDARD_EVALUATION_SERVER:
+					m_strName += "Storage Server Standard (evaluation installation)";
+					break;
+			}
+
+			if (si.wProcessorArchitecture == PROCESSOR_ARCHITECTURE_AMD64 )
+				m_strName +=  ", 64-bit";
+			else if (si.wProcessorArchitecture == PROCESSOR_ARCHITECTURE_INTEL )
+				m_strName += ", 32-bit";
+
+		}
 
 		// Versiopn 5.3 is Windows Server 2003 variants (including XP Pro x64)
 		else if ( osvi.dwMajorVersion == 5 && osvi.dwMinorVersion == 2 )
@@ -550,7 +721,20 @@ BOOL COsInfo::Detect()
 		}
 		
 		// exact version
-		m_strVersion.Format ("%d.%d %s (build %d)", osvi.dwMajorVersion, osvi.dwMinorVersion, osvi.szCSDVersion, osvi.dwBuildNumber);
+		if(osvi.dwMajorVersion == 6 || osvi.dwMajorVersion == 10)
+		{
+			CString Buildno = CReg::GetItemString (HKEY_LOCAL_MACHINE, RK_NT_VERSION,"CurrentBuild");
+			if(!osvi.dwMajorVersion == 10)
+				m_strVersion.Format ("%d.%d %s (build %s)", osvi.dwMajorVersion, osvi.dwMinorVersion, osvi.szCSDVersion, Buildno);
+			else
+				m_strVersion.Format ("%d.%d %s (build %s)", osvi.dwMajorVersion, 0, osvi.szCSDVersion , Buildno);
+		}
+		else
+		{
+			m_strVersion.Format ("%d.%d %s (build %d)", osvi.dwMajorVersion, osvi.dwMinorVersion, osvi.szCSDVersion, osvi.dwBuildNumber);
+		}
+
+		
 	}
 
 	else
@@ -847,6 +1031,7 @@ CString COsInfo::GetAdvancedProductInfo()
 		lpfnGetProductInfo pGetProductInfo = (lpfnGetProductInfo) GetProcAddress(hKernel32, "GetProductInfo"); 
 		if (pGetProductInfo)
 			pGetProductInfo(6, 0, 0, 0, &dwProductType);
+			//pGPI( osvi.dwMajorVersion, osvi.dwMinorVersion, 0, 0, &dwProductType);
 	}  
   
 	switch (dwProductType)

@@ -23,3 +23,7 @@ D:\LaytonTechnology\AW\AuditWizard\HandleAWServices\bin\x86\Debug\HandleAWServic
 D:\LaytonTechnology\AW\AuditWizard\HandleAWServices\obj\x86\Debug\HandleAWServices.dll
 D:\LaytonTechnology\AW\AuditWizard\HandleAWServices\obj\x86\Debug\HandleAWServices.pdb
 D:\LaytonTechnology\AW\AuditWizard\HandleAWServices\obj\x86\Debug\HandleAWServices.csprojResolveAssemblyReference.cache
+D:\Layton_GitSource\AW-master\AuditWizard\HandleAWServices\bin\x86\Debug\HandleAWServices.dll
+D:\Layton_GitSource\AW-master\AuditWizard\HandleAWServices\bin\x86\Debug\HandleAWServices.pdb
+D:\Layton_GitSource\AW-master\AuditWizard\HandleAWServices\obj\x86\Debug\HandleAWServices.dll
+D:\Layton_GitSource\AW-master\AuditWizard\HandleAWServices\obj\x86\Debug\HandleAWServices.pdb

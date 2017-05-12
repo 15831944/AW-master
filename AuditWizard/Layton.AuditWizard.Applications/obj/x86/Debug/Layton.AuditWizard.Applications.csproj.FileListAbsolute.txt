@@ -38,9 +38,6 @@ D:\LaytonProducts\AW\AuditWizard\Layton.AuditWizard.Applications\obj\x86\Debug\R
 D:\LaytonProducts\AW\AuditWizard\Layton.AuditWizard.Applications\obj\x86\Debug\Layton.AuditWizard.Applications.dll.licenses
 D:\LaytonProducts\AW\AuditWizard\Layton.AuditWizard.Applications\obj\x86\Debug\Layton.AuditWizard.Applications.dll
 D:\LaytonProducts\AW\AuditWizard\Layton.AuditWizard.Applications\obj\x86\Debug\Layton.AuditWizard.Applications.pdb
-C:\Program Files (x86)\AuditWizard v8\Layton.AuditWizard.Applications.dll.config
-C:\Program Files (x86)\AuditWizard v8\Layton.AuditWizard.Applications.dll
-C:\Program Files (x86)\AuditWizard v8\Layton.AuditWizard.Applications.pdb
 D:\LaytonProducts\AuditWizard\AuditWizard\Layton.AuditWizard.Applications\obj\x86\Debug\ResolveAssemblyReference.cache
 D:\LaytonProducts\AuditWizard\AuditWizard\Layton.AuditWizard.Applications\obj\x86\Debug\Layton.AuditWizard.Applications.ApplicationsExplorerView.resources
 D:\LaytonProducts\AuditWizard\AuditWizard\Layton.AuditWizard.Applications\obj\x86\Debug\Layton.AuditWizard.Applications.ApplicationsTabView.resources
@@ -99,3 +96,25 @@ D:\LaytonTechnology\AW\AuditWizard\Layton.AuditWizard.Applications\obj\x86\Debug
 D:\LaytonTechnology\AW\AuditWizard\Layton.AuditWizard.Applications\obj\x86\Debug\Layton.AuditWizard.Applications.dll.licenses
 D:\LaytonTechnology\AW\AuditWizard\Layton.AuditWizard.Applications\obj\x86\Debug\Layton.AuditWizard.Applications.dll
 D:\LaytonTechnology\AW\AuditWizard\Layton.AuditWizard.Applications\obj\x86\Debug\Layton.AuditWizard.Applications.pdb
+C:\Program Files (x86)\AuditWizard v8\Layton.AuditWizard.Applications.dll.config
+C:\Program Files (x86)\AuditWizard v8\Layton.AuditWizard.Applications.dll
+C:\Program Files (x86)\AuditWizard v8\Layton.AuditWizard.Applications.pdb
+D:\Layton_GitSource\AW-master\AuditWizard\Layton.AuditWizard.Applications\obj\x86\Debug\Layton.AuditWizard.Applications.csprojResolveAssemblyReference.cache
+D:\Layton_GitSource\AW-master\AuditWizard\Layton.AuditWizard.Applications\obj\x86\Debug\Layton.AuditWizard.Applications.ApplicationsExplorerView.resources
+D:\Layton_GitSource\AW-master\AuditWizard\Layton.AuditWizard.Applications\obj\x86\Debug\Layton.AuditWizard.Applications.ApplicationsTabView.resources
+D:\Layton_GitSource\AW-master\AuditWizard\Layton.AuditWizard.Applications\obj\x86\Debug\Layton.AuditWizard.Applications.AlertsTabView.resources
+D:\Layton_GitSource\AW-master\AuditWizard\Layton.AuditWizard.Applications\obj\x86\Debug\Layton.AuditWizard.Applications.FormAddApplication.resources
+D:\Layton_GitSource\AW-master\AuditWizard\Layton.AuditWizard.Applications\obj\x86\Debug\Layton.AuditWizard.Applications.FormAlertDetails.resources
+D:\Layton_GitSource\AW-master\AuditWizard\Layton.AuditWizard.Applications\obj\x86\Debug\Layton.AuditWizard.Applications.FormActionDetails.resources
+D:\Layton_GitSource\AW-master\AuditWizard\Layton.AuditWizard.Applications\obj\x86\Debug\Layton.AuditWizard.Applications.FormApplicationProperties.resources
+D:\Layton_GitSource\AW-master\AuditWizard\Layton.AuditWizard.Applications\obj\x86\Debug\Layton.AuditWizard.Applications.FormEditPublisherName.resources
+D:\Layton_GitSource\AW-master\AuditWizard\Layton.AuditWizard.Applications\obj\x86\Debug\Layton.AuditWizard.Applications.FormLicenseProperties.resources
+D:\Layton_GitSource\AW-master\AuditWizard\Layton.AuditWizard.Applications\obj\x86\Debug\Layton.AuditWizard.Applications.OSTabView.resources
+D:\Layton_GitSource\AW-master\AuditWizard\Layton.AuditWizard.Applications\obj\x86\Debug\Layton.AuditWizard.Applications.LicensesTabView.resources
+D:\Layton_GitSource\AW-master\AuditWizard\Layton.AuditWizard.Applications\obj\x86\Debug\Layton.AuditWizard.Applications.InstancesTabView.resources
+D:\Layton_GitSource\AW-master\AuditWizard\Layton.AuditWizard.Applications\obj\x86\Debug\Layton.AuditWizard.Applications.Properties.Resources.resources
+D:\Layton_GitSource\AW-master\AuditWizard\Layton.AuditWizard.Applications\obj\x86\Debug\Layton.AuditWizard.Applications.ReportProgress.resources
+D:\Layton_GitSource\AW-master\AuditWizard\Layton.AuditWizard.Applications\obj\x86\Debug\Layton.AuditWizard.Applications.csproj.GenerateResource.Cache
+D:\Layton_GitSource\AW-master\AuditWizard\Layton.AuditWizard.Applications\obj\x86\Debug\Layton.AuditWizard.Applications.dll.licenses
+D:\Layton_GitSource\AW-master\AuditWizard\Layton.AuditWizard.Applications\obj\x86\Debug\Layton.AuditWizard.Applications.dll
+D:\Layton_GitSource\AW-master\AuditWizard\Layton.AuditWizard.Applications\obj\x86\Debug\Layton.AuditWizard.Applications.pdb

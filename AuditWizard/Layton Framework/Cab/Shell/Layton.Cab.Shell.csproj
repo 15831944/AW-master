@@ -158,6 +158,10 @@
     <Reference Include="System" />
     <Reference Include="System.configuration" />
     <Reference Include="System.Data" />
+    <Reference Include="System.Data.SqlServerCe, Version=3.5.1.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\bin\Sqlce\System.Data.SqlServerCe.dll</HintPath>
+    </Reference>
     <Reference Include="System.Design" />
     <Reference Include="System.Drawing" />
     <Reference Include="System.EnterpriseServices" />
@@ -276,6 +280,8 @@
     <Content Include="ProfileCatalog.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <None Include="Resources\Patch_Updates.sql" />
+    <None Include="Resources\Patch_Updates_CMD.sql" />
     <None Include="Layton.Cab.Shell_TemporaryKey.pfx" />
     <None Include="Resources\layton.png" />
     <None Include="app.manifest" />
@@ -284,7 +290,9 @@
     <None Include="Resources\expand_view_16.png" />
     <None Include="Resources\zoom_in16.png" />
     <None Include="Resources\zoom_out16.png" />
-    <None Include="app.config" />
+    <None Include="app.config">
+      <SubType>Designer</SubType>
+    </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

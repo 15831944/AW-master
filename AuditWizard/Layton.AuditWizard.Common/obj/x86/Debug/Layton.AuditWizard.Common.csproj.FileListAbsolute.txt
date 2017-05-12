@@ -76,8 +76,6 @@ D:\LaytonProducts\AW\AuditWizard\Layton.AuditWizard.Common\obj\x86\Debug\ResGen.
 D:\LaytonProducts\AW\AuditWizard\Layton.AuditWizard.Common\obj\x86\Debug\Layton.AuditWizard.Common.dll.licenses
 D:\LaytonProducts\AW\AuditWizard\Layton.AuditWizard.Common\obj\x86\Debug\Layton.AuditWizard.Common.dll
 D:\LaytonProducts\AW\AuditWizard\Layton.AuditWizard.Common\obj\x86\Debug\Layton.AuditWizard.Common.pdb
-C:\Program Files (x86)\AuditWizard v8\Layton.AuditWizard.Common.dll
-C:\Program Files (x86)\AuditWizard v8\Layton.AuditWizard.Common.pdb
 D:\LaytonProducts\AuditWizard\AuditWizard\Layton.AuditWizard.Common\obj\x86\Debug\ResolveAssemblyReference.cache
 D:\LaytonProducts\AuditWizard\AuditWizard\Layton.AuditWizard.Common\obj\x86\Debug\Layton.AuditWizard.Common.FormAuditWizardServiceControl.resources
 D:\LaytonProducts\AuditWizard\AuditWizard\Layton.AuditWizard.Common\obj\x86\Debug\Layton.AuditWizard.Common.FormAWMessageBox.resources
@@ -193,3 +191,43 @@ D:\LaytonTechnology\AW\AuditWizard\Layton.AuditWizard.Common\obj\x86\Debug\Layto
 D:\LaytonTechnology\AW\AuditWizard\Layton.AuditWizard.Common\obj\x86\Debug\Layton.AuditWizard.Common.dll.licenses
 D:\LaytonTechnology\AW\AuditWizard\Layton.AuditWizard.Common\obj\x86\Debug\Layton.AuditWizard.Common.dll
 D:\LaytonTechnology\AW\AuditWizard\Layton.AuditWizard.Common\obj\x86\Debug\Layton.AuditWizard.Common.pdb
+C:\Program Files (x86)\AuditWizard v8\Layton.AuditWizard.Common.dll
+C:\Program Files (x86)\AuditWizard v8\Layton.AuditWizard.Common.pdb
+D:\Layton_GitSource\AW-master\AuditWizard\Layton.AuditWizard.Common\obj\x86\Debug\Layton.AuditWizard.Common.csprojResolveAssemblyReference.cache
+D:\Layton_GitSource\AW-master\AuditWizard\Layton.AuditWizard.Common\obj\x86\Debug\Layton.AuditWizard.Common.FormAuditWizardServiceControl.resources
+D:\Layton_GitSource\AW-master\AuditWizard\Layton.AuditWizard.Common\obj\x86\Debug\Layton.AuditWizard.Common.FormAWMessageBox.resources
+D:\Layton_GitSource\AW-master\AuditWizard\Layton.AuditWizard.Common\obj\x86\Debug\Layton.AuditWizard.Common.FormEditTasks.resources
+D:\Layton_GitSource\AW-master\AuditWizard\Layton.AuditWizard.Common\obj\x86\Debug\Layton.AuditWizard.Common.FormAliasApplication.resources
+D:\Layton_GitSource\AW-master\AuditWizard\Layton.AuditWizard.Common\obj\x86\Debug\Layton.AuditWizard.Common.FormAliasApplications.resources
+D:\Layton_GitSource\AW-master\AuditWizard\Layton.AuditWizard.Common\obj\x86\Debug\Layton.AuditWizard.Common.FormEditReportSchedule.resources
+D:\Layton_GitSource\AW-master\AuditWizard\Layton.AuditWizard.Common\obj\x86\Debug\Layton.AuditWizard.Common.FormEnvVarBrowser.resources
+D:\Layton_GitSource\AW-master\AuditWizard\Layton.AuditWizard.Common\obj\x86\Debug\Layton.AuditWizard.Common.FormSearch.resources
+D:\Layton_GitSource\AW-master\AuditWizard\Layton.AuditWizard.Common\obj\x86\Debug\Layton.AuditWizard.Common.FormSelectLocations.resources
+D:\Layton_GitSource\AW-master\AuditWizard\Layton.AuditWizard.Common\obj\x86\Debug\Layton.AuditWizard.Common.FormTaskName.resources
+D:\Layton_GitSource\AW-master\AuditWizard\Layton.AuditWizard.Common\obj\x86\Debug\Layton.AuditWizard.Common.FormTasks.resources
+D:\Layton_GitSource\AW-master\AuditWizard\Layton.AuditWizard.Common\obj\x86\Debug\Layton.AuditWizard.Common.FormAliasPublishers.resources
+D:\Layton_GitSource\AW-master\AuditWizard\Layton.AuditWizard.Common\obj\x86\Debug\Layton.AuditWizard.Common.FormConfigureNewsFeed.resources
+D:\Layton_GitSource\AW-master\AuditWizard\Layton.AuditWizard.Common\obj\x86\Debug\Layton.AuditWizard.Common.FormAlertLog.resources
+D:\Layton_GitSource\AW-master\AuditWizard\Layton.AuditWizard.Common\obj\x86\Debug\Layton.AuditWizard.Common.SupplierControl.resources
+D:\Layton_GitSource\AW-master\AuditWizard\Layton.AuditWizard.Common\obj\x86\Debug\Layton.AuditWizard.Common.FormSelectPublishersAndApplications.resources
+D:\Layton_GitSource\AW-master\AuditWizard\Layton.AuditWizard.Common\obj\x86\Debug\Layton.AuditWizard.Common.FormStyleChooser.resources
+D:\Layton_GitSource\AW-master\AuditWizard\Layton.AuditWizard.Common\obj\x86\Debug\Layton.AuditWizard.Common.SelectApplicationsControl.resources
+D:\Layton_GitSource\AW-master\AuditWizard\Layton.AuditWizard.Common\obj\x86\Debug\Layton.AuditWizard.Common.DocumentsControl.resources
+D:\Layton_GitSource\AW-master\AuditWizard\Layton.AuditWizard.Common\obj\x86\Debug\Layton.AuditWizard.Common.FormAddDocument.resources
+D:\Layton_GitSource\AW-master\AuditWizard\Layton.AuditWizard.Common\obj\x86\Debug\Layton.AuditWizard.Common.FormIPAddressRange.resources
+D:\Layton_GitSource\AW-master\AuditWizard\Layton.AuditWizard.Common\obj\x86\Debug\Layton.AuditWizard.Common.EmailConfigurationControl.resources
+D:\Layton_GitSource\AW-master\AuditWizard\Layton.AuditWizard.Common\obj\x86\Debug\Layton.AuditWizard.Common.EmailSettingsForm.resources
+D:\Layton_GitSource\AW-master\AuditWizard\Layton.AuditWizard.Common\obj\x86\Debug\Layton.AuditWizard.Common.FormAssociatedComputers.resources
+D:\Layton_GitSource\AW-master\AuditWizard\Layton.AuditWizard.Common\obj\x86\Debug\Layton.AuditWizard.Common.FormNewNote.resources
+D:\Layton_GitSource\AW-master\AuditWizard\Layton.AuditWizard.Common\obj\x86\Debug\Layton.AuditWizard.Common.FormSupplierProperties.resources
+D:\Layton_GitSource\AW-master\AuditWizard\Layton.AuditWizard.Common\obj\x86\Debug\Layton.AuditWizard.Common.FormFilterPublishers.resources
+D:\Layton_GitSource\AW-master\AuditWizard\Layton.AuditWizard.Common\obj\x86\Debug\Layton.AuditWizard.Common.FormSelectComputers.resources
+D:\Layton_GitSource\AW-master\AuditWizard\Layton.AuditWizard.Common\obj\x86\Debug\Layton.AuditWizard.Common.FormSelectPublisher.resources
+D:\Layton_GitSource\AW-master\AuditWizard\Layton.AuditWizard.Common\obj\x86\Debug\Layton.AuditWizard.Common.NotesControl.resources
+D:\Layton_GitSource\AW-master\AuditWizard\Layton.AuditWizard.Common\obj\x86\Debug\Layton.AuditWizard.Common.Properties.Resources.resources
+D:\Layton_GitSource\AW-master\AuditWizard\Layton.AuditWizard.Common\obj\x86\Debug\Layton.AuditWizard.Common.SelectAuditedDataFieldsControl.resources
+D:\Layton_GitSource\AW-master\AuditWizard\Layton.AuditWizard.Common\obj\x86\Debug\Layton.AuditWizard.Common.SelectLocationsControl.resources
+D:\Layton_GitSource\AW-master\AuditWizard\Layton.AuditWizard.Common\obj\x86\Debug\Layton.AuditWizard.Common.csproj.GenerateResource.Cache
+D:\Layton_GitSource\AW-master\AuditWizard\Layton.AuditWizard.Common\obj\x86\Debug\Layton.AuditWizard.Common.dll.licenses
+D:\Layton_GitSource\AW-master\AuditWizard\Layton.AuditWizard.Common\obj\x86\Debug\Layton.AuditWizard.Common.dll
+D:\Layton_GitSource\AW-master\AuditWizard\Layton.AuditWizard.Common\obj\x86\Debug\Layton.AuditWizard.Common.pdb

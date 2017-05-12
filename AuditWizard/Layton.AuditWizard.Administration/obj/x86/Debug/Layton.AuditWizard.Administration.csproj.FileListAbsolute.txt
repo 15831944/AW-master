@@ -114,9 +114,6 @@ D:\LaytonProducts\AW\AuditWizard\Layton.AuditWizard.Administration\obj\x86\Debug
 D:\LaytonProducts\AW\AuditWizard\Layton.AuditWizard.Administration\obj\x86\Debug\Layton.AuditWizard.Administration.dll.licenses
 D:\LaytonProducts\AW\AuditWizard\Layton.AuditWizard.Administration\obj\x86\Debug\Layton.AuditWizard.Administration.dll
 D:\LaytonProducts\AW\AuditWizard\Layton.AuditWizard.Administration\obj\x86\Debug\Layton.AuditWizard.Administration.pdb
-C:\Program Files (x86)\AuditWizard v8\Layton.AuditWizard.Administration.dll.config
-C:\Program Files (x86)\AuditWizard v8\Layton.AuditWizard.Administration.dll
-C:\Program Files (x86)\AuditWizard v8\Layton.AuditWizard.Administration.pdb
 D:\LaytonProducts\AuditWizard\AuditWizard\Layton.AuditWizard.Administration\obj\x86\Debug\ResolveAssemblyReference.cache
 D:\LaytonProducts\AuditWizard\AuditWizard\Layton.AuditWizard.Administration\obj\x86\Debug\Layton.AuditWizard.Administration.AdministrationExplorerView.resources
 D:\LaytonProducts\AuditWizard\AuditWizard\Layton.AuditWizard.Administration\obj\x86\Debug\Layton.AuditWizard.Administration.AssetTypesTabView.resources
@@ -289,3 +286,63 @@ D:\LaytonTechnology\AW\AuditWizard\Layton.AuditWizard.Administration\obj\x86\Deb
 D:\LaytonTechnology\AW\AuditWizard\Layton.AuditWizard.Administration\obj\x86\Debug\Layton.AuditWizard.Administration.dll.licenses
 D:\LaytonTechnology\AW\AuditWizard\Layton.AuditWizard.Administration\obj\x86\Debug\Layton.AuditWizard.Administration.dll
 D:\LaytonTechnology\AW\AuditWizard\Layton.AuditWizard.Administration\obj\x86\Debug\Layton.AuditWizard.Administration.pdb
+C:\Program Files (x86)\AuditWizard v8\Layton.AuditWizard.Administration.dll.config
+C:\Program Files (x86)\AuditWizard v8\Layton.AuditWizard.Administration.dll
+C:\Program Files (x86)\AuditWizard v8\Layton.AuditWizard.Administration.pdb
+D:\Layton_GitSource\AW-master\AuditWizard\Layton.AuditWizard.Administration\obj\x86\Debug\Layton.AuditWizard.Administration.csprojResolveAssemblyReference.cache
+D:\Layton_GitSource\AW-master\AuditWizard\Layton.AuditWizard.Administration\obj\x86\Debug\Layton.AuditWizard.Administration.AdministrationExplorerView.resources
+D:\Layton_GitSource\AW-master\AuditWizard\Layton.AuditWizard.Administration\obj\x86\Debug\Layton.AuditWizard.Administration.AssetTypesTabView.resources
+D:\Layton_GitSource\AW-master\AuditWizard\Layton.AuditWizard.Administration\obj\x86\Debug\Layton.AuditWizard.Administration.AlertMonitorSettingsTabView.resources
+D:\Layton_GitSource\AW-master\AuditWizard\Layton.AuditWizard.Administration\obj\x86\Debug\Layton.AuditWizard.Administration.FormAddPickItem.resources
+D:\Layton_GitSource\AW-master\AuditWizard\Layton.AuditWizard.Administration\obj\x86\Debug\Layton.AuditWizard.Administration.FormDatabaseMaintenance.resources
+D:\Layton_GitSource\AW-master\AuditWizard\Layton.AuditWizard.Administration\obj\x86\Debug\Layton.AuditWizard.Administration.FormFtpSettingsBackup.resources
+D:\Layton_GitSource\AW-master\AuditWizard\Layton.AuditWizard.Administration\obj\x86\Debug\Layton.AuditWizard.Administration.FormAlertMonitorWizard.resources
+D:\Layton_GitSource\AW-master\AuditWizard\Layton.AuditWizard.Administration\obj\x86\Debug\Layton.AuditWizard.Administration.FormChangeDBWizard.resources
+D:\Layton_GitSource\AW-master\AuditWizard\Layton.AuditWizard.Administration\obj\x86\Debug\Layton.AuditWizard.Administration.FormImportHistory.resources
+D:\Layton_GitSource\AW-master\AuditWizard\Layton.AuditWizard.Administration\obj\x86\Debug\Layton.AuditWizard.Administration.FormLoadAlertMonitorDefinition.resources
+D:\Layton_GitSource\AW-master\AuditWizard\Layton.AuditWizard.Administration\obj\x86\Debug\Layton.AuditWizard.Administration.FormSelectDatabaseName.resources
+D:\Layton_GitSource\AW-master\AuditWizard\Layton.AuditWizard.Administration\obj\x86\Debug\Layton.AuditWizard.Administration.FormSoftwareDetails.resources
+D:\Layton_GitSource\AW-master\AuditWizard\Layton.AuditWizard.Administration\obj\x86\Debug\Layton.AuditWizard.Administration.FormUsbDeviceDetails.resources
+D:\Layton_GitSource\AW-master\AuditWizard\Layton.AuditWizard.Administration\obj\x86\Debug\Layton.AuditWizard.Administration.FormMobileDeviceDetails.resources
+D:\Layton_GitSource\AW-master\AuditWizard\Layton.AuditWizard.Administration\obj\x86\Debug\Layton.AuditWizard.Administration.FormAlertTrigger.resources
+D:\Layton_GitSource\AW-master\AuditWizard\Layton.AuditWizard.Administration\obj\x86\Debug\Layton.AuditWizard.Administration.FormAlertDefinition.resources
+D:\Layton_GitSource\AW-master\AuditWizard\Layton.AuditWizard.Administration\obj\x86\Debug\Layton.AuditWizard.Administration.FormImportPicklists.resources
+D:\Layton_GitSource\AW-master\AuditWizard\Layton.AuditWizard.Administration\obj\x86\Debug\Layton.AuditWizard.Administration.FormImportUserDefinedData.resources
+D:\Layton_GitSource\AW-master\AuditWizard\Layton.AuditWizard.Administration\obj\x86\Debug\Layton.AuditWizard.Administration.FormImportLocations.resources
+D:\Layton_GitSource\AW-master\AuditWizard\Layton.AuditWizard.Administration\obj\x86\Debug\Layton.AuditWizard.Administration.ToolsTabView.resources
+D:\Layton_GitSource\AW-master\AuditWizard\Layton.AuditWizard.Administration\obj\x86\Debug\Layton.AuditWizard.Administration.DatabaseTabView.resources
+D:\Layton_GitSource\AW-master\AuditWizard\Layton.AuditWizard.Administration\obj\x86\Debug\Layton.AuditWizard.Administration.FormInternetDetails.resources
+D:\Layton_GitSource\AW-master\AuditWizard\Layton.AuditWizard.Administration\obj\x86\Debug\Layton.AuditWizard.Administration.FormAuditDesigner.resources
+D:\Layton_GitSource\AW-master\AuditWizard\Layton.AuditWizard.Administration\obj\x86\Debug\Layton.AuditWizard.Administration.FormFileSystemDetails.resources
+D:\Layton_GitSource\AW-master\AuditWizard\Layton.AuditWizard.Administration\obj\x86\Debug\Layton.AuditWizard.Administration.FormFtpSettings.resources
+D:\Layton_GitSource\AW-master\AuditWizard\Layton.AuditWizard.Administration\obj\x86\Debug\Layton.AuditWizard.Administration.FormHardwareDetails.resources
+D:\Layton_GitSource\AW-master\AuditWizard\Layton.AuditWizard.Administration\obj\x86\Debug\Layton.AuditWizard.Administration.FormLoadScannerConfiguration.resources
+D:\Layton_GitSource\AW-master\AuditWizard\Layton.AuditWizard.Administration\obj\x86\Debug\Layton.AuditWizard.Administration.FormRegistryDetails.resources
+D:\Layton_GitSource\AW-master\AuditWizard\Layton.AuditWizard.Administration\obj\x86\Debug\Layton.AuditWizard.Administration.FormSaveScannerConfiguration.resources
+D:\Layton_GitSource\AW-master\AuditWizard\Layton.AuditWizard.Administration\obj\x86\Debug\Layton.AuditWizard.Administration.FormSelectAssetType.resources
+D:\Layton_GitSource\AW-master\AuditWizard\Layton.AuditWizard.Administration\obj\x86\Debug\Layton.AuditWizard.Administration.FormUserLocation.resources
+D:\Layton_GitSource\AW-master\AuditWizard\Layton.AuditWizard.Administration\obj\x86\Debug\Layton.AuditWizard.Administration.ServiceTabView.resources
+D:\Layton_GitSource\AW-master\AuditWizard\Layton.AuditWizard.Administration\obj\x86\Debug\Layton.AuditWizard.Administration.ScannerConfigurationTabView.resources
+D:\Layton_GitSource\AW-master\AuditWizard\Layton.AuditWizard.Administration\obj\x86\Debug\Layton.AuditWizard.Administration.LocationsTabView.resources
+D:\Layton_GitSource\AW-master\AuditWizard\Layton.AuditWizard.Administration\obj\x86\Debug\Layton.AuditWizard.Administration.FormPicklist.resources
+D:\Layton_GitSource\AW-master\AuditWizard\Layton.AuditWizard.Administration\obj\x86\Debug\Layton.AuditWizard.Administration.PickListTabView.resources
+D:\Layton_GitSource\AW-master\AuditWizard\Layton.AuditWizard.Administration\obj\x86\Debug\Layton.AuditWizard.Administration.FormUserDataField.resources
+D:\Layton_GitSource\AW-master\AuditWizard\Layton.AuditWizard.Administration\obj\x86\Debug\Layton.AuditWizard.Administration.FormUserDataCategory.resources
+D:\Layton_GitSource\AW-master\AuditWizard\Layton.AuditWizard.Administration\obj\x86\Debug\Layton.AuditWizard.Administration.FormAssetType.resources
+D:\Layton_GitSource\AW-master\AuditWizard\Layton.AuditWizard.Administration\obj\x86\Debug\Layton.AuditWizard.Administration.FormAssetCategory.resources
+D:\Layton_GitSource\AW-master\AuditWizard\Layton.AuditWizard.Administration\obj\x86\Debug\Layton.AuditWizard.Administration.UserDefinedDataTabView.resources
+D:\Layton_GitSource\AW-master\AuditWizard\Layton.AuditWizard.Administration\obj\x86\Debug\Layton.AuditWizard.Administration.FormLicenseType.resources
+D:\Layton_GitSource\AW-master\AuditWizard\Layton.AuditWizard.Administration\obj\x86\Debug\Layton.AuditWizard.Administration.FormSelectApplication.resources
+D:\Layton_GitSource\AW-master\AuditWizard\Layton.AuditWizard.Administration\obj\x86\Debug\Layton.AuditWizard.Administration.SerialNumbersTabView.resources
+D:\Layton_GitSource\AW-master\AuditWizard\Layton.AuditWizard.Administration\obj\x86\Debug\Layton.AuditWizard.Administration.LicenseTypesTabView.resources
+D:\Layton_GitSource\AW-master\AuditWizard\Layton.AuditWizard.Administration\obj\x86\Debug\Layton.AuditWizard.Administration.SecurityTabView.resources
+D:\Layton_GitSource\AW-master\AuditWizard\Layton.AuditWizard.Administration\obj\x86\Debug\Layton.AuditWizard.Administration.AuditAgentTabView.resources
+D:\Layton_GitSource\AW-master\AuditWizard\Layton.AuditWizard.Administration\obj\x86\Debug\Layton.AuditWizard.Administration.UploadSettingsTabView.resources
+D:\Layton_GitSource\AW-master\AuditWizard\Layton.AuditWizard.Administration\obj\x86\Debug\Layton.AuditWizard.Administration.EmailSettingsTabView.resources
+D:\Layton_GitSource\AW-master\AuditWizard\Layton.AuditWizard.Administration\obj\x86\Debug\Layton.AuditWizard.Administration.SuppliersTabView.resources
+D:\Layton_GitSource\AW-master\AuditWizard\Layton.AuditWizard.Administration\obj\x86\Debug\Layton.AuditWizard.Administration.FormUserProperties.resources
+D:\Layton_GitSource\AW-master\AuditWizard\Layton.AuditWizard.Administration\obj\x86\Debug\Layton.AuditWizard.Administration.Properties.Resources.resources
+D:\Layton_GitSource\AW-master\AuditWizard\Layton.AuditWizard.Administration\obj\x86\Debug\Layton.AuditWizard.Administration.csproj.GenerateResource.Cache
+D:\Layton_GitSource\AW-master\AuditWizard\Layton.AuditWizard.Administration\obj\x86\Debug\Layton.AuditWizard.Administration.dll.licenses
+D:\Layton_GitSource\AW-master\AuditWizard\Layton.AuditWizard.Administration\obj\x86\Debug\Layton.AuditWizard.Administration.dll
+D:\Layton_GitSource\AW-master\AuditWizard\Layton.AuditWizard.Administration\obj\x86\Debug\Layton.AuditWizard.Administration.pdb

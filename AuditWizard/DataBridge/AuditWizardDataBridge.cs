@@ -195,8 +195,8 @@ namespace AuditWizardDataBridge
 		/// These fields define the version of the Auditwizard database supported by this DataBridge
 		/// </summary>
 		public static int SUPPORTED_DATABASE_MAJOR_VERSION = 8;
-		public static int SUPPORTED_DATABASE_MINOR_MINIMUM_VERSION = 1;
-		public static int SUPPORTED_DATABASE_MINOR_MAXIMUM_VERSION = 1;
+		public static int SUPPORTED_DATABASE_MINOR_MINIMUM_VERSION =4;
+		public static int SUPPORTED_DATABASE_MINOR_MAXIMUM_VERSION = 5;
 
 #region Data
 
@@ -813,7 +813,7 @@ namespace AuditWizardDataBridge
 		/// <param name="hasChildren"></param>
 		/// <param name="hintValue"></param>
 		/// <returns></returns>
-		protected string Pack (string item ,ICONS icon ,bool hasChildren ,int hintValue)
+		protected string Pack (string item ,ICONS icon ,bool hasChildren ,Int64 hintValue)
 		{
 			return string.Format("{0}|{1}|{2}|{3}" ,item ,(int)icon ,(hasChildren) ? 1 : 0 ,hintValue);
 		}

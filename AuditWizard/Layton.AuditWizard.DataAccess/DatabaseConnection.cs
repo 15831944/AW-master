@@ -154,5 +154,39 @@ namespace Layton.AuditWizard.DataAccess
 
             return sqlConn;
         }
+
+        /// <summary>
+        /// Create an open connection handling any errors by allowing the user to specify connection
+        /// parameters
+        /// </summary>
+        /// <returns></returns>
+        public static SqlConnection CreateOpenStandardConnectionnoTimeOut()
+        {
+            SqlConnection sqlConn = null;
+            SqlConnectionStringBuilder cb = new SqlConnectionStringBuilder();
+
+            try
+            {
+                Configuration config = ConfigurationManager.OpenExeConfiguration(Path.Combine(Application.StartupPath, "AuditWizardv8.exe"));
+                cb.DataSource = config.AppSettings.Settings["ConnectionStringExpressDataSource"].Value;
+                cb.InitialCatalog = config.AppSettings.Settings["ConnectionStringExpressInitialCatalog"].Value;
+                cb.IntegratedSecurity = Convert.ToBoolean(config.AppSettings.Settings["ConnectionStringExpressIntegratedSecurity"].Value);
+                cb.ConnectTimeout = 0;
+                if (!cb.IntegratedSecurity)
+                {
+                    cb.UserID = config.AppSettings.Settings["ConnectionStringExpressUserID"].Value;
+                    cb.Password = AES.Decrypt(config.AppSettings.Settings["ConnectionStringExpressPassword"].Value);
+                }
+
+                sqlConn = new SqlConnection(cb.ToString());
+                sqlConn.Open();
+            }
+            catch (Exception ex)
+            {
+                logger.Error("Error in OpenStandardConnection()", ex);
+            }
+
+            return sqlConn;
+        }
     }
 }

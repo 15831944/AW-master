@@ -1,0 +1,574 @@
+
+***** Log starting: 2017-05-12 13:49:04 *****
+
+Input-PCP path                     = 'patch.pcp'
+Patch-MSP path                     = 'Patch\patch.msp'
+Temp Folder                        = 'C:\VSTemp\Tmp\'
+Patch GUID                         = '{07265865-2F2A-4BE0-8A85-D113FFFCE4F8}'
+ListOfPatchGUIDsToReplace          = '<none>'
+ListOfTargetProductCodes           = '*'
+PatchSourceList                    = 'PatchSourceList'
+AllowProductCodeMismatches         = '1'
+AllowProductVersionMajorMismatches = '1'
+OptimizePatchSizeForLargeFiles     = '<blank>'
+ApiPatchingSymbolFlags             = '0x00000000'
+MsiFileToUseToCreatePatchTables    = '<blank>'
+SqlCmdToCreatePatchTable           = '<blank>'
+SqlCmdToCreatePatchPackageTable    = '<blank>'
+SqlCmdToCreateMsiPatchHeadersTable = '<blank>'
+DontRemoveTempFolderWhenFinished   = '1'
+IncludeWholeFilesOnly              = '1'
+MinimumRequiredMsiVersion          = '200'
+SEQUENCE_DATA_GENERATION_DISABLED  = '1'
+AllowRemoval                       = '<blank>'
+
+Using internal SQL cmd to create 'Patch' table.
+Using internal SQL cmd to create 'PatchPackage' table.
+Using internal SQL cmd to create 'MsiPatchHeaders' table.
+
+    Patch API could not create a small patch; using whole upgraded file.
+  Including entire file: 'C:\VSTemp\UpgradedImage\.\Infragistics2.Win.UltraWinTabControl.v11.1.DLL';
+           FTK=_09387D913D8A05ABD31BC098432D6B5E; temp location=fam1\01000.FLE.
+    Patch API could not create a small patch; using whole upgraded file.
+  Including entire file: 'C:\VSTemp\UpgradedImage\.\Microsoft.Practices.CompositeUI.WinForms.DLL';
+           FTK=_0CB13D53D7921F79D9DE30F7D9480D36; temp location=fam1\01001.FLE.
+WARNING (11): File.FileName mismatch between Upgraded ('INFRAG~3.DLL|Infragistics2.Win.UltraWinTree.v11.1.dll') and Target ('INFRAG~2.DLL|Infragistics2.Win.UltraWinTree.v11.1.dll') Images means old files may be orphaned.  File Table Key: _1023625259044AF18F7EB338FE531302
+WARNING (11): File.FileName mismatch between Upgraded ('INFRAG~3.DLL|Infragistics2.Win.UltraWinTree.v11.1.dll') and Target ('INFRAG~4.DLL|Infragistics2.Win.UltraWinTree.v11.1.dll') Images means old files may be orphaned.  File Table Key: _1023625259044AF18F7EB338FE531302
+WARNING (11): File.FileName mismatch between Upgraded ('INFRAG~3.DLL|Infragistics2.Win.UltraWinTree.v11.1.dll') and Target ('INFRAG~2.DLL|Infragistics2.Win.UltraWinTree.v11.1.dll') Images means old files may be orphaned.  File Table Key: _1023625259044AF18F7EB338FE531302
+    Patch API could not create a small patch; using whole upgraded file.
+  Including entire file: 'C:\VSTemp\UpgradedImage\.\Infragistics2.Win.UltraWinTree.v11.1.dll';
+           FTK=_1023625259044AF18F7EB338FE531302; temp location=fam1\01002.FLE.
+WARNING (11): File.FileName mismatch between Upgraded ('INFRAG~4.DLL|Infragistics2.Win.UltraWinEditors.v11.1.dll') and Target ('INFRAG~3.DLL|Infragistics2.Win.UltraWinEditors.v11.1.dll') Images means old files may be orphaned.  File Table Key: _10A7A9EED1FB4872825728A50F0F45AA
+WARNING (11): File.FileName mismatch between Upgraded ('INFRAG~4.DLL|Infragistics2.Win.UltraWinEditors.v11.1.dll') and Target ('INFRAG~5.DLL|Infragistics2.Win.UltraWinEditors.v11.1.dll') Images means old files may be orphaned.  File Table Key: _10A7A9EED1FB4872825728A50F0F45AA
+WARNING (11): File.FileName mismatch between Upgraded ('INFRAG~4.DLL|Infragistics2.Win.UltraWinEditors.v11.1.dll') and Target ('INFRAG~3.DLL|Infragistics2.Win.UltraWinEditors.v11.1.dll') Images means old files may be orphaned.  File Table Key: _10A7A9EED1FB4872825728A50F0F45AA
+    Patch API could not create a small patch; using whole upgraded file.
+  Including entire file: 'C:\VSTemp\UpgradedImage\.\Infragistics2.Win.UltraWinEditors.v11.1.dll';
+           FTK=_10A7A9EED1FB4872825728A50F0F45AA; temp location=fam1\01003.FLE.
+     Files differ: 'C:\VSTemp\UpgradedImage\.\Layton.AuditWizard.Common.dll',
+                   'C:\VSTemp\v840\.\Layton.AuditWizard.Common.dll'.
+     Files differ: 'C:\VSTemp\UpgradedImage\.\Layton.AuditWizard.Common.dll',
+                   'C:\VSTemp\v844\.\Layton.AuditWizard.Common.dll'.
+WARNING (11): File.FileName mismatch between Upgraded ('LAYTON~1.DLL|Layton.AuditWizard.Common.dll') and Target ('LAYTON~3.DLL|Layton.AuditWizard.Common.dll') Images means old files may be orphaned.  File Table Key: _16BC59E3A1B44B8EBB6FFEEE1ADA60C3
+    Patch API could not create a small patch; using whole upgraded file.
+  Including entire file: 'C:\VSTemp\UpgradedImage\.\Layton.AuditWizard.Common.dll';
+           FTK=_16BC59E3A1B44B8EBB6FFEEE1ADA60C3; temp location=fam1\01004.FLE.
+    Patch API could not create a small patch; using whole upgraded file.
+  Including entire file: 'C:\VSTemp\UpgradedImage\.\Layton.AuditWizard.Overview.DLL';
+           FTK=_18CA27E2CCE9C7E62B6E0EA925C50D0C; temp location=fam1\01005.FLE.
+WARNING (11): File.FileName mismatch between Upgraded ('LAYTON~3.DLL|Layton.Common.Controls.dll') and Target ('LAYTON~2.DLL|Layton.Common.Controls.dll') Images means old files may be orphaned.  File Table Key: _18D614F7C4664055B9EAC38DC73E0922
+     Files differ: 'C:\VSTemp\UpgradedImage\.\Layton.Common.Controls.dll',
+                   'C:\VSTemp\v844\.\Layton.Common.Controls.dll'.
+WARNING (11): File.FileName mismatch between Upgraded ('LAYTON~3.DLL|Layton.Common.Controls.dll') and Target ('LAYTON~4.DLL|Layton.Common.Controls.dll') Images means old files may be orphaned.  File Table Key: _18D614F7C4664055B9EAC38DC73E0922
+    Patch API could not create a small patch; using whole upgraded file.
+  Including entire file: 'C:\VSTemp\UpgradedImage\.\Layton.Common.Controls.dll';
+           FTK=_18D614F7C4664055B9EAC38DC73E0922; temp location=fam1\01006.FLE.
+    Patch API could not create a small patch; using whole upgraded file.
+  Including entire file: 'C:\VSTemp\UpgradedImage\.\Microsoft.Practices.ObjectBuilder.DLL';
+           FTK=_1B507408FC380DB8F58AE6A47635A7B3; temp location=fam1\01007.FLE.
+    Patch API could not create a small patch; using whole upgraded file.
+  Including entire file: 'C:\VSTemp\UpgradedImage\.\System.Data.SqlServerCe.dll';
+           FTK=_1BAD707A6D8D4E86BB9A3AC9189FE595; temp location=fam1\01008.FLE.
+WARNING (11): File.FileName mismatch between Upgraded ('LAYTON~4.DLL|Layton.AuditWizard.AuditTrail.dll') and Target ('LAYTON~3.DLL|Layton.AuditWizard.AuditTrail.dll') Images means old files may be orphaned.  File Table Key: _1D6BC7049F024199B4DF83FB1793F623
+WARNING (11): File.FileName mismatch between Upgraded ('LAYTON~4.DLL|Layton.AuditWizard.AuditTrail.dll') and Target ('LAYTON~5.DLL|Layton.AuditWizard.AuditTrail.dll') Images means old files may be orphaned.  File Table Key: _1D6BC7049F024199B4DF83FB1793F623
+WARNING (11): File.FileName mismatch between Upgraded ('LAYTON~4.DLL|Layton.AuditWizard.AuditTrail.dll') and Target ('LAYTON~5.DLL|Layton.AuditWizard.AuditTrail.dll') Images means old files may be orphaned.  File Table Key: _1D6BC7049F024199B4DF83FB1793F623
+    Patch API could not create a small patch; using whole upgraded file.
+  Including entire file: 'C:\VSTemp\UpgradedImage\.\Layton.AuditWizard.AuditTrail.dll';
+           FTK=_1D6BC7049F024199B4DF83FB1793F623; temp location=fam1\01009.FLE.
+     Files differ: 'C:\VSTemp\UpgradedImage\.\sqlcecompact35.dll',
+                   'C:\VSTemp\v840\.\sqlcecompact35.dll'.
+    Patch API could not create a small patch; using whole upgraded file.
+  Including entire file: 'C:\VSTemp\UpgradedImage\.\sqlcecompact35.dll';
+           FTK=_201597E155584DC181D16D25F8FA83A6; temp location=fam1\01010.FLE.
+WARNING (11): File.FileName mismatch between Upgraded ('INFRAG~5.DLL|Infragistics2.Win.UltraWinGauge.v11.1.dll') and Target ('INFRAG~7.DLL|Infragistics2.Win.UltraWinGauge.v11.1.dll') Images means old files may be orphaned.  File Table Key: _214D865AD18F4B0BBAD625FAF075EF2C
+WARNING (11): File.FileName mismatch between Upgraded ('INFRAG~5.DLL|Infragistics2.Win.UltraWinGauge.v11.1.dll') and Target ('INFRAG~4.DLL|Infragistics2.Win.UltraWinGauge.v11.1.dll') Images means old files may be orphaned.  File Table Key: _214D865AD18F4B0BBAD625FAF075EF2C
+    Patch API could not create a small patch; using whole upgraded file.
+  Including entire file: 'C:\VSTemp\UpgradedImage\.\Infragistics2.Win.UltraWinGauge.v11.1.dll';
+           FTK=_214D865AD18F4B0BBAD625FAF075EF2C; temp location=fam1\01011.FLE.
+     Files differ: 'C:\VSTemp\UpgradedImage\.\sqlceme35.dll',
+                   'C:\VSTemp\v840\.\sqlceme35.dll'.
+    Patch API could not create a small patch; using whole upgraded file.
+  Including entire file: 'C:\VSTemp\UpgradedImage\.\sqlceme35.dll';
+           FTK=_22D71C3ECEA34425BF851610BB23D575; temp location=fam1\01012.FLE.
+WARNING (11): File.FileName mismatch between Upgraded ('INFRAG~6.DLL|Infragistics2.Documents.Excel.v11.1.dll') and Target ('INFRAG~8.DLL|Infragistics2.Documents.Excel.v11.1.dll') Images means old files may be orphaned.  File Table Key: _2562D054B2014B6BAE3CDC1291DC7B8F
+WARNING (11): File.FileName mismatch between Upgraded ('INFRAG~6.DLL|Infragistics2.Documents.Excel.v11.1.dll') and Target ('INFRAG~5.DLL|Infragistics2.Documents.Excel.v11.1.dll') Images means old files may be orphaned.  File Table Key: _2562D054B2014B6BAE3CDC1291DC7B8F
+    Patch API could not create a small patch; using whole upgraded file.
+  Including entire file: 'C:\VSTemp\UpgradedImage\.\Infragistics2.Documents.Excel.v11.1.dll';
+           FTK=_2562D054B2014B6BAE3CDC1291DC7B8F; temp location=fam1\01013.FLE.
+    Patch API could not create a small patch; using whole upgraded file.
+  Including entire file: 'C:\VSTemp\UpgradedImage\.\Infragistics2.Shared.v11.1.DLL';
+           FTK=_258D84D8501ADE99A9E608DD235D5F8A; temp location=fam1\01014.FLE.
+WARNING (11): File.FileName mismatch between Upgraded ('LAYTON~5.DLL|Layton.AuditWizard.Common.dll') and Target ('LAYTON~4.DLL|Layton.AuditWizard.Common.dll') Images means old files may be orphaned.  File Table Key: _282B0A895DD24D1F93EC503ED769C4CC
+WARNING (11): File.FileName mismatch between Upgraded ('LAYTON~5.DLL|Layton.AuditWizard.Common.dll') and Target ('LAYTON~6.DLL|Layton.AuditWizard.Common.dll') Images means old files may be orphaned.  File Table Key: _282B0A895DD24D1F93EC503ED769C4CC
+WARNING (11): File.FileName mismatch between Upgraded ('LAYTON~5.DLL|Layton.AuditWizard.Common.dll') and Target ('LAYTON~6.DLL|Layton.AuditWizard.Common.dll') Images means old files may be orphaned.  File Table Key: _282B0A895DD24D1F93EC503ED769C4CC
+    Patch API could not create a small patch; using whole upgraded file.
+  Including entire file: 'C:\VSTemp\UpgradedImage\.\Layton.AuditWizard.Common.dll';
+           FTK=_282B0A895DD24D1F93EC503ED769C4CC; temp location=fam1\01015.FLE.
+WARNING (11): File.FileName mismatch between Upgraded ('INFRAG~8.DLL|Infragistics2.Win.UltraWinChart.v11.1.dll') and Target ('INFRAG~7.DLL|Infragistics2.Win.UltraWinChart.v11.1.dll') Images means old files may be orphaned.  File Table Key: _29942A5BE63144A8B411FCA530AB8072
+WARNING (11): File.FileName mismatch between Upgraded ('INFRAG~8.DLL|Infragistics2.Win.UltraWinChart.v11.1.dll') and Target ('INFRA~10.DLL|Infragistics2.Win.UltraWinChart.v11.1.dll') Images means old files may be orphaned.  File Table Key: _29942A5BE63144A8B411FCA530AB8072
+    Patch API could not create a small patch; using whole upgraded file.
+  Including entire file: 'C:\VSTemp\UpgradedImage\.\Infragistics2.Win.UltraWinChart.v11.1.dll';
+           FTK=_29942A5BE63144A8B411FCA530AB8072; temp location=fam1\01016.FLE.
+WARNING (11): File.FileName mismatch between Upgraded ('MICROS~3.DLL|Microsoft.ApplicationBlocks.Data.dll') and Target ('MICROS~1.DLL|Microsoft.ApplicationBlocks.Data.dll') Images means old files may be orphaned.  File Table Key: _2C42DE1A6B3D4780AE9A21EFFEEC00D9
+WARNING (11): File.FileName mismatch between Upgraded ('MICROS~3.DLL|Microsoft.ApplicationBlocks.Data.dll') and Target ('MICROS~2.DLL|Microsoft.ApplicationBlocks.Data.dll') Images means old files may be orphaned.  File Table Key: _2C42DE1A6B3D4780AE9A21EFFEEC00D9
+WARNING (11): File.FileName mismatch between Upgraded ('MICROS~3.DLL|Microsoft.ApplicationBlocks.Data.dll') and Target ('MICROS~1.DLL|Microsoft.ApplicationBlocks.Data.dll') Images means old files may be orphaned.  File Table Key: _2C42DE1A6B3D4780AE9A21EFFEEC00D9
+    Patch API could not create a small patch; using whole upgraded file.
+  Including entire file: 'C:\VSTemp\UpgradedImage\.\Microsoft.ApplicationBlocks.Data.dll';
+           FTK=_2C42DE1A6B3D4780AE9A21EFFEEC00D9; temp location=fam1\01017.FLE.
+     Files differ: 'C:\VSTemp\UpgradedImage\.\db\AlterStoredProcedures.sql',
+                   'C:\VSTemp\v840\.\db\AlterStoredProcedures.sql'.
+     Files differ: 'C:\VSTemp\UpgradedImage\.\db\AlterStoredProcedures.sql',
+                   'C:\VSTemp\v844\.\db\AlterStoredProcedures.sql'.
+     Files differ: 'C:\VSTemp\UpgradedImage\.\db\AlterStoredProcedures.sql',
+                   'C:\VSTemp\v841\.\db\AlterStoredProcedures.sql'.
+    Patch API could not create a small patch; using whole upgraded file.
+  Including entire file: 'C:\VSTemp\UpgradedImage\.\db\AlterStoredProcedures.sql';
+           FTK=_2CCA6E60250A47D8AD19C29F998B8792; temp location=fam1\01018.FLE.
+     Files differ: 'C:\VSTemp\UpgradedImage\.\Icons\Medium\Thumbs.db',
+                   'C:\VSTemp\v840\.\Icons\Medium\Thumbs.db'.
+     Files differ: 'C:\VSTemp\UpgradedImage\.\Icons\Medium\Thumbs.db',
+                   'C:\VSTemp\v844\.\Icons\Medium\Thumbs.db'.
+     Files differ: 'C:\VSTemp\UpgradedImage\.\Icons\Medium\Thumbs.db',
+                   'C:\VSTemp\v841\.\Icons\Medium\Thumbs.db'.
+    Patch API could not create a small patch; using whole upgraded file.
+  Including entire file: 'C:\VSTemp\UpgradedImage\.\Icons\Medium\Thumbs.db';
+           FTK=_3104FEBA4ADB48F68D6437B7A9872655; temp location=fam1\01019.FLE.
+     Files differ: 'C:\VSTemp\UpgradedImage\.\AuditWizardv8.exe',
+                   'C:\VSTemp\v840\.\AuditWizardv8.exe'.
+     Files differ: 'C:\VSTemp\UpgradedImage\.\AuditWizardv8.exe',
+                   'C:\VSTemp\v844\.\AuditWizardv8.exe'.
+     Files differ: 'C:\VSTemp\UpgradedImage\.\AuditWizardv8.exe',
+                   'C:\VSTemp\v841\.\AuditWizardv8.exe'.
+    Patch API could not create a small patch; using whole upgraded file.
+  Including entire file: 'C:\VSTemp\UpgradedImage\.\AuditWizardv8.exe';
+           FTK=_349B1BA5428748CC889D156A7DA8F8C8; temp location=fam1\01020.FLE.
+    Patch API could not create a small patch; using whole upgraded file.
+  Including entire file: 'C:\VSTemp\UpgradedImage\.\Infragistics2.Win.UltraWinDock.v11.1.DLL';
+           FTK=_366372D19D85647A75450D08E587E83A; temp location=fam1\01021.FLE.
+WARNING (11): File.FileName mismatch between Upgraded ('INFRA~10.DLL|Infragistics2.Win.v11.1.dll') and Target ('INFRAG~8.DLL|Infragistics2.Win.v11.1.dll') Images means old files may be orphaned.  File Table Key: _38F80E92A3624CFE91D86B75FFC178A1
+WARNING (11): File.FileName mismatch between Upgraded ('INFRA~10.DLL|Infragistics2.Win.v11.1.dll') and Target ('INFRA~11.DLL|Infragistics2.Win.v11.1.dll') Images means old files may be orphaned.  File Table Key: _38F80E92A3624CFE91D86B75FFC178A1
+WARNING (11): File.FileName mismatch between Upgraded ('INFRA~10.DLL|Infragistics2.Win.v11.1.dll') and Target ('INFRAG~9.DLL|Infragistics2.Win.v11.1.dll') Images means old files may be orphaned.  File Table Key: _38F80E92A3624CFE91D86B75FFC178A1
+    Patch API could not create a small patch; using whole upgraded file.
+  Including entire file: 'C:\VSTemp\UpgradedImage\.\Infragistics2.Win.v11.1.dll';
+           FTK=_38F80E92A3624CFE91D86B75FFC178A1; temp location=fam1\01022.FLE.
+WARNING (11): File.FileName mismatch between Upgraded ('INFRA~11.DLL|Infragistics2.Win.UltraWinExplorerBar.v11.1.dll') and Target ('INFRAG~9.DLL|Infragistics2.Win.UltraWinExplorerBar.v11.1.dll') Images means old files may be orphaned.  File Table Key: _3C2E4A032B114320B18361C5A4156089
+WARNING (11): File.FileName mismatch between Upgraded ('INFRA~11.DLL|Infragistics2.Win.UltraWinExplorerBar.v11.1.dll') and Target ('INFRA~13.DLL|Infragistics2.Win.UltraWinExplorerBar.v11.1.dll') Images means old files may be orphaned.  File Table Key: _3C2E4A032B114320B18361C5A4156089
+    Patch API could not create a small patch; using whole upgraded file.
+  Including entire file: 'C:\VSTemp\UpgradedImage\.\Infragistics2.Win.UltraWinExplorerBar.v11.1.dll';
+           FTK=_3C2E4A032B114320B18361C5A4156089; temp location=fam1\01023.FLE.
+WARNING (11): File.FileName mismatch between Upgraded ('LAYTON~6.DLL|Layton.AuditWizard.Reports.dll') and Target ('LAYTON~5.DLL|Layton.AuditWizard.Reports.dll') Images means old files may be orphaned.  File Table Key: _3E443B1163BC4A5CBEC558A59E4C4153
+WARNING (11): File.FileName mismatch between Upgraded ('LAYTON~6.DLL|Layton.AuditWizard.Reports.dll') and Target ('LAYTON~9.DLL|Layton.AuditWizard.Reports.dll') Images means old files may be orphaned.  File Table Key: _3E443B1163BC4A5CBEC558A59E4C4153
+WARNING (11): File.FileName mismatch between Upgraded ('LAYTON~6.DLL|Layton.AuditWizard.Reports.dll') and Target ('LAYTON~8.DLL|Layton.AuditWizard.Reports.dll') Images means old files may be orphaned.  File Table Key: _3E443B1163BC4A5CBEC558A59E4C4153
+    Patch API could not create a small patch; using whole upgraded file.
+  Including entire file: 'C:\VSTemp\UpgradedImage\.\Layton.AuditWizard.Reports.dll';
+           FTK=_3E443B1163BC4A5CBEC558A59E4C4153; temp location=fam1\01024.FLE.
+     Files differ: 'C:\VSTemp\UpgradedImage\.\AuditWizardv8.exe.config',
+                   'C:\VSTemp\v840\.\AuditWizardv8.exe.config'.
+     Files differ: 'C:\VSTemp\UpgradedImage\.\AuditWizardv8.exe.config',
+                   'C:\VSTemp\v844\.\AuditWizardv8.exe.config'.
+     Files differ: 'C:\VSTemp\UpgradedImage\.\AuditWizardv8.exe.config',
+                   'C:\VSTemp\v841\.\AuditWizardv8.exe.config'.
+    Patch API could not create a small patch; using whole upgraded file.
+  Including entire file: 'C:\VSTemp\UpgradedImage\.\AuditWizardv8.exe.config';
+           FTK=_4189F461EE3E4EB99D35B1E06222B275; temp location=fam1\01025.FLE.
+WARNING (11): File.FileName mismatch between Upgraded ('LAYTON~7.DLL|Layton.HtmlReports.dll') and Target ('LAYTON~6.DLL|Layton.HtmlReports.dll') Images means old files may be orphaned.  File Table Key: _445055B9CE72459C92E211A70D3E66F8
+WARNING (11): File.FileName mismatch between Upgraded ('LAYTON~7.DLL|Layton.HtmlReports.dll') and Target ('LAYTO~10.DLL|Layton.HtmlReports.dll') Images means old files may be orphaned.  File Table Key: _445055B9CE72459C92E211A70D3E66F8
+WARNING (11): File.FileName mismatch between Upgraded ('LAYTON~7.DLL|Layton.HtmlReports.dll') and Target ('LAYTO~10.DLL|Layton.HtmlReports.dll') Images means old files may be orphaned.  File Table Key: _445055B9CE72459C92E211A70D3E66F8
+    Patch API could not create a small patch; using whole upgraded file.
+  Including entire file: 'C:\VSTemp\UpgradedImage\.\Layton.HtmlReports.dll';
+           FTK=_445055B9CE72459C92E211A70D3E66F8; temp location=fam1\01026.FLE.
+WARNING (11): File.FileName mismatch between Upgraded ('INFRA~12.DLL|Infragistics2.Shared.v11.1.dll') and Target ('INFRA~10.DLL|Infragistics2.Shared.v11.1.dll') Images means old files may be orphaned.  File Table Key: _4653C487F7C345FC8281890FD5B52D98
+WARNING (11): File.FileName mismatch between Upgraded ('INFRA~12.DLL|Infragistics2.Shared.v11.1.dll') and Target ('INFRA~15.DLL|Infragistics2.Shared.v11.1.dll') Images means old files may be orphaned.  File Table Key: _4653C487F7C345FC8281890FD5B52D98
+WARNING (11): File.FileName mismatch between Upgraded ('INFRA~12.DLL|Infragistics2.Shared.v11.1.dll') and Target ('INFRA~13.DLL|Infragistics2.Shared.v11.1.dll') Images means old files may be orphaned.  File Table Key: _4653C487F7C345FC8281890FD5B52D98
+    Patch API could not create a small patch; using whole upgraded file.
+  Including entire file: 'C:\VSTemp\UpgradedImage\.\Infragistics2.Shared.v11.1.dll';
+           FTK=_4653C487F7C345FC8281890FD5B52D98; temp location=fam1\01027.FLE.
+WARNING (11): File.FileName mismatch between Upgraded ('INFRA~13.DLL|Infragistics2.Win.UltraWinGrid.ExcelExport.v11.1.dll') and Target ('INFRA~11.DLL|Infragistics2.Win.UltraWinGrid.ExcelExport.v11.1.dll') Images means old files may be orphaned.  File Table Key: _49F2FAF7EE804132A6FE07ED219DF8FA
+WARNING (11): File.FileName mismatch between Upgraded ('INFRA~13.DLL|Infragistics2.Win.UltraWinGrid.ExcelExport.v11.1.dll') and Target ('INFRA~16.DLL|Infragistics2.Win.UltraWinGrid.ExcelExport.v11.1.dll') Images means old files may be orphaned.  File Table Key: _49F2FAF7EE804132A6FE07ED219DF8FA
+WARNING (11): File.FileName mismatch between Upgraded ('INFRA~13.DLL|Infragistics2.Win.UltraWinGrid.ExcelExport.v11.1.dll') and Target ('INFRA~14.DLL|Infragistics2.Win.UltraWinGrid.ExcelExport.v11.1.dll') Images means old files may be orphaned.  File Table Key: _49F2FAF7EE804132A6FE07ED219DF8FA
+    Patch API could not create a small patch; using whole upgraded file.
+  Including entire file: 'C:\VSTemp\UpgradedImage\.\Infragistics2.Win.UltraWinGrid.ExcelExport.v11.1.dll';
+           FTK=_49F2FAF7EE804132A6FE07ED219DF8FA; temp location=fam1\01028.FLE.
+WARNING (11): File.FileName mismatch between Upgraded ('INFRA~14.DLL|Infragistics2.Win.UltraWinListBar.v11.1.dll') and Target ('INFRA~12.DLL|Infragistics2.Win.UltraWinListBar.v11.1.dll') Images means old files may be orphaned.  File Table Key: _4F1C19F3571B4A7F8BD17FA38D389ED1
+WARNING (11): File.FileName mismatch between Upgraded ('INFRA~14.DLL|Infragistics2.Win.UltraWinListBar.v11.1.dll') and Target ('INFRA~20.DLL|Infragistics2.Win.UltraWinListBar.v11.1.dll') Images means old files may be orphaned.  File Table Key: _4F1C19F3571B4A7F8BD17FA38D389ED1
+WARNING (11): File.FileName mismatch between Upgraded ('INFRA~14.DLL|Infragistics2.Win.UltraWinListBar.v11.1.dll') and Target ('INFRA~15.DLL|Infragistics2.Win.UltraWinListBar.v11.1.dll') Images means old files may be orphaned.  File Table Key: _4F1C19F3571B4A7F8BD17FA38D389ED1
+    Patch API could not create a small patch; using whole upgraded file.
+  Including entire file: 'C:\VSTemp\UpgradedImage\.\Infragistics2.Win.UltraWinListBar.v11.1.dll';
+           FTK=_4F1C19F3571B4A7F8BD17FA38D389ED1; temp location=fam1\01029.FLE.
+     Files differ: 'C:\VSTemp\UpgradedImage\.\db\CreateStoredProcedures.sql',
+                   'C:\VSTemp\v840\.\db\CreateStoredProcedures.sql'.
+     Files differ: 'C:\VSTemp\UpgradedImage\.\db\CreateStoredProcedures.sql',
+                   'C:\VSTemp\v844\.\db\CreateStoredProcedures.sql'.
+     Files differ: 'C:\VSTemp\UpgradedImage\.\db\CreateStoredProcedures.sql',
+                   'C:\VSTemp\v841\.\db\CreateStoredProcedures.sql'.
+    Patch API could not create a small patch; using whole upgraded file.
+  Including entire file: 'C:\VSTemp\UpgradedImage\.\db\CreateStoredProcedures.sql';
+           FTK=_50ACEF31DEEB450892A048780F02E724; temp location=fam1\01030.FLE.
+    Patch API could not create a small patch; using whole upgraded file.
+  Including entire file: 'C:\VSTemp\UpgradedImage\.\Layton.Cab.Interface.DLL';
+           FTK=_518C1390913BD4E0EE959338F816277D; temp location=fam1\01031.FLE.
+    Patch API could not create a small patch; using whole upgraded file.
+  Including entire file: 'C:\VSTemp\UpgradedImage\.\Layton.AuditWizard.Network.DLL';
+           FTK=_570A7E2345678330F31B98881BDC030E; temp location=fam1\01032.FLE.
+WARNING (11): File.FileName mismatch between Upgraded ('INFRA~15.DLL|Infragistics2.Win.UltraWinDock.v11.1.dll') and Target ('INFRA~13.DLL|Infragistics2.Win.UltraWinDock.v11.1.dll') Images means old files may be orphaned.  File Table Key: _582C651F0B214870A9C7C9EF5FD2B2BD
+WARNING (11): File.FileName mismatch between Upgraded ('INFRA~15.DLL|Infragistics2.Win.UltraWinDock.v11.1.dll') and Target ('INFRA~21.DLL|Infragistics2.Win.UltraWinDock.v11.1.dll') Images means old files may be orphaned.  File Table Key: _582C651F0B214870A9C7C9EF5FD2B2BD
+WARNING (11): File.FileName mismatch between Upgraded ('INFRA~15.DLL|Infragistics2.Win.UltraWinDock.v11.1.dll') and Target ('INFRA~17.DLL|Infragistics2.Win.UltraWinDock.v11.1.dll') Images means old files may be orphaned.  File Table Key: _582C651F0B214870A9C7C9EF5FD2B2BD
+    Patch API could not create a small patch; using whole upgraded file.
+  Including entire file: 'C:\VSTemp\UpgradedImage\.\Infragistics2.Win.UltraWinDock.v11.1.dll';
+           FTK=_582C651F0B214870A9C7C9EF5FD2B2BD; temp location=fam1\01033.FLE.
+WARNING (11): File.FileName mismatch between Upgraded ('INFRA~16.DLL|Infragistics2.Win.UltraWinListView.v11.1.dll') and Target ('INFRA~14.DLL|Infragistics2.Win.UltraWinListView.v11.1.dll') Images means old files may be orphaned.  File Table Key: _5A4B04D81A5C4BE79951EB6BCB7BE215
+WARNING (11): File.FileName mismatch between Upgraded ('INFRA~16.DLL|Infragistics2.Win.UltraWinListView.v11.1.dll') and Target ('INFRA~22.DLL|Infragistics2.Win.UltraWinListView.v11.1.dll') Images means old files may be orphaned.  File Table Key: _5A4B04D81A5C4BE79951EB6BCB7BE215
+WARNING (11): File.FileName mismatch between Upgraded ('INFRA~16.DLL|Infragistics2.Win.UltraWinListView.v11.1.dll') and Target ('INFRA~18.DLL|Infragistics2.Win.UltraWinListView.v11.1.dll') Images means old files may be orphaned.  File Table Key: _5A4B04D81A5C4BE79951EB6BCB7BE215
+    Patch API could not create a small patch; using whole upgraded file.
+  Including entire file: 'C:\VSTemp\UpgradedImage\.\Infragistics2.Win.UltraWinListView.v11.1.dll';
+           FTK=_5A4B04D81A5C4BE79951EB6BCB7BE215; temp location=fam1\01034.FLE.
+WARNING (11): File.FileName mismatch between Upgraded ('LAYTO~10.DLL|Layton.NetworkDiscovery.dll') and Target ('LAYTON~7.DLL|Layton.NetworkDiscovery.dll') Images means old files may be orphaned.  File Table Key: _5A6775BDB53C4043BE351837B64EA0DB
+WARNING (11): File.FileName mismatch between Upgraded ('LAYTO~10.DLL|Layton.NetworkDiscovery.dll') and Target ('LAYTO~14.DLL|Layton.NetworkDiscovery.dll') Images means old files may be orphaned.  File Table Key: _5A6775BDB53C4043BE351837B64EA0DB
+WARNING (11): File.FileName mismatch between Upgraded ('LAYTO~10.DLL|Layton.NetworkDiscovery.dll') and Target ('LAYTO~11.DLL|Layton.NetworkDiscovery.dll') Images means old files may be orphaned.  File Table Key: _5A6775BDB53C4043BE351837B64EA0DB
+    Patch API could not create a small patch; using whole upgraded file.
+  Including entire file: 'C:\VSTemp\UpgradedImage\.\Layton.NetworkDiscovery.dll';
+           FTK=_5A6775BDB53C4043BE351837B64EA0DB; temp location=fam1\01035.FLE.
+     Files differ: 'C:\VSTemp\UpgradedImage\.\AuditScanner.exe',
+                   'C:\VSTemp\v840\.\AuditScanner.exe'.
+     Files differ: 'C:\VSTemp\UpgradedImage\.\AuditScanner.exe',
+                   'C:\VSTemp\v844\.\AuditScanner.exe'.
+     Files differ: 'C:\VSTemp\UpgradedImage\.\AuditScanner.exe',
+                   'C:\VSTemp\v841\.\AuditScanner.exe'.
+    Patch API could not create a small patch; using whole upgraded file.
+  Including entire file: 'C:\VSTemp\UpgradedImage\.\AuditScanner.exe';
+           FTK=_5B9D5AE772104CFB82C6E6BCAB994890; temp location=fam1\01036.FLE.
+    Patch API could not create a small patch; using whole upgraded file.
+  Including entire file: 'C:\VSTemp\UpgradedImage\.\Layton.Common.Controls.DLL';
+           FTK=_628BBE0BC693D62AF25D1F24D873AA44; temp location=fam1\01037.FLE.
+WARNING (11): File.FileName mismatch between Upgraded ('LAYTO~12.DLL|Layton.AuditWizard.Administration.dll') and Target ('LAYTON~8.DLL|Layton.AuditWizard.Administration.dll') Images means old files may be orphaned.  File Table Key: _628EB1D05CCF463CBA2686F8EF548AAC
+WARNING (11): File.FileName mismatch between Upgraded ('LAYTO~12.DLL|Layton.AuditWizard.Administration.dll') and Target ('LAYTO~15.DLL|Layton.AuditWizard.Administration.dll') Images means old files may be orphaned.  File Table Key: _628EB1D05CCF463CBA2686F8EF548AAC
+WARNING (11): File.FileName mismatch between Upgraded ('LAYTO~12.DLL|Layton.AuditWizard.Administration.dll') and Target ('LAYTO~13.DLL|Layton.AuditWizard.Administration.dll') Images means old files may be orphaned.  File Table Key: _628EB1D05CCF463CBA2686F8EF548AAC
+    Patch API could not create a small patch; using whole upgraded file.
+  Including entire file: 'C:\VSTemp\UpgradedImage\.\Layton.AuditWizard.Administration.dll';
+           FTK=_628EB1D05CCF463CBA2686F8EF548AAC; temp location=fam1\01038.FLE.
+     Files differ: 'C:\VSTemp\UpgradedImage\.\AuditAgent\AuditAgent.exe',
+                   'C:\VSTemp\v840\.\AuditAgent\AuditAgent.exe'.
+     Files differ: 'C:\VSTemp\UpgradedImage\.\AuditAgent\AuditAgent.exe',
+                   'C:\VSTemp\v844\.\AuditAgent\AuditAgent.exe'.
+     Files differ: 'C:\VSTemp\UpgradedImage\.\AuditAgent\AuditAgent.exe',
+                   'C:\VSTemp\v841\.\AuditAgent\AuditAgent.exe'.
+    Patch API could not create a small patch; using whole upgraded file.
+  Including entire file: 'C:\VSTemp\UpgradedImage\.\AuditAgent\AuditAgent.exe';
+           FTK=_6630979CDE4243B9BFED569F2F603A28; temp location=fam1\01039.FLE.
+WARNING (11): File.FileName mismatch between Upgraded ('INFRA~17.DLL|Infragistics2.Win.UltraWinToolbars.v11.1.dll') and Target ('INFRA~15.DLL|Infragistics2.Win.UltraWinToolbars.v11.1.dll') Images means old files may be orphaned.  File Table Key: _68695504344C4D488ABDBBE92B4420ED
+WARNING (11): File.FileName mismatch between Upgraded ('INFRA~17.DLL|Infragistics2.Win.UltraWinToolbars.v11.1.dll') and Target ('INFRA~23.DLL|Infragistics2.Win.UltraWinToolbars.v11.1.dll') Images means old files may be orphaned.  File Table Key: _68695504344C4D488ABDBBE92B4420ED
+WARNING (11): File.FileName mismatch between Upgraded ('INFRA~17.DLL|Infragistics2.Win.UltraWinToolbars.v11.1.dll') and Target ('INFRA~19.DLL|Infragistics2.Win.UltraWinToolbars.v11.1.dll') Images means old files may be orphaned.  File Table Key: _68695504344C4D488ABDBBE92B4420ED
+    Patch API could not create a small patch; using whole upgraded file.
+  Including entire file: 'C:\VSTemp\UpgradedImage\.\Infragistics2.Win.UltraWinToolbars.v11.1.dll';
+           FTK=_68695504344C4D488ABDBBE92B4420ED; temp location=fam1\01040.FLE.
+    Patch API could not create a small patch; using whole upgraded file.
+  Including entire file: 'C:\VSTemp\UpgradedImage\.\AWSNMP.DLL';
+           FTK=_6B5D7FA32D5BB422134A75028342281A; temp location=fam1\01041.FLE.
+WARNING (11): File.FileName mismatch between Upgraded ('INFRA~18.DLL|Infragistics2.Documents.Reports.v11.1.dll') and Target ('INFRA~16.DLL|Infragistics2.Documents.Reports.v11.1.dll') Images means old files may be orphaned.  File Table Key: _6E43A2D751AA4EEE9BF7CEAB380A99D0
+WARNING (11): File.FileName mismatch between Upgraded ('INFRA~18.DLL|Infragistics2.Documents.Reports.v11.1.dll') and Target ('INFRA~24.DLL|Infragistics2.Documents.Reports.v11.1.dll') Images means old files may be orphaned.  File Table Key: _6E43A2D751AA4EEE9BF7CEAB380A99D0
+WARNING (11): File.FileName mismatch between Upgraded ('INFRA~18.DLL|Infragistics2.Documents.Reports.v11.1.dll') and Target ('INFRA~20.DLL|Infragistics2.Documents.Reports.v11.1.dll') Images means old files may be orphaned.  File Table Key: _6E43A2D751AA4EEE9BF7CEAB380A99D0
+    Patch API could not create a small patch; using whole upgraded file.
+  Including entire file: 'C:\VSTemp\UpgradedImage\.\Infragistics2.Documents.Reports.v11.1.dll';
+           FTK=_6E43A2D751AA4EEE9BF7CEAB380A99D0; temp location=fam1\01042.FLE.
+    Patch API could not create a small patch; using whole upgraded file.
+  Including entire file: 'C:\VSTemp\UpgradedImage\.\Infragistics2.Win.UltraWinTree.v11.1.DLL';
+           FTK=_766F4400645C11D75C6DA517253B630B; temp location=fam1\01043.FLE.
+    Patch API could not create a small patch; using whole upgraded file.
+  Including entire file: 'C:\VSTemp\UpgradedImage\.\Infragistics2.Win.UltraWinStatusBar.v11.1.DLL';
+           FTK=_79E01ADC5A62457DC6F60BFE762538EC; temp location=fam1\01044.FLE.
+    Patch API could not create a small patch; using whole upgraded file.
+  Including entire file: 'C:\VSTemp\UpgradedImage\.\Infragistics2.Documents.Excel.v11.1.DLL';
+           FTK=_7D64A83003FADE44D625080BF9A42E0E; temp location=fam1\01045.FLE.
+     Files differ: 'C:\VSTemp\UpgradedImage\.\db\DeleteTableData.sql',
+                   'C:\VSTemp\v840\.\db\DeleteTableData.sql'.
+     Files differ: 'C:\VSTemp\UpgradedImage\.\db\DeleteTableData.sql',
+                   'C:\VSTemp\v844\.\db\DeleteTableData.sql'.
+     Files differ: 'C:\VSTemp\UpgradedImage\.\db\DeleteTableData.sql',
+                   'C:\VSTemp\v841\.\db\DeleteTableData.sql'.
+    Patch API could not create a small patch; using whole upgraded file.
+  Including entire file: 'C:\VSTemp\UpgradedImage\.\db\DeleteTableData.sql';
+           FTK=_7F9F07EFA83C484392A8D18E00DB9336; temp location=fam1\01046.FLE.
+    Patch API could not create a small patch; using whole upgraded file.
+  Including entire file: 'C:\VSTemp\UpgradedImage\.\Infragistics2.Win.UltraWinExplorerBar.v11.1.DLL';
+           FTK=_7FC97B5698F7BC2D0B956E3389355E7A; temp location=fam1\01047.FLE.
+WARNING (14): File versions are equal.  Upgraded: 'C:\VSTemp\UpgradedImage\.\AWSNMP.dll' ver=1.0.0.0;  Target: 'C:\VSTemp\v841\.\AWSNMP.dll' ver=1.0.0.0.
+     Files differ: 'C:\VSTemp\UpgradedImage\.\AWSNMP.dll',
+                   'C:\VSTemp\v841\.\AWSNMP.dll'.
+    Patch API could not create a small patch; using whole upgraded file.
+  Including entire file: 'C:\VSTemp\UpgradedImage\.\AWSNMP.dll';
+           FTK=_805063FF379C40109490C78800162780; temp location=fam1\01048.FLE.
+     Files differ: 'C:\VSTemp\UpgradedImage\.\db\aw_db.sdf',
+                   'C:\VSTemp\v840\.\db\aw_db.sdf'.
+     Files differ: 'C:\VSTemp\UpgradedImage\.\db\aw_db.sdf',
+                   'C:\VSTemp\v844\.\db\aw_db.sdf'.
+     Files differ: 'C:\VSTemp\UpgradedImage\.\db\aw_db.sdf',
+                   'C:\VSTemp\v841\.\db\aw_db.sdf'.
+    Patch API could not create a small patch; using whole upgraded file.
+  Including entire file: 'C:\VSTemp\UpgradedImage\.\db\aw_db.sdf';
+           FTK=_81E37C9B379044C2ACE06702EF7C46C3; temp location=fam1\01049.FLE.
+WARNING (11): File.FileName mismatch between Upgraded ('INFRA~23.DLL|Infragistics2.Win.UltraWinGrid.DocumentExport.v11.1.dll') and Target ('INFRA~17.DLL|Infragistics2.Win.UltraWinGrid.DocumentExport.v11.1.dll') Images means old files may be orphaned.  File Table Key: _829CBC0E93EE46D7BE4F672E8CCB7197
+WARNING (11): File.FileName mismatch between Upgraded ('INFRA~23.DLL|Infragistics2.Win.UltraWinGrid.DocumentExport.v11.1.dll') and Target ('INFRA~25.DLL|Infragistics2.Win.UltraWinGrid.DocumentExport.v11.1.dll') Images means old files may be orphaned.  File Table Key: _829CBC0E93EE46D7BE4F672E8CCB7197
+    Patch API could not create a small patch; using whole upgraded file.
+  Including entire file: 'C:\VSTemp\UpgradedImage\.\Infragistics2.Win.UltraWinGrid.DocumentExport.v11.1.dll';
+           FTK=_829CBC0E93EE46D7BE4F672E8CCB7197; temp location=fam1\01050.FLE.
+     Files differ: 'C:\VSTemp\UpgradedImage\.\oui.txt',
+                   'C:\VSTemp\v840\.\oui.txt'.
+     Files differ: 'C:\VSTemp\UpgradedImage\.\oui.txt',
+                   'C:\VSTemp\v841\.\oui.txt'.
+    Patch API could not create a small patch; using whole upgraded file.
+  Including entire file: 'C:\VSTemp\UpgradedImage\.\oui.txt';
+           FTK=_87961E85D5B34ACE9F7041492A105897; temp location=fam1\01051.FLE.
+     Files differ: 'C:\VSTemp\UpgradedImage\.\Icons\Large\Thumbs.db',
+                   'C:\VSTemp\v840\.\Icons\Large\Thumbs.db'.
+     Files differ: 'C:\VSTemp\UpgradedImage\.\Icons\Large\Thumbs.db',
+                   'C:\VSTemp\v844\.\Icons\Large\Thumbs.db'.
+     Files differ: 'C:\VSTemp\UpgradedImage\.\Icons\Large\Thumbs.db',
+                   'C:\VSTemp\v841\.\Icons\Large\Thumbs.db'.
+    Patch API could not create a small patch; using whole upgraded file.
+  Including entire file: 'C:\VSTemp\UpgradedImage\.\Icons\Large\Thumbs.db';
+           FTK=_8C35C93FC5C94BE1B03F86C6B7ABE0BD; temp location=fam1\01052.FLE.
+     Files differ: 'C:\VSTemp\UpgradedImage\.\sqlceqp35.dll',
+                   'C:\VSTemp\v840\.\sqlceqp35.dll'.
+    Patch API could not create a small patch; using whole upgraded file.
+  Including entire file: 'C:\VSTemp\UpgradedImage\.\sqlceqp35.dll';
+           FTK=_8FA356C48AA44FB5A098BF8BCEDDD906; temp location=fam1\01053.FLE.
+    Patch API could not create a small patch; using whole upgraded file.
+  Including entire file: 'C:\VSTemp\UpgradedImage\.\Infragistics2.Win.Misc.v11.1.DLL';
+           FTK=_93EEC033BB6BDA27F90FC5DA3D5CD9A3; temp location=fam1\01054.FLE.
+     Files differ: 'C:\VSTemp\UpgradedImage\.\db\CreateForeignKeys.sql',
+                   'C:\VSTemp\v840\.\db\CreateForeignKeys.sql'.
+     Files differ: 'C:\VSTemp\UpgradedImage\.\db\CreateForeignKeys.sql',
+                   'C:\VSTemp\v844\.\db\CreateForeignKeys.sql'.
+     Files differ: 'C:\VSTemp\UpgradedImage\.\db\CreateForeignKeys.sql',
+                   'C:\VSTemp\v841\.\db\CreateForeignKeys.sql'.
+    Patch API could not create a small patch; using whole upgraded file.
+  Including entire file: 'C:\VSTemp\UpgradedImage\.\db\CreateForeignKeys.sql';
+           FTK=_9584553CD48B4C0C8A100DF1A9409FBE; temp location=fam1\01055.FLE.
+WARNING (11): File.FileName mismatch between Upgraded ('INFRA~25.DLL|Infragistics2.Win.UltraWinDataSource.v11.1.dll') and Target ('INFRA~18.DLL|Infragistics2.Win.UltraWinDataSource.v11.1.dll') Images means old files may be orphaned.  File Table Key: _96059E2C5F29446EA7B087F48BB794CB
+WARNING (11): File.FileName mismatch between Upgraded ('INFRA~25.DLL|Infragistics2.Win.UltraWinDataSource.v11.1.dll') and Target ('INFRA~26.DLL|Infragistics2.Win.UltraWinDataSource.v11.1.dll') Images means old files may be orphaned.  File Table Key: _96059E2C5F29446EA7B087F48BB794CB
+WARNING (11): File.FileName mismatch between Upgraded ('INFRA~25.DLL|Infragistics2.Win.UltraWinDataSource.v11.1.dll') and Target ('INFRA~28.DLL|Infragistics2.Win.UltraWinDataSource.v11.1.dll') Images means old files may be orphaned.  File Table Key: _96059E2C5F29446EA7B087F48BB794CB
+    Patch API could not create a small patch; using whole upgraded file.
+  Including entire file: 'C:\VSTemp\UpgradedImage\.\Infragistics2.Win.UltraWinDataSource.v11.1.dll';
+           FTK=_96059E2C5F29446EA7B087F48BB794CB; temp location=fam1\01056.FLE.
+    Patch API could not create a small patch; using whole upgraded file.
+  Including entire file: 'C:\VSTemp\UpgradedImage\.\Layton.HtmlReports.DLL';
+           FTK=_9BBC9161C8A9569B24B369E1C1C028C8; temp location=fam1\01057.FLE.
+    Patch API could not create a small patch; using whole upgraded file.
+  Including entire file: 'C:\VSTemp\UpgradedImage\.\Infragistics2.Win.UltraWinEditors.v11.1.DLL';
+           FTK=_9E3F616B92B5BEA228D1E34A2A6898CC; temp location=fam1\01058.FLE.
+     Files differ: 'C:\VSTemp\UpgradedImage\.\sqlceer35EN.dll',
+                   'C:\VSTemp\v840\.\sqlceer35EN.dll'.
+    Patch API could not create a small patch; using whole upgraded file.
+  Including entire file: 'C:\VSTemp\UpgradedImage\.\sqlceer35EN.dll';
+           FTK=_A0EB33FBFE4C4D1BBA3728540101CE69; temp location=fam1\01059.FLE.
+WARNING (11): File.FileName mismatch between Upgraded ('MICROS~4.DLL|Microsoft.Practices.CompositeUI.WinForms.dll') and Target ('MICROS~2.DLL|Microsoft.Practices.CompositeUI.WinForms.dll') Images means old files may be orphaned.  File Table Key: _A3B3DCAB0DCA44FA9D3972722B05F647
+WARNING (11): File.FileName mismatch between Upgraded ('MICROS~4.DLL|Microsoft.Practices.CompositeUI.WinForms.dll') and Target ('MICROS~5.DLL|Microsoft.Practices.CompositeUI.WinForms.dll') Images means old files may be orphaned.  File Table Key: _A3B3DCAB0DCA44FA9D3972722B05F647
+    Patch API could not create a small patch; using whole upgraded file.
+  Including entire file: 'C:\VSTemp\UpgradedImage\.\Microsoft.Practices.CompositeUI.WinForms.dll';
+           FTK=_A3B3DCAB0DCA44FA9D3972722B05F647; temp location=fam1\01060.FLE.
+WARNING (11): File.FileName mismatch between Upgraded ('MICROS~5.DLL|Microsoft.Practices.CompositeUI.dll') and Target ('MICROS~3.DLL|Microsoft.Practices.CompositeUI.dll') Images means old files may be orphaned.  File Table Key: _A5848B75996442E0A0EBD48AB8E06834
+WARNING (11): File.FileName mismatch between Upgraded ('MICROS~5.DLL|Microsoft.Practices.CompositeUI.dll') and Target ('MICROS~6.DLL|Microsoft.Practices.CompositeUI.dll') Images means old files may be orphaned.  File Table Key: _A5848B75996442E0A0EBD48AB8E06834
+WARNING (11): File.FileName mismatch between Upgraded ('MICROS~5.DLL|Microsoft.Practices.CompositeUI.dll') and Target ('MICROS~6.DLL|Microsoft.Practices.CompositeUI.dll') Images means old files may be orphaned.  File Table Key: _A5848B75996442E0A0EBD48AB8E06834
+    Patch API could not create a small patch; using whole upgraded file.
+  Including entire file: 'C:\VSTemp\UpgradedImage\.\Microsoft.Practices.CompositeUI.dll';
+           FTK=_A5848B75996442E0A0EBD48AB8E06834; temp location=fam1\01061.FLE.
+     Files differ: 'C:\VSTemp\UpgradedImage\.\appSplashScreen.png',
+                   'C:\VSTemp\v840\.\appSplashScreen.png'.
+     Files differ: 'C:\VSTemp\UpgradedImage\.\appSplashScreen.png',
+                   'C:\VSTemp\v844\.\appSplashScreen.png'.
+     Files differ: 'C:\VSTemp\UpgradedImage\.\appSplashScreen.png',
+                   'C:\VSTemp\v841\.\appSplashScreen.png'.
+    Patch API could not create a small patch; using whole upgraded file.
+  Including entire file: 'C:\VSTemp\UpgradedImage\.\appSplashScreen.png';
+           FTK=_B09026928F7E43D2AF2420D5111010B2; temp location=fam1\01062.FLE.
+WARNING (11): File.FileName mismatch between Upgraded ('INFRA~27.DLL|Infragistics2.Win.UltraWinPrintPreviewDialog.v11.1.dll') and Target ('INFRA~19.DLL|Infragistics2.Win.UltraWinPrintPreviewDialog.v11.1.dll') Images means old files may be orphaned.  File Table Key: _B3B0EA9729EF4F7AAA5B367F2631FC7E
+WARNING (11): File.FileName mismatch between Upgraded ('INFRA~27.DLL|Infragistics2.Win.UltraWinPrintPreviewDialog.v11.1.dll') and Target ('INFRA~29.DLL|Infragistics2.Win.UltraWinPrintPreviewDialog.v11.1.dll') Images means old files may be orphaned.  File Table Key: _B3B0EA9729EF4F7AAA5B367F2631FC7E
+WARNING (11): File.FileName mismatch between Upgraded ('INFRA~27.DLL|Infragistics2.Win.UltraWinPrintPreviewDialog.v11.1.dll') and Target ('INFRA~31.DLL|Infragistics2.Win.UltraWinPrintPreviewDialog.v11.1.dll') Images means old files may be orphaned.  File Table Key: _B3B0EA9729EF4F7AAA5B367F2631FC7E
+    Patch API could not create a small patch; using whole upgraded file.
+  Including entire file: 'C:\VSTemp\UpgradedImage\.\Infragistics2.Win.UltraWinPrintPreviewDialog.v11.1.dll';
+           FTK=_B3B0EA9729EF4F7AAA5B367F2631FC7E; temp location=fam1\01063.FLE.
+WARNING (11): File.FileName mismatch between Upgraded ('INFRA~28.DLL|Infragistics2.Documents.IO.v11.1.dll') and Target ('INFRA~20.DLL|Infragistics2.Documents.IO.v11.1.dll') Images means old files may be orphaned.  File Table Key: _B9F25B6C412545B089B869210348B1EC
+WARNING (11): File.FileName mismatch between Upgraded ('INFRA~28.DLL|Infragistics2.Documents.IO.v11.1.dll') and Target ('INFRA~30.DLL|Infragistics2.Documents.IO.v11.1.dll') Images means old files may be orphaned.  File Table Key: _B9F25B6C412545B089B869210348B1EC
+WARNING (11): File.FileName mismatch between Upgraded ('INFRA~28.DLL|Infragistics2.Documents.IO.v11.1.dll') and Target ('INFRA~32.DLL|Infragistics2.Documents.IO.v11.1.dll') Images means old files may be orphaned.  File Table Key: _B9F25B6C412545B089B869210348B1EC
+    Patch API could not create a small patch; using whole upgraded file.
+  Including entire file: 'C:\VSTemp\UpgradedImage\.\Infragistics2.Documents.IO.v11.1.dll';
+           FTK=_B9F25B6C412545B089B869210348B1EC; temp location=fam1\01064.FLE.
+WARNING (11): File.FileName mismatch between Upgraded ('INFRA~29.DLL|Infragistics2.Win.Misc.v11.1.dll') and Target ('INFRA~21.DLL|Infragistics2.Win.Misc.v11.1.dll') Images means old files may be orphaned.  File Table Key: _BA34DE5A991346B095A822F6E60C924C
+WARNING (11): File.FileName mismatch between Upgraded ('INFRA~29.DLL|Infragistics2.Win.Misc.v11.1.dll') and Target ('INFRA~31.DLL|Infragistics2.Win.Misc.v11.1.dll') Images means old files may be orphaned.  File Table Key: _BA34DE5A991346B095A822F6E60C924C
+WARNING (11): File.FileName mismatch between Upgraded ('INFRA~29.DLL|Infragistics2.Win.Misc.v11.1.dll') and Target ('INFRA~33.DLL|Infragistics2.Win.Misc.v11.1.dll') Images means old files may be orphaned.  File Table Key: _BA34DE5A991346B095A822F6E60C924C
+    Patch API could not create a small patch; using whole upgraded file.
+  Including entire file: 'C:\VSTemp\UpgradedImage\.\Infragistics2.Win.Misc.v11.1.dll';
+           FTK=_BA34DE5A991346B095A822F6E60C924C; temp location=fam1\01065.FLE.
+    Patch API could not create a small patch; using whole upgraded file.
+  Including entire file: 'C:\VSTemp\UpgradedImage\.\Infragistics2.Win.v11.1.DLL';
+           FTK=_C61B1886746A00A1DDD15615BFDF8F56; temp location=fam1\01066.FLE.
+WARNING (11): File.FileName mismatch between Upgraded ('MICROS~6.DLL|Microsoft.Practices.ObjectBuilder.dll') and Target ('MICROS~5.DLL|Microsoft.Practices.ObjectBuilder.dll') Images means old files may be orphaned.  File Table Key: _C69F0870F59A482B8395EC07FFBAF839
+WARNING (11): File.FileName mismatch between Upgraded ('MICROS~6.DLL|Microsoft.Practices.ObjectBuilder.dll') and Target ('MICROS~7.DLL|Microsoft.Practices.ObjectBuilder.dll') Images means old files may be orphaned.  File Table Key: _C69F0870F59A482B8395EC07FFBAF839
+WARNING (11): File.FileName mismatch between Upgraded ('MICROS~6.DLL|Microsoft.Practices.ObjectBuilder.dll') and Target ('MICROS~8.DLL|Microsoft.Practices.ObjectBuilder.dll') Images means old files may be orphaned.  File Table Key: _C69F0870F59A482B8395EC07FFBAF839
+    Patch API could not create a small patch; using whole upgraded file.
+  Including entire file: 'C:\VSTemp\UpgradedImage\.\Microsoft.Practices.ObjectBuilder.dll';
+           FTK=_C69F0870F59A482B8395EC07FFBAF839; temp location=fam1\01067.FLE.
+WARNING (11): File.FileName mismatch between Upgraded ('INFRA~31.DLL|Infragistics2.Win.UltraWinGrid.v11.1.dll') and Target ('INFRA~22.DLL|Infragistics2.Win.UltraWinGrid.v11.1.dll') Images means old files may be orphaned.  File Table Key: _C73B3E9529514278ADB7BCA6CA0277D8
+WARNING (11): File.FileName mismatch between Upgraded ('INFRA~31.DLL|Infragistics2.Win.UltraWinGrid.v11.1.dll') and Target ('INFRA~32.DLL|Infragistics2.Win.UltraWinGrid.v11.1.dll') Images means old files may be orphaned.  File Table Key: _C73B3E9529514278ADB7BCA6CA0277D8
+WARNING (11): File.FileName mismatch between Upgraded ('INFRA~31.DLL|Infragistics2.Win.UltraWinGrid.v11.1.dll') and Target ('INFRA~34.DLL|Infragistics2.Win.UltraWinGrid.v11.1.dll') Images means old files may be orphaned.  File Table Key: _C73B3E9529514278ADB7BCA6CA0277D8
+    Patch API could not create a small patch; using whole upgraded file.
+  Including entire file: 'C:\VSTemp\UpgradedImage\.\Infragistics2.Win.UltraWinGrid.v11.1.dll';
+           FTK=_C73B3E9529514278ADB7BCA6CA0277D8; temp location=fam1\01068.FLE.
+    Patch API could not create a small patch; using whole upgraded file.
+  Including entire file: 'C:\VSTemp\UpgradedImage\.\Infragistics2.Win.UltraWinToolbars.v11.1.DLL';
+           FTK=_C7EB802CA989C3B1A90ADCC50B62F765; temp location=fam1\01069.FLE.
+     Files differ: 'C:\VSTemp\UpgradedImage\.\db\CreateDatabase.sql',
+                   'C:\VSTemp\v840\.\db\CreateDatabase.sql'.
+     Files differ: 'C:\VSTemp\UpgradedImage\.\db\CreateDatabase.sql',
+                   'C:\VSTemp\v844\.\db\CreateDatabase.sql'.
+     Files differ: 'C:\VSTemp\UpgradedImage\.\db\CreateDatabase.sql',
+                   'C:\VSTemp\v841\.\db\CreateDatabase.sql'.
+    Patch API could not create a small patch; using whole upgraded file.
+  Including entire file: 'C:\VSTemp\UpgradedImage\.\db\CreateDatabase.sql';
+           FTK=_C8D56CB7972F431E8853AD914EDF09B9; temp location=fam1\01070.FLE.
+WARNING (11): File.FileName mismatch between Upgraded ('LAYTO~14.DLL|Layton.AuditWizard.DataAccess.dll') and Target ('LAYTO~10.DLL|Layton.AuditWizard.DataAccess.dll') Images means old files may be orphaned.  File Table Key: _CA5A24F1BC2B43789B5CBA77DC446E5F
+WARNING (11): File.FileName mismatch between Upgraded ('LAYTO~14.DLL|Layton.AuditWizard.DataAccess.dll') and Target ('LAYTO~17.DLL|Layton.AuditWizard.DataAccess.dll') Images means old files may be orphaned.  File Table Key: _CA5A24F1BC2B43789B5CBA77DC446E5F
+WARNING (11): File.FileName mismatch between Upgraded ('LAYTO~14.DLL|Layton.AuditWizard.DataAccess.dll') and Target ('LAYTO~17.DLL|Layton.AuditWizard.DataAccess.dll') Images means old files may be orphaned.  File Table Key: _CA5A24F1BC2B43789B5CBA77DC446E5F
+    Patch API could not create a small patch; using whole upgraded file.
+  Including entire file: 'C:\VSTemp\UpgradedImage\.\Layton.AuditWizard.DataAccess.dll';
+           FTK=_CA5A24F1BC2B43789B5CBA77DC446E5F; temp location=fam1\01071.FLE.
+    Patch API could not create a small patch; using whole upgraded file.
+  Including entire file: 'C:\VSTemp\UpgradedImage\.\Layton.AuditWizard.Administration.DLL';
+           FTK=_CA90F95A88AB2CAB12F3AC3E580172BE; temp location=fam1\01072.FLE.
+     Files differ: 'C:\VSTemp\UpgradedImage\.\sqlceoledb35.dll',
+                   'C:\VSTemp\v840\.\sqlceoledb35.dll'.
+    Patch API could not create a small patch; using whole upgraded file.
+  Including entire file: 'C:\VSTemp\UpgradedImage\.\sqlceoledb35.dll';
+           FTK=_CB14BF9C0C2546308713D53214EFBED9; temp location=fam1\01073.FLE.
+    Patch API could not create a small patch; using whole upgraded file.
+  Including entire file: 'C:\VSTemp\UpgradedImage\.\Infragistics2.Win.UltraWinGrid.v11.1.DLL';
+           FTK=_CCB7895D22B6FEB699BD871D29CEB20F; temp location=fam1\01074.FLE.
+     Files differ: 'C:\VSTemp\UpgradedImage\.\db\CreateHBStoredProcedures.sql',
+                   'C:\VSTemp\v840\.\db\CreateHBStoredProcedures.sql'.
+     Files differ: 'C:\VSTemp\UpgradedImage\.\db\CreateHBStoredProcedures.sql',
+                   'C:\VSTemp\v844\.\db\CreateHBStoredProcedures.sql'.
+     Files differ: 'C:\VSTemp\UpgradedImage\.\db\CreateHBStoredProcedures.sql',
+                   'C:\VSTemp\v841\.\db\CreateHBStoredProcedures.sql'.
+    Patch API could not create a small patch; using whole upgraded file.
+  Including entire file: 'C:\VSTemp\UpgradedImage\.\db\CreateHBStoredProcedures.sql';
+           FTK=_CE4CD63CE7B2452BAFC9D06C4633E45E; temp location=fam1\01075.FLE.
+WARNING (11): File.FileName mismatch between Upgraded ('LAYTO~16.DLL|Layton.AuditWizard.Applications.dll') and Target ('LAYTO~11.DLL|Layton.AuditWizard.Applications.dll') Images means old files may be orphaned.  File Table Key: _CE7A4C09C9954DEE94DBC2DC2E47954E
+WARNING (11): File.FileName mismatch between Upgraded ('LAYTO~16.DLL|Layton.AuditWizard.Applications.dll') and Target ('LAYTO~18.DLL|Layton.AuditWizard.Applications.dll') Images means old files may be orphaned.  File Table Key: _CE7A4C09C9954DEE94DBC2DC2E47954E
+WARNING (11): File.FileName mismatch between Upgraded ('LAYTO~16.DLL|Layton.AuditWizard.Applications.dll') and Target ('LAYTO~19.DLL|Layton.AuditWizard.Applications.dll') Images means old files may be orphaned.  File Table Key: _CE7A4C09C9954DEE94DBC2DC2E47954E
+    Patch API could not create a small patch; using whole upgraded file.
+  Including entire file: 'C:\VSTemp\UpgradedImage\.\Layton.AuditWizard.Applications.dll';
+           FTK=_CE7A4C09C9954DEE94DBC2DC2E47954E; temp location=fam1\01076.FLE.
+     Files differ: 'C:\VSTemp\UpgradedImage\.\db\AddUpdatedTables.sql',
+                   'C:\VSTemp\v840\.\db\AddUpdatedTables.sql'.
+     Files differ: 'C:\VSTemp\UpgradedImage\.\db\AddUpdatedTables.sql',
+                   'C:\VSTemp\v844\.\db\AddUpdatedTables.sql'.
+     Files differ: 'C:\VSTemp\UpgradedImage\.\db\AddUpdatedTables.sql',
+                   'C:\VSTemp\v841\.\db\AddUpdatedTables.sql'.
+    Patch API could not create a small patch; using whole upgraded file.
+  Including entire file: 'C:\VSTemp\UpgradedImage\.\db\AddUpdatedTables.sql';
+           FTK=_CEC6F33962A24A3093F0A3B8CB8D5A56; temp location=fam1\01077.FLE.
+    Patch API could not create a small patch; using whole upgraded file.
+  Including entire file: 'C:\VSTemp\UpgradedImage\.\Layton.AuditWizard.DataAccess.DLL';
+           FTK=_D0312E736DEF152F6A157D011FA4399F; temp location=fam1\01078.FLE.
+    Patch API could not create a small patch; using whole upgraded file.
+  Including entire file: 'C:\VSTemp\UpgradedImage\.\Layton.NetworkDiscovery.DLL';
+           FTK=_D4F52D326EB844AA7275FE42431223E6; temp location=fam1\01079.FLE.
+    Patch API could not create a small patch; using whole upgraded file.
+  Including entire file: 'C:\VSTemp\UpgradedImage\.\Infragistics2.Documents.Reports.v11.1.DLL';
+           FTK=_D8249B7E37C83465179D61D21240955D; temp location=fam1\01080.FLE.
+     Files differ: 'C:\VSTemp\UpgradedImage\.\sqlceca35.dll',
+                   'C:\VSTemp\v840\.\sqlceca35.dll'.
+    Patch API could not create a small patch; using whole upgraded file.
+  Including entire file: 'C:\VSTemp\UpgradedImage\.\sqlceca35.dll';
+           FTK=_D895784C304A4D1787BEA062D6DD1F5A; temp location=fam1\01081.FLE.
+WARNING (11): File.FileName mismatch between Upgraded ('LAYTO~19.DLL|Layton.AuditWizard.Overview.dll') and Target ('LAYTO~12.DLL|Layton.AuditWizard.Overview.dll') Images means old files may be orphaned.  File Table Key: _D9DDC5F86DB943C488875C04F72ED1CA
+     Files differ: 'C:\VSTemp\UpgradedImage\.\Layton.AuditWizard.Overview.dll',
+                   'C:\VSTemp\v844\.\Layton.AuditWizard.Overview.dll'.
+WARNING (11): File.FileName mismatch between Upgraded ('LAYTO~19.DLL|Layton.AuditWizard.Overview.dll') and Target ('LAYTO~20.DLL|Layton.AuditWizard.Overview.dll') Images means old files may be orphaned.  File Table Key: _D9DDC5F86DB943C488875C04F72ED1CA
+    Patch API could not create a small patch; using whole upgraded file.
+  Including entire file: 'C:\VSTemp\UpgradedImage\.\Layton.AuditWizard.Overview.dll';
+           FTK=_D9DDC5F86DB943C488875C04F72ED1CA; temp location=fam1\01082.FLE.
+WARNING (11): File.FileName mismatch between Upgraded ('INFRA~35.DLL|Infragistics2.Win.UltraWinStatusBar.v11.1.dll') and Target ('INFRA~23.DLL|Infragistics2.Win.UltraWinStatusBar.v11.1.dll') Images means old files may be orphaned.  File Table Key: _DB44AEB08DE04176B0220B553C7BC062
+    Patch API could not create a small patch; using whole upgraded file.
+  Including entire file: 'C:\VSTemp\UpgradedImage\.\Infragistics2.Win.UltraWinStatusBar.v11.1.dll';
+           FTK=_DB44AEB08DE04176B0220B553C7BC062; temp location=fam1\01083.FLE.
+WARNING (11): File.FileName mismatch between Upgraded ('INFRA~36.DLL|Infragistics2.Win.UltraWinSchedule.v11.1.dll') and Target ('INFRA~24.DLL|Infragistics2.Win.UltraWinSchedule.v11.1.dll') Images means old files may be orphaned.  File Table Key: _E23C797506FE49789EA2663ED8D1E87C
+WARNING (11): File.FileName mismatch between Upgraded ('INFRA~36.DLL|Infragistics2.Win.UltraWinSchedule.v11.1.dll') and Target ('INFRA~37.DLL|Infragistics2.Win.UltraWinSchedule.v11.1.dll') Images means old files may be orphaned.  File Table Key: _E23C797506FE49789EA2663ED8D1E87C
+    Patch API could not create a small patch; using whole upgraded file.
+  Including entire file: 'C:\VSTemp\UpgradedImage\.\Infragistics2.Win.UltraWinSchedule.v11.1.dll';
+           FTK=_E23C797506FE49789EA2663ED8D1E87C; temp location=fam1\01084.FLE.
+WARNING (11): File.FileName mismatch between Upgraded ('INFRA~37.DLL|Infragistics.Practices.CompositeUI.WinForms.dll') and Target ('INFRA~25.DLL|Infragistics.Practices.CompositeUI.WinForms.dll') Images means old files may be orphaned.  File Table Key: _E65569F3951A4FFEB06212C8735BFC78
+WARNING (11): File.FileName mismatch between Upgraded ('INFRA~37.DLL|Infragistics.Practices.CompositeUI.WinForms.dll') and Target ('INFRA~38.DLL|Infragistics.Practices.CompositeUI.WinForms.dll') Images means old files may be orphaned.  File Table Key: _E65569F3951A4FFEB06212C8735BFC78
+WARNING (11): File.FileName mismatch between Upgraded ('INFRA~37.DLL|Infragistics.Practices.CompositeUI.WinForms.dll') and Target ('INFRA~38.DLL|Infragistics.Practices.CompositeUI.WinForms.dll') Images means old files may be orphaned.  File Table Key: _E65569F3951A4FFEB06212C8735BFC78
+    Patch API could not create a small patch; using whole upgraded file.
+  Including entire file: 'C:\VSTemp\UpgradedImage\.\Infragistics.Practices.CompositeUI.WinForms.dll';
+           FTK=_E65569F3951A4FFEB06212C8735BFC78; temp location=fam1\01085.FLE.
+     Files differ: 'C:\VSTemp\UpgradedImage\.\appAboutScreen.png',
+                   'C:\VSTemp\v840\.\appAboutScreen.png'.
+     Files differ: 'C:\VSTemp\UpgradedImage\.\appAboutScreen.png',
+                   'C:\VSTemp\v844\.\appAboutScreen.png'.
+     Files differ: 'C:\VSTemp\UpgradedImage\.\appAboutScreen.png',
+                   'C:\VSTemp\v841\.\appAboutScreen.png'.
+    Patch API could not create a small patch; using whole upgraded file.
+  Including entire file: 'C:\VSTemp\UpgradedImage\.\appAboutScreen.png';
+           FTK=_E75A84FB9C5642E69C2BD9ADE2221081; temp location=fam1\01086.FLE.
+WARNING (11): File.FileName mismatch between Upgraded ('LAYTO~20.DLL|Layton.Cab.Interface.dll') and Target ('LAYTO~13.DLL|Layton.Cab.Interface.dll') Images means old files may be orphaned.  File Table Key: _ECA3338BF9E242F4A3C23F2A73C8F4D4
+WARNING (11): File.FileName mismatch between Upgraded ('LAYTO~20.DLL|Layton.Cab.Interface.dll') and Target ('LAYTO~21.DLL|Layton.Cab.Interface.dll') Images means old files may be orphaned.  File Table Key: _ECA3338BF9E242F4A3C23F2A73C8F4D4
+WARNING (11): File.FileName mismatch between Upgraded ('LAYTO~20.DLL|Layton.Cab.Interface.dll') and Target ('LAYTO~21.DLL|Layton.Cab.Interface.dll') Images means old files may be orphaned.  File Table Key: _ECA3338BF9E242F4A3C23F2A73C8F4D4
+    Patch API could not create a small patch; using whole upgraded file.
+  Including entire file: 'C:\VSTemp\UpgradedImage\.\Layton.Cab.Interface.dll';
+           FTK=_ECA3338BF9E242F4A3C23F2A73C8F4D4; temp location=fam1\01087.FLE.
+    Patch API could not create a small patch; using whole upgraded file.
+  Including entire file: 'C:\VSTemp\UpgradedImage\.\Microsoft.ApplicationBlocks.Data.DLL';
+           FTK=_EE3D036AE9A7DE12B5D4E1419D0D3289; temp location=fam1\01088.FLE.
+     Files differ: 'C:\VSTemp\UpgradedImage\.\sqlcese35.dll',
+                   'C:\VSTemp\v840\.\sqlcese35.dll'.
+    Patch API could not create a small patch; using whole upgraded file.
+  Including entire file: 'C:\VSTemp\UpgradedImage\.\sqlcese35.dll';
+           FTK=_EF15A41AD18C4B60871EA9BB2CE4B2FC; temp location=fam1\01089.FLE.
+WARNING (11): File.FileName mismatch between Upgraded ('INFRA~38.DLL|Infragistics2.Documents.Core.v11.1.dll') and Target ('INFRA~26.DLL|Infragistics2.Documents.Core.v11.1.dll') Images means old files may be orphaned.  File Table Key: _F11F2A58BAAB4EEAA4614867BA17BC00
+WARNING (11): File.FileName mismatch between Upgraded ('INFRA~38.DLL|Infragistics2.Documents.Core.v11.1.dll') and Target ('INFRA~39.DLL|Infragistics2.Documents.Core.v11.1.dll') Images means old files may be orphaned.  File Table Key: _F11F2A58BAAB4EEAA4614867BA17BC00
+WARNING (11): File.FileName mismatch between Upgraded ('INFRA~38.DLL|Infragistics2.Documents.Core.v11.1.dll') and Target ('INFRA~39.DLL|Infragistics2.Documents.Core.v11.1.dll') Images means old files may be orphaned.  File Table Key: _F11F2A58BAAB4EEAA4614867BA17BC00
+    Patch API could not create a small patch; using whole upgraded file.
+  Including entire file: 'C:\VSTemp\UpgradedImage\.\Infragistics2.Documents.Core.v11.1.dll';
+           FTK=_F11F2A58BAAB4EEAA4614867BA17BC00; temp location=fam1\01090.FLE.
+    Patch API could not create a small patch; using whole upgraded file.
+  Including entire file: 'C:\VSTemp\UpgradedImage\.\Layton.AuditWizard.Common.DLL';
+           FTK=_F130EEEE77C6AC311DAEC07AB21BE2CD; temp location=fam1\01091.FLE.
+    Patch API could not create a small patch; using whole upgraded file.
+  Including entire file: 'C:\VSTemp\UpgradedImage\.\Microsoft.Practices.CompositeUI.DLL';
+           FTK=_F27F046E507731D2573E30486461996A; temp location=fam1\01092.FLE.
+     Files differ: 'C:\VSTemp\UpgradedImage\.\db\AddInitialData.sql',
+                   'C:\VSTemp\v840\.\db\AddInitialData.sql'.
+     Files differ: 'C:\VSTemp\UpgradedImage\.\db\AddInitialData.sql',
+                   'C:\VSTemp\v844\.\db\AddInitialData.sql'.
+     Files differ: 'C:\VSTemp\UpgradedImage\.\db\AddInitialData.sql',
+                   'C:\VSTemp\v841\.\db\AddInitialData.sql'.
+    Patch API could not create a small patch; using whole upgraded file.
+  Including entire file: 'C:\VSTemp\UpgradedImage\.\db\AddInitialData.sql';
+           FTK=_F32AAF7B62214B11911080E6B7B0A556; temp location=fam1\01093.FLE.
+    Patch API could not create a small patch; using whole upgraded file.
+  Including entire file: 'C:\VSTemp\UpgradedImage\.\Infragistics2.Win.UltraWinTabbedMdi.v11.1.DLL';
+           FTK=_F5595E8DA7CB7FC23C123C9A098F9D63; temp location=fam1\01094.FLE.
+WARNING (11): File.FileName mismatch between Upgraded ('LAYTO~22.DLL|Layton.AuditWizard.Network.dll') and Target ('LAYTO~14.DLL|Layton.AuditWizard.Network.dll') Images means old files may be orphaned.  File Table Key: _FE9A901F532B458EB3D0E533C0D2FDCA
+     Files differ: 'C:\VSTemp\UpgradedImage\.\Layton.AuditWizard.Network.dll',
+                   'C:\VSTemp\v844\.\Layton.AuditWizard.Network.dll'.
+     Files differ: 'C:\VSTemp\UpgradedImage\.\Layton.AuditWizard.Network.dll',
+                   'C:\VSTemp\v841\.\Layton.AuditWizard.Network.dll'.
+    Patch API could not create a small patch; using whole upgraded file.
+  Including entire file: 'C:\VSTemp\UpgradedImage\.\Layton.AuditWizard.Network.dll';
+           FTK=_FE9A901F532B458EB3D0E533C0D2FDCA; temp location=fam1\01095.FLE.
+     Files differ: 'C:\VSTemp\UpgradedImage\.\AuditWizardService.exe',
+                   'C:\VSTemp\v840\.\AuditWizardService.exe'.
+     Files differ: 'C:\VSTemp\UpgradedImage\.\AuditWizardService.exe',
+                   'C:\VSTemp\v844\.\AuditWizardService.exe'.
+     Files differ: 'C:\VSTemp\UpgradedImage\.\AuditWizardService.exe',
+                   'C:\VSTemp\v841\.\AuditWizardService.exe'.
+    Patch API could not create a small patch; using whole upgraded file.
+  Including entire file: 'C:\VSTemp\UpgradedImage\.\AuditWizardService.exe';
+           FTK=_FEF69DCD1B3B496FA191036C029E4DD9; temp location=fam1\01096.FLE.
+    Patch API could not create a small patch; using whole upgraded file.
+  Including entire file: 'C:\VSTemp\UpgradedImage\.\HandleAWServices.dll';
+           FTK=_B38BBE2F2FF4182EB7886AFE2B4587C8; temp location=fam1\01097.FLE.
+
+***** Log finishing: 2017-05-12 13:49:54 *****
+

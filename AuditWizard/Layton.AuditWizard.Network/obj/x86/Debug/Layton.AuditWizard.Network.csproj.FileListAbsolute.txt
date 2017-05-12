@@ -46,9 +46,6 @@ D:\LaytonProducts\AW\AuditWizard\Layton.AuditWizard.Network\obj\x86\Debug\ResGen
 D:\LaytonProducts\AW\AuditWizard\Layton.AuditWizard.Network\obj\x86\Debug\Layton.AuditWizard.Network.dll
 D:\LaytonProducts\AW\AuditWizard\Layton.AuditWizard.Network\obj\x86\Debug\Layton.AuditWizard.Network.pdb
 D:\LaytonProducts\AW\AuditWizard\Layton.AuditWizard.Network\obj\x86\Debug\Layton.AuditWizard.Network.dll.licenses
-C:\Program Files (x86)\AuditWizard v8\Layton.AuditWizard.Network.dll.config
-C:\Program Files (x86)\AuditWizard v8\Layton.AuditWizard.Network.dll
-C:\Program Files (x86)\AuditWizard v8\Layton.AuditWizard.Network.pdb
 D:\LaytonProducts\AuditWizard\AuditWizard\Layton.AuditWizard.Network\obj\x86\Debug\ResolveAssemblyReference.cache
 D:\LaytonProducts\AuditWizard\AuditWizard\Layton.AuditWizard.Network\obj\x86\Debug\Layton.AuditWizard.Network.ApplicationInstancesTabView.resources
 D:\LaytonProducts\AuditWizard\AuditWizard\Layton.AuditWizard.Network\obj\x86\Debug\Layton.AuditWizard.Network.ComputerTabView.resources
@@ -119,3 +116,29 @@ D:\LaytonTechnology\AW\AuditWizard\Layton.AuditWizard.Network\obj\x86\Debug\Layt
 D:\LaytonTechnology\AW\AuditWizard\Layton.AuditWizard.Network\obj\x86\Debug\Layton.AuditWizard.Network.dll.licenses
 D:\LaytonTechnology\AW\AuditWizard\Layton.AuditWizard.Network\obj\x86\Debug\Layton.AuditWizard.Network.dll
 D:\LaytonTechnology\AW\AuditWizard\Layton.AuditWizard.Network\obj\x86\Debug\Layton.AuditWizard.Network.pdb
+C:\Program Files (x86)\AuditWizard v8\Layton.AuditWizard.Network.dll.config
+C:\Program Files (x86)\AuditWizard v8\Layton.AuditWizard.Network.dll
+C:\Program Files (x86)\AuditWizard v8\Layton.AuditWizard.Network.pdb
+D:\Layton_GitSource\AW-master\AuditWizard\Layton.AuditWizard.Network\obj\x86\Debug\Layton.AuditWizard.Network.csprojResolveAssemblyReference.cache
+D:\Layton_GitSource\AW-master\AuditWizard\Layton.AuditWizard.Network\obj\x86\Debug\Layton.AuditWizard.Network.ApplicationInstancesTabView.resources
+D:\Layton_GitSource\AW-master\AuditWizard\Layton.AuditWizard.Network\obj\x86\Debug\Layton.AuditWizard.Network.ComputerTabView.resources
+D:\Layton_GitSource\AW-master\AuditWizard\Layton.AuditWizard.Network\obj\x86\Debug\Layton.AuditWizard.Network.AuditedDataTabView.resources
+D:\Layton_GitSource\AW-master\AuditWizard\Layton.AuditWizard.Network\obj\x86\Debug\Layton.AuditWizard.Network.FormFileAssign.resources
+D:\Layton_GitSource\AW-master\AuditWizard\Layton.AuditWizard.Network\obj\x86\Debug\Layton.AuditWizard.Network.FormFileProperties.resources
+D:\Layton_GitSource\AW-master\AuditWizard\Layton.AuditWizard.Network\obj\x86\Debug\Layton.AuditWizard.Network.FormFindAsset.resources
+D:\Layton_GitSource\AW-master\AuditWizard\Layton.AuditWizard.Network\obj\x86\Debug\Layton.AuditWizard.Network.FormOperationsLog.resources
+D:\Layton_GitSource\AW-master\AuditWizard\Layton.AuditWizard.Network\obj\x86\Debug\Layton.AuditWizard.Network.FormSelectSupplier.resources
+D:\Layton_GitSource\AW-master\AuditWizard\Layton.AuditWizard.Network\obj\x86\Debug\Layton.AuditWizard.Network.HistoryTabView.resources
+D:\Layton_GitSource\AW-master\AuditWizard\Layton.AuditWizard.Network\obj\x86\Debug\Layton.AuditWizard.Network.FormUserDataEdit.resources
+D:\Layton_GitSource\AW-master\AuditWizard\Layton.AuditWizard.Network\obj\x86\Debug\Layton.AuditWizard.Network.UserDefinedDataTabView.resources
+D:\Layton_GitSource\AW-master\AuditWizard\Layton.AuditWizard.Network\obj\x86\Debug\Layton.AuditWizard.Network.FormAddAsset.resources
+D:\Layton_GitSource\AW-master\AuditWizard\Layton.AuditWizard.Network\obj\x86\Debug\Layton.AuditWizard.Network.FormApplicationInstanceProperties.resources
+D:\Layton_GitSource\AW-master\AuditWizard\Layton.AuditWizard.Network\obj\x86\Debug\Layton.AuditWizard.Network.FormUploadAudits.resources
+D:\Layton_GitSource\AW-master\AuditWizard\Layton.AuditWizard.Network\obj\x86\Debug\Layton.AuditWizard.Network.GroupTabView.resources
+D:\Layton_GitSource\AW-master\AuditWizard\Layton.AuditWizard.Network\obj\x86\Debug\Layton.AuditWizard.Network.NetworkExplorerView.resources
+D:\Layton_GitSource\AW-master\AuditWizard\Layton.AuditWizard.Network\obj\x86\Debug\Layton.AuditWizard.Network.SummaryTabView.resources
+D:\Layton_GitSource\AW-master\AuditWizard\Layton.AuditWizard.Network\obj\x86\Debug\Layton.AuditWizard.Network.Properties.Resources.resources
+D:\Layton_GitSource\AW-master\AuditWizard\Layton.AuditWizard.Network\obj\x86\Debug\Layton.AuditWizard.Network.csproj.GenerateResource.Cache
+D:\Layton_GitSource\AW-master\AuditWizard\Layton.AuditWizard.Network\obj\x86\Debug\Layton.AuditWizard.Network.dll.licenses
+D:\Layton_GitSource\AW-master\AuditWizard\Layton.AuditWizard.Network\obj\x86\Debug\Layton.AuditWizard.Network.dll
+D:\Layton_GitSource\AW-master\AuditWizard\Layton.AuditWizard.Network\obj\x86\Debug\Layton.AuditWizard.Network.pdb

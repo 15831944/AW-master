@@ -13,6 +13,10 @@ using Layton.AuditWizard.DataAccess;
 using Layton.Cab.Interface;
 using Microsoft.Practices.CompositeUI.SmartParts;
 using Timer = System.Windows.Forms.Timer;
+using System.Data.SqlClient;
+using System.Data.SqlServerCe;
+using System.Data;
+using System.Reflection;
 
 namespace AuditWizardv8
 {
@@ -25,6 +29,7 @@ namespace AuditWizardv8
         private bool _standardVersion;
 
         protected static readonly log4net.ILog logger = log4net.LogManager.GetLogger(System.Reflection.MethodBase.GetCurrentMethod().DeclaringType);
+        
 
         public LaytonFormShell()
         {
@@ -96,6 +101,202 @@ namespace AuditWizardv8
             new SettingsDAO().AlterValueColumnType();
             new LayIpAddressDAO().CheckTablePresent();
             new AuditedItemsDAO().UpdateHardwareDisplayCategory();
+            
+            UpdatePatchScript();
+
+            
+        }
+
+        public void UpdatePatchScript()
+        {
+            Configuration config = ConfigurationManager.OpenExeConfiguration(Path.Combine(Application.StartupPath, "AuditWizardv8.exe"));
+            bool compactDatabaseType = Convert.ToBoolean(config.AppSettings.Settings["CompactDatabaseType"].Value);
+            bool RunPatch = true;
+            DataTable statisticsTable = new DataTable();
+            try
+            {
+                if (compactDatabaseType)
+                {
+
+                    using (SqlCeConnection sqlCeConnection = DatabaseConnection.CreateOpenCEConnection())
+                    {
+                        using (SqlCeCommand command = new SqlCeCommand("select _PATCHVERSIONCHANGED from VERSION where _TITLE ='AuditWizard Database'", sqlCeConnection))
+                        {
+                            try
+                            {
+                                
+                                new SqlCeDataAdapter(command).Fill(statisticsTable);
+                                if (statisticsTable != null && statisticsTable.Rows.Count > 0)
+                                {
+                                    if (Convert.ToInt32(statisticsTable.Rows[0].ItemArray[0]) == 1)
+                                    {
+                                        RunPatch = true;
+                                    }
+                                    else
+                                    {
+                                        RunPatch = false;
+                                    }
+                                }
+                                else
+                                {
+                                    RunPatch = true;
+                                }
+                            }
+                            catch (Exception ex)
+                            {
+                                RunPatch = true;
+                            }
+                        }
+                        if (RunPatch)
+                        {
+                            ExecuteCompactDatabasepatchCreateScript(@"Patch_Updates.sql", sqlCeConnection);
+                            if (sqlCeConnection.State != ConnectionState.Open)
+                                sqlCeConnection.Open();
+                            using (SqlCeCommand command = new SqlCeCommand("update VERSION set _PATCHVERSIONCHANGED = 0 where _TITLE ='AuditWizard Database'", sqlCeConnection))
+                            {
+                                command.ExecuteNonQuery();
+                                sqlCeConnection.Close();
+                            }
+                        }
+                    }
+                }
+                else
+                {
+                    using (SqlConnection conn = DatabaseConnection.CreateOpenStandardConnectionnoTimeOut())
+                    {
+                        using (SqlCommand command = new SqlCommand("select _PATCHVERSIONCHANGED from VERSION where _TITLE ='AuditWizard Database'", conn))
+                        {
+                            try
+                            {
+
+                                new SqlDataAdapter(command).Fill(statisticsTable);
+                                if (statisticsTable != null && statisticsTable.Rows.Count > 0)
+                                {
+                                    if (Convert.ToInt32(statisticsTable.Rows[0].ItemArray[0]) == 1)
+                                    {
+                                        RunPatch = true;
+                                    }
+                                    else
+                                    {
+                                        RunPatch = false;
+                                    }
+                                }
+                                else
+                                {
+                                    RunPatch = true;
+                                }
+                            }
+                            catch (Exception ex)
+                            {
+                                RunPatch = true;
+                            }
+                        }
+                        if (RunPatch)
+                        {
+                            ExecuteDatabasePatchCreateScript(@"Patch_Updates.sql", conn);
+                            using (SqlCommand command = new SqlCommand("update VERSION set _PATCHVERSIONCHANGED = 0 where _TITLE ='AuditWizard Database'", conn))
+                            {
+                                command.ExecuteNonQuery();
+                            }
+                        }
+                    }
+                }
+
+                //AuditWizardv8.Properties.Resources.Patch_Updates.Contains("");
+                //AuditWizardv8.Properties.Resources.Patch_Updates_CMD.Contains("");
+            }
+            catch (SqlException ex)
+            {
+                Utility.DisplayErrorMessage("A database error has occurred in AuditWizard." + Environment.NewLine + Environment.NewLine +
+                        "Please see the log file for further details.");
+                logger.Error("Exception in " + System.Reflection.MethodBase.GetCurrentMethod().Name, ex);
+                AuditWizardv8.Properties.Resources.Patch_Updates.Contains("");
+                AuditWizardv8.Properties.Resources.Patch_Updates_CMD.Contains("");
+            }
+            catch (Exception ex)
+            {
+                Utility.DisplayErrorMessage("There was an error Running the Patch Script." + Environment.NewLine + Environment.NewLine +
+                        "Please see the log file for further details.");
+
+                logger.Error("Exception in " + System.Reflection.MethodBase.GetCurrentMethod().Name, ex);
+                AuditWizardv8.Properties.Resources.Patch_Updates.Contains("");
+                AuditWizardv8.Properties.Resources.Patch_Updates_CMD.Contains("");
+            }
+        }
+
+        private void ExecuteDatabasePatchCreateScript(string filename, SqlConnection conn)
+        {
+            try
+            {
+                string scriptText = AuditWizardv8.Properties.Resources.Patch_Updates;
+
+                string[] splitter = new string[] { "\r\nGO\r\n", "--Qstart--" };
+                string[] commandTexts = scriptText.Split(splitter, StringSplitOptions.RemoveEmptyEntries);
+                foreach (string commandText in commandTexts)
+                {
+                    using (SqlCommand command = new SqlCommand(commandText, conn))
+                    {
+                        try
+                        {
+                            command.ExecuteNonQuery();
+                        }
+                        catch (Exception ex)
+                        {
+                            if (!ex.Message.Contains("A column ID occurred more than once in the specification."))
+                            {
+                                throw;
+                            }
+                        }
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
+
+        private void ExecuteCompactDatabasepatchCreateScript(string filename, SqlCeConnection conn, bool issecond = false)
+        {
+            try
+            {
+                string scriptText = AuditWizardv8.Properties.Resources.Patch_Updates_CMD;
+                if (issecond)
+                    scriptText = AuditWizardv8.Properties.Resources.Patch_Updates;
+
+                string[] splitter = new string[] { "\r\nGO\r\n", "--Qstart--" };
+                string[] commandTexts = scriptText.Split(splitter, StringSplitOptions.RemoveEmptyEntries);
+                if (conn.State != ConnectionState.Open)
+                    conn.Open();
+                foreach (string commandText in commandTexts)
+                {
+                    using (SqlCeCommand command = new SqlCeCommand(commandText, conn))
+                    {
+                        try
+                        {
+                            command.ExecuteNonQuery();
+                        }
+                        catch (Exception ex)
+                        {
+                            if (!ex.Message.Contains("A column ID occurred more than once in the specification."))
+                            {
+                                throw;
+                            }
+                        }
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                if (ex.Message.Contains("PK__AUDITEDITEMS__0000000000000623"))
+                    ExecuteCompactDatabasepatchCreateScript(@"Patch_Updates.sql", conn, true);
+                else
+                    throw ex;
+            }
+            finally
+            {
+                conn.Close();
+            }
         }
 
         private void timer_Tick(object sender, EventArgs e)

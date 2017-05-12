@@ -37,9 +37,6 @@ D:\LaytonProducts\AW\AuditWizard\Layton.AuditWizard.Overview\obj\x86\Debug\Layto
 D:\LaytonProducts\AuditWizard\AuditWizard\Layton.AuditWizard.Overview\obj\x86\Debug\ResolveAssemblyReference.cache
 D:\LaytonProducts\AuditWizard\AuditWizard\Layton.AuditWizard.Overview\obj\x86\Debug\ResGen.read.1.tlog
 D:\LaytonProducts\AuditWizard\AuditWizard\Layton.AuditWizard.Overview\obj\x86\Debug\ResGen.write.1.tlog
-C:\Program Files (x86)\AuditWizard v8\Layton.AuditWizard.Overview.dll.config
-C:\Program Files (x86)\AuditWizard v8\Layton.AuditWizard.Overview.dll
-C:\Program Files (x86)\AuditWizard v8\Layton.AuditWizard.Overview.pdb
 D:\LaytonProducts\AuditWizard\AuditWizard\Layton.AuditWizard.Overview\obj\x86\Debug\Layton.AuditWizard.Overview.ApplicationComplianceWidget.resources
 D:\LaytonProducts\AuditWizard\AuditWizard\Layton.AuditWizard.Overview\obj\x86\Debug\Layton.AuditWizard.Overview.DefaultWidget.resources
 D:\LaytonProducts\AuditWizard\AuditWizard\Layton.AuditWizard.Overview\obj\x86\Debug\Layton.AuditWizard.Overview.FormEmailConfiguration.resources
@@ -89,3 +86,23 @@ D:\LaytonTechnology\AW\AuditWizard\Layton.AuditWizard.Overview\obj\x86\Debug\Lay
 D:\LaytonTechnology\AW\AuditWizard\Layton.AuditWizard.Overview\obj\x86\Debug\Layton.AuditWizard.Overview.dll.licenses
 D:\LaytonTechnology\AW\AuditWizard\Layton.AuditWizard.Overview\obj\x86\Debug\Layton.AuditWizard.Overview.dll
 D:\LaytonTechnology\AW\AuditWizard\Layton.AuditWizard.Overview\obj\x86\Debug\Layton.AuditWizard.Overview.pdb
+C:\Program Files (x86)\AuditWizard v8\Layton.AuditWizard.Overview.dll.config
+C:\Program Files (x86)\AuditWizard v8\Layton.AuditWizard.Overview.dll
+C:\Program Files (x86)\AuditWizard v8\Layton.AuditWizard.Overview.pdb
+D:\Layton_GitSource\AW-master\AuditWizard\Layton.AuditWizard.Overview\obj\x86\Debug\Layton.AuditWizard.Overview.csprojResolveAssemblyReference.cache
+D:\Layton_GitSource\AW-master\AuditWizard\Layton.AuditWizard.Overview\obj\x86\Debug\Layton.AuditWizard.Overview.ApplicationComplianceWidget.resources
+D:\Layton_GitSource\AW-master\AuditWizard\Layton.AuditWizard.Overview\obj\x86\Debug\Layton.AuditWizard.Overview.DefaultWidget.resources
+D:\Layton_GitSource\AW-master\AuditWizard\Layton.AuditWizard.Overview\obj\x86\Debug\Layton.AuditWizard.Overview.FormEmailConfiguration.resources
+D:\Layton_GitSource\AW-master\AuditWizard\Layton.AuditWizard.Overview\obj\x86\Debug\Layton.AuditWizard.Overview.FormLogin.resources
+D:\Layton_GitSource\AW-master\AuditWizard\Layton.AuditWizard.Overview\obj\x86\Debug\Layton.AuditWizard.Overview.FormStartupWizard.resources
+D:\Layton_GitSource\AW-master\AuditWizard\Layton.AuditWizard.Overview\obj\x86\Debug\Layton.AuditWizard.Overview.InventoryWidget.resources
+D:\Layton_GitSource\AW-master\AuditWizard\Layton.AuditWizard.Overview\obj\x86\Debug\Layton.AuditWizard.Overview.NewsFeedWidget.resources
+D:\Layton_GitSource\AW-master\AuditWizard\Layton.AuditWizard.Overview\obj\x86\Debug\Layton.AuditWizard.Overview.OverviewExplorerView.resources
+D:\Layton_GitSource\AW-master\AuditWizard\Layton.AuditWizard.Overview\obj\x86\Debug\Layton.AuditWizard.Overview.OverviewTabView.resources
+D:\Layton_GitSource\AW-master\AuditWizard\Layton.AuditWizard.Overview\obj\x86\Debug\Layton.AuditWizard.Overview.Properties.Resources.resources
+D:\Layton_GitSource\AW-master\AuditWizard\Layton.AuditWizard.Overview\obj\x86\Debug\Layton.AuditWizard.Overview.ServerDataWidget.resources
+D:\Layton_GitSource\AW-master\AuditWizard\Layton.AuditWizard.Overview\obj\x86\Debug\Layton.AuditWizard.Overview.WidgetMatrixView.resources
+D:\Layton_GitSource\AW-master\AuditWizard\Layton.AuditWizard.Overview\obj\x86\Debug\Layton.AuditWizard.Overview.csproj.GenerateResource.Cache
+D:\Layton_GitSource\AW-master\AuditWizard\Layton.AuditWizard.Overview\obj\x86\Debug\Layton.AuditWizard.Overview.dll.licenses
+D:\Layton_GitSource\AW-master\AuditWizard\Layton.AuditWizard.Overview\obj\x86\Debug\Layton.AuditWizard.Overview.dll
+D:\Layton_GitSource\AW-master\AuditWizard\Layton.AuditWizard.Overview\obj\x86\Debug\Layton.AuditWizard.Overview.pdb
